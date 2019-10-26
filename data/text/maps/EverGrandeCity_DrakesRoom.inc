@@ -1,0 +1,30 @@
+EverGrandeCity_DrakesRoom_Text_190CEB:: @ 8190CEB //JP: 16E8DF
+	.string "이 몸이 바로 포켓몬리그의\n"
+	.string "마지막 사천왕인\l"
+	.string "드래곤 조련사 권수!\p"
+	.string "포켓몬은 본디\n"
+	.string "자유로운 야생의 생물이다\p"
+	.string "때로는 인간을 곤란하게 하고\n"
+	.string "때로는 인간을 도와주지\p"
+	.string "그런 포켓몬과 함께하는 승부에\n"
+	.string "무엇이 필요한지\l"
+	.string "넌 알고 있는가?\p"
+	.string "그걸 모른다면\n"
+	.string "넌 이 몸을 이길 수 없다!$"
+
+EverGrandeCity_DrakesRoom_Text_190E42:: @ 8190E42
+	.string "훌륭하다! 라고 할 만하군!$"
+
+EverGrandeCity_DrakesRoom_Text_190E5D:: @ 8190E5D
+	.string "과연 여기까지\n"
+	.string "도달한 포켓몬 트레이너군\l"
+	.string "무엇이 필요한지\l"
+	.string "잘 알고 있는 것 같다\p"
+	.string "그렇다! 트레이너에게\n"
+	.string "필요한 것은 올바른 마음!\p"
+	.string "포켓몬은 트레이너의\n"
+	.string "올바른 마음을 느끼고\l"
+	.string "사물의 선악을 판단해서\l"
+	.string "올바른 마음을 느껴 강해지는 거다!\p"
+	.string "자! 계속 나아가라!\n"
+	.string "챔피언이 기다리고 있다!$"
