@@ -149,7 +149,7 @@ gAbilityDescription_FlameBody: @ 81F9E4F
 	.string "접촉한 상대에게 화상을 입힌다$"
 
 gAbilityDescription_RunAway: @ 81F9E69
-	.string "야생에서 반드시 도망칠 수 있다$"
+	.string "배틀에서 도망치기 쉽다$"
 
 gAbilityDescription_KeenEye: @ 81F9E80
 	.string "명중률이 떨어지지 않는다$"

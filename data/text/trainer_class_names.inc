@@ -38,7 +38,7 @@ gTrainerClassNames:: @ 81F0208
 	.string "새 조련사$", 16
 	.string "닌자놀이$", 16
 	.string "배틀걸$", 16
-	.string "파라솔아가씨$", 16
+	.string "파라솔 아가씨$", 16
 	.string "비키니 아가씨$", 16
 	.string "피크닉걸$", 16
 	.string "쌍둥이$", 16

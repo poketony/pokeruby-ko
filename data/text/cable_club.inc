@@ -14,11 +14,7 @@ OldaleTown_PokemonCenter_2F_Text_1A457E:: @ 81A457E
 
 OldaleTown_PokemonCenter_2F_Text_1A45FE:: @ 81A45FE
 	.string "포켓몬 통신 클럽\n"
-	.if REVISION >= 1
 	.string "레코드코너에 잘 오셨습니다!\p"
-	.else
-	.string "레코드코너에 잘 오셨습니다!\p"
-	.endif
 	.string "여기에서는 친구와\n"
 	.string "레코드 섞기를 할 수 있습니다\p"
 	.string "레코드 섞기를 하겠습니까?$"
