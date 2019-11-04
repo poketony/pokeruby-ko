@@ -215,11 +215,11 @@ gUnknown_083CAFAE:: @ 83CAFAE
 	.string "{NAME_END}번째 어필!\n하지만 참가할 수 없다!$"
 
 gUnknown_083CAFD7:: @ 83CAFD7
-	.string "{STR_VAR_1}\s\n{STR_VAR_2}\d로 어필!$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n{STR_VAR_2}{K_EU}로 어필!$"
 	.string "다른 포켓몬은\n기술을 썼다!{PAUSE 60}$"
 
 gUnknown_083CB00D:: @ 83CB00D
-	.string "{STR_VAR_1}\s\n모두를 바라보고 있다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n모두를 바라보고 있다!{PAUSE 60}$"
 
 gUnknown_083CB02C:: @ 83CB02C
 	.string "어필타임 종료!{PAUSE 60}$"
@@ -267,17 +267,17 @@ ContestString_WorkBetter:
 	.4byte ContestString_WorkBetter
 
 ContestString_StandOutNone:
-	.string "{STR_VAR_1}\s\n전혀 눈에 띄지 않았다...{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n전혀 눈에 띄지 않았다...{PAUSE_UNTIL_PRESS}$"
 ContestString_StandOutNotMuch:
-	.string "{STR_VAR_1}\s\n그다지 눈에 띄지 않았다...{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n그다지 눈에 띄지 않았다...{PAUSE_UNTIL_PRESS}$"
 ContestString_StandOutLittle:
-	.string "{STR_VAR_1}\s\n그런대로 눈에 띄었다{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n그런대로 눈에 띄었다{PAUSE_UNTIL_PRESS}$"
 ContestString_StandOutLot:
-	.string "{STR_VAR_1}\s\n상당히 눈에 띄었다!{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n상당히 눈에 띄었다!{PAUSE_UNTIL_PRESS}$"
 ContestString_StandOutTotal:
-	.string "{STR_VAR_1}\s\n대단히 눈에 띄었다!{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n대단히 눈에 띄었다!{PAUSE_UNTIL_PRESS}$"
 ContestString_StandOutDidnt:
-	.string "{STR_VAR_1}\s\n어필하지 않았다!{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n어필하지 않았다!{PAUSE_UNTIL_PRESS}$"
 
 	.align 2
 gUnknown_083CB2F0:: @ 83CB2F0
@@ -297,7 +297,7 @@ ContestString_Terminator:
 ContestString_JudgeHeldFirm:
 	.string "심사위원의 {STR_VAR_1}에게의\n인상은 변하지 않는다!$"
 ContestString_ChangedPerceptions:
-	.string "{STR_VAR_1}의 {STR_VAR_3}\s\n인상을 바꾸어 놓았다!$"
+	.string "{STR_VAR_1}의 {STR_VAR_3}{K_EUNNEUN}\n인상을 바꾸어 놓았다!$"
 ContestString_AppealWoreOff:
 	.string "{STR_VAR_1}의\n어필효과가 없어졌다!$"
 ContestString_AppealWoreOff2:
@@ -333,13 +333,13 @@ ContestString_AppealAnticipation2:
 ContestString_AppealStoodOut2:
 	.string "스페셜 어필이 있는\n수만큼 주목받았다!$"
 ContestString_AppealStoodOut3:
-	.string "{STR_VAR_1}\h\n같은 정도로 주목받았다!$"
+	.string "{STR_VAR_1}{K_WAGWA}\n같은 정도로 주목받았다!$"
 ContestString_JammedAppealsNotice:
 	.string "방해받은 어필을\n더욱 눈에 띄지 않게 했다!$"
 ContestString_AppealSame:
 	.string "전원의 어필과\n수준이 같아 보이도록 보여줬다!$"
 ContestString_AppealFullWorse:
-	.string "{STR_VAR_1}\s 많아서\n인상이 약해졌다!$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 많아서\n인상이 약해졌다!$"
 
 	.align 2
 	.4byte ContestString_JudgeHeldFirm
@@ -371,7 +371,7 @@ ContestString_AppealFullWorse:
 ContestString_MoreConscious:
 	.string "다른 포켓몬에 대해 평소보다\n걱정이 밀려왔다!{PAUSE 60}$"
 ContestString_NoAppeal:
-	.string "{STR_VAR_1}\s 이후부터\n어필을 할 수 없게 되었다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 이후부터\n어필을 할 수 없게 되었다!{PAUSE 60}$"
 ContestString_SettleDown:
 	.string "아주 조금 마음이 진정되었다!{PAUSE 60}$"
 ContestString_ObliviousToOthers:
@@ -389,7 +389,7 @@ ContestString_JudgeLookAway2:
 ContestString_UnnerveAttempt:
 	.string "다음을 기다리는 포켓몬을\n긴장하도록 했다!{PAUSE 60}$"
 ContestString_Nervous:
-	.string "{STR_VAR_1}\s\n긴장해 버렸다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n긴장해 버렸다!{PAUSE 60}$"
 ContestString_UnnerveWaiting:
 	.string "어필을 아직 하지 않은 포켓몬을\n긴장하도록 했다!{PAUSE 60}$"
 ContestString_TauntWell:
@@ -399,37 +399,37 @@ ContestString_RegainedForm:
 ContestString_JamWell:
 	.string "컨디션이 좋은 포켓몬을\n방해해 보았다!{PAUSE 60}$"
 ContestString_HustleStandout:
-	.string "주목받고 있는 {STR_VAR_1}\s\n더욱 힘을 냈다!{PAUSE 60}$"
+	.string "주목받고 있는 {STR_VAR_1}{K_EUNNEUN}\n더욱 힘을 냈다!{PAUSE 60}$"
 ContestString_WorkHardUnnoticed:
-	.string "주목받지 못한 {STR_VAR_1}\s\n열심히 했다!{PAUSE 60}$"
+	.string "주목받지 못한 {STR_VAR_1}{K_EUNNEUN}\n열심히 했다!{PAUSE 60}$"
 ContestString_WorkBefore:
 	.string "앞의 포켓몬들에게\n지지 않을 정도로 힘을 냈다!{PAUSE 60}$"
 ContestString_AppealNotWell:
-	.string "{STR_VAR_1}\s 어필을\n잘 보여주지 못했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 어필을\n잘 보여주지 못했다!{PAUSE 60}$"
 ContestString_WorkPreceding:
 	.string "앞의 포켓몬과\n같은 정도로 힘을 냈다!{PAUSE 60}$"
 ContestString_AppealNotWell2:
-	.string "{STR_VAR_1}\s 어필을\n잘 보여주지 못했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 어필을\n잘 보여주지 못했다!{PAUSE 60}$"
 ContestString_AppealNotShownWell:
-	.string "{STR_VAR_1}\s 어필을\n잘 보여주지 못했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 어필을\n잘 보여주지 못했다!{PAUSE 60}$"
 ContestString_AppealSlightlyWell:
-	.string "{STR_VAR_1}\s\n그럭저럭 어필을 잘했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n그럭저럭 어필을 잘했다!{PAUSE 60}$"
 ContestString_AppealPrettyWell:
-	.string "{STR_VAR_1}\s\n매우 어필을 잘했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n매우 어필을 잘했다!{PAUSE 60}$"
 ContestString_AppealExcellently:
-	.string "{STR_VAR_1}\s\n굉장히 어필을 잘했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n굉장히 어필을 잘했다!{PAUSE 60}$"
 ContestString_AppealDud:
-	.string "{STR_VAR_1}\s\n어필을 실패하고 말았다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n어필을 실패하고 말았다!{PAUSE 60}$"
 ContestString_AppealNotVeryWell:
-	.string "{STR_VAR_1}\s\n그다지 어필을 잘하지 못했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n그다지 어필을 잘하지 못했다!{PAUSE 60}$"
 ContestString_AppealSlightlyWell2:
-	.string "{STR_VAR_1}\s\n그럭저럭 어필을 잘했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n그럭저럭 어필을 잘했다!{PAUSE 60}$"
 ContestString_AppealPrettyWell2:
-	.string "{STR_VAR_1}\s\n매우 어필을 잘했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n매우 어필을 잘했다!{PAUSE 60}$"
 ContestString_AppealVeryWell:
-	.string "{STR_VAR_1}\s\n상당히 어필을 잘했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n상당히 어필을 잘했다!{PAUSE 60}$"
 ContestString_AppealExcellently2:
-	.string "{STR_VAR_1}\s\n굉장히 어필을 잘했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n굉장히 어필을 잘했다!{PAUSE 60}$"
 ContestString_SameTypeGood:
 	.string "앞의 포켓몬과 같은 타입으로\n호감을 샀다!{PAUSE 60}$"
 ContestString_DiffTypeGood:
@@ -441,7 +441,7 @@ ContestString_NotAsWell:
 ContestString_ConditionRose:
 	.string "{STR_VAR_1}의 컨디션이\n평상시보다 좋아졌다!{PAUSE 60}$"
 ContestString_HotStatus:
-	.string "{STR_VAR_1}\s 컨디션이 좋아서\n더할 수 없이 좋은 어필을 했다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 컨디션이 좋아서\n더할 수 없이 좋은 어필을 했다!{PAUSE 60}$"
 ContestString_MoveUpLine:
 	.string "다음 어필을 빨리 하려고\n앞에 나왔다!{PAUSE 60}$"
 ContestString_MoveBackLine:
@@ -451,7 +451,7 @@ ContestString_ScrambleOrder:
 
 gUnknown_083CBD52:: @ 83CBD52
 ContestString_JudgeExpectantly2:
-	.string "심사위원이 기대하며\n{STR_VAR_1}\f 바라봤다!{PAUSE 60}$"
+	.string "심사위원이 기대하며\n{STR_VAR_1}{K_EULREUL} 바라봤다!{PAUSE 60}$"
 
 gUnknown_083CBD79:: @ 83CBD79
 ContestString_WentOverWell:
@@ -465,29 +465,29 @@ gUnknown_083CBDC6:: @ 83CBDC6
 ContestString_AppealComboExcellently:
 	.string "어필의 조합이\n굉장히 마음에 들었다!{PAUSE 60}$"
 ContestString_AvertGaze:
-	.string "{STR_VAR_1}\s 어떻게든\n시선을 돌렸다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 어떻게든\n시선을 돌렸다!{PAUSE 60}$"
 ContestString_AvoidSeeing:
-	.string "{STR_VAR_1}\s\n그쪽을 보지 않았다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n그쪽을 보지 않았다!{PAUSE 60}$"
 ContestString_NotFazed:
-	.string "{STR_VAR_1}\s\n괜찮았다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n괜찮았다!{PAUSE 60}$"
 ContestString_LittleDistracted:
-	.string "{STR_VAR_1}\s 조금\n정신이 팔리고 말았다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 조금\n정신이 팔리고 말았다!{PAUSE 60}$"
 ContestString_AttemptStartle:
 	.string "다른 포켓몬을\n놀라게 만들어 보았다!{PAUSE 60}$"
 ContestString_LookedDown:
-	.string "{STR_VAR_1}\s 정신이 팔려서\n아래를 내려다봐버렸다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 정신이 팔려서\n아래를 내려다봐버렸다!{PAUSE 60}$"
 ContestString_TurnedBack:
-	.string "{STR_VAR_1}\s 정신이 팔려서\n돌아봐버렸다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 정신이 팔려서\n돌아봐버렸다!{PAUSE 60}$"
 ContestString_UtterCry:
-	.string "{STR_VAR_1}\s 무의식 중에\n소리를 질러버렸다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 무의식 중에\n소리를 질러버렸다!{PAUSE 60}$"
 ContestString_LeaptUp:
-	.string "{STR_VAR_1}\s 자기도 모르게\n펄쩍 뛰어버렸다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 자기도 모르게\n펄쩍 뛰어버렸다!{PAUSE 60}$"
 ContestString_TrippedOver:
-	.string "{STR_VAR_1}\s 정신이 팔려서\n뒤집히고 말았다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 정신이 팔려서\n뒤집히고 말았다!{PAUSE 60}$"
 
 gUnknown_083CBF60:: @ 83CBF60
 ContestString_TooNervous:
-	.string "{STR_VAR_1}\s 긴장해서\n어필을 할 수 없었다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 긴장해서\n어필을 할 수 없었다!{PAUSE 60}$"
 ContestString_MessedUp2:
 	.string "그러나 실패하고 말았다!{PAUSE 60}$"
 ContestString_FailedTargetNervous:
@@ -501,19 +501,19 @@ ContestString_NoConditionImprove:
 ContestString_BadConditionWeakAppeal:
 	.string "컨디션이 좋지 않아서\n그리 잘하지 못했다...{PAUSE 60}$"
 ContestString_Unaffected:
-	.string "{STR_VAR_1}\s\n괜찮았다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n괜찮았다!{PAUSE 60}$"
 
 gUnknown_083CC075:: @ 83CC075
 ContestString_DissapointedRepeat:
-	.string "{STR_VAR_1}\s 같은 어필을\n계속했기에 모두를 실망시켰다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 같은 어필을\n계속했기에 모두를 실망시켰다!{PAUSE 60}$"
 
 gUnknown_083CC0A0:: @ 83CC0A0
 ContestString_WentOverGreat:
-	.string "{STR_VAR_1}의 {STR_VAR_3}\r\n주변에서 엄청 좋았다!{PAUSE 60}$"
+	.string "{STR_VAR_1}의 {STR_VAR_3}{K_IGA}\n주변에서 엄청 좋았다!{PAUSE 60}$"
 
 gUnknown_083CC0BC:: @ 83CC0BC
 ContestString_DidntGoWell:
-	.string "{STR_VAR_1}의 {STR_VAR_3}\s\n여기서 먹히지 않는 듯하다...{PAUSE 60}$"
+	.string "{STR_VAR_1}의 {STR_VAR_3}{K_EUNNEUN}\n여기서 먹히지 않는 듯하다...{PAUSE 60}$"
 
 gUnknown_083CC0E3:: @ 83CC0E3
 ContestString_GotCrowdGoing:
@@ -521,17 +521,17 @@ ContestString_GotCrowdGoing:
 
 gUnknown_083CC103:: @ 83CC103
 ContestString_CantAppealNextTurn:
-	.string "{STR_VAR_1}\s 다음 어필에\n참가할 수 없게 되었다!{PAUSE 60}$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 다음 어필에\n참가할 수 없게 되었다!{PAUSE 60}$"
 ContestString_AttractedAttention:
 	.string "관객의\n주의를 끌었다!{PAUSE 60}$"
 
 gUnknown_083CC14A:: @ 83CC14A
 ContestString_CrowdWatches:
-	.string "관객은 {STR_VAR_3}\f\n계속 주목하고 있다!{PAUSE 60}$"
+	.string "관객은 {STR_VAR_3}{K_EULREUL}\n계속 주목하고 있다!{PAUSE 60}$"
 
 gUnknown_083CC16E:: @ 83CC16E
 ContestString_Ignored2:
-	.string "{STR_VAR_1}의 {STR_VAR_2}\s\n눈길을 받지 못했다...{PAUSE 60}$"
+	.string "{STR_VAR_1}의 {STR_VAR_2}{K_EUNNEUN}\n눈길을 받지 못했다...{PAUSE 60}$"
 
 	.align 2
 gUnknown_083CC188:: @ 83CC188

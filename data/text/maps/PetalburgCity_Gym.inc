@@ -1,12 +1,12 @@
 PetalburgCity_Gym_Text_179DF6:: @ 8179DF6
 	.string "아빠: ...응?\p"
-	.string "{PLAYER}\e잖아!\n"
+	.string "{PLAYER}{K_I}잖아!\n"
 	.string "이사가 다 끝났나 보구나\p"
 	.string "그것보다\n"
 	.string "여기까지 잘도 혼자 왔구나\p"
 	.string "그렇군...\n"
 	.string "포켓몬과 함께인 건가\p"
-	.string "흠... 그럼 {PLAYER}\e도\n"
+	.string "흠... 그럼 {PLAYER}{K_I}도\n"
 	.string "나 같은\l"
 	.string "포켓몬 트레이너가 되는 건가\p"
 	.string "그거 기대되는걸!$"
@@ -91,20 +91,20 @@ PetalburgCity_Gym_Text_17A2A4:: @ 817A2A4
 	.string "체육관 관장을 쓰러뜨리고\l"
 	.string "체육관 배지를 모아가는 거다\p"
 	.string "물론 나도 체육관 관장이다\n"
-	.string "언젠가는 {PLAYER}\h 승부를 하겠지\p"
+	.string "언젠가는 {PLAYER}{K_WAGWA} 승부를 하겠지\p"
 	.string "하지만 그건\n"
-	.string "{PLAYER}\r 강해졌을 때의 이야기다$"
+	.string "{PLAYER}{K_IGA} 강해졌을 때의 이야기다$"
 
 PetalburgCity_Gym_Text_17A41E:: @ 817A41E
 	.string "아빠: 응? 금탄도시의\n"
 	.string "포켓몬체육관에는 가지 않니?\p"
 	.string "아직 풋내 나는 트레이너와\n"
 	.string "배틀해도 재미가 없지 않니\p"
-	.string "{PLAYER}\r 더욱 강해져서\n"
+	.string "{PLAYER}{K_IGA} 더욱 강해져서\n"
 	.string "내 앞에 나타나 줬으면 좋겠구나\p"
 	.string "그래 체육관 배지를\n"
 	.string "4개 모으면 그때는\l"
-	.string "{PLAYER}\h 승부하지!$"
+	.string "{PLAYER}{K_WAGWA} 승부하지!$"
 
 PetalburgCity_Gym_Text_17A518:: @ 817A518
 	.string "아빠: 그렇군... 금탄도시의\n"
@@ -146,7 +146,7 @@ PetalburgCity_Gym_Text_17A77A:: @ 817A77A
 	.string "이걸 주도록 하지$"
 
 PetalburgCity_Gym_Text_17A7DD:: @ 817A7DD
-	.string "{PLAYER}\s 아빠에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 아빠에게\n"
 	.string "밸런스배지를 받았다!!$"
 
 PetalburgCity_Gym_Text_17A805:: @ 817A805
@@ -157,7 +157,7 @@ PetalburgCity_Gym_Text_17A805:: @ 817A805
 	.string "배운 포켓몬이 있다면\l"
 	.string "물 위를 이동할 수 있지\p"
 	.string "이건 내가 주는 선물이다\n"
-	.string "{PLAYER}\e라면 잘 다룰 수 있겠지!$"
+	.string "{PLAYER}{K_I}라면 잘 다룰 수 있겠지!$"
 
 PetalburgCity_Gym_Text_17A8CF:: @ 817A8CF
 	.string "아빠: 기술머신42는 객기\p"
@@ -215,7 +215,7 @@ PetalburgCity_Gym_Text_17AB96:: @ 817AB96
 	.string "그럼 힘내라고-!!$"
 
 PetalburgCity_Gym_Text_17AD49:: @ 817AD49
-	.string "{PLAYER}\s 자신의 아버지마저\n"
+	.string "{PLAYER}{K_EUNNEUN} 자신의 아버지마저\n"
 	.string "뛰어넘은 건가?!\p"
 	.string "으아- 정말 기절초풍!!$"
 

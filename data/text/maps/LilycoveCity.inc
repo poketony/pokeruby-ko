@@ -7,7 +7,7 @@ LilycoveCity_Text_1679BF:: @ 81679BF //JP: 149105
 	.string "포켓몬도 더 많이 잡았고\l"
 	.string "제대로 키우고도 있다고!\p"
 	.string "그것보다 나로서는\n"
-	.string "{PLAYER}\r\p"
+	.string "{PLAYER}{K_IGA}\p"
 	.string "포켓몬을 제대로\n"
 	.string "키우고 있는지가 더 걱정인데\p"
 	.string "승부해줄 테니까\n"
@@ -31,10 +31,10 @@ LilycoveCity_Text_167B94:: @ 8167B94
 LilycoveCity_Text_167BD5:: @ 8167BD5
 	.string "... ... ... ...\p"
 	.string "103번 도로에서\n"
-	.string "{PLAYER}\h 승부한 게\l"
+	.string "{PLAYER}{K_WAGWA} 승부한 게\l"
 	.string "떠올랐어!\p"
 	.string "그 승부가 덕분에\n"
-	.string "{PLAYER}\r\l"
+	.string "{PLAYER}{K_IGA}\l"
 	.string "이만큼 강해진 거야!$"
 
 LilycoveCity_Text_167C6B:: @ 8167C6B
@@ -45,16 +45,16 @@ LilycoveCity_Text_167C6B:: @ 8167C6B
 	.string "이제 아빠한테 보여줘야지!$"
 
 LilycoveCity_Text_167D08:: @ 8167D08
-	.string "{PLAYER}\s 이제부터 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 이제부터 어떻게 할 거야?\p"
 	.string "이곳저곳의 체육관 배지를 모아서\n"
 	.string "포켓몬리그에 도전할 거야?\p"
-	.string "그럼 나는 {PLAYER}\r\n"
+	.string "그럼 나는 {PLAYER}{K_IGA}\n"
 	.string "배지 모으고 있는 사이에\l"
 	.string "포켓몬 도감을 완성시켜놔야지!\p"
 	.string "그럼 안녕!$"
 
 LilycoveCity_Text_167DDD:: @ 8167DDD
-	.string "{PLAYER}\s 이제부터 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 이제부터 어떻게 할 거야?\p"
 	.string "포켓몬리그에 도전할 거야?\p"
 	.string "아니면 포켓몬 도감\l"
 	.string "완성시킬 거야?\p"
@@ -64,7 +64,7 @@ LilycoveCity_Text_167DDD:: @ 8167DDD
 	.string "그럼 안녕!$"
 
 LilycoveCity_Text_167EAA:: @ 8167EAA
-	.string "{PLAYER}\s 이제부터 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 이제부터 어떻게 할 거야?\p"
 	.string "배틀타워에 도전할 거야?\p"
 	.string "아니면 포켓몬 도감\n"
 	.string "완성시킬 거야?\p"
@@ -74,7 +74,7 @@ LilycoveCity_Text_167EAA:: @ 8167EAA
 	.string "그럼 안녕!$"
 
 LilycoveCity_Text_167F75:: @ 8167F75
-	.string "휘웅: 뭐야 {PLAYER}\e구나\p"
+	.string "휘웅: 뭐야 {PLAYER}{K_I}구나\p"
 	.string "난 아빠에게 부탁한\n"
 	.string "심부름을 하고 있었어\l"
 	.string "봉제인형 같은 건 안 샀어 진짜\p"
@@ -111,7 +111,7 @@ LilycoveCity_Text_168149:: @ 8168149
 	.string "아빠한테 한번 보여드리려고$"
 
 LilycoveCity_Text_1681EA:: @ 81681EA
-	.string "{PLAYER}\s 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 어떻게 할 거야?\p"
 	.string "역시 모든 배지를 모아서\n"
 	.string "포켓몬리그에 도전할 거야?\p"
 	.string "나도 그렇게 할까나\p"
@@ -119,7 +119,7 @@ LilycoveCity_Text_1681EA:: @ 81681EA
 	.string "어쨌든 힘내!$"
 
 LilycoveCity_Text_168282:: @ 8168282
-	.string "{PLAYER}\s 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 어떻게 할 거야?\p"
 	.string "그렇게 강하니까\n"
 	.string "포켓몬리그에 도전할 거야?\p"
 	.string "나도 좀 더\n"
@@ -129,7 +129,7 @@ LilycoveCity_Text_168282:: @ 8168282
 	.string "어쨌든 힘내!$"
 
 LilycoveCity_Text_16835A:: @ 816835A
-	.string "{PLAYER}\s 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 어떻게 할 거야?\p"
 	.string "그렇게 강하니까\n"
 	.string "배틀타워에 도전할 거야?\p"
 	.string "나도 좀 더\n"

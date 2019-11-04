@@ -29,21 +29,21 @@ MossdeepCity_StevensHouse_Text_18DC25:: @ 818DC25
 	.string "한번 잠수해서 들어가 볼까$"
 
 MossdeepCity_StevensHouse_Text_18DD12:: @ 818DD12
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "몬스터볼을 조사했다!\p"
 	.string "몬스터볼 안에는\n"
 	.string "포켓몬 메탕이 들어 있다!\p"
 	.string "몬스터볼을 가지고 가겠습니까?$"
 
 MossdeepCity_StevensHouse_Text_18DD61:: @ 818DD61
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "메탕을 손에 넣었다!$"
 
 MossdeepCity_StevensHouse_Text_18DD77:: @ 818DD77
 	.string "이 이상 포켓몬을 들 수 없다!$"
 
 MossdeepCity_StevensHouse_Text_18DD9E:: @ 818DD9E
-	.string "{PLAYER}\s 몬스터볼을\n"
+	.string "{PLAYER}{K_EUNNEUN} 몬스터볼을\n"
 	.string "그대로 놔두었다$"
 
 MossdeepCity_StevensHouse_Text_18DDC2:: @ 818DDC2

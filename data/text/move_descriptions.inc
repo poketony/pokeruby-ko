@@ -676,7 +676,7 @@ gMoveDescription_SpiderWeb:
 	
 gMoveDescription_MindReader:	
 	.string "적의 움직임을 마음으로 읽고\n"
-	.string "다음 공격을 반드시 명중한다$"
+	.string "다음 공격을 반드시 명중시킨다$"
 	
 gMoveDescription_Nightmare:	
 	.string "적이 잠든 동안 체력을\n"
@@ -931,15 +931,15 @@ gMoveDescription_VitalThrow:
 	.string "공격이 맞는다$"
 	
 gMoveDescription_MorningSun:	
-	.string "체력을 회복한다.\n"
+	.string "체력을 회복한다\n"
 	.string "날씨에 따라 회복량이 변한다$"
 	
 gMoveDescription_Synthesis:	
-	.string "체력을 회복한다.\n"
+	.string "체력을 회복한다\n"
 	.string "날씨에 따라 회복량이 변한다$"
 	
 gMoveDescription_Moonlight:	
-	.string "체력을 회복한다.\n"
+	.string "체력을 회복한다\n"
 	.string "날씨에 따라 회복량이 변한다$"
 	
 gMoveDescription_HiddenPower:	
@@ -1263,7 +1263,7 @@ gMoveDescription_OdorSleuth:
 	.string "공격할 수 있게 된다$"
 	
 gMoveDescription_RockTomb:	
-	.string "바위를 움직임을 막아서 공격\n"
+	.string "바위로 움직임을 막아서 공격\n"
 	.string "상대의 스피드도 떨어뜨린다$"
 	
 gMoveDescription_SilverWind:	

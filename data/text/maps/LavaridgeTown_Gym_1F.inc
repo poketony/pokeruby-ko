@@ -100,7 +100,7 @@ LavaridgeTown_Gym_1F_Text_176960:: @ 8176960
 	.string "당신에게 이걸 줄게!$"
 
 LavaridgeTown_Gym_1F_Text_176A62:: @ 8176A62
-	.string "{PLAYER}\s 민지로부터\n"
+	.string "{PLAYER}{K_EUNNEUN} 민지로부터\n"
 	.string "히트배지를 받았다!$"
 
 LavaridgeTown_Gym_1F_Text_176A8C:: @ 8176A8C

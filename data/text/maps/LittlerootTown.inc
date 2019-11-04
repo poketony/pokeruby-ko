@@ -28,17 +28,17 @@ LittlerootTown_Text_16A8FD:: @ 816A8FD
 	.string "달릴 수 있게 될 거야!$"
 
 LittlerootTown_Text_16AA32:: @ 816AA32
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "러닝슈즈로 갈아 신었다!$"
 
 LittlerootTown_Text_16AA5C:: @ 816AA5C
-	.string "엄마: 음- 그리고\n"
-	.string "설명서를 읽어보자꾸나\p"
+	.string "엄마: {PLAYER}!\n"
+	.string "이게 설명서란다\p"
 	.string "“러닝슈즈는\n"
-	.string " B 버튼을 누르면 지금보다\l"
-	.string " 빨리 달릴 수 있게 해 줍니다!\p"
-	.string " 러닝슈즈를 신고\n"
-	.string " 마음껏 달립시다!”$"
+	.string "  B 버튼을 누르면 지금보다\l"
+	.string "  빨리 달릴 수 있게 해 줍니다!\p"
+	.string "  러닝슈즈를 신고\n"
+	.string "  마음껏 달립시다!”$"
 
 LittlerootTown_Text_16AB10:: @ 816AB10
 	.string "... ... ... ...\n"
@@ -81,7 +81,7 @@ LittlerootTown_Text_16AD82:: @ 816AD82
 	.string "누가 좀 도와주러 가야 할 텐데...$"
 
 LittlerootTown_Text_16ADF2:: @ 816ADF2
-	.string "\o 덕분에\n"
+	.string "{K_BOY_CALL} 덕분에\n"
 	.string "박사님이 무사해서 다행이야!$"
 
 LittlerootTown_Text_16AE25:: @ 816AE25

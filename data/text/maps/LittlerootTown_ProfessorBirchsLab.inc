@@ -25,7 +25,7 @@ LittlerootTown_ProfessorBirchsLab_Text_173D15:: @ 8173D15
 	.string "털보박사님은\n"
 	.string "포켓몬이 어디에 살고 있는가\l"
 	.string "분포를 조사하고 있어요\p"
-	.string "{RIVAL}\e는 자기가 좋아하는 아빠를\n"
+	.string "{RIVAL}{K_I}는 자기가 좋아하는 아빠를\n"
 	.string "도와주고 있답니다$"
 
 LittlerootTown_ProfessorBirchsLab_Text_173D94:: @ 8173D94
@@ -42,8 +42,8 @@ LittlerootTown_ProfessorBirchsLab_Text_173D94:: @ 8173D94
 	.string "아 그래! 구해준 보답으로\n"
 	.string "아까 고른 포켓몬을\l"
 	.string "너에게 선물하도록 하마!\p"
-	.string "{PLAYER}\s\n"
-	.string "{STR_VAR_1}\f 받았다!$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_1}{K_EULREUL} 받았다!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_173EF8:: @ 8173EF8
 	.string "털보박사: 모처럼 이렇게 된 거\n"
@@ -53,14 +53,14 @@ LittlerootTown_ProfessorBirchsLab_Text_173F3D:: @ 8173F3D
 	.string "털보박사: 앞으로 더욱더 많은\n"
 	.string "경험을 쌓아 가면\l"
 	.string "더 좋은 트레이너가 될 거 같구나!\p"
-	.string "마침 우리 {RIVAL}\e가\n"
+	.string "마침 우리 {RIVAL}{K_I}가\n"
 	.string "103번 도로에서 포켓몬에 관한\l"
 	.string "조사를 하고 있으니까\l"
 	.string "만나러 가면 어떻겠느냐?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_174015:: @ 8174015
 	.string "털보박사: 그럴래!\n"
-	.string "그거 우리 {RIVAL}\e도 좋아하겠구나!\p"
+	.string "그거 우리 {RIVAL}{K_I}도 좋아하겠구나!\p"
 	.string "트레이너가 어떤 건지\n"
 	.string "배워 보는 것도 좋겠지!$"
 
@@ -69,16 +69,16 @@ LittlerootTown_ProfessorBirchsLab_Text_174075:: @ 8174075
 	.string "만나러 가면 어떻겠느냐?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_1740B4:: @ 81740B4
-	.string "털보박사: {RIVAL}\e? 아마\n"
+	.string "털보박사: {RIVAL}{K_I}? 아마\n"
 	.string "103번도로에 있을 거 같구나\p"
 	.string "그리고 포켓몬이 다쳤다면\n"
 	.string "너희 집에서 쉬었다가 움직이려무나!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_17411F:: @ 817411F
-	.string "털보박사: 오 {PLAYER}\i!\p"
-	.string "처음인데도 {RIVAL}\e한테\n"
+	.string "털보박사: 오 {PLAYER}{K_AYA}!\p"
+	.string "처음인데도 {RIVAL}{K_I}한테\n"
 	.string "이기다니 정말 대단하구나!\p"
-	.string "{RIVAL}\e는 상당히 예전부터\n"
+	.string "{RIVAL}{K_I}는 상당히 예전부터\n"
 	.string "내 연구를 도와주고 있어서\l"
 	.string "트레이너 경력은 꽤 긴데 말이지!\p"
 	.string "응! {PLAYER}한테도\n"
@@ -86,7 +86,7 @@ LittlerootTown_ProfessorBirchsLab_Text_17411F:: @ 817411F
 	.string "이 포켓몬 도감을 주도록 하지!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_17422F:: @ 817422F
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "포켓몬 도감을 받았다!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_174248:: @ 8174248
@@ -94,7 +94,7 @@ LittlerootTown_ProfessorBirchsLab_Text_174248:: @ 8174248
 	.string "네가 만난 포켓몬을\l"
 	.string "자동으로 기록해주는\l"
 	.string "하이테크한 도구란다!\p"
-	.string "{RIVAL}\e도 그 도감을 들고\n"
+	.string "{RIVAL}{K_I}도 그 도감을 들고\n"
 	.string "이곳저곳 놀러 다니고 있지\p"
 	.string "그러면서 희귀한 포켓몬을 잡아서\n"
 	.string "도감에 기록하면 말이지\p"
@@ -131,7 +131,7 @@ LittlerootTown_ProfessorBirchsLab_Text_174505:: @ 8174505
 	.string "포켓몬 찾으러 가볼까?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_17453C:: @ 817453C
-	.string "휘웅: 흐응- {PLAYER}\e도\n"
+	.string "휘웅: 흐응- {PLAYER}{K_I}도\n"
 	.string "포켓몬 도감 받았구나\p"
 	.string "그럼 난\n"
 	.string "이걸 줄게$"

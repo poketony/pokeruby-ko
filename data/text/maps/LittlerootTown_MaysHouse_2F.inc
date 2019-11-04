@@ -20,7 +20,7 @@ LittlerootTown_BrendansHouse_2F_Text_1733AF:: @ 81733AF
 	.string "나 너랑도\n"
 	.string "친구가 됐음 좋겠다고...\l"
 	.string "생각하고 있었어...\p"
-	.string "에고 나 참 {PLAYER}\e랑\n"
+	.string "에고 나 참 {PLAYER}{K_I}랑\n"
 	.string "오늘 처음 만나서 얘기하는 건데\l"
 	.string "무슨 얘길 하는 건지...\p"
 	.string "에헤헤...\p"
@@ -39,7 +39,7 @@ LittlerootTown_BrendansHouse_2F_Text_1735FC:: @ 81735FC
 	.string "너...\p"
 	.string "누구야?\p"
 	.string "아 네가 옆으로\n"
-	.string "이사 온 {PLAYER}\e구나...\p"
+	.string "이사 온 {PLAYER}{K_I}구나...\p"
 	.string "흠...\n"
 	.string "여자애였구나...\p"
 	.string "아빠... 털보박사님한테\n"
@@ -74,10 +74,10 @@ LittlerootTown_BrendansHouse_2F_Text_173883:: @ 8173883
 	.string "봄이: 이번엔 어디로\n"
 	.string "포켓몬 잡으러 갈까나?\p"
 	.string "간 곳에서\n"
-	.string "{PLAYER}\e랑 또 만나는 거 아니야!?$"
+	.string "{PLAYER}{K_I}랑 또 만나는 거 아니야!?$"
 
 LittlerootTown_BrendansHouse_2F_Text_1738F2:: @ 81738F2
-	.string "휘웅: {PLAYER}\e구나\p"
+	.string "휘웅: {PLAYER}{K_I}구나\p"
 	.string "지금 포켓몬 도감\n"
 	.string "체크하고 있었어\p"
 	.string "아직 잡지 못한\n"
@@ -90,7 +90,7 @@ LittlerootTown_BrendansHouse_2F_Text_1739CC:: @ 81739CC
 	.string "휘웅: 이번엔 어디서\n"
 	.string "포켓몬 잡을지 고민되네...\p"
 	.string "만약 포켓몬 잡을 때\n"
-	.string "{PLAYER}\f 만나게 되면\l"
+	.string "{PLAYER}{K_EULREUL} 만나게 되면\l"
 	.string "승부해주면 기쁠거야$"
 
 UnknownString_8173A76: @ 8173A76

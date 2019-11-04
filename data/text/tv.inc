@@ -19,13 +19,13 @@ FallarborTown_ContestLobby_Text_1A70A5:: @ 81A70A5
 	.string "잘 알 수 있는 한마디네요!\p"
 	.string "...마지막으로\n"
 	.string "조금 묻고 싶은 게 있습니다만\p"
-	.string "당신이 생각하는 {STR_VAR_2}\s\n"
+	.string "당신이 생각하는 {STR_VAR_2}{K_EUNNEUN}\n"
 	.string "대체 어떤 것인가요?$"
 
 FallarborTown_ContestLobby_Text_1A7153:: @ 81A7153
 	.string "그렇군요!\p"
 	.string "그게 당신이 생각하는\n"
-	.string "{STR_VAR_2}\e군요!\p"
+	.string "{STR_VAR_2}{K_I}군요!\p"
 	.string "여러 가지 참고가 되었습니다!\p"
 	.string "콘테스트에 대해 좋은\n"
 	.string "기사를 쓸 수 있을 것 같습니다\p"
@@ -46,7 +46,7 @@ gTVBravoTrainerText1:: @ 81A72DE
 	.string "이야-!\n"
 	.string "“브라보 트레이너”의 시간이야!\p"
 	.string "오늘은 {STR_VAR_3} 클래스의\n"
-	.string "{STR_VAR_2}\f 자랑하는\l"
+	.string "{STR_VAR_2}{K_EULREUL} 자랑하는\l"
 	.string "{STR_VAR_1}의 포켓몬!$"
 
 gTVBravoTrainerText2:: @ 81A736B
@@ -54,10 +54,10 @@ gTVBravoTrainerText2:: @ 81A736B
 	.string "소개다-!\p"
 	.string "“{STR_VAR_2}”인가...\p"
 	.string "벌써 닉네임에서부터\n"
-	.string "{STR_VAR_3}\r 넘쳐나는데!$"
+	.string "{STR_VAR_3}{K_IGA} 넘쳐나는데!$"
 
 gTVBravoTrainerText3:: @ 81A73CA
-	.string "그-리고 이 {STR_VAR_1}\r\n"
+	.string "그-리고 이 {STR_VAR_1}{K_IGA}\n"
 	.string "포켓몬 콘테스트에 참가햇을 때\l"
 	.string "자신의 포켓몬에 대해\l"
 	.string "열심히 이야기해 주었다고!$"
@@ -66,7 +66,7 @@ gTVBravoTrainerText4:: @ 81A744D
 	.string "콘테스트를 한 뒤의\n"
 	.string "감상을 물었더니\l"
 	.string "무척 기쁜 듯이\p"
-	.string "“{STR_VAR_2}”\e라고\n"
+	.string "“{STR_VAR_2}”{K_I}라고\n"
 	.string "대답해 주었어!\p"
 	.string "뭐 콘테스트에서는\n"
 	.string "{STR_VAR_3}번이었으니까-!\p"
@@ -77,7 +77,7 @@ gTVBravoTrainerText5:: @ 81A7508
 	.string "콘테스트를 한 뒤의\n"
 	.string "감상을 물었더니\l"
 	.string "미묘하게 분해하면서\p"
-	.string "“{STR_VAR_2}”\e라고\n"
+	.string "“{STR_VAR_2}”{K_I}라고\n"
 	.string "대답해 주었어!\p"
 	.string "뭐 콘테스트에서는\n"
 	.string "{STR_VAR_3}번이었으니까-!\p"
@@ -86,7 +86,7 @@ gTVBravoTrainerText5:: @ 81A7508
 
 gTVBravoTrainerText6:: @ 81A75CE
 	.string "그나저나 {STR_VAR_1} 목표로 하는\n"
-	.string "{STR_VAR_2}\s 대체 뭘까?\l"
+	.string "{STR_VAR_2}{K_EUNNEUN} 대체 뭘까?\l"
 	.string "물어보고 싶네-!\p"
 	.string "물론 물어봤습니다!\p"
 	.string "그건 다음 한마디에\n"
@@ -96,7 +96,7 @@ gTVBravoTrainerText6:: @ 81A75CE
 	.string "{STR_VAR_1}의 모든 겁니다!$"
 
 gTVBravoTrainerText7:: @ 81A768D
-	.string "마지막으로 {STR_VAR_1}\r\n"
+	.string "마지막으로 {STR_VAR_1}{K_IGA}\n"
 	.string "쓴 {STR_VAR_2}도\l"
 	.string "모두 “{STR_VAR_3}”인 겁니다!$"
 
@@ -173,7 +173,7 @@ gTVBravoTrainerBattleTowerText1:: @ 81A7B93
 	.string "“브라보 트레이너”의 시간이야!\p"
 	.string "오늘은 배틀타워에 도전했던\n"
 	.string "{STR_VAR_1}의 소개다-!\p"
-	.string "{STR_VAR_1}\s {STR_VAR_2}\f\n"
+	.string "{STR_VAR_1}{K_EUNNEUN} {STR_VAR_2}{K_EULREUL}\n"
 	.string "사용한 배틀을 해서$"
 
 gTVBravoTrainerBattleTowerText2:: @ 81A7C26
@@ -185,14 +185,14 @@ gTVBravoTrainerBattleTowerText3:: @ 81A7C7D
 	.string "아깝게도 {STR_VAR_2}명 째의 배틀에서\n"
 	.string "{STR_VAR_1}에게 져버리고 말았구나\l"
 	.string "으-음! 아쉽게 됐네\p"
-	.string "하지만 이렇게나 빨리 {STR_VAR_1}\h\n"
+	.string "하지만 이렇게나 빨리 {STR_VAR_1}{K_WAGWA}\n"
 	.string "배틀했다니 운이 없었다고 생각해\p"
-	.string "자 그럼 그 {STR_VAR_1}\h\n"
+	.string "자 그럼 그 {STR_VAR_1}{K_WAGWA}\n"
 	.string "승부한 감상을 물어봤는데$"
 
 gTVBravoTrainerBattleTowerText4:: @ 81A7D4A
 	.string "마지막에는 {STR_VAR_1}의\n"
-	.string "{STR_VAR_2}\f 훌륭하게 쓰러뜨려서\l"
+	.string "{STR_VAR_2}{K_EULREUL} 훌륭하게 쓰러뜨려서\l"
 	.string "승리했구나\p"
 	.string "이야 {STR_VAR_1}에게 이기다니\n"
 	.string "정말 굉장하다고 밖에 말할 수 없네\p"
@@ -203,7 +203,7 @@ gTVBravoTrainerBattleTowerText5:: @ 81A7E0C
 	.string "하지만 마지막에 등장한\n"
 	.string "{STR_VAR_1}의 {STR_VAR_2}에게\l"
 	.string "결국 져버렸구나\p"
-	.string "뭐 “{STR_VAR_1}의 {STR_VAR_2}”\e라면\n"
+	.string "뭐 “{STR_VAR_1}의 {STR_VAR_2}”{K_I}라면\n"
 	.string "유명한 콤비니까 말야\p"
 	.string "...자 그럼 유명인과\n"
 	.string "승부한 감상을 물어봤는데$"
@@ -247,15 +247,15 @@ gTVBravoTrainerBattleTowerText13:: @ 81A8133
 	.string "으-음 좋은 말이네!!\p"
 	.string "{STR_VAR_2}의 기쁨을\n"
 	.string "이 말이 잘 나타내주고 있네!\p"
-	.string "확실히 {STR_VAR_3}\h의 배틀은\n"
-	.string "그야말로 “{STR_VAR_1}”\e라는\l"
+	.string "확실히 {STR_VAR_3}{K_WAGWA}의 배틀은\n"
+	.string "그야말로 “{STR_VAR_1}”{K_I}라는\l"
 	.string "느낌이였으니까 말이지!$"
 
 gTVBravoTrainerBattleTowerText14:: @ 81A81BC
 	.string "“{STR_VAR_1}!”\n"
 	.string "과연 그렇구나\p"
-	.string "확실히 {STR_VAR_3}\h의 배틀은\n"
-	.string "“{STR_VAR_1}”\e라고 밖에 말할 수\l"
+	.string "확실히 {STR_VAR_3}{K_WAGWA}의 배틀은\n"
+	.string "“{STR_VAR_1}”{K_I}라고 밖에 말할 수\l"
 	.string "없는 배틀이었으니까 말이지\p"
 	.string "{STR_VAR_2}의 분함이\n"
 	.string "잘 전달되고 있어! 크-!$"
@@ -271,9 +271,9 @@ gTVBravoTrainerBattleTowerText15:: @ 81A8267
 
 SlateportCity_PokemonFanClub_Text_1A82F1:: @ 81A82F1
 	.string "와아!\p"
-	.string "너 그 {STR_VAR_1}\f 무척이나\n"
+	.string "너 그 {STR_VAR_1}{K_EULREUL} 무척이나\n"
 	.string "소중하게 여기고 있는 것 같네!\p"
-	.string "{STR_VAR_2}\e라고 하는구나...\p"
+	.string "{STR_VAR_2}{K_I}라고 하는구나...\p"
 	.string "그렇지!\p"
 	.string "난 지금 TV 취재로\n"
 	.string "포켓몬 앙케트를 하고 있는데\p"
@@ -286,7 +286,7 @@ SlateportCity_PokemonFanClub_Text_1A83D0:: @ 81A83D0
 	.string "딱 한마디로 대답해줘!$"
 
 SlateportCity_PokemonFanClub_Text_1A8414:: @ 81A8414
-	.string "네가 {STR_VAR_1}\h\n"
+	.string "네가 {STR_VAR_1}{K_WAGWA}\n"
 	.string "만났을 때\p"
 	.string "뭐가 느껴졌어?\n"
 	.string "무슨 생각을 했는지 알려줘!$"
@@ -331,7 +331,7 @@ SlateportCity_PokemonFanClub_Text_1A86B5:: @ 81A86B5
 	.string "이야기를 들을 수 있으니까 재밌어$"
 
 SlateportCity_PokemonFanClub_Text_1A8704:: @ 81A8704
-	.string "너의 그 {STR_VAR_1}\h\n"
+	.string "너의 그 {STR_VAR_1}{K_WAGWA}\n"
 	.string "매우 사이가 좋아보이네\p"
 	.string "맞아! 지금 나\n"
 	.string "TV 취재를 하고 있어서\p"
@@ -349,7 +349,7 @@ SlateportCity_PokemonFanClub_Text_1A87CA:: @ 81A87CA
 SlateportCity_PokemonFanClub_Text_1A8818:: @ 81A8818
 	.string "흠...\n"
 	.string "재미있는 이야기네!\p"
-	.string "너는 정말로 {STR_VAR_1}\h\n"
+	.string "너는 정말로 {STR_VAR_1}{K_WAGWA}\n"
 	.string "사이가 좋구나\p"
 	.string "으-음 왠지 이 이야기로\n"
 	.string "좋은 방송이 만들어질 것 같은 느낌!\p"
@@ -382,7 +382,7 @@ gTVFanClubOpinionsText1:: @ 81A8917
 
 gTVFanClubOpinionsText2:: @ 81A8AE5
 	.string "자 {STR_VAR_1}님이 처음\n"
-	.string "{STR_VAR_2}\h 만났을 때\l"
+	.string "{STR_VAR_2}{K_WAGWA} 만났을 때\l"
 	.string "처음으로 느낀 생각은...\l"
 	.string "... ...\p"
 	.string "“{STR_VAR_3}!!”\p"

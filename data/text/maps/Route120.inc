@@ -1,5 +1,5 @@
 Route120_Text_171827:: @ 8171827
-	.string "성호: 응? {PLAYER}\e구나\n"
+	.string "성호: 응? {PLAYER}{K_I}구나\n"
 	.string "오랜만이네\p"
 	.string "여기에 보이지 않는 무언가가 있지?\p"
 	.string "그 보이지 않는 무언가에게\n"
@@ -58,7 +58,7 @@ Route119_Text_171BB6:: @ 8171BB6
 	.string "데봉스코프를 사용하겠습니까?$"
 
 Route119_Text_171BF6:: @ 8171BF6
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "데봉스코프를 사용했다!\p"
 	.string "투명했던 포켓몬의 모습이\n"
 	.string "훤히 보이게 됐다!\p"

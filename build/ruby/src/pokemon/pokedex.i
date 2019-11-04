@@ -10499,25 +10499,32 @@ static const u8 DexDescription_Arbok[] = _(
     "드럼통도 납작하게 짜부라트린다.\n"
     "휘감기면 도망가는 것이 불가능하다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Pikachu[] = _(
-    "뺨의 전기 주머니에 있는 전기는 한밤중\n"
-    "자는 동안 축적되는 것 같다.\n"
-    "잠이 덜 깨서 방전하기도 한다.");
-
+    "처음 보는 것에게는 전격을 맞춘다.\n"
+    "새까맣게 탄 나무열매가 떨어져 있다는 것은\n"
+    "전격의 세기를 조절하지 못했다는 증거다.");
+# 142 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Raichu[] = _(
-    "약한 전기를 온몸에서 발산하고 있기 때문에\n"
-    "어두운 곳에서는 희미하게 빛난다.\n"
-    "꼬리를 땅에 박고 전기를 흘려보낸다.");
-
+    "전기 주머니에 전기가 넘칠 정도로 차면\n"
+    "꼬리를 땅에 닿게 하여 방전한다.\n"
+    "사는 곳 근처의 땅에는 탄 흔적이 있다.");
+# 154 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Sandshrew[] = _(
-    "바싹바싹 마른 피부는 매우 단단해서\n"
-    "몸을 둥글게 말면 어떤 공격도 튕겨낸다.\n"
-    "밤에는 사막의 모래에 들어가 잠잔다.");
-
+    "몸이 수분을 효율적으로 흡수하기 때문에\n"
+    "건조한 모래땅에서도 문제없다.\n"
+    "몸을 둥글게 만들어 적의 공격을 막는다.");
+# 166 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Sandslash[] = _(
-    "등을 둥그렇게 말면 뾰족뾰족한 공 같다.\n"
-    "가시에 찔려 풀죽은 상대에게 덤벼들어\n"
-    "날카로운 발톱으로 박박 할퀴어 놓는다.");
+    "몸의 가시는 피부가 딱딱해진 것이다.\n"
+    "1년에 1회 오래된 가시가 빠지고\n"
+    "새로운 가시가 밑에서 돋아난다.");
+
 
 static const u8 DexDescription_NidoranF[] = _(
     "작은 몸을 지키기 위해 강력한\n"
@@ -10559,50 +10566,57 @@ static const u8 DexDescription_Clefable[] = _(
     "물 위를 걷는 것도 할 수 있다.\n"
     "조용한 달밤에 호수를 걷는다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Vulpix[] = _(
-    "몸 안에서 항상 불꽃이 타고 있다.\n"
-    "낮에 기온이 올라가면 체온도 올라가기\n"
-    "때문에 입으로 불꽃을 빼낸다.");
-
+    "태어났을 때는 하얀 꼬리가 한 개다.\n"
+    "애정을 많이 받으면 꼬리가\n"
+    "6개로 나뉘며 멋지게 말린다.");
+# 230 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Ninetales[] = _(
-    "성스러운 힘을 지닌 9명의 신선이\n"
-    "합체하여 태어났다는 전설이 있다.\n"
-    "지능이 높아서 사람의 말을 이해한다.");
-
+    "새빨간 눈은 괴상한 빛을 발산하여\n"
+    "상대의 마음을 자유로이 조종한다.\n"
+    "1000년을 산다고 전해진다.");
+# 242 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Jigglypuff[] = _(
-    "노래할 때는 한 번도 숨을 쉬지 않는다.\n"
-    "어지간히 잠들지 않는 상대와 맞설 때는\n"
-    "숨을 쉴 수 없기에 푸린도 필사적이다.");
-
+    "목소리의 파장을 자유로이 바꿀 수 있는\n"
+    "성대가 있어서 상대가 가장 졸리게 되는\n"
+    "파장으로 노래를 부를 수 있다.");
+# 254 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Wigglytuff[] = _(
-    "탄력이 뛰어난 몸은 크게\n"
-    "숨을 들이마시면 한없이 부푼다.\n"
-    "부푼 푸크린은 두둥실 떠오른다.");
-
+    "크고 동그란 눈동자 표면에는\n"
+    "항상 얇은 눈물 막이 쳐져 있다.\n"
+    "먼지가 들어가도 바로 씻겨 나간다.");
+# 266 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Zubat[] = _(
-    "태양의 빛을 받으면 몸 상태가\n"
-    "나빠지기 때문에 낮에는 동굴이나 오래된\n"
-    "집의 처마 밑에 매달려 자고 있다.");
-
+    "낮에 어두운 곳에서 가만히 있는 것은\n"
+    "긴 시간 동안 햇빛을 받으면\n"
+    "전신에 가벼운 화상을 입기 때문이다.");
+# 278 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Golbat[] = _(
-    "4개의 이빨로 물어 혈액을 마신다.\n"
-    "달이 뜨지 않은 캄캄한 밤에는 활발하게\n"
-    "날아다니며 사람이나 포켓몬을 습격한다.");
-
+    "생물의 혈액을 매우 좋아한다.\n"
+    "특히 한밤중에 활동하는 경우가 많으며\n"
+    "생피를 찾아 밤하늘을 날아다닌다.");
+# 290 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Oddish[] = _(
-    "영양 만점인 흙을 찾아 몸을 묻는다.\n"
-    "낮 동안 땅에 묻혀 있을 때는 다리가\n"
-    "나무뿌리 같은 형태를 띠고 있는 듯하다.");
-
+    "낮에 땅속에 몸을 묻고\n"
+    "땅의 영양을 전신으로 빨아올린다.\n"
+    "비옥한 땅일수록 잎사귀에 윤이 난다고 한다.");
+# 302 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Gloom[] = _(
-    "아무래도 냄새꼬는 입에서 나는\n"
-    "맹렬한 악취를 매우 좋아하는 것 같다.\n"
-    "냄새를 맡으면 더욱 꿀이 넘쳐난다.");
-
+    "위험을 느끼면 암술에서 내는 구린\n"
+    "냄새가 더 강해지지만 마음이 평안할\n"
+    "때는 구린 냄새를 내지 않는다.");
+# 314 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Vileplume[] = _(
-    "세계에서 제일 큰 꽃잎으로 먹이를\n"
-    "유인하여 독 꽃가루를 끼얹는다.\n"
-    "움직이지 못하게 된 먹이를 잡아먹는다.");
+    "독 꽃가루는 심한 알레르기를 일으킨다.\n"
+    "정글에서 아름다운 꽃을 발견해도\n"
+    "섣불리 다가가지 않는 것이 좋다.");
+
 
 static const u8 DexDescription_Paras[] = _(
     "파라스로부터 양분을 빨아들여 자란\n"
@@ -10644,15 +10658,22 @@ static const u8 DexDescription_Persian[] = _(
     "주변의 상태를 파악하는 역할을 한다.\n"
     "수염을 잡히면 얌전해진다.");
 
-static const u8 DexDescription_Psyduck[] = _(
-    "이상한 힘을 썼던 기억이 없는 것은\n"
-    "힘을 발휘할 때가 숙면 중일 때와\n"
-    "같은 상태이기 때문인 것 같다.");
 
+
+
+
+
+
+static const u8 DexDescription_Psyduck[] = _(
+    "이상한 힘을 발휘하는 고라파덕에게서\n"
+    "잠들어 있을 때만 발산되는 뇌파가\n"
+    "관측되어 학회에서 화제가 되었다.");
+# 378 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Golduck[] = _(
-    "헤엄치는 스피드는 포켓몬 중 제일이다.\n"
-    "태풍으로 거칠어진 바다라도 문제없다.\n"
-    "난파선에서 사람을 구해내는 일도 있다.");
+    "손발의 물갈퀴와 유선형의 몸이\n"
+    "수중에서 무서울 만큼 빠른 스피드를 낸다.\n"
+    "금메달리스트보다 단연 빠르다.");
+
 
 static const u8 DexDescription_Mankey[] = _(
     "몸이 떨리며 콧김이 거칠어지면\n"
@@ -10689,35 +10710,42 @@ static const u8 DexDescription_Poliwrath[] = _(
     "운동해도 지치는 일이 없다.\n"
     "태평양도 가볍게 횡단할 수 있을 정도다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Abra[] = _(
-    "매일 18시간을 자지 않으면 수면 부족으로\n"
-    "초능력을 사용할 수 없게 된다.\n"
-    "습격당하면 잠든 채로 순간이동하여 도망간다.");
-
+    "하루에 18시간 잠들어 있는 포켓몬이다.\n"
+    "잠든 상태에서도 적의 기척을 감지하면\n"
+    "순간이동하여 도망갈 수 있다.");
+# 437 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Kadabra[] = _(
-    "은 숟가락은 알파파를 높여준다.\n"
-    "숟가락이 없으면 평상시의 반밖에\n"
-    "초능력을 사용할 수 없게 된다고 한다.");
-
+    "두통을 유발하는 특수한 알파파를\n"
+    "발산하기 때문에 강한 정신력의 소유자가\n"
+    "아니면 윤겔라의 트레이너가 될 수 없다.");
+# 449 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Alakazam[] = _(
-    "무한히 늘어나는 뇌세포가 지능지수\n"
-    "5000의 슈퍼 두뇌를 만들어냈다.\n"
-    "전 세계에서 일어난 일을 모두 기억하고 있다.");
-
+    "뇌가 점점 커져서 목으로는 지탱할 수\n"
+    "없을 만큼 머리가 무거워졌다.\n"
+    "초능력으로 머리를 지탱하고 있다.");
+# 461 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Machop[] = _(
-    "데구리를 들어 올려 몸을 단련한다.\n"
-    "모든 격투기를 마스터하기 위해\n"
-    "전 세계를 여행하는 알통몬도 있다.");
-
+    "아무리 운동을 해도 아프지 않은\n"
+    "특별한 근육을 가진 포켓몬이다.\n"
+    "어른 100명을 내던지는 파워다.");
+# 473 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Machoke[] = _(
-    "힘이 많이 드는 인간의 일을 도와주며\n"
-    "매일 몸을 단련하는 포켓몬이다.\n"
-    "쉬는 날에는 산야에서 몸을 단련한다.");
-
+    "잘 단련된 근육은 강철처럼 단단하다.\n"
+    "씨름 선수의 몸을 손가락 1개로 쉽게\n"
+    "들어 올릴 수 있는 괴력의 포켓몬이다.");
+# 485 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Machamp[] = _(
-    "모든 격투기를 마스터한 포켓몬이다.\n"
-    "4개의 팔에 잡히면 그대로 끝이다.\n"
-    "지평선 너머까지 집어 던져 버린다.");
+    "무엇이든 내던질 수 있는 파워를 지녔으나\n"
+    "세밀한 작업을 하면 팔이 얽히고 만다.\n"
+    "생각하기보다 몸이 먼저 움직인다.");
+
 
 static const u8 DexDescription_Bellsprout[] = _(
     "가늘고 유연한 몸은 아무리 강한\n"
@@ -10734,30 +10762,37 @@ static const u8 DexDescription_Victreebel[] = _(
     "생물처럼 움직여서 먹이를 유인한다.\n"
     "가까이 왔을 때 덥석 한 번에 삼킨다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Tentacool[] = _(
-    "태양 광선을 몸 안의 수분으로\n"
-    "굴절시켜서 빔 에너지로 바꾼다.\n"
-    "수정 같은 눈알에서 발사된다.");
-
+    "몸 대부분이 물로 되어 있어\n"
+    "바다에서 나오면 바싹 말라버린다.\n"
+    "말라버렸을 때는 바다로 돌려보내 주자.");
+# 524 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Tentacruel[] = _(
-    "자유롭게 늘었다 줄었다 하는 촉수로 먹이를\n"
-    "휘감아 맹독을 주입해 약하게 만든다.\n"
-    "한 번에 80마리의 먹이를 잡는다.");
-
+    "머리의 붉은 구슬이 반짝일 때 격렬한\n"
+    "초음파가 주변에 발사된다.\n"
+    "그때 바다가 격렬히 파도친다고 한다.");
+# 536 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Geodude[] = _(
-    "땅에 반쯤 박혀서 푹 잠잔다.\n"
-    "등산 중인 사람에게 밟혀도 전혀 깨지 않는다.\n"
-    "아침에 먹이를 찾아 언덕을 굴러 내려온다.");
-
+    "오래 산 꼬마돌일수록 몸의 모난 부분이\n"
+    "깎여 둥그렇게 되지만 마음은 언제까지나\n"
+    "울퉁불퉁 뾰족하고 거칠다.");
+# 548 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Graveler[] = _(
-    "산기슭부터 산 정상까지 올라가는\n"
-    "동안 매우 좋아하는 바위를 으득으득 먹는다.\n"
-    "정상에 도달하면 다시 굴러 내려온다.");
-
+    "바위를 먹고 성장하는 포켓몬이다.\n"
+    "이끼가 낀 바위를 좋아하는 것 같다.\n"
+    "하루에 1톤의 바위를 먹어버린다.");
+# 560 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Golem[] = _(
-    "산의 경사면에 파놓은 홈은 굴러\n"
-    "내려오는 딱구리가 민가에 부딪히지\n"
-    "않게 하기 위한 코스로 되어 있다.");
+    "큰 지진이 일어나면 산에 사는 딱구리\n"
+    "여러 마리가 산기슭까지 데굴데굴\n"
+    "굴러 내려오는 일이 있다.");
+
 
 static const u8 DexDescription_Ponyta[] = _(
     "막 태어나서는 겨우 설 수 있는 정도지만\n"
@@ -10779,30 +10814,44 @@ static const u8 DexDescription_Slowbro[] = _(
     "낚을 수 없게 된 야도란은 마지못해\n"
     "물속을 헤엄쳐 먹이를 잡고 있다.");
 
-static const u8 DexDescription_Magnemite[] = _(
-    "좌우의 유닛에서 전자파를 내어\n"
-    "중력을 차단하여 공중에 뜬다.\n"
-    "체내의 전기가 없어지면 날지 못하게 된다.");
 
+
+
+
+
+
+static const u8 DexDescription_Magnemite[] = _(
+    "전선에 들러붙어 전기를 먹고 있다.\n"
+    "정전되면 누전차단기를 살펴보자.\n"
+    "코일이 빽빽이 들러붙어 있을지도 모른다.");
+# 604 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Magneton[] = _(
-    "강력한 자기장이 정밀 기계를\n"
-    "망가트리기 때문에 몬스터볼에 넣어\n"
-    "두지 않으면 주의를 받는 마을도 있다고 한다.");
+    "강한 자력으로 기계를 망가트리기 때문에\n"
+    "큰 마을에서는 사이렌을 울려\n"
+    "레어코일의 대량 발생을 알린다.");
+
 
 static const u8 DexDescription_Farfetchd[] = _(
     "가지고 있는 식물의 줄기에도 좋은 것과\n"
     "그렇지 않은 것이 있는 듯하여 파오리들이\n"
     "줄기를 둘러싸고 싸우는 일도 있다.");
 
-static const u8 DexDescription_Doduo[] = _(
-    "두 개의 머리는 같은 뇌를 지녔다.\n"
-    "드물게 각각의 뇌를 지닌 두두가\n"
-    "태어난다는 연구 결과도 보고되었다.");
 
+
+
+
+
+
+static const u8 DexDescription_Doduo[] = _(
+    "2개의 머리가 동시에 잠드는 일은 없다.\n"
+    "자고 있을 때 적에게 습격당하지 않도록\n"
+    "교대로 망을 보고 있기 때문이다.");
+# 633 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Dodrio[] = _(
-    "3개 있는 것은 머리뿐이 아닌 것 같다.\n"
-    "심장과 폐도 3개라서 숨이 가빠지지\n"
-    "않으며 먼 거리를 달릴 수 있다.");
+    "3개의 머리가 서로 다른 방향을\n"
+    "향하고 있을 때는 경계 중인 증거다.\n"
+    "섣불리 가까이 가면 부리에 쪼인다.");
+
 
 static const u8 DexDescription_Seel[] = _(
     "얼음으로 뒤덮인 바다에서 먹이를 잡는다.\n"
@@ -10814,15 +10863,22 @@ static const u8 DexDescription_Dewgong[] = _(
     "옛날에 빙산에서 자는 모습을 본\n"
     "뱃사람이 인어로 착각했다.");
 
-static const u8 DexDescription_Grimer[] = _(
-    "오염된 해저의 진흙에서 태어났다.\n"
-    "더러운 것을 매우 좋아해서 몸 전체에서\n"
-    "세균 범벅인 액체가 흘러나오고 있다.");
 
+
+
+
+
+
+static const u8 DexDescription_Grimer[] = _(
+    "흐물흐물 물렁물렁한 몸은 아무리\n"
+    "좁은 틈이라도 파고들어 갈 수 있다.\n"
+    "하수관에 들어가 지저분한 물을 마신다.");
+# 667 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Muk[] = _(
-    "더러운 것을 매우 좋아해서 쓰레기를\n"
-    "길가에 버릴 것 같은 사람이 사는\n"
-    "마을에는 질뻐기가 모여든다.");
+    "몸에서 배어 나오는 체액은 코를\n"
+    "찌를 정도로 강렬한 냄새를 뿜는다.\n"
+    "한 방울로 수영장의 물이 탁해지고 냄새가 난다.");
+
 
 static const u8 DexDescription_Shellder[] = _(
     "밤이 되면 큰 혀로 해저의\n"
@@ -10874,15 +10930,22 @@ static const u8 DexDescription_Kingler[] = _(
     "동료 간에 신호를 보내지만\n"
     "집게가 무거워서 곧 지쳐버린다.");
 
-static const u8 DexDescription_Voltorb[] = _(
-    "작은 충격에도 바로 폭발한다.\n"
-    "몬스터볼에 강력한 전류를\n"
-    "가했을 때 태어났다는 소문이 돌고 있다.");
 
+
+
+
+
+
+static const u8 DexDescription_Voltorb[] = _(
+    "몬스터볼을 만드는 회사에서\n"
+    "처음 발견됐다는 점과 생김새가 비슷한\n"
+    "점의 관련성은 아직도 수수께끼다.");
+# 741 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Electrode[] = _(
-    "전기에 끌리는 성질을 지녔다.\n"
-    "주로 발전소에 모여서 막 만들어진\n"
-    "전기를 먹어버리는 말썽꾼이다.");
+    "공기 중의 전기 에너지를 먹는다.\n"
+    "번개가 치는 날에는 전기를 너무 먹은\n"
+    "붐볼이 이곳저곳에서 대폭발한다.");
+
 
 static const u8 DexDescription_Exeggcute[] = _(
     "동료애가 강한 여섯 알은 서로\n"
@@ -10919,25 +10982,32 @@ static const u8 DexDescription_Lickitung[] = _(
     "혀의 감촉과 맛으로 기억해두는 것이다.\n"
     "하지만 시큼한 것을 핥는 것은 조금 꺼린다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Koffing[] = _(
-    "음식물 쓰레기와 몸의 독소를 화학반응시켜\n"
-    "맹독 가스를 만들어 낸다.\n"
-    "기온이 높을수록 가스가 많이 만들어진다.");
-
+    "자극받으면 가스의 독소가 강해져\n"
+    "몸의 이곳저곳에서 강하게 내뿜는다.\n"
+    "동그랗게 부풀어 오른 후 대폭발한다.");
+# 800 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Weezing[] = _(
-    "똑같이 생긴 몸을 교대로 오그라트리고\n"
-    "부풀리면서 독가스를 섞고 있다.\n"
-    "섞을수록 독소가 강해져 악취가 난다.");
-
+    "부패한 음식물 쓰레기에서 나온 가스를 매우\n"
+    "좋아한다. 청소하지 않는 집에서 눌러살며 가족이\n"
+    "모두 잠든 한밤중에 쓰레기통을 뒤진다.");
+# 812 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Rhyhorn[] = _(
-    "달리고 있다가 목적을 잊을 정도로\n"
-    "뇌가 작고 머리가 나쁘다.\n"
-    "뭔가를 부수면 가끔 기억해내는 것 같다.");
-
+    "오로지 곧장 돌진하여 부순다.\n"
+    "강철 덩어리에 부딪혀도 멀쩡하지만\n"
+    "하루가 지나면 아픔을 조금 느낀다.");
+# 824 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Rhydon[] = _(
-    "드릴처럼 쓰는 뿔로 암석을 파괴한다.\n"
-    "마그마가 뿜어져 나오기도 하지만\n"
-    "갑옷 같은 피부는 뜨거움을 느끼지 않는다.");
+    "뿔은 다이아몬드 원석을 부수고\n"
+    "꼬리의 일격은 빌딩을 쓰러트린다.\n"
+    "단단한 피부는 대포에도 상처 입지 않는다.");
+
 
 static const u8 DexDescription_Chansey[] = _(
     "영양 만점인 알을 매일 낳는다.\n"
@@ -10954,35 +11024,42 @@ static const u8 DexDescription_Kangaskhan[] = _(
     "절대로 잡으려 하면 안 된다.\n"
     "가까이 있는 부모가 격렬히 화낸다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Horsea[] = _(
-    "위험을 감지하면 반사적으로 입에서\n"
-    "새까만 먹물을 뿜어내고 도망간다.\n"
-    "등지느러미를 능숙히 움직여 헤엄친다.");
-
+    "작은 벌레나 바위의 이끼를 먹는다.\n"
+    "해류가 빨라지면 꼬리로 바위나\n"
+    "산호를 휘감아 떠내려가지 않게 한다.");
+# 863 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Seadra[] = _(
-    "몸을 회전시켜 소용돌이를 만든다.\n"
-    "어선도 집어삼킬 만한 격류로\n"
-    "먹이를 약하게 만들고 통째로 삼킨다.");
-
+    "산호 가지 사이로 들어가 잠잔다.\n"
+    "시드라가 있는 줄 모르고 산호를\n"
+    "잡으려다 독가시에 찔리곤 한다.");
+# 875 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Goldeen[] = _(
-    "강이나 연못을 헤엄치는 것을 매우 좋아해서\n"
-    "수조 같은 곳에 넣어 두면 두꺼운\n"
-    "유리도 뿔의 일격으로 깨고 도망간다.");
-
+    "물속에서 우아하게 나부끼는 지느러미가 매우\n"
+    "아름다운 포켓몬이지만 방심하고 있으면\n"
+    "강렬한 뿔의 일격을 당한다.");
+# 887 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Seaking[] = _(
-    "알을 지키기 위해서 수컷과 암컷은 교대로\n"
-    "서식지 주변을 헤엄쳐 다니며 순찰한다.\n"
-    "알이 부화할 때까지 한 달 이상 계속된다.");
-
+    "가을이 되면 암컷에게 프러포즈하기 위해\n"
+    "강바닥에서 춤추는 수컷을 볼 수 있다.\n"
+    "몸의 색이 가장 아름다운 계절이다.");
+# 899 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Staryu[] = _(
-    "가운데에 있는 빨간 코어를 점멸시켜\n"
-    "밤하늘의 별과 교신하는 것 같다.\n"
-    "몸은 찢겨 나가더라도 스스로 재생한다.");
-
+    "여름이 끝날 무렵 밤에 모래 해변에 가면\n"
+    "핵이라고 불리는 기관을 붉게 빛내는\n"
+    "별가사리가 별처럼 보인다.");
+# 911 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Starmie[] = _(
-    "별 모양인 몸을 스크루처럼\n"
-    "회전시켜 물속을 헤엄쳐 다닌다.\n"
-    "중앙에 있는 코어가 일곱 빛깔로 빛난다.");
+    "몸의 중심에 있는 핵이라 불리는\n"
+    "부분이 일곱 빛깔로 빛나기에\n"
+    "바다의 보석이라는 별명이 붙었다.");
+
 
 static const u8 DexDescription_Mrmime[] = _(
     "몸짓으로 눈에 보이지 않는 것이 그곳에\n"
@@ -11009,25 +11086,39 @@ static const u8 DexDescription_Magmar[] = _(
     "불꽃을 뿜어내 상대를 위협한다.\n"
     "그 열풍으로 주변의 초목도 불태운다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Pinsir[] = _(
-    "늠름한 2개의 뿔 표면에 있는\n"
-    "가시가 상대의 몸에 깊숙이 파고들어서\n"
-    "집히면 쉽게 벗어날 수 없다.");
+    "자신의 몸무게 두 배나 되는 상대를 뿔로\n"
+    "집어 가볍게 들어 올리는 괴력을 지녔다.\n"
+    "추운 곳에서는 몸의 움직임이 둔해진다.");
+
 
 static const u8 DexDescription_Tauros[] = _(
     "항상 날뛰지 않으면 성에 차지 않는다.\n"
     "싸울 상대가 없을 때는 큰 나무를\n"
     "들이받아 쓰러트리고 맘을 가라앉힌다.");
 
-static const u8 DexDescription_Magikarp[] = _(
-    "튀어오르기만으로는 만족스럽게 싸울 수 없어서\n"
-    "약하다고 여겨지고 있지만 아무리 더러워진\n"
-    "물에서라도 살 수 있는 끈질긴 포켓몬이다.");
 
+
+
+
+
+
+static const u8 DexDescription_Magikarp[] = _(
+    "튀어 오르기만 하는 한심한 포켓몬이다.\n"
+    "왜 튀어 오르는지 조사한 연구자가 있을\n"
+    "정도로 무조건 튀고 튀고 튀어 오르기만 한다.");
+# 977 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Gyarados[] = _(
-    "한 번 날뛰기 시작하면 모든 것을\n"
-    "불태워야 난폭한 피가 가라앉는다.\n"
-    "한 달간을 날뛴 기록이 남아 있다.");
+    "잉어킹에서 갸라도스로 진화할 때\n"
+    "뇌세포의 구조가 재구성되기 때문에\n"
+    "성격이 난폭해진다고 전해진다.");
+
 
 static const u8 DexDescription_Lapras[] = _(
     "사람이 멸종의 위기로 몰아갔다.\n"
@@ -11219,35 +11310,49 @@ static const u8 DexDescription_Ariados[] = _(
     "천장이나 수직인 벽도 걸을 수 있다.\n"
     "가늘고 튼튼한 실로 적을 조른다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Crobat[] = _(
-    "귀를 기울이지 않으면 들리지 않을 정도로 작은\n"
-    "날갯소리로 노린 먹이에게 살며시 다가간다.\n"
-    "뒷다리의 날개로 가지를 붙잡고 쉰다.");
-
+    "팔이나 다리 어느 한쪽만으로 날갯짓할\n"
+    "때는 긴 거리를 날고 있다는 증거다.\n"
+    "지치면 날갯짓하는 날개를 바꾼다.");
+# 1191 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Chinchou[] = _(
-    "강한 전기를 발생시키는 세포가\n"
-    "2개의 촉수 안에 채워져 있다.\n"
-    "자신도 조금은 찌릿하고 마비된다고 한다.");
-
+    "2개의 촉수로 플러스와 마이너스\n"
+    "전기를 흘려 먹이를 기절시킨다.\n"
+    "전기의 빛은 동료와의 신호다.");
+# 1203 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Lanturn[] = _(
-    "밤중에 배에서 어두운 바다를 들여다보면\n"
-    "심해를 헤엄치는 랜턴의 빛이\n"
-    "별이 총총한 하늘처럼 보이는 일이 있다.");
-
+    "심해의 별이라 불리는 포켓몬이다.\n"
+    "촉수 안의 박테리아와 체액을\n"
+    "화학 반응시켜서 빛을 만든다.");
+# 1215 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Pichu[] = _(
-    "동료와 놀고 있을 때 서로의 전기가\n"
-    "합선되어 불꽃이 일어나는 일이 있다.\n"
-    "불꽃에 깜짝 놀라면 울기 시작한다.");
+    "번개 구름이 있을 때나 공기가\n"
+    "건조한 날은 전기가 쉽게 모인다.\n"
+    "타다닥 정전기 소리가 난다.");
+
 
 static const u8 DexDescription_Cleffa[] = _(
     "별똥별이 많은 밤에는 둥글게 모여\n"
     "춤추는 삐의 모습을 볼 수 있다.\n"
     "일출 때까지 춤추며 밤이슬로 목을 축인다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Igglybuff[] = _(
-    "마시멜로 같은 촉감의 몸에서\n"
-    "은은하게 달콤한 냄새가 풍겨온다.\n"
-    "냄새는 적의 기분을 차분하게 만든다.");
+    "성대가 아직 충분히 발달하지\n"
+    "않아 계속 노래 부르면 목이 아프다.\n"
+    "깨끗한 시냇물로 양치질한다.");
+
 
 static const u8 DexDescription_Togepi[] = _(
     "사람이나 포켓몬이 발산하는 상냥함이나\n"
@@ -11259,15 +11364,22 @@ static const u8 DexDescription_Togetic[] = _(
     "순수한 마음을 지닌 자를 발견하면\n"
     "모습을 드러내고 행복을 나누어준다.");
 
-static const u8 DexDescription_Natu[] = _(
-    "점프력이 발달한 포켓몬이다.\n"
-    "어른 키 이상의 높이인 가지에\n"
-    "훌쩍 날아 앉아 나무순을 쪼아 먹는다.");
 
+
+
+
+
+
+static const u8 DexDescription_Natu[] = _(
+    "날개가 아직 자라지 않아 날 수 없다.\n"
+    "눈을 마주치면 가만히 쳐다보지만 상대가\n"
+    "조금이라도 움직이면 뛰어올라 도망간다.");
+# 1266 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Xatu[] = _(
-    "온종일 태양을 바라보며 움직이지 않는다.\n"
-    "미래를 내다보는 힘을 지녔다고 여겨져\n"
-    "성스러운 포켓몬으로 모시는 사람도 있다.");
+    "온종일 네이티오가 꼼짝하지 않는 것은\n"
+    "미래예지로 알게 된 무서운 사건에\n"
+    "겁을 먹고 있기 때문이라고 믿어지고 있다.");
+
 
 static const u8 DexDescription_Mareep[] = _(
     "털의 마찰로 정전기가 모인다.\n"
@@ -11284,20 +11396,27 @@ static const u8 DexDescription_Ampharos[] = _(
     "옛날 사람은 전룡의 빛을 써서\n"
     "멀리 있는 동료와 신호를 주고받았다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Bellossom[] = _(
-    "좀 더 악취를 풍기는 냄새꼬 쪽이\n"
-    "진화하면 아름다운 꽃을 피운 아르코가 된다.\n"
-    "밤이 되면 꽃잎을 오므리고 잔다.");
-
+    "태양의 빛을 잔뜩 받으면\n"
+    "몸의 잎사귀가 빙글빙글 돌기 시작한다.\n"
+    "아르코의 춤은 남쪽 나라의 명물이다.");
+# 1305 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Marill[] = _(
-    "흐름이 빠른 강에서 먹이를 잡을 때는\n"
-    "꼬리를 강가의 나무줄기에 휘감는다.\n"
-    "꼬리는 탄력이 있어서 늘어나는 구조다.");
-
+    "기름이 가득한 꼬리는 튜브 대용이다.\n"
+    "수면에 꼬리만 떠 있을 때는\n"
+    "잠수하여 물풀을 먹고 있다는 표시다.");
+# 1317 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Azumarill[] = _(
-    "공기로 풍선을 만들 수 있다.\n"
-    "포켓몬이 물에 빠져 있으면 공기 방울을\n"
-    "만들어내 호흡을 할 수 있게 해준다.");
+    "긴 귀는 마릴리의 중요한 센서다.\n"
+    "귀를 기울이면 물살이 격한 강에서도\n"
+    "그곳에 있는 먹이의 종류를 안다.");
+
 
 static const u8 DexDescription_Sudowoodo[] = _(
     "적에게 습격당하지 않으려 나무인 척한다.\n"
@@ -11384,15 +11503,22 @@ static const u8 DexDescription_Unown[] = _(
     "먼저 생겨난 것은 문자인가 안농인가.\n"
     "연구 중이지만 아직도 수수께끼다.");
 
-static const u8 DexDescription_Wobbuffet[] = _(
-    "한결같이 참는 포켓몬이지만 꼬리를\n"
-    "공격당하는 것만은 참지 못한다.\n"
-    "상대를 길동무로 만들 기회를 살핀다.");
 
+
+
+
+
+
+static const u8 DexDescription_Wobbuffet[] = _(
+    "두 마리 이상 모이면 참기 겨루기를\n"
+    "시작하는데 배고픔도 참아버리기 때문에\n"
+    "마자용 트레이너는 주의가 필요하다.");
+# 1426 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Girafarig[] = _(
-    "꼬리의 뇌는 생각을 할 수 없을 정도로\n"
-    "작지만 자지 않아도 괜찮아서\n"
-    "24시간 주변을 계속 망보고 있다.");
+    "꼬리의 머리에도 작은 뇌가 있다.\n"
+    "냄새나 소리에 반응하여 공격하기 때문에\n"
+    "뒤에서 접근하면 느닷없이 물린다.");
+
 
 static const u8 DexDescription_Pineco[] = _(
     "나뭇가지에 매달려 먹이를 기다린다.\n"
@@ -11444,10 +11570,17 @@ static const u8 DexDescription_Shuckle[] = _(
     "나무열매를 먹으면서 몸을 숨기고 있다.\n"
     "나무열매는 체액과 섞여 주스가 된다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Heracross[] = _(
-    "손발의 날카로운 손발톱이 땅이나 나무에\n"
-    "깊숙이 박히기 때문에 자랑스런 뿔로 상대를\n"
-    "내던질 때 단단히 버틸 수 있다.");
+    "똑바로 적에게 돌격하여\n"
+    "강인한 뿔로 들어 올려 내던진다.\n"
+    "큰 나무도 뿌리째 뽑아 쓰러트릴 만한 파워다.");
+
 
 static const u8 DexDescription_Sneasel[] = _(
     "손발의 갈고리 손발톱을 꽂아 나무를 오른다.\n"
@@ -11464,15 +11597,22 @@ static const u8 DexDescription_Ursaring[] = _(
     "큰 나무나 시냇가가 여기저기에 있다고 한다.\n"
     "매일 먹이를 모으며 숲을 걷는다.");
 
-static const u8 DexDescription_Slugma[] = _(
-    "몸 안에는 혈액 대신\n"
-    "필요한 영양과 산소를 운반하기 위해\n"
-    "작열하는 마그마가 순환되고 있다.");
 
+
+
+
+
+
+static const u8 DexDescription_Slugma[] = _(
+    "몸 안에는 작열하는 용암이\n"
+    "소용돌이치지만 식으면 굳어지고\n"
+    "부서져서 몸이 작아진다.");
+# 1527 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Magcargo[] = _(
-    "체온이 약 1만 도나 돼서 빗방울이\n"
-    "몸에 닿으면 수증기가 자욱하게 피어나\n"
-    "주변이 깊은 안개에 둘러싸인다고 한다.");
+    "껍질은 피부가 식어 굳어진 것이다.\n"
+    "만지기만 해도 산산이 부서져 버린다.\n"
+    "마그마에 들어가면 원래 크기로 돌아온다.");
+
 
 static const u8 DexDescription_Swinub[] = _(
     "땅에 코를 비비며 먹이를 찾는다.\n"
@@ -11484,10 +11624,17 @@ static const u8 DexDescription_Piloswine[] = _(
     "두껍고 긴 털가죽에 덮여 있다.\n"
     "얼음에 묻힌 먹이를 이빨로 파낸다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Corsola[] = _(
-    "따뜻한 바다에 모인 코산호는\n"
-    "작은 포켓몬들의 은신처가 된다.\n"
-    "수온이 낮아지면 남쪽으로 이동한다.");
+    "산호 가지는 태양의 빛을 받으면\n"
+    "일곱 빛깔로 반짝반짝 빛이 나 정말 아름답다.\n"
+    "부러져도 하룻밤이면 원래대로 자라난다.");
+
 
 static const u8 DexDescription_Remoraid[] = _(
     "복근을 이용하여 마신 물을 힘차게\n"
@@ -11509,10 +11656,17 @@ static const u8 DexDescription_Mantine[] = _(
     "만타인 무리를 볼 수 있다.\n"
     "총어가 들러붙어 있어도 신경 쓰지 않는다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Skarmory[] = _(
-    "싸움을 반복하여 너덜너덜해진\n"
-    "강철의 날개는 1년에 1회 다시 돋아나\n"
-    "원래의 날카로움을 되찾는다.");
+    "전신이 단단한 갑옷으로 둘러싸여 있다.\n"
+    "시속 300km의 스피드로 하늘을 날아\n"
+    "칼날 같은 날카로운 날개로 베어낸다.");
+
 
 static const u8 DexDescription_Houndour[] = _(
     "여러 가지 울음소리를 사용하여 동료와\n"
@@ -11524,20 +11678,27 @@ static const u8 DexDescription_Houndoom[] = _(
     "헬가가 그룹의 리더 격인 존재다.\n"
     "동료 간에 경쟁하여 리더가 결정된다.");
 
+
+
+
+
+
+
 static const u8 DexDescription_Kingdra[] = _(
-    "생물이 살지 않는 해저에서 자고 있다.\n"
-    "태풍이 오면 눈을 뜨고\n"
-    "먹이를 찾으러 돌아다닌다고 전해진다.");
-
+    "생물이 살지 않는 심해에 서식한다.\n"
+    "킹드라의 하품이 해류의 소용돌이를\n"
+    "일으킨다고 오랫동안 믿어져 왔다.");
+# 1615 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Phanpy[] = _(
-    "긴 코를 써서 물을 끼얹는다.\n"
-    "동료가 모여들면 서로 물을 끼얹는다.\n"
-    "흠뻑 젖은 몸을 물가에서 말린다.");
-
+    "강 근처에 수직으로 구멍을 파고 산다.\n"
+    "사는 곳 가까이에 코의 표시를 남겨\n"
+    "자신의 장소라고 동료에게 알리고 있다.");
+# 1627 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Donphan[] = _(
-    "단단한 몸으로 부딪치면 집도 부서진다.\n"
-    "그 힘을 이용해 산길을 막고 있는\n"
-    "토사를 치우는 일을 돕는다.");
+    "몸을 둥글게 말아 고속 회전하며\n"
+    "상대에게 돌진하는 공격이 특기다.\n"
+    "구르기 시작하면 어지간해서는 멈출 수 없다.");
+
 
 static const u8 DexDescription_Porygon2[] = _(
     "인간이 과학의 힘으로 만들어냈다.\n"
@@ -11644,672 +11805,672 @@ static const u8 DexDescription_Treecko[] = _(
     "다리 뒤의 작은 가시를 박아\n"
     "수직인 벽을 올라갈 수 있다.\n"
     "굵은 꼬리로 힘껏 쳐서 공격한다.");
-# 1277 "src/pokemon/../data/pokedex_entries.h"
+# 1746 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Grovyle[] = _(
     "몸에서 난 잎사귀는 숲 속에서\n"
  "적으로부터 몸을 숨길 때 편리하다.\n"
  "밀림에 사는 나무 타기의 명수다.");
-# 1289 "src/pokemon/../data/pokedex_entries.h"
+# 1758 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Sceptile[] = _(
     "몸에 난 잎사귀는 예리한 칼과 같다.\n"
  "빠른 몸놀림으로 나뭇가지를 뛰어다니며\n"
  "적의 머리 위나 배후에서 덮친다.");
-# 1301 "src/pokemon/../data/pokedex_entries.h"
+# 1770 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Torchic[] = _(
     "트레이너에게 바짝 붙어 아장아장 걷는다.\n"
  "입에서 날리는 불꽃은 섭씨 1000도다.\n"
  "상대를 새까맣게 태우는 작열하는 불덩이다.");
-# 1313 "src/pokemon/../data/pokedex_entries.h"
+# 1782 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Combusken[] = _(
     "산과 들을 뛰어다니며 하반신을 단련한다.\n"
  "스피드와 파워를 겸비한 다리는\n"
  "1초에 10번 킥을 날린다.");
-# 1325 "src/pokemon/../data/pokedex_entries.h"
+# 1794 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Blaziken[] = _(
     "싸우게 되면 손목에서 작열하는\n"
  "불꽃을 뿜어 올려 용감히 덤벼든다.\n"
  "상대가 버거울수록 강렬히 불타오른다.");
-# 1337 "src/pokemon/../data/pokedex_entries.h"
+# 1806 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Mudkip[] = _(
     "머리의 지느러미는 매우 민감한 레이더다.\n"
  "물이나 공기의 움직임을 통해 눈을 쓰지 않고\n"
  "주변의 상황을 알아낼 수 있다.");
-# 1349 "src/pokemon/../data/pokedex_entries.h"
+# 1818 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Marshtomp[] = _(
     "지상에서도 생활할 수 있도록 몸의\n"
  "표면을 얇은 점막이 둘러싸고 있다.\n"
  "썰물이 된 해안에서 흙놀이를 한다.");
-# 1361 "src/pokemon/../data/pokedex_entries.h"
+# 1830 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Swampert[] = _(
     "무게 1톤 이상인 바위 덩어리를\n"
  "가볍게 잡아당기는 파워를 지닌 포켓몬이다.\n"
  "탁해진 물속도 들여다볼 수 있는 시력을 지녔다.");
-# 1373 "src/pokemon/../data/pokedex_entries.h"
+# 1842 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Poochyena[] = _(
     "움직이는 것을 발견하면 바로 문다.\n"
  "먹이가 기진맥진해질 때까지 쫓아다니지만\n"
  "반격당하면 뒷걸음치기도 한다.");
-# 1385 "src/pokemon/../data/pokedex_entries.h"
+# 1854 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Mightyena[] = _(
     "사납게 으르렁거리는 소리를 내며 자세를\n"
  "낮추고 있는 것은 공격의 전조이다.\n"
  "날카롭고 뾰족한 이빨로 덥석 문다.");
-# 1397 "src/pokemon/../data/pokedex_entries.h"
+# 1866 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Zigzagoon[] = _(
     "항상 이쪽저쪽 지그재그로 걷는 것은\n"
     "호기심이 매우 강해서 눈에 비친\n"
     "여러 가지 것들에 흥미를 느끼기 때문이다.");
-# 1409 "src/pokemon/../data/pokedex_entries.h"
+# 1878 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Linoone[] = _(
     "똑바로 힘껏 달리며 장애물이 있을\n"
  "때는 직각으로 꺾어서 피한다.\n"
  "완만하게 굽은 길은 달리는 데 매우 서툴다.");
-# 1421 "src/pokemon/../data/pokedex_entries.h"
+# 1890 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Wurmple[] = _(
     "엉덩이의 가시로 나무의 껍질을 벗기고\n"
     "배어 나온 수액을 식량으로 삼는다. 흡반이\n"
     "달린 다리는 유리에서도 미끄러지지 않는다.");
-# 1433 "src/pokemon/../data/pokedex_entries.h"
+# 1902 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Silcoon[] = _(
     "떨어지지 않도록 실을 가지에 휘감아서\n"
     "몸을 지탱하며 진화를 기다리고 있다.\n"
     "작은 구멍을 통해 밖의 상황을 살핀다.");
-# 1445 "src/pokemon/../data/pokedex_entries.h"
+# 1914 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Beautifly[] = _(
     "달콤한 꽃가루를 매우 좋아하는 포켓몬이다.\n"
     "꽃이 핀 화분을 창가에 두면\n"
     "꽃가루를 모으려고 반드시 날아온다.");
-# 1457 "src/pokemon/../data/pokedex_entries.h"
+# 1926 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Cascoon[] = _(
     "카스쿤의 몸은 입에서 나온 가는\n"
     "실이 몸을 둘러싸 딱딱해진 것이다.\n"
     "고치 안에서 진화의 준비를 하고 있다.");
-# 1469 "src/pokemon/../data/pokedex_entries.h"
+# 1938 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Dustox[] = _(
     "불빛에 이끌리는 습성을 지녔다.\n"
     "거리의 불빛에 유인된 독케일 무리가\n"
     "가로수의 잎을 어지르며 먹어버린다.");
-# 1481 "src/pokemon/../data/pokedex_entries.h"
+# 1950 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Lotad[] = _(
     "연못이나 호수의 수면에 떠서 산다.\n"
     "잎사귀가 마르면 약해지지만 깨끗한\n"
     "물을 찾아 가끔 육지로 이동한다.");
-# 1493 "src/pokemon/../data/pokedex_entries.h"
+# 1962 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Lombre[] = _(
     "해 질 무렵이 되면 활동하는 야행성이다.\n"
     "낚시꾼을 발견하면 물속에서 줄을\n"
     "당겨 방해하고선 기뻐한다.");
-# 1505 "src/pokemon/../data/pokedex_entries.h"
+# 1974 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Ludicolo[] = _(
     "경쾌한 음악을 들으면 춤춘다.\n"
  "하이킹하는 아이들의 합창에\n"
  "이끌려 모습을 나타낸다고 전해진다.");
-# 1517 "src/pokemon/../data/pokedex_entries.h"
+# 1986 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Seedot[] = _(
     "머리의 정수리를 나뭇가지에 붙이고\n"
     "매달려 수분을 빨아들이고 있다.\n"
     "물을 마실수록 몸이 반들반들 빛난다.");
-# 1529 "src/pokemon/../data/pokedex_entries.h"
+# 1998 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Nuzleaf[] = _(
     "울창하게 우거진 숲에 사는 포켓몬이다.\n"
     "가끔 숲을 나와 사람들을 놀라게 한다.\n"
     "긴 코가 잡히는 걸 매우 싫어한다.");
-# 1541 "src/pokemon/../data/pokedex_entries.h"
+# 2010 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Shiftry[] = _(
     "수령 1000년을 넘은 큰 나무 꼭대기에\n"
     "산다고 전해지는 신비한 포켓몬이다.\n"
     "깊은 곳에서 조용히 사는 포켓몬이다.");
-# 1553 "src/pokemon/../data/pokedex_entries.h"
+# 2022 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Taillow[] = _(
     "아무리 강한 상대라도 용감히 맞선다.\n"
     "져도 주저앉지 않는 근성의 소유자다.\n"
     "배가 고프면 큰 소리로 운다.");
-# 1565 "src/pokemon/../data/pokedex_entries.h"
+# 2034 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Swellow[] = _(
     "높은 상공을 원을 그리듯 날아다니다\n"
     "먹이를 발견하면 급강하한다.\n"
     "발톱으로 단단히 잡고 놓치지 않는다.");
-# 1577 "src/pokemon/../data/pokedex_entries.h"
+# 2046 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Wingull[] = _(
     "바다에서 먹이나 소중한 것을 부리에 끼우고\n"
     "여러 장소에 숨기는 습성을 지녔다.\n"
     "바람을 타고 미끄러지듯 하늘을 난다.");
-# 1589 "src/pokemon/../data/pokedex_entries.h"
+# 2058 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Pelipper[] = _(
     "작은 포켓몬이나 알을 부리에\n"
     "넣고 나르는 하늘의 운반자다.\n"
     "바닷가의 험한 절벽에 둥지를 만든다.");
-# 1601 "src/pokemon/../data/pokedex_entries.h"
+# 2070 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Ralts[] = _(
     "머리의 뿔로 사람의 기분을 감지한다.\n"
     "사람 앞에는 좀처럼 모습을 나타내지 않지만\n"
     "긍정적인 기분을 캐치하면 다가온다.");
-# 1613 "src/pokemon/../data/pokedex_entries.h"
+# 2082 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Kirlia[] = _(
     "트레이너의 긍정적인 감정에 닿은\n"
     "킬리아는 아름답게 성장한다고 한다.\n"
     "발달한 뇌로 사이코 파워를 다룬다.");
-# 1625 "src/pokemon/../data/pokedex_entries.h"
+# 2094 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Gardevoir[] = _(
     "미래를 예지하는 능력으로 트레이너의\n"
     "위험을 감지했을 때 최대 파워의\n"
     "사이코 에너지를 사용한다고 전해진다.");
-# 1637 "src/pokemon/../data/pokedex_entries.h"
+# 2106 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Surskit[] = _(
     "발끝에서 기름이 배어 나와\n"
     "물 위를 미끄러지듯 걸을 수 있다.\n"
     "연못이나 호수의 미생물을 먹고 있다.");
-# 1649 "src/pokemon/../data/pokedex_entries.h"
+# 2118 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Masquerain[] = _(
     "더듬이의 눈알 무늬로 적을 위협한다.\n"
     "4개의 날개를 사용하여 헬리콥터처럼\n"
     "공중에서 전후좌우 자유롭게 나아간다.");
-# 1661 "src/pokemon/../data/pokedex_entries.h"
+# 2130 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Shroomish[] = _(
     "깊은 숲의 축축한 땅에 서식한다.\n"
     "낙엽 밑에서 꼼짝 않고 있을 때가 많다.\n"
     "낙엽이 쌓여 만들어진 부엽토를 먹는다.");
-# 1673 "src/pokemon/../data/pokedex_entries.h"
+# 2142 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Breloom[] = _(
     "경쾌한 풋워크로 적에게 다가가\n"
     "늘었다 줄었다 하는 팔로 펀치를 날린다.\n"
     "복서가 무색할 만할 테크닉의 소유자다.");
-# 1685 "src/pokemon/../data/pokedex_entries.h"
+# 2154 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Slakoth[] = _(
     "하루에 20시간 이상 엎드려 누워 있다.\n"
  "거의 몸을 움직이지 않아서 잎사귀를\n"
  "3장 먹으면 하루 식사가 끝난다.");
-# 1697 "src/pokemon/../data/pokedex_entries.h"
+# 2166 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Vigoroth[] = _(
     "항상 날뛰고 싶어서 근질근질해 한다.\n"
  "1분도 앉아 있지를 못한다.\n"
  "움직이지 않으면 스트레스가 쌓인다.");
-# 1709 "src/pokemon/../data/pokedex_entries.h"
+# 2178 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Slaking[] = _(
     "온종일 엎드려 누워 지내는 포켓몬이다.\n"
  "손이 닿는 장소에 난 풀을 먹으며\n"
  "풀이 없어지면 마지못해 장소를 옮긴다.");
-# 1721 "src/pokemon/../data/pokedex_entries.h"
+# 2190 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Nincada[] = _(
     "몇 년을 캄캄한 땅속에서 산다.\n"
  "나무의 뿌리에서 영양을 흡수하며 가만히\n"
  "움직이지 않고 진화의 때를 기다리고 있다.");
-# 1733 "src/pokemon/../data/pokedex_entries.h"
+# 2202 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Ninjask[] = _(
     "고속으로 움직여서 모습이 보이지 않는다.\n"
  "울음소리만 들려서 오랫동안\n"
  "투명한 포켓몬이라고 여겨져 왔다.");
-# 1745 "src/pokemon/../data/pokedex_entries.h"
+# 2214 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Shedinja[] = _(
     "단단한 몸은 꿈쩍도 하지 않는다.\n"
  "등을 통해 몸의 구멍을 들여다보면\n"
  "혼이 빨려 들어간다고 믿어지고 있다.");
-# 1757 "src/pokemon/../data/pokedex_entries.h"
+# 2226 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Whismur[] = _(
     "평소에는 주의를 기울여야 들릴 만큼\n"
     "작은 목소리지만 위험을 감지하면\n"
     "두통을 일으킬 만큼 큰 소리로 울어댄다.");
-# 1769 "src/pokemon/../data/pokedex_entries.h"
+# 2238 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Loudred[] = _(
     "나무로 만든 집을 산산조각 내 날려버릴 만큼\n"
     "큰 소리를 내어 상대를 혼내준다.\n"
     "둥근 귀가 스피커 역할을 한다.");
-# 1781 "src/pokemon/../data/pokedex_entries.h"
+# 2250 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Exploud[] = _(
     "큰 소리의 진동으로 지진을 일으킨다.\n"
     "몸에 난 구멍으로 공기를 세차게 빨아들이기\n"
     "시작하면 큰 소리를 낼 조짐이다.");
-# 1793 "src/pokemon/../data/pokedex_entries.h"
+# 2262 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Makuhita[] = _(
     "몇 번을 쓰러져도 포기하지 않고 일어선다.\n"
     "일어설 때마다 진화를 위한 에너지가\n"
     "몸 안에 점점 비축되어간다.");
-# 1805 "src/pokemon/../data/pokedex_entries.h"
+# 2274 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Hariyama[] = _(
     "다양한 장소에서 손바닥 치기 연습에 힘쓴다.\n"
     "강렬한 손바닥 치기 공격을 맞으면\n"
     "전봇대도 한 방에 두 동강 난다.");
-# 1817 "src/pokemon/../data/pokedex_entries.h"
+# 2286 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Azurill[] = _(
     "올가미를 쓰듯 꼬리를 휘휘 돌려\n"
     "던질 때의 힘으로 날아간다.\n"
     "최고 10m를 날아간 기록이 있다.");
-# 1829 "src/pokemon/../data/pokedex_entries.h"
+# 2298 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Nosepass[] = _(
     "자석으로 된 코는 항상 북쪽을 향하고 있다.\n"
     "코코파스끼리는 자석의 반발력 때문에\n"
     "가까이에서 얼굴을 마주 볼 수가 없다.");
-# 1841 "src/pokemon/../data/pokedex_entries.h"
+# 2310 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Skitty[] = _(
     "움직이는 것을 발견하면 푹 빠져서\n"
     "뒤쫓아 가는 습성을 지닌 포켓몬이다.\n"
     "자기 꼬리를 쫓다 현기증을 일으킨다.");
-# 1853 "src/pokemon/../data/pokedex_entries.h"
+# 2322 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Delcatty[] = _(
     "일정한 거처 없이 생활하는 포켓몬이다.\n"
     "다른 포켓몬이 잠자리에 가까이 다가와도\n"
     "절대 다투지 않고 이동하여 잔다.");
-# 1865 "src/pokemon/../data/pokedex_entries.h"
+# 2334 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Sableye[] = _(
     "동굴 깊은 곳에서 은밀히 생활한다.\n"
     "어둠 속에서 눈동자가 수상하게 빛날 때 사람의\n"
     "영혼을 빼앗는다며 두려움의 대상이 되고 있다.");
-# 1877 "src/pokemon/../data/pokedex_entries.h"
+# 2346 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Mawile[] = _(
     "강철 뿔이 변형된 큰 턱이다.\n"
     "얌전해 보이는 얼굴에 방심하고 있으면\n"
     "갑자기 뒤돌아서 덥석 문다.");
-# 1889 "src/pokemon/../data/pokedex_entries.h"
+# 2358 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Aron[] = _(
     "강철 몸을 만들기 위해 철광석을\n"
     "산에서 채광해 먹지만 가끔\n"
     "다리나 레일을 먹어버리는 말썽꾸러기다.");
-# 1901 "src/pokemon/../data/pokedex_entries.h"
+# 2370 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Lairon[] = _(
     "영양 만점인 샘물을 배 속 가득\n"
     "마셔서 강철 몸을 단련시킨다.\n"
     "맛있는 샘물 가까이에 거처를 만든다.");
-# 1913 "src/pokemon/../data/pokedex_entries.h"
+# 2382 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Aggron[] = _(
     "산 하나를 자신의 영역으로 만들고\n"
     "침범한 상대는 봐주지 않고 때려눕힌다.\n"
     "항상 산속을 돌아보고 있다.");
-# 1925 "src/pokemon/../data/pokedex_entries.h"
+# 2394 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Meditite[] = _(
     "산속에서 요가 수행을 한다.\n"
     "명상을 하고 있어도 집중력이\n"
     "떨어지기 때문에 수행이 끝나지 않는다.");
-# 1937 "src/pokemon/../data/pokedex_entries.h"
+# 2406 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Medicham[] = _(
     "명상을 하면 몸의 에너지가 높아지고\n"
     "여섯 번째 감각이 예리해진다고 한다.\n"
     "산야와 일체화되어 기척을 지운다.");
-# 1949 "src/pokemon/../data/pokedex_entries.h"
+# 2418 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Electrike[] = _(
     "긴 털에 전기를 모으고 있다.\n"
     "전류로 다리 근육을 자극하여\n"
     "폭발적인 순발력을 낸다.");
-# 1961 "src/pokemon/../data/pokedex_entries.h"
+# 2430 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Manectric[] = _(
     "갈기를 통해 항상 방전 중이기 때문에\n"
     "불꽃이 튀어 산불이 일어나기도 한다.\n"
     "싸우게 되면 번개 구름을 만들어낸다.");
-# 1973 "src/pokemon/../data/pokedex_entries.h"
+# 2442 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Plusle[] = _(
     "항상 동료를 응원하고 있는 포켓몬이다.\n"
     "동료가 힘을 내면 몸을 합선시켜\n"
     "타다닥 불꽃 소리를 내며 기뻐한다.");
-# 1985 "src/pokemon/../data/pokedex_entries.h"
+# 2454 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Minun[] = _(
     "자신보다 동료를 응원하는 것이 중요하다.\n"
     "몸에서 나오는 전기를 합선시켜\n"
     "화려한 불꽃을 내며 응원한다.");
-# 1997 "src/pokemon/../data/pokedex_entries.h"
+# 2466 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Volbeat[] = _(
     "날이 저물면 꼬리에서 빛을 내어\n"
     "밝기나 점멸로 동료와 대화한다.\n"
     "네오비트의 달콤한 향기에 유인된다.");
-# 2009 "src/pokemon/../data/pokedex_entries.h"
+# 2478 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Illumise[] = _(
     "달콤한 향기로 볼비트를 유인한다.\n"
     "많이 모인 볼비트를 유도하여\n"
     "밤하늘에 기하학적인 도형을 그린다.");
-# 2021 "src/pokemon/../data/pokedex_entries.h"
+# 2490 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Roselia[] = _(
     "양손의 꽃을 노리는 상대에게는\n"
     "날카로운 가시를 날려 공격한다.\n"
     "꽃의 향기는 기분을 누그러트린다.");
-# 2033 "src/pokemon/../data/pokedex_entries.h"
+# 2502 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Gulpin[] = _(
     "몸 대부분이 위로 되어 있어\n"
     "자신과 크기가 같은 것도 삼킨다.\n"
     "특수한 위액으로 무엇이든 소화한다.");
-# 2045 "src/pokemon/../data/pokedex_entries.h"
+# 2514 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Swalot[] = _(
     "먹이를 발견하면 모공에서 맹독의\n"
     "체액을 뿜어내어 끼얹는다.\n"
     "약해지면 커다란 입으로 한입에 먹는다.");
-# 2057 "src/pokemon/../data/pokedex_entries.h"
+# 2526 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Carvanha[] = _(
     "발달한 턱과 날카롭고 뾰족한 이빨은\n"
     "배 밑바닥을 물어뜯을 정도의 파괴력을 지녔다.\n"
     "샤프니아에게 습격당해 가라앉은 배가 많다.");
-# 2069 "src/pokemon/../data/pokedex_entries.h"
+# 2538 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Sharpedo[] = _(
     "바다의 건달이라 불리는 두려움의 대상이다.\n"
     "부러져도 바로 다시 나는 이빨이 있어서\n"
     "한 마리가 대형 유조선을 엉망으로 만든다.");
-# 2081 "src/pokemon/../data/pokedex_entries.h"
+# 2550 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Wailmer[] = _(
     "눈 위에 있는 콧구멍을 통해\n"
     "몸에 모아둔 바닷물을 뿜어내서\n"
     "사람을 놀라게 하는 것을 좋아하는 포켓몬이다.");
-# 2093 "src/pokemon/../data/pokedex_entries.h"
+# 2562 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Wailord[] = _(
     "발견된 것 중 가장 큰 포켓몬이다.\n"
     "크고 넓은 바다를 느긋이 헤엄치며\n"
     "큰 입으로 한 번에 대량의 먹이를 먹는다.");
-# 2105 "src/pokemon/../data/pokedex_entries.h"
+# 2574 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Numel[] = _(
     "맞아도 알아채지 못할 정도로 둔하지만\n"
     "배고픔은 단 1초도 참지 못한다.\n"
     "몸 안에는 마그마가 끓어오르고 있다.");
-# 2117 "src/pokemon/../data/pokedex_entries.h"
+# 2586 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Camerupt[] = _(
     "몸 안에 화산을 지닌 포켓몬이다.\n"
     "몸에 모은 섭씨 1만 도의 마그마를\n"
     "가끔 등의 혹에서 뿜어 올리고 있다.");
-# 2129 "src/pokemon/../data/pokedex_entries.h"
+# 2598 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Torkoal[] = _(
     "산을 파서 석탄을 발견하면 부지런히\n"
     "등껍질의 빈 곳에 넣고 태우는 포켓몬이다.\n"
     "습격당하면 검은 연기를 내고 도망간다.");
-# 2141 "src/pokemon/../data/pokedex_entries.h"
+# 2610 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Spoink[] = _(
     "꼬리로 뿅뿅 뛰어오르는 포켓몬이다.\n"
     "뛰어오르는 진동으로 심장을 움직이기\n"
     "때문에 뛰어오르는 것을 멈출 수 없다.");
-# 2153 "src/pokemon/../data/pokedex_entries.h"
+# 2622 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Grumpig[] = _(
     "사이코 파워의 파동을 흑진주로 강화해\n"
     "자유자재로 상대를 조종하는 포켓몬이다.\n"
     "힘을 사용할 때 콧김이 거칠어진다.");
-# 2165 "src/pokemon/../data/pokedex_entries.h"
+# 2634 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Spinda[] = _(
     "세상에 있는 모든 얼루기는 얼룩무늬의\n"
     "위치가 다르다고 전해진다.\n"
     "불안한 걸음걸이가 춤추는 것처럼 보인다.");
-# 2177 "src/pokemon/../data/pokedex_entries.h"
+# 2646 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Trapinch[] = _(
     "원뿔형의 보금자리 밑에서 가만히\n"
     "먹이가 빠지기를 계속 기다리고 있다.\n"
     "큰 턱의 위력은 바위도 부술 정도다.");
-# 2189 "src/pokemon/../data/pokedex_entries.h"
+# 2658 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Vibrava[] = _(
     "두 장의 날개를 세차게 진동시켜서\n"
     "초음파를 내 먹이를 기절시킨다.\n"
     "인간도 두통이 일어날 정도의 위력이다.");
-# 2201 "src/pokemon/../data/pokedex_entries.h"
+# 2670 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Flygon[] = _(
     "사막의 정령이라 불리는 포켓몬이다.\n"
     "날갯짓이 모래를 흩날리기 때문에\n"
     "언제나 모래바람 속에서 날고 있다.");
-# 2213 "src/pokemon/../data/pokedex_entries.h"
+# 2682 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Cacnea[] = _(
     "사막같이 건조한 지역에 서식한다.\n"
     "강한 꽃의 향기로 먹이를 유인하고\n"
     "몸에 난 날카로운 가시를 날려 잡는다.");
-# 2225 "src/pokemon/../data/pokedex_entries.h"
+# 2694 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Cacturne[] = _(
     "사막의 햇빛에 수분을 빼앗기지 않도록\n"
     "낮에는 가만히 계속하여 서 있다.\n"
     "기온이 떨어지는 밤에 활동을 시작한다.");
-# 2237 "src/pokemon/../data/pokedex_entries.h"
+# 2706 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Swablu[] = _(
     "뭉게구름처럼 푹신한 날개를 지녔다.\n"
     "사람을 무서워하지 않고 솜 모자처럼\n"
     "머리에 살포시 앉는 포켓몬이다.");
-# 2249 "src/pokemon/../data/pokedex_entries.h"
+# 2718 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Altaria[] = _(
     "뭉게구름에 뒤섞여 넓은 하늘을 떠돈다.\n"
     "맑은 목소리로 멜로디를 지저귀면\n"
     "그 소리를 들은 자들은 꿈꾸는 듯한 기분이 된다.");
-# 2261 "src/pokemon/../data/pokedex_entries.h"
+# 2730 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Zangoose[] = _(
     "숙적 세비퍼와 대결했던 기억이\n"
     "전신의 세포에 새겨져 있다.\n"
     "민첩한 몸동작으로 공격을 피한다.");
-# 2273 "src/pokemon/../data/pokedex_entries.h"
+# 2742 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Seviper[] = _(
     "조상 대대로 쟝고와 싸워왔다.\n"
     "몸의 상처는 격렬한 싸움의 증거다.\n"
     "날카롭고 예리한 꼬리로 공격한다.");
-# 2285 "src/pokemon/../data/pokedex_entries.h"
+# 2754 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Lunatone[] = _(
     "운석이 떨어진 장소에서 발견되어\n"
     "우주에서 온 포켓몬이라는 설도\n"
     "있지만 아직 증명되지 않았다.");
-# 2297 "src/pokemon/../data/pokedex_entries.h"
+# 2766 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Solrock[] = _(
     "우주에서 떨어졌다고 전해지는 새로운 종이다.\n"
     "공중에 떠서 소리 없이 이동한다.\n"
     "싸울 때는 강한 빛을 발산한다.");
-# 2309 "src/pokemon/../data/pokedex_entries.h"
+# 2778 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Barboach[] = _(
     "민감한 수염은 우수한 레이더다.\n"
     "진흙 속에서 2개의 수염만을 내놓고\n"
     "먹이가 가까이 오는 것을 기다리고 있다.");
-# 2321 "src/pokemon/../data/pokedex_entries.h"
+# 2790 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Whiscash[] = _(
     "영역에 대한 집착이 매우 강한 포켓몬이다.\n"
     "큰 늪 전부를 영역으로 삼는다.\n"
     "적이 다가오면 날뛰어 지진을 일으킨다.");
-# 2333 "src/pokemon/../data/pokedex_entries.h"
+# 2802 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Corphish[] = _(
     "원래는 외국에 살던 포켓몬을\n"
     "애완용으로 데려왔던 것이 야생화됐다.\n"
     "생명력이 강해서 점점 늘어났다.");
-# 2345 "src/pokemon/../data/pokedex_entries.h"
+# 2814 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Crawdaunt[] = _(
     "천성이 거칠어서 바로 싸움을 건다.\n"
     "가재장군이 사는 연못에는 다른 생물이\n"
     "살 수 없어 쓸쓸한 장소가 돼버린다.");
-# 2357 "src/pokemon/../data/pokedex_entries.h"
+# 2826 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Baltoy[] = _(
     "외다리로 회전하며 이동한다.\n"
     "오뚝군과 인간이 함께 사는\n"
     "고대 벽화가 유적에서 발견됐다.");
-# 2369 "src/pokemon/../data/pokedex_entries.h"
+# 2838 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Claydol[] = _(
     "괴이한 광선을 쬔 고대인의 진흙인형에\n"
     "생명이 깃들었다고 전해진다.\n"
     "공중에 떠서 이동하고 있다.");
-# 2381 "src/pokemon/../data/pokedex_entries.h"
+# 2850 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Lileep[] = _(
     "약 1억 년 전에 멸종한 포켓몬이다.\n"
     "해저의 바위에 붙어서 꽃잎 같은\n"
     "촉수로 가까이 온 먹이를 잡는다.");
-# 2393 "src/pokemon/../data/pokedex_entries.h"
+# 2862 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Cradily[] = _(
     "바다 밑에서 먹이를 찾아 돌아다닌다.\n"
     "나뭇가지 같은 목을 자유롭게 늘여서\n"
     "8개의 촉수로 먹이를 잡는다.");
-# 2405 "src/pokemon/../data/pokedex_entries.h"
+# 2874 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Anorith[] = _(
     "태고의 화석에서 되살아난 포켓몬이다.\n"
     "따뜻한 바다에 서식하며 발달한\n"
     "2개의 발톱으로 먹이를 꽉 잡는다.");
-# 2417 "src/pokemon/../data/pokedex_entries.h"
+# 2886 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Armaldo[] = _(
     "등껍질은 어떠한 공격이라도 튕겨낸다.\n"
     "늘었다 줄었다 하는 거대한 2개의 발톱은\n"
     "철판을 찔러 뚫을 정도의 위력을 지녔다.");
-# 2429 "src/pokemon/../data/pokedex_entries.h"
+# 2898 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Feebas[] = _(
     "태어날 때부터 지느러미가 너덜너덜\n"
     "보기 흉해서 아무도 상대해주지 않는 포켓몬이다.\n"
     "바다와 강 양쪽 모두에서 생활할 수 있다.");
-# 2441 "src/pokemon/../data/pokedex_entries.h"
+# 2910 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Milotic[] = _(
     "가장 아름다운 포켓몬이라고 불리고 있다.\n"
     "분노나 증오의 마음을 치유하여\n"
     "분쟁을 진정시키는 힘을 지니고 있다.");
-# 2453 "src/pokemon/../data/pokedex_entries.h"
+# 2922 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Castform[] = _(
     "날씨에 따라 모습이 바뀌는 포켓몬이다.\n"
     "작은 몸을 지키기 위해 대자연의\n"
     "거대한 힘을 사용할 수 있게 됐다.");
-# 2465 "src/pokemon/../data/pokedex_entries.h"
+# 2934 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Kecleon[] = _(
     "몸의 색을 자유로이 바꿔서\n"
     "주변의 경치에 녹아들 수 있다.\n"
     "배의 삐쭉삐쭉한 무늬만은 바꿀 수 없다.");
-# 2477 "src/pokemon/../data/pokedex_entries.h"
+# 2946 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Shuppet[] = _(
     "질투와 원한의 감정에 이끌린다.\n"
     "누군가를 원망하는 마음이 강해지면\n"
     "어둠대신이 처마 밑에 죽 줄을 선다.");
-# 2489 "src/pokemon/../data/pokedex_entries.h"
+# 2958 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Banette[] = _(
     "자신의 몸을 바늘로 상처 낼 때\n"
     "강한 저주 에너지가 발생한다.\n"
     "원래는 버려진 불쌍한 인형이다.");
-# 2501 "src/pokemon/../data/pokedex_entries.h"
+# 2970 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Duskull[] = _(
     "아무리 두꺼운 벽이라도 통과한다.\n"
     "한 번 노려지면 아침 해가 뜰 때까지\n"
     "계속 쫓겨 다니게 된다.");
-# 2513 "src/pokemon/../data/pokedex_entries.h"
+# 2982 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Dusclops[] = _(
     "몸 안에는 텅 비어서 아무것도 없다.\n"
     "블랙홀처럼 무엇이든 빨아들이며\n"
     "빨려 들어가면 되돌아 올 수 없다고 전해진다.");
-# 2525 "src/pokemon/../data/pokedex_entries.h"
+# 2994 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Tropius[] = _(
     "목에 난 송이는 달콤해서 아이들에게 인기가\n"
     "많다. 과일을 매우 좋아하여 계속 먹다 보니\n"
     "목에 과일이 열리게 됐다고 한다.");
-# 2537 "src/pokemon/../data/pokedex_entries.h"
+# 3006 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Chimecho[] = _(
     "목소리를 몸의 빈 곳에 메아리치게 한다.\n"
     "화가 났을 때의 울음소리는 적을 날려버릴\n"
     "위력을 지닌 초음파가 된다.");
-# 2549 "src/pokemon/../data/pokedex_entries.h"
+# 3018 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Absol[] = _(
     "앱솔이 사람들 앞에 나타나면 반드시\n"
     "지진이나 해일 등의 재해가 일어나서\n"
     "재난포켓몬이라는 별명으로 불렸다.");
-# 2561 "src/pokemon/../data/pokedex_entries.h"
+# 3030 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Wynaut[] = _(
     "언제나 싱글벙글 미소 짓는 마자.\n"
     "화났을 때는 꼬리에 주목하자.\n"
     "땅을 탁탁 치고 있다.");
-# 2573 "src/pokemon/../data/pokedex_entries.h"
+# 3042 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Snorunt[] = _(
     "눈이 많은 땅에서 사는 포켓몬이다.\n"
     "봄이나 여름처럼 눈이 내리지 않는 계절에는\n"
     "석회암 동굴 깊은 곳에서 조용히 산다.");
-# 2585 "src/pokemon/../data/pokedex_entries.h"
+# 3054 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Glalie[] = _(
     "바위로 된 몸을 얼음 갑옷으로 단단히 했다.\n"
     "공기 중의 수분을 얼려서 자유로운\n"
     "형태로 바꾸는 능력을 지닌 포켓몬이다.");
-# 2597 "src/pokemon/../data/pokedex_entries.h"
+# 3066 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Spheal[] = _(
     "걷는 것보다 구르는 편이 단연 빠르다.\n"
     "식사 시간에는 모두가 일제히 손뼉을\n"
     "치며 기뻐하기 때문에 꽤 시끄럽다.");
-# 2609 "src/pokemon/../data/pokedex_entries.h"
+# 3078 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Sealeo[] = _(
     "처음 본 것은 반드시 코로\n"
     "빙글빙글 돌려보는 습성을 지녔다.\n"
     "대굴레오를 돌리며 놀기도 한다.");
-# 2621 "src/pokemon/../data/pokedex_entries.h"
+# 3090 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Walrein[] = _(
     "발달한 2개의 이빨은 10톤이나 되는\n"
     "빙산을 일격에 분쇄한다.\n"
     "지방이 두꺼워서 영하의 기온에서도 끄떡없다.");
-# 2633 "src/pokemon/../data/pokedex_entries.h"
+# 3102 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Clamperl[] = _(
     "튼튼한 껍데기는 몸을 지키는 것뿐 아니라\n"
     "먹이를 집어서 잡을 수도 있다.\n"
     "성장한 진주몽의 조개껍데기는 상처투성이다.");
-# 2645 "src/pokemon/../data/pokedex_entries.h"
+# 3114 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Huntail[] = _(
     "매우 깊은 바다 밑에 살고 있어서\n"
     "오랫동안 사람에게 발견되지 않았다.\n"
     "어두운 심해에서도 잘 볼 수 있는 눈을 지녔다.");
-# 2657 "src/pokemon/../data/pokedex_entries.h"
+# 3126 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Gorebyss[] = _(
     "남쪽 심해에 서식하는 포켓몬이다.\n"
     "심해의 수압에 단련된 몸은\n"
     "어지간한 공격에는 상처조차 입지 않는다.");
-# 2669 "src/pokemon/../data/pokedex_entries.h"
+# 3138 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Relicanth[] = _(
     "1억 년이란 긴 세월 동안 전혀 모습이\n"
     "바뀌지 않고 심해에서 살고 있던 포켓몬이다.\n"
     "이빨이 없는 입으로 미생물만을 먹는다.");
-# 2681 "src/pokemon/../data/pokedex_entries.h"
+# 3150 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Luvdisc[] = _(
     "열대의 얕은 바다에서 살고 있다.\n"
     "커플을 발견하면 뒤에 붙어서\n"
     "헤엄치기 때문에 이런 이름이 붙었다.");
-# 2693 "src/pokemon/../data/pokedex_entries.h"
+# 3162 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Bagon[] = _(
     "넓은 하늘을 나는 것을 꿈꾸며 연거푸\n"
     "낭떠러지에서 뛰어내리다 보니 머리가\n"
     "단련되어 강철처럼 단단해졌다.");
-# 2705 "src/pokemon/../data/pokedex_entries.h"
+# 3174 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Shelgon[] = _(
     "단단한 껍질 내부는 세포가 변화되어\n"
     "새로운 몸을 만드는 중이다.\n"
     "껍질이 매우 무거워서 움직임이 둔하다.");
-# 2717 "src/pokemon/../data/pokedex_entries.h"
+# 3186 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Salamence[] = _(
     "날개가 갖고 싶다는 굳건한 바람이 계속된\n"
     "결과 몸의 세포가 돌연변이를\n"
     "일으켜서 멋진 날개가 돋아났다고 한다.");
-# 2729 "src/pokemon/../data/pokedex_entries.h"
+# 3198 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Beldum[] = _(
     "몸 안에는 혈액 대신에\n"
     "강력한 자력이 돌고 있다.\n"
     "자력의 파동으로 동료와 대화한다.");
-# 2741 "src/pokemon/../data/pokedex_entries.h"
+# 3210 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Metang[] = _(
     "두 마리의 메탕이 합체한 모습이다.\n"
     "두 개의 뇌를 자력 신경이 묶고 있어서\n"
     "강한 사이코 에너지를 만들어 낸다.");
-# 2753 "src/pokemon/../data/pokedex_entries.h"
+# 3222 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Metagross[] = _(
     "네 개의 뇌는 슈퍼컴퓨터보다\n"
     "빨리 어려운 계산 문제를 푼다.\n"
     "네 개의 다리를 접고 공중에 떠오른다.");
-# 2765 "src/pokemon/../data/pokedex_entries.h"
+# 3234 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Regirock[] = _(
     "오래전 사람에게 봉인된 포켓몬이다.\n"
  "싸움으로 몸이 부서지면 스스로\n"
  "새로운 바위를 찾아서 고친다고 한다.");
-# 2777 "src/pokemon/../data/pokedex_entries.h"
+# 3246 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Regice[] = _(
     "빙하시대에 만들어진 얼음으로 된 몸은\n"
  "불꽃으로도 녹일 수가 없다.\n"
  "영하 200도의 냉기를 다룬다.");
-# 2789 "src/pokemon/../data/pokedex_entries.h"
+# 3258 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Registeel[] = _(
     "어떤 금속보다도 단단한 몸을 지녔다.\n"
  "몸 안은 비어 있는 듯하며\n"
  "먹는 것도 알려지지 않은 포켓몬이다.");
-# 2801 "src/pokemon/../data/pokedex_entries.h"
+# 3270 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Latias[] = _(
     "인간의 마음을 민감히 감지해낸다.\n"
  "적의를 느끼면 전신의 깃털을\n"
  "곤두세우고 격렬한 울음소리로 위협한다.");
-# 2813 "src/pokemon/../data/pokedex_entries.h"
+# 3282 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Latios[] = _(
     "본 것이나 생각한 이미지를 상대에게\n"
  "영상으로 보여주는 능력을 지녔다.\n"
  "인간의 말을 이해할 수 있다.");
-# 2825 "src/pokemon/../data/pokedex_entries.h"
+# 3294 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Kyogre[] = _(
     "하늘 전체를 덮는 비구름을 만들어\n"
  "큰 비를 내리게 하는 힘을 가진 포켓몬.\n"
  "가뭄으로 고통받는 사람들을 구원했다.");
-# 2837 "src/pokemon/../data/pokedex_entries.h"
+# 3306 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Groudon[] = _(
     "대지를 쌓아올려 대륙을 넓힌\n"
  "포켓몬이라고 신화로 전해진다.\n"
  "가이오가와 사투 끝에 잠들었다.");
-# 2849 "src/pokemon/../data/pokedex_entries.h"
+# 3318 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Rayquaza[] = _(
     "몇억 년 동안 오존층 속을 날아다니며\n"
  "지상에는 절대로 내려오지 않는 포켓몬.\n"
  "공기 중의 먼지와 물을 먹는 듯하다.");
-# 2861 "src/pokemon/../data/pokedex_entries.h"
+# 3330 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Jirachi[] = _(
     "깨어났을 때 머리에 있는 종이에 적힌\n"
  "소원을 이루어준다는 전설을 가졌다.\n"
  "위험을 느끼면 잠든 채로 싸운다.");
-# 2873 "src/pokemon/../data/pokedex_entries.h"
+# 3342 "src/pokemon/../data/pokedex_entries.h"
 static const u8 DexDescription_Deoxys[] = _(
     "레이저를 쬔 우주 바이러스의 DNA가\n"
  "돌연변이를 일으켜 태어난 포켓몬이다.\n"

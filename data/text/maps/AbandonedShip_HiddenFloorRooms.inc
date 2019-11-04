@@ -15,7 +15,7 @@ AbandonedShip_HiddenFloorCorridors_Text_198E5C:: @ 8198E5C
 	.string "문에는 6호실이라고 쓰여 있다$"
 
 AbandonedShip_HiddenFloorCorridors_Text_198E90:: @ 8198E90
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "열쇠를 썼다!\p"
 	.string "열쇠 구멍에 꽂은 열쇠는\n"
 	.string "빠지지 않게 되었지만\l"

@@ -10,7 +10,7 @@ SlateportCity_House1_Text_17D4DB:: @ 817D4DB
 	.string "별명을 감정하겠나?$"
 
 SlateportCity_House1_Text_17D505:: @ 817D505
-	.string "음- {STR_VAR_1}\e라...\p"
+	.string "음- {STR_VAR_1}{K_I}라...\p"
 	.string "꽤 좋은 닉네임을 지었군\p"
 	.string "그렇지만-\n"
 	.string "내가 조금 더 좋은 이름을\l"
@@ -22,7 +22,7 @@ SlateportCity_House1_Text_17D580:: @ 817D580
 
 SlateportCity_House1_Text_17D5B0:: @ 817D5B0
 	.string "좋아 이제부터\n"
-	.string "이 포켓몬은 {STR_VAR_1}\e라네!\p"
+	.string "이 포켓몬은 {STR_VAR_1}{K_I}라네!\p"
 	.string "전보다 좋은 이름이지 않은가\n"
 	.string "잘됐군!$"
 
@@ -32,16 +32,16 @@ SlateportCity_House1_Text_17D61E:: @ 817D61E
 
 SlateportCity_House1_Text_17D63A:: @ 817D63A
 	.string "좋아 이제부터\n"
-	.string "이 포켓몬은 {STR_VAR_1}\e라네!\p"
+	.string "이 포켓몬은 {STR_VAR_1}{K_I}라네!\p"
 	.string "전과 같아 보이지만\n"
 	.string "이쪽이 당연히 더 좋다고!\l"
 	.string "잘됐군!$"
 
 SlateportCity_House1_Text_17D6CC:: @ 817D6CC
-	.string "음- {STR_VAR_1}\e라!\n"
+	.string "음- {STR_VAR_1}{K_I}라!\n"
 	.string "정말 멋진 별명이군!\l"
 	.string "흠잡을 데가 없어!\p"
-	.string "앞으로도 {STR_VAR_1}\f\n"
+	.string "앞으로도 {STR_VAR_1}{K_EULREUL}\n"
 	.string "귀여워해 주게나!$"
 
 SlateportCity_House1_Text_17D752:: @ 817D752

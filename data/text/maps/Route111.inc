@@ -69,7 +69,7 @@ Route111_Text_16FA54:: @ 816FA54
 	.string "뿌리화석을 캐겠습니까?$"
 
 Route111_Text_16FACE:: @ 816FACE
-	.string "{PLAYER}\s 뿌리화석을\n"
+	.string "{PLAYER}{K_EUNNEUN} 뿌리화석을\n"
 	.string "그대로 놔뒀다$"
 
 Route111_Text_16FAED:: @ 816FAED
@@ -79,7 +79,7 @@ Route111_Text_16FAED:: @ 816FAED
 	.string "발톱화석을 캐겠습니까?$"
 
 Route111_Text_16FB67:: @ 816FB67
-	.string "{PLAYER}\s 발톱화석을\n"
+	.string "{PLAYER}{K_EUNNEUN} 발톱화석을\n"
 	.string "그대로 놔뒀다$"
 
 Route111_Text_16FB86:: @ 816FB86

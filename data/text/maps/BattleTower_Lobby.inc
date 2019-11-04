@@ -53,7 +53,7 @@ BattleTower_Lobby_Text_19A249:: @ 819A249
 	.string "3마리 준비해서\p"
 	.string "지니게 할 도구도 모두\n"
 	.string "다른 도구로 해주세요\p"
-	.string "그리고 알{STR_VAR_1}\s\l"
+	.string "그리고 알{STR_VAR_1}{K_EUNNEUN}\l"
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오$"
@@ -66,7 +66,7 @@ BattleTower_Lobby_Text_19A32D:: @ 819A32D
 	.string "포켓몬을 3마리 준비해서\p"
 	.string "지니게 할 도구도 모두\n"
 	.string "다른 도구로 해주세요\p"
-	.string "그리고 알{STR_VAR_1}\s\l"
+	.string "그리고 알{STR_VAR_1}{K_EUNNEUN}\l"
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오$"
@@ -89,8 +89,8 @@ BattleTower_Lobby_Text_19A4BB:: @ 819A4BB
 	.string "$"
 
 BattleTower_Lobby_Text_19A506:: @ 819A506
-	.string "{PLAYER}\s\n"
-	.string "{STR_VAR_1}\f 받았다!$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_1}{K_EULREUL} 받았다!$"
 
 BattleTower_Lobby_Text_19A520:: @ 819A520
 	.string "...어머 가방이 가득찼습니다\p"
@@ -124,10 +124,10 @@ BattleTower_Lobby_Text_19A617:: @ 819A617
 BattleTower_Lobby_Text_19A6BE:: @ 819A6BE
 	.string "강한 트레이너 7명을 연속으로\n"
 	.string "승리하신 기념의 리본을 받으세요!\p"
-	.string "{PLAYER}\s 리본을 받았다!$"
+	.string "{PLAYER}{K_EUNNEUN} 리본을 받았다!$"
 
 BattleTower_Lobby_Text_19A719:: @ 819A719
-	.string "{PLAYER}\s 포켓몬에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 포켓몬에게\n"
 	.string "리본을 달아주었다!$"
 
 BattleTower_Lobby_Text_19A747:: @ 819A747

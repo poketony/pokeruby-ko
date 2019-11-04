@@ -14,7 +14,7 @@ DewfordTown_Hall_Text_175528:: @ 8175528
 
 DewfordTown_Hall_Text_17559E:: @ 817559E
 	.string "난 포켓몬한테도\n"
-	.string "“{STR_VAR_1}”\f\l"
+	.string "“{STR_VAR_1}”{K_EULREUL}\l"
 	.string "가르치고 있는데\p"
 	.string "이게 꽤나\n"
 	.string "힘들단 말이지$"
@@ -23,7 +23,7 @@ DewfordTown_Hall_Text_1755F9:: @ 81755F9
 	.string "요즘 유행하는\n"
 	.string "“{STR_VAR_1}”에 대해서\l"
 	.string "알아보고 있는데\p"
-	.string "“{STR_VAR_1}”\h\n"
+	.string "“{STR_VAR_1}”{K_WAGWA}\n"
 	.string "“{STR_VAR_2}”에\p"
 	.string "깊은 관계가 있다는 건\n"
 	.string "정말이야?$"
@@ -47,13 +47,13 @@ DewfordTown_Hall_Text_17570D:: @ 817570D
 
 DewfordTown_Hall_Text_17574C:: @ 817574C
 	.string "바다 건너편에는\n"
-	.string "“{STR_VAR_1}”\r\p"
+	.string "“{STR_VAR_1}”{K_IGA}\p"
 	.string "여기보다 더\n"
 	.string "유행하고 있으려나?$"
 
 DewfordTown_Hall_Text_175779:: @ 8175779
 	.string "난\n"
-	.string "“{STR_VAR_1}”\e랑\l"
+	.string "“{STR_VAR_1}”{K_I}랑\l"
 	.string "관련된 굿즈를 많이 모으고 있어!\p"
 	.string "“{STR_VAR_1}” 인형\n"
 	.string "이라든가\p"
@@ -64,9 +64,9 @@ DewfordTown_Hall_Text_175779:: @ 8175779
 	.string "아무리 탐낸다 해도 안 줄 거야-$"
 
 DewfordTown_Hall_Text_175842:: @ 8175842
-	.string "“좋은 ‘{STR_VAR_1}’\h\n"
+	.string "“좋은 ‘{STR_VAR_1}’{K_WAGWA}\n"
 	.string " 나쁜 ‘{STR_VAR_1}’”\p"
-	.string "“‘{STR_VAR_1}’\h\n"
+	.string "“‘{STR_VAR_1}’{K_WAGWA}\n"
 	.string " 포켓몬과의 관계”\p"
 	.string "“도움이 되는\n"
 	.string " ‘{STR_VAR_1}’”\p"
@@ -86,7 +86,7 @@ DewfordTown_Hall_Text_1758E0:: @ 81758E0
 DewfordTown_Hall_Text_1758FB:: @ 81758FB
 	.string "“최후의\n"
 	.string " ‘{STR_VAR_1}’”\p"
-	.string "\e라는 제목이다!$"
+	.string "{K_I}라는 제목이다!$"
 
 DewfordTown_Hall_Text_175916:: @ 8175916
 	.string "“‘{STR_VAR_1}’의\n"
@@ -95,15 +95,15 @@ DewfordTown_Hall_Text_175916:: @ 8175916
 
 DewfordTown_Hall_Text_175935:: @ 8175935
 	.string "나 요즘 유행하고 있는\p"
-	.string "“{STR_VAR_1}”\f\n"
+	.string "“{STR_VAR_1}”{K_EULREUL}\n"
 	.string "직접 보고 왔어 부럽지!\p"
 	.string "정말 굉장했어\n"
 	.string "진짜는 역시 다르구나!$"
 
 DewfordTown_Hall_Text_1759A1:: @ 81759A1
 	.string "아니 네가 본\n"
-	.string "“{STR_VAR_1}”\s\l"
-	.string "진짜 “{STR_VAR_1}”\r 아니야!\p"
+	.string "“{STR_VAR_1}”{K_EUNNEUN}\l"
+	.string "진짜 “{STR_VAR_1}”{K_IGA} 아니야!\p"
 	.string "진짜는 좀 더\n"
 	.string "정밀하다고 해야 하나\l"
 	.string "아름답다고 해야 하나...\p"
@@ -137,7 +137,7 @@ DewfordTown_Hall_Text_175B46:: @ 8175B46
 DewfordTown_Hall_Text_175BA7:: @ 8175BA7
 	.string "오 그거 좋은데!!\p"
 	.string "누가 제일\n"
-	.string "“{STR_VAR_1}”\f\l"
+	.string "“{STR_VAR_1}”{K_EULREUL}\l"
 	.string "잘하는지 정하는 거지!\p"
 	.string "좋아 그럼 오늘부터 매일\n"
 	.string "“{STR_VAR_1}”\l"
@@ -145,7 +145,7 @@ DewfordTown_Hall_Text_175BA7:: @ 8175BA7
 
 DewfordTown_Hall_Text_175C41:: @ 8175C41
 	.string "...그래\p"
-	.string "“{STR_VAR_1}”\s 이제\n"
+	.string "“{STR_VAR_1}”{K_EUNNEUN} 이제\n"
 	.string "유행이라기보단\p"
 	.string "생활의 일부가\n"
 	.string "된 거 같다고 해야 할까?$"
@@ -182,6 +182,6 @@ DewfordTown_Hall_Text_175E13:: @ 8175E13
 
 DewfordTown_Hall_Text_175EBE:: @ 8175EBE
 	.string "“오물폭탄”도 좋지만\n"
-	.string "“{STR_VAR_1}”\e라는\l"
+	.string "“{STR_VAR_1}”{K_I}라는\l"
 	.string "기술을 쓸 수 있는\l"
 	.string "포켓몬도 좋지!$"

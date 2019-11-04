@@ -56,7 +56,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_188120:: @ 8188120
 	.string "감사의 답례입니다!$"
 
 UnknownString_8188148: @ 8188148
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "글라스오브제를 받았다!$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_188166:: @ 8188166

@@ -19,7 +19,7 @@ gTextTrader_DontWantAnything:: @ 81AE950
 	.string "아쉽네...$"
 
 gTextTrader_ItemOnceBelongedTo:: @ 81AE97C
-	.string "그건 {STR_VAR_1}\r\n"
+	.string "그건 {STR_VAR_1}{K_IGA}\n"
 	.string "썼었던 굿즈야\p"
 	.string "이걸로 할래?$"
 
@@ -36,12 +36,12 @@ gTextTrader_FeelUnwanted2:: @ 81AEA2B
 	.string "아쉽네...$"
 
 gTextTrader_NoRoomForThis:: @ 81AEA57
-	.string "너 {STR_VAR_2}\r 가득해서\n"
+	.string "너 {STR_VAR_2}{K_IGA} 가득해서\n"
 	.string "더 이상 지닐 수 없어$"
 
 gTextTrader_SoWellTrade:: @ 81AEA9B
-	.string "자 그럼 내 {STR_VAR_3}\h\n"
-	.string "너의 {STR_VAR_2}\f 교환할래?$"
+	.string "자 그럼 내 {STR_VAR_3}{K_WAGWA}\n"
+	.string "너의 {STR_VAR_2}{K_EULREUL} 교환할래?$"
 
 gTextTrader_InUseYouCantTradeIt:: @ 81AEAC3
 	.string "그 굿즈는 지금 장식되어 있네\n"

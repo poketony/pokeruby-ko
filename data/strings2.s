@@ -140,16 +140,16 @@ gOtherText_ItGotAway:: @ 842C5F9
 	.string "도망가버렸다...{PAUSE_UNTIL_PRESS}$$"
 
 gTradeText_WillBeSent:: @ 842C60B
-	.string "{STR_VAR_2}\f {STR_VAR_1}에게 보냅니다!$"
+	.string "{STR_VAR_2}{K_EULREUL} {STR_VAR_1}에게 보냅니다!$"
 
 gTradeText_ByeBye:: @ 842C622
 	.string "바이바이! {STR_VAR_2}!$"
 
 gTradeText_SentOverPoke:: @ 842C62F
-	.string "{STR_VAR_3}\e로부터 {STR_VAR_1}\r 전송됐다!$"
+	.string "{STR_VAR_3}{K_I}로부터 {STR_VAR_1}{K_IGA} 전송됐다!$"
 
 gTradeText_TakeGoodCare:: @ 842C640
-	.string "{STR_VAR_3}\f 귀여워해 줘!$"
+	.string "{STR_VAR_3}{K_EULREUL} 귀여워해 줘!$"
 
 TradeText_Cancel:: @ JP: 1E0094
 	.string "취소$"
@@ -182,7 +182,7 @@ TradeText_WantToTrade::
 	.string "$"
 
 gTradeText_TradeOkayPrompt:: @ 842C7B6
-	.string "\h \f 교환하겠습니까?$"
+	.string "{K_WAGWA} {K_EULREUL} 교환하겠습니까?$"
 
 gOtherText_Terminator2:: @ 842C7CA
 	.string "$"
@@ -203,7 +203,7 @@ gOtherText_ThreeQuestions:: @ 842C890
 	.string "???$"
 
 gOtherText_From:: @ 842C894
-	.string " \d로부터$"
+	.string " {K_EU}로부터$"
 
 gOtherText_MixingRecordsWithFriend:: @ 842C89A
 	.string "레코드를 섞고 있습니다$"
@@ -253,7 +253,7 @@ gOtherText_PlayTime:: @ 842C99A
 	.string "플레이 시간$"
 
 gOtherText_SentToPC:: @ 842C9A4
-	.string "{STR_VAR_1}\s\nPC로 전송되었다!{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\nPC로 전송되었다!{PAUSE_UNTIL_PRESS}$"
 
 OtherText_YourName::
 	.string "당신의 이름은?$"
@@ -339,7 +339,7 @@ gEggNickname:: @ 842CC34
 	.string "알$"
 
 gOtherText_HatchedFromEgg:: @ 842CC38
-	.string "{COLOR WHITE2}{HIGHLIGHT TRANSPARENT}{SHADOW DARK_GREY}알이 부화해서\n{STR_VAR_1}\r 태어났다!$"
+	.string "{COLOR WHITE2}{HIGHLIGHT TRANSPARENT}{SHADOW DARK_GREY}알이 부화해서\n{STR_VAR_1}{K_IGA} 태어났다!$"
 
 gOtherText_NickHatchPrompt:: @ 842CC5A
 	.string "{COLOR WHITE2}{HIGHLIGHT TRANSPARENT}{SHADOW DARK_GREY}태어난 {STR_VAR_1}에게\n별명을 지어주겠습니까?$"
@@ -368,23 +368,23 @@ gOtherText_TeachSpecificMove:: @ 842CCDF
 	.string "{STR_VAR_2}\n배우게 하겠습니까?$"
 
 gOtherText_PokeLearnedMove:: @ 842CCE9
-	.string "{STR_VAR_1}\s 새로\n{STR_VAR_2}\f 배웠다!$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 새로\n{STR_VAR_2}{K_EULREUL} 배웠다!$"
 
 gOtherText_DeleteOlderMove:: @ 842CCF8
-	.string "{STR_VAR_1}\s 새로\n{STR_VAR_2}\f 배우고 싶다...\p그러나 {STR_VAR_1}\s 기술을 4개\n알고 있어 더 이상 배울 수 없다!\p{STR_VAR_2} 대신\n다른 기술을 잊게 하겠습니까?$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 새로\n{STR_VAR_2}{K_EULREUL} 배우고 싶다...\p그러나 {STR_VAR_1}{K_EUNNEUN} 기술을 4개\n알고 있어 더 이상 배울 수 없다!\p{STR_VAR_2} 대신\n다른 기술을 잊게 하겠습니까?$"
 
 gOtherText_StopLearningMove:: @ 842CD65
-	.string "그럼...{STR_VAR_2}\f\n배우는 것을 포기하겠습니까?$"
+	.string "그럼...{STR_VAR_2}{K_EULREUL}\n배우는 것을 포기하겠습니까?$"
 
 gOtherText_ForgotMove123:: @ 842CD77
 	.string "{PAUSE 32}1 {PAUSE 15}2 {PAUSE 15}...{PAUSE 15}...{PAUSE 15}...{PAUSE 15} {PLAY_SE 0x0038}짠!\p$"
 
 gOtherText_ForgotOrDidNotLearnMove:: @ 842CDA3
-	.string "{STR_VAR_1}\s {STR_VAR_3}\f\n깨끗이 잊었다!\p그리고...!\p{STR_VAR_1}\s 새로\n{STR_VAR_2}\f 배웠다!$"
-	.string "{STR_VAR_1}\s {STR_VAR_2}\f\n결국 배우지 않았다!$"
+	.string "{STR_VAR_1}{K_EUNNEUN} {STR_VAR_3}{K_EULREUL}\n깨끗이 잊었다!\p그리고...!\p{STR_VAR_1}{K_EUNNEUN} 새로\n{STR_VAR_2}{K_EULREUL} 배웠다!$"
+	.string "{STR_VAR_1}{K_EUNNEUN} {STR_VAR_2}{K_EULREUL}\n결국 배우지 않았다!$"
 
 gOtherText_GiveUpTeachingMove:: @ 842CDDC
-	.string "그럼... {STR_VAR_1}\f\n배우는 것을 포기하겠습니까?$"
+	.string "그럼... {STR_VAR_1}{K_EULREUL}\n배우는 것을 포기하겠습니까?$"
 
 gOtherText_WhichMoveToForget:: @ 842CE06
 	.string "어느 기술을\n잊게 하겠습니까?\p$"
@@ -481,7 +481,7 @@ gOtherText_BlenderChooseBerry:: @ 842D307
 	.string "나무열매블렌더를 작동시킵니다\p가방에서 나무열매블렌더에 넣을\n나무열매를 선택해 주십시오\p$"
 
 gOtherText_PokeBlockMade:: @ 842D368
-	.string "\r 만들어졌다!$"
+	.string "{K_IGA} 만들어졌다!$"
 
 gOtherText_PressAToStart:: @ 842D373
 	.string "A 버튼으로 시작합니다$"
@@ -502,10 +502,10 @@ gOtherText_CaseIsFull:: @ 842D41A
 	.string "포켓몬스넥케이스가\n가득 찬 것 같습니다\p$"
 
 gOtherText_NoBerriesForBlend:: @ 842D434
-	.string "\s 나무열매블렌더에\n넣을 나무열매가 없는 것 같습니다$"
+	.string "{K_EUNNEUN} 나무열매블렌더에\n넣을 나무열매가 없는 것 같습니다$"
 
 gOtherText_OtherCaseIsFull:: @ 842D461
-	.string "\s 포켓몬스넥케이스가\n가득 찬 것 같습니다\p$"
+	.string "{K_EUNNEUN} 포켓몬스넥케이스가\n가득 찬 것 같습니다\p$"
 
 gOtherText_ResultsOfBlending:: @ 842D479
 	.string "섞은 결과$"

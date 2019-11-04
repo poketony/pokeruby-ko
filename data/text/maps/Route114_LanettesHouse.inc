@@ -40,7 +40,7 @@ Route114_LanettesHouse_Text_192CB4:: @ 8192CB4
 	.string "전환될 수 있도록 한다$"
 
 Route114_LanettesHouse_Text_192DA9:: @ 8192DA9
-	.string "{PLAYER}\s 노트를 닫았다$"
+	.string "{PLAYER}{K_EUNNEUN} 노트를 닫았다$"
 
 Route114_LanettesHouse_Text_192DC1:: @ 8192DC1
 	.string "PC를 보니\n"

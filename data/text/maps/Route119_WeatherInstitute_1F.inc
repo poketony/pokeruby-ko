@@ -31,8 +31,8 @@ Route119_WeatherInstitute_1F_Text_19ECF4:: @ 819ECF4
 	.string "모두 2층으로 가버렸어$"
 
 Route119_WeatherInstitute_1F_Text_19ED22:: @ 819ED22
-	.string "\o 강하네!\p"
-	.string "나도 \o 같은\n"
+	.string "{K_BOY_CALL} 강하네!\p"
+	.string "나도 {K_BOY_CALL} 같은\n"
 	.string "포켓몬 트레이너가 되고 싶어!$"
 
 Route119_WeatherInstitute_1F_Text_19ED6B:: @ 819ED6B

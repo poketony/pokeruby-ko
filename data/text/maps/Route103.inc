@@ -3,7 +3,7 @@ Route103_Text_16D57A:: @ 816D57A
 	.string "포켓몬이 저 아이랑 저 아이고...$"
 
 Route103_Text_16D5B6:: @ 816D5B6
-	.string "어머 {PLAYER}\i!\p"
+	.string "어머 {PLAYER}{K_AYA}!\p"
 	.string "...아아! 아빠한테\n"
 	.string "포켓몬을 선물 받았구나!\p"
 	.string "모처럼 포켓몬도 받았으니까\n"
@@ -32,7 +32,7 @@ Route103_Text_16D762:: @ 816D762
 	.string "103번 도로에 있는 포켓몬이구나...$"
 
 Route103_Text_16D7A9:: @ 816D7A9
-	.string "응? 아 {PLAYER}\i!\p"
+	.string "응? 아 {PLAYER}{K_AYA}!\p"
 	.string "...아아 아빠한테서\n"
 	.string "포켓몬 받았구나\p"
 	.string "그럼 포켓몬도 생겼겠다\n"
@@ -45,7 +45,7 @@ Route103_Text_16D836:: @ 816D836
 	.string "{PLAYER} 너 꽤 강하구나$"
 
 Route103_Text_16D856:: @ 816D856
-	.string "휘웅: 아빠가 왜 {PLAYER}\f\n"
+	.string "휘웅: 아빠가 왜 {PLAYER}{K_EULREUL}\n"
 	.string "주목하고 있는지\l"
 	.string "왠지 알 거 같아...\p"
 	.string "받은 지 얼마 안 된 포켓몬이\n"

@@ -93,7 +93,7 @@ MtPyre_Summit_Text_1B62E7:: @ 81B62E7
 	.string "주홍구슬을 돌려놓을 거지?$"
 
 UnknownString_81B6374: @ 81B6374
-	.string "{PLAYER}\s 할머니에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 할머니에게\n"
 	.string "주홍구슬을 건네주었다!$"
 
 MtPyre_Summit_Text_1B639C:: @ 81B639C

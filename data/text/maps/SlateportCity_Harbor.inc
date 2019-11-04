@@ -8,14 +8,14 @@ SlateportCity_Harbor_Text_17FA73:: @ 817FA73
 	.string "티켓은 가지고 계신가요?$"
 
 SlateportCity_Harbor_Text_17FAAD:: @ 817FAAD
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "티켓이 없다!\p"
 	.string "...죄송합니다!\p"
 	.string "배에는 티켓을 가진 분들만\n"
 	.string "탑승하실 수 있습니다$"
 
 SlateportCity_Harbor_Text_17FB0A:: @ 817FB0A
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "승선티켓을 보여줬다!\p"
 	.string "네! 확인했습니다!\p"
 	.string "어디로 가시겠어요?$"
@@ -74,7 +74,7 @@ SlateportCity_Harbor_Text_17FE60:: @ 817FE60
 	.string "그 녀석들을 상대할 수 없을 텐데...$"
 
 SlateportCity_Harbor_Text_17FF35:: @ 817FF35
-	.string "해양: 아아 {PLAYER}\i...\p"
+	.string "해양: 아아 {PLAYER}{K_AYA}...\p"
 	.string "그런가... {EVIL_TEAM}단은\n"
 	.string "이미 출발해버렸구나...\p"
 	.string "아니야 신경쓰지 않아도 돼\n"
@@ -118,7 +118,7 @@ SlateportCity_Harbor_Text_1801EA:: @ 81801EA
 
 SlateportCity_Harbor_Text_18028B:: @ 818028B
 	.string "해양: 으음?\n"
-	.string "{PLAYER}\e 가지고 있는 그거...\p"
+	.string "{PLAYER}{K_I} 가지고 있는 그거...\p"
 	.string "탐지기잖아!\n"
 	.string "그게 있으면 조사가\l"
 	.string "더욱 진전될 것 같아\p"
@@ -128,7 +128,7 @@ SlateportCity_Harbor_Text_18028B:: @ 818028B
 
 SlateportCity_Harbor_Text_180360:: @ 8180360
 	.string "해양: 그래?\n"
-	.string "{PLAYER}\r 가지고 있어도\l"
+	.string "{PLAYER}{K_IGA} 가지고 있어도\l"
 	.string "쓸데는 없을 거라고 생각하지만...\p"
 	.string "뭐 괜찮아\n"
 	.string "탐지기를 교환하고 싶어지면\l"
@@ -144,7 +144,7 @@ SlateportCity_Harbor_Text_180447:: @ 8180447
 	.string "해양: 어느 쪽이랑 교환할래?$"
 
 SlateportCity_Harbor_Text_18046B:: @ 818046B
-	.string "{PLAYER}\s 해양관장에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 해양관장에게\n"
 	.string "탐지기를 전달했다!$"
 
 SlateportCity_Harbor_Text_180491:: @ 8180491

@@ -19,7 +19,7 @@ Route101_Text_16D191:: @ 816D191
 	.string "어쨌든 구해줘서 고마워!\p"
 	.string "...응?\p"
 	.string "자넨 종길씨네\n"
-	.string "{PLAYER}\e잖아!\l"
+	.string "{PLAYER}{K_I}잖아!\l"
 	.string "이야 많이 컸는데!\p"
 	.string "...흠 이런 곳에 서서\n"
 	.string "얘기하기도 뭐하니까\l"

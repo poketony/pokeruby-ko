@@ -29,7 +29,7 @@ const u8 Category_ExecutiveProducers[] = _("{PALETTE 9}Executive Producers");
 const u8 Category_InformationSupervisors[] = _("{PALETTE 9}Information Supervisors");
 const u8 Category_TaskManagers[] = _("{PALETTE 9}Task Managers");
 const u8 Category_BrailleCodeCheck[] = _("{PALETTE 9}Braille Code Check");
-const u8 Category_EnglishVersionCoordinators[] = _("{PALETTE 9}English Version Coordinators");
+const u8 Category_EnglishVersionCoordinators[] = _("{PALETTE 9}Korean Version Coordinators");
 const u8 Category_Translator[] = _("{PALETTE 9}Translator");
 const u8 Category_ProductSupport[] = _("{PALETTE 9}Product Support");
 const u8 Category_Artwork[] = _("{PALETTE 9}Artwork");
@@ -135,9 +135,9 @@ const u8 Text_ABA[] = _("Australian Braille Authority");
 const u8 Text_RNZFotB[] = _("Royal New Zealand Federation for the Blind");
 const u8 Text_CreditsTerminator[] = _("");
 #ifdef SAPPHIRE
-const u8 Text_Version[] = _("{PALETTE 9}POKéMON SAPPHIRE VERSION"); 
+const u8 Text_Version[] = _("{PALETTE 9}POKéMON SAPPHIRE"); 
 #else
-const u8 Text_Version[] = _("{PALETTE 9}POKéMON RUBY VERSION");
+const u8 Text_Version[] = _("{PALETTE 9}POKéMON RUBY");
 #endif
 
 const struct CreditsEntry CreditsTerminator[] = {0, Text_CreditsTerminator};

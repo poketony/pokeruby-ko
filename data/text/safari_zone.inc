@@ -69,7 +69,7 @@ Route121_SafariZoneEntrance_Text_1C38F4:: @ 81C38F4
 	.string "여기 사파리볼입니다!$"
 
 Route121_SafariZoneEntrance_Text_1C3910:: @ 81C3910
-	.string "{PLAYER}\s 사파리볼을\n"
+	.string "{PLAYER}{K_EUNNEUN} 사파리볼을\n"
 	.string "30개 받았다!$"
 
 Route121_SafariZoneEntrance_Text_1C392D:: @ 81C392D

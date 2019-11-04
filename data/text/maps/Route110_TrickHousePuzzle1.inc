@@ -32,7 +32,7 @@ Route110_TrickHousePuzzle1_Text_19CCAA:: @ 819CCAA
 	.string "넌 또 정체가 뭐니?$"
 
 UnknownString_819CCCB: @ 819CCCB
-	.string "{PLAYER}\s 암호를\n"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
 	.string "문에 적었다!\p"
 	.string "“미궁대왕님 똑똑해”\p"
 	.string "... ... ...\p"

@@ -23,7 +23,7 @@ RustboroCity_DevonCorp_3F_Text_18337E:: @ 818337E
 	.string "그럼 이걸 너에게 주마!$"
 
 RustboroCity_DevonCorp_3F_Text_183422:: @ 8183422
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "포켓내비를 받았다!$"
 
 RustboroCity_DevonCorp_3F_Text_183439:: @ 8183439

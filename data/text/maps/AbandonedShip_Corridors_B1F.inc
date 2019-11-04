@@ -23,7 +23,7 @@ AbandonedShip_Corridors_B1F_Text_19865C:: @ 819865C
 	.string "문에는 “창고”라고 쓰여 있다$"
 
 AbandonedShip_Corridors_B1F_Text_198692:: @ 8198692
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "창고열쇠를 사용했다!\p"
 	.string "넣은 열쇠는 뺄 수 없게 되었지만\n"
 	.string "문은 열렸다!$"

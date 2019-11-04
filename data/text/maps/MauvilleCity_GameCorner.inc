@@ -52,7 +52,7 @@ MauvilleCity_GameCorner_Text_181E76:: @ 8181E76
 	.string "동전이 모자라네요$"
 
 UnknownString_8181E93: @ 8181E93
-	.string "{STR_VAR_1}\f\n"
+	.string "{STR_VAR_1}{K_EULREUL}\n"
 	.string "놓을 장소가 없습니다!$"
 
 MauvilleCity_GameCorner_Text_181EC2:: @ 8181EC2

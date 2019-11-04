@@ -4,7 +4,7 @@ Route118_Text_170D66:: @ 8170D66
 	.string "트레이너였지!\p"
 	.string "... ... ... ...\n"
 	.string "... ... ... ...\p"
-	.string "그래 {PLAYER}\e라고 하는구나\n"
+	.string "그래 {PLAYER}{K_I}라고 하는구나\n"
 	.string "기억해둘게\p"
 	.string "{PLAYER}\p"
 	.string "이 넓은 세계에는\n"

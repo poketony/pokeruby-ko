@@ -17,7 +17,7 @@ Route110_Text_16E76A:: @ 816E76A
 	.string "...아마도 ...그럴 거야$"
 
 Route110_Text_16E7A1:: @ 816E7A1
-	.string "봄이: {PLAYER}\i 오랜만!\p"
+	.string "봄이: {PLAYER}{K_AYA} 오랜만!\p"
 	.string "여러 포켓몬을 찾는 동안에\n"
 	.string "내 포켓몬들도 강해졌어!\p"
 	.string "그러니까...\n"
@@ -46,7 +46,7 @@ Route110_Text_16E8B3:: @ 816E8B3
 	.string "키워두는 게 좋을걸!$"
 
 Route110_Text_16E99A:: @ 816E99A
-	.string "휘웅: {PLAYER}\e구나\n"
+	.string "휘웅: {PLAYER}{K_I}구나\n"
 	.string "이런 곳에 있었네\l"
 	.string "어떻게 지냈어?\p"
 	.string "포켓몬이 어떻게 성장했는지\n"

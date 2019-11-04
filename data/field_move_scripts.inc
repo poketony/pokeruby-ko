@@ -52,8 +52,8 @@ UseCutPromptText: @ 81B0E3F
 	.string "풀베기로 자르겠습니까?$"
 
 UsedCutRockSmashText: @ 81B0E82
-	.string "{STR_VAR_1}\s\n"
-	.string "{STR_VAR_2}\f 썼다!$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n"
+	.string "{STR_VAR_2}{K_EULREUL} 썼다!$"
 
 CannotUseCutText: @ 81B0E8E
 	.string "이 나무는 왠지\n"
@@ -180,7 +180,7 @@ UseStrengthPromptText: @ 81B103D
 	.string "괴력을 쓰겠습니까?$"
 
 UsedStrengthText: @ 81B109D
-	.string "{STR_VAR_1}\s\n"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n"
 	.string "괴력을 발휘했다!\p"
 	.string "{STR_VAR_1}의 괴력 덕분에\n"
 	.string "바위를 밀 수 있게 되었다!$"
@@ -224,7 +224,7 @@ UseWaterfallPromptText: @ 81B11D4
 	.string "...폭포오르기를 쓰겠습니까?$"
 
 UsedWaterfallText: @ 81B120D
-	.string "{STR_VAR_1}\s 폭포오르기를 썼다!$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 폭포오르기를 썼다!$"
 
 UseDiveScript:: @ 81B1220
 	lockall
@@ -287,7 +287,7 @@ UseDivePromptText: @ 81B1303
 	.string "다이빙을 쓰겠습니까?$"
 
 UsedDiveText: @ 81B1335
-	.string "{STR_VAR_1}\s 다이빙을 썼다!$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 다이빙을 썼다!$"
 
 UnderwaterCannotUseDiveText: @ 81B1343
 	.string "위에서 빛이 들어오고 있다!\n"

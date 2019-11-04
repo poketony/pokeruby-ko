@@ -78,7 +78,7 @@ DewfordTown_Gym_Text_175246:: @ 8175246
 	.string "이 배지를 가지고 가!$"
 
 DewfordTown_Gym_Text_1752BB:: @ 81752BB
-	.string "{PLAYER}\s 철구에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 철구에게\n"
 	.string "너클배지를 받았다!$"
 
 DewfordTown_Gym_Text_1752E6:: @ 81752E6

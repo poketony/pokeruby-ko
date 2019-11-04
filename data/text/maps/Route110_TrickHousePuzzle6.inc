@@ -33,7 +33,7 @@ Route110_TrickHousePuzzle6_Text_19DE44:: @ 819DE44
 	.string "그게 아니면 무표정이란 거니?$"
 
 UnknownString_819DE8D: @ 819DE8D
-	.string "{PLAYER}\s 암호를\n"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
 	.string "문에 적었다!\p"
 	.string "“미궁대왕님 껴안고 싶어”\p"
 	.string "... ... ...\p"

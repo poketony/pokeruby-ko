@@ -35,7 +35,7 @@ Route110_TrickHousePuzzle4_Text_19D386:: @ 819D386
 	.string "사람이 있을지 모르겠네?$"
 
 UnknownString_819D3A5: @ 819D3A5
-	.string "{PLAYER}\s 암호를\n"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
 	.string "문에 적었다!\p"
 	.string "“미궁대왕님 천재”\p"
 	.string "... ... ...\p"

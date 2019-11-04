@@ -128,7 +128,7 @@ MossdeepCity_Gym_Text_18D077:: @ 818D077
 	.string "란: 패배를 인정하고 이걸 줄게!$"
 
 MossdeepCity_Gym_Text_18D0F9:: @ 818D0F9
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "풍과 란에게 마인드배지를 받았다!$"
 
 MossdeepCity_Gym_Text_18D128:: @ 818D128

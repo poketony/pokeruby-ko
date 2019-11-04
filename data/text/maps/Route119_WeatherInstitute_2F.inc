@@ -56,7 +56,7 @@ Route119_WeatherInstitute_2F_Text_19F231:: @ 819F231
 	.string "포켓몬을 지닐 수 없나 보구나$"
 
 Route119_WeatherInstitute_2F_Text_19F267:: @ 819F267
-	.string "{PLAYER}\s"
+	.string "{PLAYER}{K_EUNNEUN}"
 	.string "캐스퐁을 받았다!$"
 
 Route119_WeatherInstitute_2F_Text_19F27D:: @ 819F27D

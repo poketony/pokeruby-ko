@@ -18,7 +18,7 @@ Route117_Text_1B2659:: @ 81B2659
 
 Route117_Text_1B2710:: @ 81B2710
 	.string "오오 자네구먼! 잘 왔네\n"
-	.string "{STR_VAR_1}\s 잘 있구먼$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 잘 있구먼$"
 
 Route117_Text_1B2745:: @ 81B2745
 	.string "그럼 내가 갖겠네\n"
@@ -30,7 +30,7 @@ Route117_Text_1B2766:: @ 81B2766
 	.string "다시 와 주구려$"
 
 Route117_Text_1B27A2:: @ 81B27A2
-	.string "{PLAYER}\s 키우미집 할아버지에게서\n"
+	.string "{PLAYER}{K_EUNNEUN} 키우미집 할아버지에게서\n"
 	.string "알을 받았다!$"
 
 Route117_Text_1B27CD:: @ 81B27CD
@@ -38,7 +38,7 @@ Route117_Text_1B27CD:: @ 81B27CD
 
 Route117_Text_1B27E3:: @ 81B27E3
 	.string "그런데 자네의 {STR_VAR_1} 말인데\n"
-	.string "왠지 {STR_VAR_2}네 {STR_VAR_3}\h\l"
+	.string "왠지 {STR_VAR_2}네 {STR_VAR_3}{K_WAGWA}\l"
 	.string "사이좋게 놀고 있었구먼\p"
 	.string "게다가 메일 같은 것도\n"
 	.string "받는 것 같더구먼$"
@@ -49,8 +49,8 @@ UnknownString_81B2858: @ 81B2858
 
 Route117_Text_1B2897:: @ 81B2897
 	.string "오오 자네구먼! 잘 왔네\n"
-	.string "{STR_VAR_1}\h\n"
-	.string "{STR_VAR_2}\s 잘 있구먼!$"
+	.string "{STR_VAR_1}{K_WAGWA}\n"
+	.string "{STR_VAR_2}{K_EUNNEUN} 잘 있구먼!$"
 
 Route117_Text_1B28C4:: @ 81B28C4
 	.string "내가 가져갈지도 모른다네\n"
@@ -66,7 +66,7 @@ Route117_PokemonDayCare_Text_1B2947:: @ 81B2947
 	.string "어느 아이를 키워 볼 텐가?$"
 
 Route117_PokemonDayCare_Text_1B296E:: @ 81B296E
-	.string "그럼 {STR_VAR_1}\f\n"
+	.string "그럼 {STR_VAR_1}{K_EULREUL}\n"
 	.string "당분간 맡아주지\p"
 	.string "적당히 시간이\n"
 	.string "지나면 다시 오게나$"
@@ -97,7 +97,7 @@ Route117_PokemonDayCare_Text_1B2A88:: @ 81B2A88
 	.string "데리고 갈 건가?$"
 
 Route117_PokemonDayCare_Text_1B2ACC:: @ 81B2ACC
-	.string "{STR_VAR_1}\s 레벨로 말하면\n"
+	.string "{STR_VAR_1}{K_EUNNEUN} 레벨로 말하면\n"
 	.string "{STR_VAR_2} 정도 자랐구먼$"
 
 Route117_PokemonDayCare_Text_1B2AEF:: @ 81B2AEF
@@ -109,7 +109,7 @@ UnknownString_81B2B27: @ 81B2B27
 	.string "어느 포켓몬을 데리고 갈 텐가?$"
 
 Route117_PokemonDayCare_Text_1B2B49:: @ 81B2B49
-	.string "{STR_VAR_1}\f 데리고 갈 거면\n"
+	.string "{STR_VAR_1}{K_EULREUL} 데리고 갈 거면\n"
 	.string "요금은 {STR_VAR_2}원이구먼$"
 
 Route117_PokemonDayCare_Text_1B2B75:: @ 81B2B75
@@ -117,8 +117,8 @@ Route117_PokemonDayCare_Text_1B2B75:: @ 81B2B75
 	.string "자 포켓몬을 데리고 가게!$"
 
 Route117_PokemonDayCare_Text_1B2B93:: @ 81B2B93
-	.string "{PLAYER}\s 키우미집 할머니한테서\n"
-	.string "{STR_VAR_1}\f 데리고 왔다!$"
+	.string "{PLAYER}{K_EUNNEUN} 키우미집 할머니한테서\n"
+	.string "{STR_VAR_1}{K_EULREUL} 데리고 왔다!$"
 
 Route117_PokemonDayCare_Text_1B2BBB:: @ 81B2BBB
 	.string "어라? 포켓몬이\n"

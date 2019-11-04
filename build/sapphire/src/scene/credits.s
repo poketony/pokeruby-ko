@@ -999,13 +999,12 @@ Category_EnglishVersionCoordinators:
 	.byte	0xfc
 	.byte	0x5
 	.byte	0x9
-	.byte	0xbf
+	.byte	0xc5
+	.byte	0xe3
+	.byte	0xe6
+	.byte	0xd9
+	.byte	0xd5
 	.byte	0xe2
-	.byte	0xdb
-	.byte	0xe0
-	.byte	0xdd
-	.byte	0xe7
-	.byte	0xdc
 	.byte	0x0
 	.byte	0xd0
 	.byte	0xd9
@@ -1028,7 +1027,7 @@ Category_EnglishVersionCoordinators:
 	.byte	0xe6
 	.byte	0xe7
 	.byte	0xff
-	.size	 Category_EnglishVersionCoordinators,32
+	.size	 Category_EnglishVersionCoordinators,31
 	.globl	Category_Translator
 	.type	 Category_Translator,object
 Category_Translator:
@@ -3107,16 +3106,8 @@ Text_Version:
 	.byte	0xc3
 	.byte	0xcc
 	.byte	0xbf
-	.byte	0x0
-	.byte	0xd0
-	.byte	0xbf
-	.byte	0xcc
-	.byte	0xcd
-	.byte	0xc3
-	.byte	0xc9
-	.byte	0xc8
 	.byte	0xff
-	.size	 Text_Version,28
+	.size	 Text_Version,20
 	.globl	CreditsTerminator
 	.align	2, 0
 	.type	 CreditsTerminator,object

@@ -226,11 +226,11 @@ LinkContestRoom1_Text_1A6D6A:: @ 81A6D6A
 	.string "이 리본을 받아주세요!$"
 
 LinkContestRoom1_Text_1A6D96:: @ 81A6D96
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "리본을 받았다!$"
 
 LinkContestRoom1_Text_1A6DAC:: @ 81A6DAC
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "리본을\l"
 	.string "{STR_VAR_1}에게 달아 줬다!$"
 

@@ -18,12 +18,12 @@ LilycoveCity_DepartmentStoreRooftop_Text_18C72B:: @ 818C72B
 
 LilycoveCity_DepartmentStoreRooftop_Text_18C75F:: @ 818C75F
 	.string "덜컹!\p"
-	.string "{STR_VAR_1}\r 나왔다!$"
+	.string "{STR_VAR_1}{K_IGA} 나왔다!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_18C780:: @ 818C780
 	.string "덜컹!\p"
 	.string "당첨이다! 하나 더\n"
-	.string "{STR_VAR_1}\r 나왔다!$"
+	.string "{STR_VAR_1}{K_IGA} 나왔다!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_18C7AF:: @ 818C7AF
 	.string "돈이 모자라!$"

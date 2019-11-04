@@ -67,8 +67,8 @@ RustboroCity_DevonCorp_2F_Text_182FD7:: @ 8182FD7
 RustboroCity_DevonCorp_2F_Text_183023:: @ 8183023
 	.string "알겠습니다!\n"
 	.string "그럼 바로...\p"
-	.string "{PLAYER}\s 데봉의 연구원에게\n"
-	.string "{STR_VAR_1}\f 건넸다$"
+	.string "{PLAYER}{K_EUNNEUN} 데봉의 연구원에게\n"
+	.string "{STR_VAR_1}{K_EULREUL} 건넸다$"
 
 RustboroCity_DevonCorp_2F_Text_183072:: @ 8183072
 	.string "제가 만든\n"
@@ -84,8 +84,8 @@ RustboroCity_DevonCorp_2F_Text_183124:: @ 8183124
 	.string "{STR_VAR_2}입니다!$"
 
 RustboroCity_DevonCorp_2F_Text_18319E:: @ 818319E
-	.string "{PLAYER}\s 데봉의 연구원에게\n"
-	.string "{STR_VAR_2}\f 받았다!$"
+	.string "{PLAYER}{K_EUNNEUN} 데봉의 연구원에게\n"
+	.string "{STR_VAR_2}{K_EULREUL} 받았다!$"
 
 RustboroCity_DevonCorp_2F_Text_1831C8:: @ 81831C8
 	.string "앗! 포켓몬이 가득하군요\n"

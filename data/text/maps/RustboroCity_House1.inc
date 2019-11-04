@@ -3,15 +3,15 @@ RustboroCity_House1_Text_184EBA:: @ 8184EBA
 	.string "난 멋있는 별명 지어주고 있어!\p"
 	.string "그치만 내가 포켓몬을 부르면\n"
 	.string "모두 다 킥킥거리고 웃어...\p"
-	.string "그래도 괜찮다면 내 {STR_VAR_2}\h\n"
-	.string "네 {STR_VAR_1}\f 교환하지 않을래?$"
+	.string "그래도 괜찮다면 내 {STR_VAR_2}{K_WAGWA}\n"
+	.string "네 {STR_VAR_1}{K_EULREUL} 교환하지 않을래?$"
 
 RustboroCity_House1_Text_184F6B:: @ 8184F6B
 	.string "에헷!!\n"
 	.string "괜히 두근두근거린다$"
 
 RustboroCity_House1_Text_184F8F:: @ 8184F8F
-	.string "걔 {STR_VAR_1}\r 아니잖아\n"
+	.string "걔 {STR_VAR_1}{K_IGA} 아니잖아\n"
 	.string "쳇 실망이야$"
 
 RustboroCity_House1_Text_184FC1:: @ 8184FC1

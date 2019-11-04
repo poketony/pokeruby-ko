@@ -45,7 +45,7 @@ Route109_Text_16E405:: @ 816E405
 	.string "좀처럼 모래성이 완성이 안돼$"
 
 Route109_Text_16E433:: @ 816E433
-	.string "\u!\n"
+	.string "{K_GIRL_CALL}!\n"
 	.string "이거 줄게!$"
 
 Route109_Text_16E446:: @ 816E446
@@ -53,7 +53,7 @@ Route109_Text_16E446:: @ 816E446
 	.string "커-다란 성을 만들 거야\p"
 	.string "그래서 우리는\n"
 	.string "왕이랑 여왕이 될 거야\p"
-	.string "\u는 특별히\n"
+	.string "{K_GIRL_CALL}는 특별히\n"
 	.string "우리 신하 하게 해줄게$"
 
 Route109_Text_16E4D5:: @ 816E4D5

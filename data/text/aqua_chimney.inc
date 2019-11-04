@@ -11,7 +11,7 @@ MtChimney_Text_1B2ED9:: @ 81B2ED9
 	.string "아강: 또 네 녀석인가...\p"
 	.string "... 알겠나 모든\n"
 	.string "생명은 바다로부터 태어났다!\p"
-	.string "그래 바다야말로 전부!\p"
+	.string "그래 바다야말로 전부다!\p"
 	.string "그래서 우리 아쿠아단은\n"
 	.string "바다를 넓혀서\l"
 	.string "새로운 포켓몬을 탄생시킨다!\p"
@@ -101,7 +101,7 @@ MtChimney_Text_1B3503:: @ 81B3503
 	.string "후샤-!!$"
 
 MtChimney_Text_1B350B:: @ 81B350B
-	.string "마적: 오오! {PLAYER}!\e"
+	.string "마적: 오오! {PLAYER}!{K_I}"
 	.string "마침 잘 와 주었다!\p"
 	.string "나를 대신해서\n"
 	.string "아쿠아단을 멈추어다오!\p"

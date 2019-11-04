@@ -40,11 +40,11 @@ MauvilleCity_BikeShop_Text_1810B1:: @ 81810B1
 	.string "자! 어느 쪽을 선택할래?$"
 
 MauvilleCity_BikeShop_Text_181332:: @ 8181332
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "마하자전거를 선택했다!$"
 
 MauvilleCity_BikeShop_Text_18134A:: @ 818134A
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "더트자전거를 선택했다!$"
 
 MauvilleCity_BikeShop_Text_181362:: @ 8181362
@@ -61,11 +61,11 @@ MauvilleCity_BikeShop_Text_1813D4:: @ 81813D4
 	.string "자전거와 교환해주지!$"
 
 MauvilleCity_BikeShop_Text_181408:: @ 8181408
-	.string "{PLAYER}\s 마하자전거를\n"
+	.string "{PLAYER}{K_EUNNEUN} 마하자전거를\n"
 	.string "더트자전거로 교환 받았다!$"
 
 MauvilleCity_BikeShop_Text_181439:: @ 8181439
-	.string "{PLAYER}\s 더트자전거를\n"
+	.string "{PLAYER}{K_EUNNEUN} 더트자전거를\n"
 	.string "마하자전거로 교환 받았다!$"
 
 MauvilleCity_BikeShop_Text_181469:: @ 8181469

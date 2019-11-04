@@ -136,7 +136,7 @@ UnknownString_819DBD4: @ 819DBD4
 	.string "자 그럼 안으로 가!$"
 
 UnknownString_819DC0A: @ 819DC0A
-	.string "{PLAYER}\s 암호를\n"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
 	.string "문에 적었다!\p"
 	.string "“미궁대왕님 소중해”\p"
 	.string "... ... ...\p"

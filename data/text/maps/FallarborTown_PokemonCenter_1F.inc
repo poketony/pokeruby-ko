@@ -1,6 +1,6 @@
 FallarborTown_PokemonCenter_1F_Text_1774D4:: @ 81774D4
 	.string "당신은...?\p"
-	.string "{PLAYER}\e라고 하는군요\n"
+	.string "{PLAYER}{K_I}라고 하는군요\n"
 	.string "당신 트레이너군요\p"
 	.string "그렇다는 건 내가 만든\n"
 	.string "보관 시스템 사용하고 계신 거죠?\p"

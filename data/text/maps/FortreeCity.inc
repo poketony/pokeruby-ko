@@ -45,7 +45,7 @@ FortreeCity_Text_16788B:: @ 816788B
 	.string "데봉스코프를 사용하겠습니까?$"
 
 FortreeCity_Text_1678CB:: @ 81678CB
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "데봉스코프를 사용했다!\p"
 	.string "투명했던\n"
 	.string "포켓몬의 모습이 훤히 보이게 됐다!\p"

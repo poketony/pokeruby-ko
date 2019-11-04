@@ -25,11 +25,11 @@ MtChimney_Text_195870:: @ 8195870
 	.string "운석을 빼겠습니까?$"
 
 MtChimney_Text_1958C6:: @ 81958C6
-	.string "{PLAYER}\s 운석을\n"
+	.string "{PLAYER}{K_EUNNEUN} 운석을\n"
 	.string "장치에서 빼냈다!$"
 
 MtChimney_Text_1958FC:: @ 81958FC
-	.string "{PLAYER}\s 운석을\n"
+	.string "{PLAYER}{K_EUNNEUN} 운석을\n"
 	.string "그대로 두었다$"
 
 MtChimney_Text_195920:: @ 8195920

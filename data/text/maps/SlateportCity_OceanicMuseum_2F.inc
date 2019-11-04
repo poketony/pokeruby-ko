@@ -93,7 +93,7 @@ SlateportCity_OceanicMuseum_2F_Text_17F17E:: @ 817F17E
 
 SlateportCity_OceanicMuseum_2F_Text_17F352:: @ 817F352
 	.string "해양: 넌...\n"
-	.string "그렇군 {PLAYER}\e라고 하는구나...\p"
+	.string "그렇군 {PLAYER}{K_I}라고 하는구나...\p"
 	.string "이거 큰일 날 뻔했어!\n"
 	.string "도와줘서 고마워!\p"
 	.string "참 그렇지!\n"
@@ -101,7 +101,7 @@ SlateportCity_OceanicMuseum_2F_Text_17F352:: @ 817F352
 	.string "가져온 걸 깜빡했구나!  $"
 
 UnknownString_817F404: @ 817F404
-	.string "{PLAYER}\s 해양관장에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 해양관장에게\n"
 	.string "데봉화물을 건넸다!$"
 
 SlateportCity_OceanicMuseum_2F_Text_17F433:: @ 817F433

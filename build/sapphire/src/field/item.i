@@ -4600,7 +4600,7 @@ static const u8 gItemDescription_Magnet[] = _(
 static const u8 gItemDescription_MysticWater[] = _(
     "포켓몬에게 지니게 하면\n"
     "물타입\n"
-    "기술의 위력이 올라간다");;
+    "기술의 위력이 올라간다");
 
 static const u8 gItemDescription_SharpBeak[] = _(
     "포켓몬에게 지니게 하면\n"
@@ -4997,7 +4997,7 @@ static const u8 gItemDescription_TM32[] = _(
     "회피율을 올린다");
 
 static const u8 gItemDescription_TM33[] = _(
-    "빛의 장막을 만들어\n"
+    "빛나는 장막을 만들어\n"
     "물리 공격의\n"
     "데미지를 약하게 한다");
 

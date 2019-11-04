@@ -186,15 +186,15 @@ gTVGabbyAndTyText3:: @ 81ACAAA
 	.string "말로 표현하자면$"
 
 gTVGabbyAndTyText4:: @ 81ACC07
-	.string "{STR_VAR_1}\h {STR_VAR_3}의\n"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_3}의\n"
 	.string "콤비 플레이가 최고였습니다!\p"
-	.string "{STR_VAR_1}\h {STR_VAR_3}\r 서로\n"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_3}{K_IGA} 서로\n"
 	.string "도우며 배틀하는 모습...\p"
 	.string "아아 그렇게\n"
 	.string "근사할 수가 없어요!\p"
 	.string "저희들과의 승부의\n"
 	.string "마지막에 사용한 “{STR_VAR_2}”도\p"
-	.string "{STR_VAR_1}\h {STR_VAR_3}의 우정의\n"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_3}의 우정의\n"
 	.string "“{STR_VAR_2}”인 거예요!$"
 
 gTVGabbyAndTyText5:: @ 81ACD13
@@ -238,7 +238,7 @@ gTVGabbyAndTyText9:: @ 81AD00A
 	.string "“{STR_VAR_1}”\n"
 	.string "이렇게 대답해 주셨습니다\p"
 	.string "{PLAYER}님의 포켓몬\n"
-	.string "{STR_VAR_2}\h {STR_VAR_3}\l"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3}\l"
 	.string "그리고 “{STR_VAR_1}”...\p"
 	.string "음-!\n"
 	.string "왠지 뜻깊은 말이네요!\p"

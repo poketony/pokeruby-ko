@@ -15,7 +15,7 @@ BattleTower_BattleRoom_Text_1C6CE1:: @ 81C6CE1
 
 gSaveText_PlayerSavedTheGame:: @ 81C6D05
 BattleTower_BattleRoom_Text_1C6D05:: @ 81C6D05
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
     .string "리포트를 꼼꼼히 기록했다!$"
 
 UnknownString_81C6D18: @ 81C6D18

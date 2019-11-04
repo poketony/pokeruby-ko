@@ -51,23 +51,23 @@ LilycoveCity_DepartmentStore_1F_Text_1C4E27:: @ 81C4E27
 LilycoveCity_DepartmentStore_1F_Text_1C4E4F:: @ 81C4E4F
 	.string "2자리 일치하니\n"
 	.string "3등입니다!\l"
-	.string "{STR_VAR_1}\f 드리겠습니다!$"
+	.string "{STR_VAR_1}{K_EULREUL} 드리겠습니다!$"
 
 LilycoveCity_DepartmentStore_1F_Text_1C4E92:: @ 81C4E92
 	.string "3자리 일치하니\n"
 	.string "2등입니다!\l"
-	.string "{STR_VAR_1}\f 드리겠습니다!$"
+	.string "{STR_VAR_1}{K_EULREUL} 드리겠습니다!$"
 
 LilycoveCity_DepartmentStore_1F_Text_1C4ED8:: @ 81C4ED8
 	.string "4자리 일치하니\n"
 	.string "1등입니다!\l"
-	.string "{STR_VAR_1}\f 드리겠습니다!$"
+	.string "{STR_VAR_1}{K_EULREUL} 드리겠습니다!$"
 
 LilycoveCity_DepartmentStore_1F_Text_1C4F1C:: @ 81C4F1C
 	.string "무려! 5자리 모두\n"
 	.string "일치합니다!\p"
 	.string "특등입니다!\n"
-	.string "{STR_VAR_1}\f 드리겠습니다!$"
+	.string "{STR_VAR_1}{K_EULREUL} 드리겠습니다!$"
 
 LilycoveCity_DepartmentStore_1F_Text_1C4F77:: @ 81C4F77
 	.string "...어라?\n"

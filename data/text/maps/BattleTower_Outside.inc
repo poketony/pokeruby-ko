@@ -12,14 +12,14 @@ BattleTower_Outside_Text_199D06:: @ 8199D06
 	.string "티켓은 가지고 계신가요?$"
 
 BattleTower_Outside_Text_199D40:: @ 8199D40
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "티켓이 없다!\p"
 	.string "...죄송합니다!\p"
 	.string "배에는 티켓을 가진 분들만\n"
 	.string "탑승하실 수 있습니다$"
 
 BattleTower_Outside_Text_199D9D:: @ 8199D9D
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "승선티켓을 보여줬다!\p"
 	.string "네! 확인했습니다!\p"
 	.string "어디로 가시겠어요?$"

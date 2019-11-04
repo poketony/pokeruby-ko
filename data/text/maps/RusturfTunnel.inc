@@ -38,7 +38,7 @@ RusturfTunnel_Text_19434F:: @ 819434F
 	.string "자넨 이름이 뭔가...?\p"
 	.string "... ... ... ...\n"
 	.string "... ... ... ...\p"
-	.string "그래 {PLAYER}\e라고 하는구먼!\n"
+	.string "그래 {PLAYER}{K_I}라고 하는구먼!\n"
 	.string "정말 고맙구나!\p"
 	.string "앞으로 뭐 곤란한 거 있으면\n"
 	.string "사양 말고 나한테 말하게나!\p"

@@ -40,7 +40,7 @@ LavaridgeTown_Text_16C020:: @ 816C020
 	.string "등화도시의 체육관 관장 종길님에게\l"
 	.string "도전해 볼까나...\p"
 	.string "{PLAYER}의 아빠\n"
-	.string "{PLAYER}\h 달리 강해 보이니까\p"
+	.string "{PLAYER}{K_WAGWA} 달리 강해 보이니까\p"
 	.string "그럼!$"
 
 LavaridgeTown_Text_16C174:: @ 816C174
@@ -63,7 +63,7 @@ LavaridgeTown_Text_16C2B6:: @ 816C2B6
 	.string "많-이 걷고 와줘라!$"
 
 LavaridgeTown_Text_16C2EA:: @ 816C2EA
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "알을 받았다!$"
 
 LavaridgeTown_Text_16C2FF:: @ 816C2FF

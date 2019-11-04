@@ -107,14 +107,14 @@ DewfordTown_Text_16B89A:: @ 816B89A
 DewfordTown_Text_16B9CE:: @ 816B9CE
 	.string "난 요즘 유행에 관심이 있어서\n"
 	.string "항상 체크하고 있어\p"
-	.string "혹시 “{STR_VAR_1}”\e라고\n"
+	.string "혹시 “{STR_VAR_1}”{K_I}라고\n"
 	.string "들어본 적 있어?\p"
 	.string "당연히 들어본 적 있겠지!\p"
 	.string "왜냐하면 요즘\n"
-	.string "“{STR_VAR_1}”\r\l"
+	.string "“{STR_VAR_1}”{K_IGA}\l"
 	.string "완전 붐이잖아!\p"
 	.string "네 주변에서도\n"
-	.string "“{STR_VAR_1}”\r\l"
+	.string "“{STR_VAR_1}”{K_IGA}\l"
 	.string "유행하고 있지?$"
 
 DewfordTown_Text_16BADC:: @ 816BADC
@@ -129,12 +129,12 @@ DewfordTown_Text_16BB44:: @ 816BB44
 	.string "...아! 응응!\n"
 	.string "응 알아 알아!\p"
 	.string "무, 물론 알고 있지!\n"
-	.string "“{STR_VAR_2}”\e잖아?\p"
+	.string "“{STR_VAR_2}”{K_I}잖아?\p"
 	.string "그거 좋지!\n"
 	.string "“{STR_VAR_2}”!\p"
 	.string "지금 엄청 붐이잖아\n"
 	.string "내가 그걸 모를 리가 있나!\p"
-	.string "“{STR_VAR_1}”\s\n"
+	.string "“{STR_VAR_1}”{K_EUNNEUN}\n"
 	.string "이미 한물갔지\p"
 	.string "요즘은 “{STR_VAR_2}”의\n"
 	.string "시대야!$"
@@ -143,7 +143,7 @@ DewfordTown_Text_16BCA2:: @ 816BCA2
 	.string "음...\n"
 	.string "“{STR_VAR_2}”?\p"
 	.string "하지만 내 생각엔 역시\n"
-	.string "“{STR_VAR_1}”\r\l"
+	.string "“{STR_VAR_1}”{K_IGA}\l"
 	.string "제일 멋지다고 생각해$"
 
 DewfordTown_Text_16BCE9:: @ 816BCE9
@@ -153,8 +153,8 @@ DewfordTown_Text_16BCE9:: @ 816BCE9
 DewfordTown_Text_16BD37:: @ 816BD37
 	.string "그치!\p"
 	.string "역시 요즘에는\n"
-	.string "“{STR_VAR_1}”\r 대세야!$"
+	.string "“{STR_VAR_1}”{K_IGA} 대세야!$"
 
 DewfordTown_Text_16BD79: @ 816BD79
-	.string "지금 “{STR_VAR_2}”\s\n"
+	.string "지금 “{STR_VAR_2}”{K_EUNNEUN}\n"
 	.string "유행의 절정이지!$"

@@ -6,7 +6,7 @@ Route102_Text_1A16CD:: @ 81A16CD
 	.string "나무열매를 심겠습니까?$"
 
 Route102_Text_1A16FB:: @ 81A16FB
-	.string "{PLAYER}\s 푹신푹신한 흙에\n"
+	.string "{PLAYER}{K_EUNNEUN} 푹신푹신한 흙에\n"
 	.string "{STR_VAR_1}열매를 심었다!$"
 
 Route102_Text_1A172C:: @ 81A172C
@@ -37,11 +37,11 @@ Route102_Text_1A17C0:: @ 81A17C0
 	.string "{STR_VAR_1}열매를 따겠습니까?$"
 
 Route102_Text_1A17FD:: @ 81A17FD
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "{STR_VAR_1}열매를 {STR_VAR_2}개 땄다!$"
 
 Route102_Text_1A181A:: @ 81A181A
-	.string "{PLAYER}\s {STR_VAR_1}열매를\n"
+	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}열매를\n"
 	.string "나무열매 포켓에 넣었다!\p"
 	.string "푹신푹신한 흙으로 되돌아갔다$"
 
@@ -50,7 +50,7 @@ Route102_Text_1A1881:: @ 81A1881
 	.string "{STR_VAR_1}열매를 포기했다$"
 
 Route102_Text_1A18C5:: @ 81A18C5
-	.string "{PLAYER}\s {STR_VAR_1}열매를\n"
+	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}열매를\n"
 	.string "그대로 뒀다$"
 
 Route102_Text_1A18E6:: @ 81A18E6
@@ -58,7 +58,7 @@ Route102_Text_1A18E6:: @ 81A18E6
 	.string "물을 주겠습니까?$"
 
 Route102_Text_1A1912:: @ 81A1912
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "{STR_VAR_1}열매에 물을 주었다$"
 
 Route102_Text_1A1925:: @ 81A1925

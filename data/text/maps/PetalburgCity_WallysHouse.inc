@@ -1,6 +1,6 @@
 PetalburgCity_WallysHouse_Text_179805:: @ 8179805
 	.string "너는...\n"
-	.string "아- {PLAYER}\e 맞지?\p"
+	.string "아- {PLAYER}{K_I} 맞지?\p"
 	.string "아깐 민진이와 같이 놀아줘서\n"
 	.string "고맙구나...\p"
 	.string "그 애는 태어났을 때부터\n"
@@ -18,7 +18,7 @@ PetalburgCity_WallysHouse_Text_179975:: @ 8179975
 	.string "민진은 잘 있으려나...$"
 
 PetalburgCity_WallysHouse_Text_179996:: @ 8179996
-	.string "안녕 {PLAYER}\i!\p"
+	.string "안녕 {PLAYER}{K_AYA}!\p"
 	.string "우리 민진이가 잔디마을에 갔을\n"
 	.string "때보다 훨씬 건강해져서 말이야\p"
 	.string "너한테 신세 졌구나!\p"
@@ -58,7 +58,7 @@ PetalburgCity_WallysHouse_Text_179C2C:: @ 8179C2C
 	.string "오랜만에 봐$"
 
 PetalburgCity_WallysHouse_Text_179CA1:: @ 8179CA1
-	.string "안녕 {PLAYER}\i!\n"
+	.string "안녕 {PLAYER}{K_AYA}!\n"
 	.string "네게 전해줄 것이 있단다\p"
 	.string "우리 남편이 가지고 있으니\n"
 	.string "직접 물어보도록 하렴$"

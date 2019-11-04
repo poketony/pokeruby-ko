@@ -93,7 +93,7 @@ UnknownString_81B56AB: @ 81B56AB
 	.string "쪽빛구슬을 돌려놓을 거지?$"
 
 UnknownString_81B5739: @ 81B5739
-	.string "{PLAYER}\s 할머니에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 할머니에게\n"
 	.string "쪽빛구슬을 건네주었다!$"
 
 UnknownString_81B5762: @ 81B5762

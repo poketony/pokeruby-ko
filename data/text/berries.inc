@@ -30,7 +30,7 @@ Route111_Text_1C56F0:: @ 81C56F0
 Route111_Text_1C5781:: @ 81C5781
 	.string "더욱더 열심히 해서\n"
 	.string "빨강포켓몬스넥 만들 거야!\l"
-	.string "\u도 힘내!$"
+	.string "{K_GIRL_CALL}도 힘내!$"
 
 Route111_Text_1C57D2:: @ 81C57D2
 	.string "오늘은 무슨 색의 나무열매를\n"
@@ -149,7 +149,7 @@ Route104_PrettyPetalFlowerShop_Text_1C5F1B:: @ 81C5F1B
 
 Route104_PrettyPetalFlowerShop_Text_1C5F48:: @ 81C5F48
 	.string "당신의 이름은...\p"
-	.string "{PLAYER}\e구나!\n"
+	.string "{PLAYER}{K_I}구나!\n"
 	.string "정말 좋은 이름이네!\p"
 	.string "{PLAYER}\n"
 	.string "나무열매에 대해 알고 싶어?$"
@@ -208,7 +208,7 @@ Route104_PrettyPetalFlowerShop_Text_1C6335:: @ 81C6335
 	.string "나도 과자 먹고 싶어-$"
 
 SootopolisCity_Text_1C63F2:: @ 81C63F2
-	.string "\u\n"
+	.string "{K_GIRL_CALL}\n"
 	.string "이름이 뭐야?\p"
 	.string "... ... ...\n"
 	.string "오- 좋은 이름이네-\p"
@@ -216,16 +216,16 @@ SootopolisCity_Text_1C63F2:: @ 81C63F2
 	.string "아빠랑 엄마가 잘 자라서\n"
 	.string "마음이 따뜻한 여자아이가 되라는\l"
 	.string "바람을 담아 내 이름을 지었다나 봐!\p"
-	.string "\u한테도\n"
+	.string "{K_GIRL_CALL}한테도\n"
 	.string "이거 줄게$"
 
 SootopolisCity_Text_1C64D0:: @ 81C64D0
-	.string "그리고 \u한테는\n"
+	.string "그리고 {K_GIRL_CALL}한테는\n"
 	.string "내가 정말 좋아하는\l"
 	.string "이 나무열매도 줄게!$"
 
 SootopolisCity_Text_1C650B:: @ 81C650B
-	.string "\u 이름에는\n"
+	.string "{K_GIRL_CALL} 이름에는\n"
 	.string "어떤 바람이 담겨 있어?$"
 
 SootopolisCity_Text_1C6540:: @ 81C6540
@@ -237,7 +237,7 @@ SootopolisCity_Text_1C6540:: @ 81C6540
 SootopolisCity_Text_1C65D4:: @ 81C65D4
 	.string "그럼 난 가을에 태어났으니까\n"
 	.string "가을이 정말 좋아!\p"
-	.string "\u는 언제가 좋아?$"
+	.string "{K_GIRL_CALL}는 언제가 좋아?$"
 
 SootopolisCity_Text_1C6626:: @ 81C6626
 	.string "그렇구나...\n"

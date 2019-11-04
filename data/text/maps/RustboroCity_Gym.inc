@@ -81,7 +81,7 @@ RustboroCity_Gym_Text_183FC4:: @ 8183FC4
 	.string "스톤배지를 받아 주세요$"
 
 RustboroCity_Gym_Text_1840AB:: @ 81840AB
-	.string "{PLAYER}\s 원규에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 원규에게\n"
 	.string "스톤배지를 받았다!$"
 
 RustboroCity_Gym_Text_1840D5:: @ 81840D5

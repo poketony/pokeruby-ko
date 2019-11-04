@@ -152,7 +152,7 @@ SootopolisCity_Gym_1F_Text_18F282:: @ 818F282
 	.string "자 받아$"
 
 SootopolisCity_Gym_1F_Text_18F342:: @ 818F342
-	.string "{PLAYER}\s 윤진에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 윤진에게\n"
 	.string "레인배지를 받았다!$"
 
 SootopolisCity_Gym_1F_Text_18F36B:: @ 818F36B

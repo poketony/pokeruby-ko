@@ -11,7 +11,7 @@ MtChimney_Text_1B38B3:: @ 81B38B3
 	.string "마적: 또 네 녀석인가...\p"
 	.string "... 알겠나 우리\n"
 	.string "인간은 대지에서 진화해왔다!\p"
-	.string "그래 대지야말로 전부!\p"
+	.string "그래 대지야말로 전부다!\p"
 	.string "그래서 우리 마그마단은\n"
 	.string "대지를 넓혀서\l"
 	.string "새로운 포켓몬을 진화시킨다!\p"

@@ -39,7 +39,7 @@ MauvilleCity_Text_165DE8:: @ 8165DE8
 
 MauvilleCity_Text_165E45:: @ 8165E45
 	.string "작은아버지: 너...\n"
-	.string "{PLAYER}\e라고 했나?\p"
+	.string "{PLAYER}{K_I}라고 했나?\p"
 	.string "미안하지만 민진과\n"
 	.string "승부해주지 않을래?\p"
 	.string "이대로라면 무슨 말을 해도\n"

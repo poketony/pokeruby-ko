@@ -12,11 +12,11 @@ SlateportCity_Text_164691:: @ 8164691
 	.string "이 노력리본을 달아 줘!$"
 
 SlateportCity_Text_1646DD:: @ 81646DD
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "노력리본을 받았다!$"
 
 SlateportCity_Text_1646FC:: @ 81646FC
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "노력리본을\l"
 	.string "{STR_VAR_1}에게 달아 줬다!$"
 
@@ -233,7 +233,7 @@ SlateportCity_Text_16558D:: @ 816558D
 	.string "태어나서 처음이라 긴장했어!$"
 
 SlateportCity_Text_1655E7:: @ 81655E7
-	.string "오! {PLAYER}\e인가!\n"
+	.string "오! {PLAYER}{K_I}인가!\n"
 	.string "좋아 보이는군\p"
 	.string "이번 해저 조사에서\n"
 	.string "정말 엄청난 걸 발견했어!\p"

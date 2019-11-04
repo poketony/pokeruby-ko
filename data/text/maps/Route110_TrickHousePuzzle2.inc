@@ -34,7 +34,7 @@ Route110_TrickHousePuzzle2_Text_19CEB8:: @ 819CEB8
 	.string "될 수 있을 거 같은데?$"
 
 UnknownString_819CEF9: @ 819CEF9
-	.string "{PLAYER}\s 암호를\n"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
 	.string "문에 적었다!\p"
 	.string "“미궁대왕님 존경”\p"
 	.string "... ... ...\p"

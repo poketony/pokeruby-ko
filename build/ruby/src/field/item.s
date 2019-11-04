@@ -12090,8 +12090,10 @@ gItemDescription_TM32:
 gItemDescription_TM33:
 	.byte	0x3b
 	.byte	0x4b
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0x38
+	.byte	0x35
+	.byte	0x38
+	.byte	0xab
 	.byte	0x0
 	.byte	0x3d
 	.byte	0x8b
@@ -12140,7 +12142,7 @@ gItemDescription_TM33:
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xff
-	.size	 gItemDescription_TM33,52
+	.size	 gItemDescription_TM33,54
 	.type	 gItemDescription_TM34,object
 gItemDescription_TM34:
 	.byte	0x3d

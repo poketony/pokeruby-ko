@@ -121,10 +121,10 @@ LilycoveCity_ContestLobby_Text_188BB5:: @ 8188BB5
 	.string "이걸 받아줘!$"
 
 LilycoveCity_ContestLobby_Text_188C03:: @ 8188C03
-	.string "{PLAYER}\s 리본을 받았다!$"
+	.string "{PLAYER}{K_EUNNEUN} 리본을 받았다!$"
 
 LilycoveCity_ContestLobby_Text_188C19:: @ 8188C19
-	.string "{PLAYER}\s 리본을\n"
+	.string "{PLAYER}{K_EUNNEUN} 리본을\n"
 	.string "{STR_VAR_1}에게 달아줬다!$"
 
 LilycoveCity_ContestLobby_Text_188C32:: @ 8188C32

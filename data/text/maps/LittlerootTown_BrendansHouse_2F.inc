@@ -15,14 +15,14 @@ LittlerootTown_BrendansHouse_2F_Text_172E4C:: @ 8172E4C
 UnknownString_8172F31: @ 8172F31
 	.string "포켓몬 책이랑 사진집이\n"
 	.string "죽 진열되어 있다!\p"
-	.string "{PLAYER}\r 여태까지 모은 상들도 있다!$"
+	.string "{PLAYER}{K_IGA} 여태까지 모은 상들도 있다!$"
 
 UnknownString_8172F85: @ 8172F85
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "PC를 확인했다!$"
 
 LittlerootTown_BrendansHouse_2F_Text_172F9A:: @ 8172F9A
-	.string "{PLAYER}\s 노트를 펼쳐 보았다!\p"
+	.string "{PLAYER}{K_EUNNEUN} 노트를 펼쳐 보았다!\p"
 	.string "탐험 수칙이 적혀 있다!\p"
 	.string "탐험 수칙 1\n"
 	.string "START 버튼으로 메뉴를 연다!\p"
@@ -32,10 +32,10 @@ LittlerootTown_BrendansHouse_2F_Text_172F9A:: @ 8172F9A
 	.string "그 뒤로는 아무것도 쓰여있지 않다...$"
 
 UnknownString_817303D: @ 817303D
-	.string "{PLAYER}\s 호연지방의\n"
+	.string "{PLAYER}{K_EUNNEUN} 호연지방의\n"
 	.string "타운맵에 얼굴을 가까이 댔다!$"
 
 LittlerootTown_BrendansHouse_2F_Text_17306C:: @ 817306C
-	.string "게임큐브다!\p"
+	.string "게임큐브가 있다!\p"
 	.string "컨트롤러 대신에\n"
 	.string "게임보이 어드밴스가 연결되어 있어!$"

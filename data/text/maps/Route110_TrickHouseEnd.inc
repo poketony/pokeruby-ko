@@ -107,7 +107,7 @@ Route110_TrickHouseEnd_Text_19CA8B:: @ 819CA8B
 	.string "그거 아주 서러운데$"
 
 UnknownString_819CAD1: @ 819CAD1
-	.string "{PLAYER}\s 암호를\n"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
 	.string "문에 적었다!\p"
 	.string "“미궁대왕님 짱”\p"
 	.string "... ... ...\p"

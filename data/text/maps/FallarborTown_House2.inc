@@ -25,7 +25,7 @@ FallarborTown_House2_Text_177C78:: @ 8177C78
 	.string "없는 것 같아$"
 
 FallarborTown_House2_Text_177CC3:: @ 8177CC3
-	.string "{PLAYER}\s 보답으로\n"
+	.string "{PLAYER}{K_EUNNEUN} 보답으로\n"
 	.string "하트비늘을 1장 주었다!$"
 
 FallarborTown_House2_Text_177CEF:: @ 8177CEF

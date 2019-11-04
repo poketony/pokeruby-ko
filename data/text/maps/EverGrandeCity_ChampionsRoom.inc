@@ -52,8 +52,8 @@ EverGrandeCity_ChampionsRoom_Text_191305:: @ 8191305
 	.string "챔피언한테 이긴 거야?$"
 
 EverGrandeCity_ChampionsRoom_Text_19134D:: @ 819134D
-	.string "털보박사: 거봐라 {RIVAL}\i!\p"
-	.string "{PLAYER}\e라면 걱정할 필요 없다고\n"
+	.string "털보박사: 거봐라 {RIVAL}{K_AYA}!\p"
+	.string "{PLAYER}{K_I}라면 걱정할 필요 없다고\n"
 	.string "내가 말하지 않았더냐!\p"
 	.string "... ... ...\n"
 	.string "{PLAYER} 드디어 해냈구나\p"

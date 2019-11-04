@@ -35,7 +35,7 @@ Route110_TrickHousePuzzle7_Text_19E0B2:: @ 819E0B2
 	.string "전부 풀 거 같은 예감이 들어!$"
 
 UnknownString_819E0FF: @ 819E0FF
-	.string "{PLAYER}\s 암호를\n"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
 	.string "문에 적었다!\p"
 	.string "“미궁대왕님 사랑해요”\p"
 	.string "... ... ...\p"

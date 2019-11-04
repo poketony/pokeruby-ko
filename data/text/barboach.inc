@@ -7,13 +7,13 @@ UnknownString_81C426C: @ 81C426C //JP: 1961BC
 
 UnknownString_81C42CE: @ 81C42CE
 	.string "오오! 이 녀석 커!\n"
-	.string "무척 아름다운 {STR_VAR_1}\e야!\p"
+	.string "무척 아름다운 {STR_VAR_1}{K_I}야!\p"
 	.string "보여줘서 고마워\n"
 	.string "보답으로 이걸 가지고 가렴!$"
 
 UnknownString_81C432C: @ 81C432C
-	.string "{PLAYER}\s\n"
-	.string "{STR_VAR_2}\f 받았다!$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_2}{K_EULREUL} 받았다!$"
 
 UnknownString_81C4340: @ 81C4340
 	.string "어라?\n"
@@ -21,7 +21,7 @@ UnknownString_81C4340: @ 81C4340
 
 UnknownString_81C4360: @ 81C4360
 	.string "으음 난 이것보다 큰\n"
-	.string "{STR_VAR_1}\f 본 적이 있어...$"
+	.string "{STR_VAR_1}{K_EULREUL} 본 적이 있어...$"
 
 UnknownString_81C438C: @ 81C438C
 	.string "오오 이 녀석 꽤...아니\n"

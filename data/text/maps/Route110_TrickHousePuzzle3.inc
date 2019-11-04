@@ -35,7 +35,7 @@ Route110_TrickHousePuzzle3_Text_19D110:: @ 819D110
 	.string "자네라면 알지도 모르겠군$"
 
 UnknownString_819D164: @ 819D164
-	.string "{PLAYER}\s 암호를\n"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
 	.string "문에 적었다!\p"
 	.string "“미궁대왕님 멋있어”\p"
 	.string "... ... ...\p"

@@ -10,9 +10,9 @@ MossdeepCity_GameCorner_1F_Text_18E631:: @ 818E631
 	.string "문이 잠겨 있는 것 같다!$"
 
 MossdeepCity_GameCorner_1F_Text_18E650:: @ 818E650
-	.string "지금 {STR_VAR_1}\e라는 트레이너가\n"
+	.string "지금 {STR_VAR_1}{K_I}라는 트레이너가\n"
 	.string "내 집에 와 있네!\p"
-	.string "{STR_VAR_1}\h 승부하지 않겠나?$"
+	.string "{STR_VAR_1}{K_WAGWA} 승부하지 않겠나?$"
 
 MossdeepCity_GameCorner_1F_Text_18E698:: @ 818E698
 	.string "승부하지 않는 겐가...\n"

@@ -21,7 +21,7 @@ SootopolisCity_House8_Text_19021D:: @ 819021D
 	.string "보답으로 이걸 줄게!$"
 
 UnknownString_81902AE: @ 81902AE
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "상처약을 받았다!$"
 
 SootopolisCity_House8_Text_1902C4:: @ 81902C4

@@ -1,6 +1,6 @@
 LilycoveCity_PokemonTrainerFanClub_Text_18A1D6:: @ 818A1D6 //JP: 168E12
 	.string "아!\n"
-	.string "{PLAYER}\e다!!$"
+	.string "{PLAYER}{K_I}다!!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_18A1E8:: @ 818A1E8
 	.string "들었어!\n"
@@ -32,12 +32,12 @@ LilycoveCity_PokemonTrainerFanClub_Text_18A391:: @ 818A391
 LilycoveCity_PokemonTrainerFanClub_Text_18A400:: @ 818A400
 	.string "너에게는 미안하지만 지금 가장\n"
 	.string "주목받는 트레이너는\l"
-	.string "{STR_VAR_1}\e라고!\p"
+	.string "{STR_VAR_1}{K_I}라고!\p"
 	.string "그 강함은\n"
 	.string "보통이 아니지$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_18A48D:: @ 818A48D
-	.string "젠장- 지금은 {STR_VAR_1}\r\n"
+	.string "젠장- 지금은 {STR_VAR_1}{K_IGA}\n"
 	.string "가장 강하다고 말하는데도\p"
 	.string "아무도 들어주지 않아...$"
 
@@ -120,13 +120,13 @@ LilycoveCity_PokemonTrainerFanClub_Text_18A984:: @ 818A984
 	.string "모두 팬이 될지도 몰라!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_18AA39:: @ 818AA39
-	.string "우와-! {PLAYER}\e다-\n"
+	.string "우와-! {PLAYER}{K_I}다-\n"
 	.string "나 처음 봐-!\p"
 	.string "악수해줘-\n"
 	.string "악수!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_18AA83:: @ 818AA83
-	.string "나 언제까지나 {PLAYER}\f\n"
+	.string "나 언제까지나 {PLAYER}{K_EULREUL}\n"
 	.string "응원할 거야!\p"
 	.string "나 더 이상 {PLAYER}의 지는\n"
 	.string "모습 보고 싶지 않아\p"
@@ -153,7 +153,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_18ABAE:: @ 818ABAE
 	.string "그런 트레이너가 좋아...$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_18AC15:: @ 818AC15
-	.string "아! {PLAYER}\e다-!\n"
+	.string "아! {PLAYER}{K_I}다-!\n"
 	.string "굉장해-!\p"
 	.string "나도 자라면\n"
 	.string "{PLAYER} 같이 강해지고 싶어!$"
@@ -161,13 +161,13 @@ LilycoveCity_PokemonTrainerFanClub_Text_18AC15:: @ 818AC15
 LilycoveCity_PokemonTrainerFanClub_Text_18AC5E:: @ 818AC5E
 	.string "...\n"
 	.string "나 혼자가 되어도\p"
-	.string "쭉 {PLAYER}\f\n"
+	.string "쭉 {PLAYER}{K_EULREUL}\n"
 	.string "응원할 거야!\p"
-	.string "그야 {PLAYER}\f\n"
+	.string "그야 {PLAYER}{K_EULREUL}\n"
 	.string "믿고 있으니까!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_18ACC7:: @ 818ACC7
-	.string "{STR_VAR_1}\s 근사하지-\n"
+	.string "{STR_VAR_1}{K_EUNNEUN} 근사하지-\n"
 	.string "나하고 악수해주면 좋겠다$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_18AD05:: @ 818AD05
@@ -176,7 +176,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_18AD05:: @ 818AD05
 	.string "반드시 {STR_VAR_1}의 팬을\n"
 	.string "그만두지 않을 거야!\p"
 	.string "그야 나 들었어\n"
-	.string "{STR_VAR_1}\s 절대 지지 않는대$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 절대 지지 않는대$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_18AD6D:: @ 818AD6D
 	.string "{PLAYER}!\n"
@@ -195,7 +195,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_18ADEF:: @ 818ADEF
 LilycoveCity_PokemonTrainerFanClub_Text_18AE63:: @ 818AE63
 	.string "너도 상당히\n"
 	.string "좋은 트레이너라고 생각하는데\p"
-	.string "지금은 역시 {STR_VAR_1}\r\n"
+	.string "지금은 역시 {STR_VAR_1}{K_IGA}\n"
 	.string "제일이라고 생각해\p"
 	.string "뭐 내가 생각하는 것 뿐이니까\n"
 	.string "그렇게 신경 쓰지 않아도 돼$"
@@ -203,7 +203,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_18AE63:: @ 818AE63
 LilycoveCity_PokemonTrainerFanClub_Text_18AEF5:: @ 818AEF5
 	.string "너는 정말로 강하구나...\n"
 	.string "{STR_VAR_1}보다 강할지도 모르겠어\p"
-	.string "하지만 내가 {STR_VAR_1}\f\n"
+	.string "하지만 내가 {STR_VAR_1}{K_EULREUL}\n"
 	.string "응원하지 않으면\l"
 	.string "누가 응원하겠어!$"
 
@@ -220,10 +220,10 @@ LilycoveCity_PokemonTrainerFanClub_Text_18AFD0:: @ 818AFD0
 
 LilycoveCity_PokemonTrainerFanClub_Text_18B030:: @ 818B030
 	.string "최근 트레이너하면\n"
-	.string "역시 {STR_VAR_1}\e지!\l"
+	.string "역시 {STR_VAR_1}{K_I}지!\l"
 	.string "그 강함은 보통이 아니야\p"
 	.string "당신도 잘하지만\n"
-	.string "{STR_VAR_1}\h 비교하면 아직이지-$"
+	.string "{STR_VAR_1}{K_WAGWA} 비교하면 아직이지-$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_18B0C8:: @ 818B0C8
 	.string "당신 정말로\n"
@@ -231,7 +231,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_18B0C8:: @ 818B0C8
 	.string "강하지 포켓몬에게 상냥하지\p"
 	.string "말할 것도 없네\p"
 	.string "하지만 말야! 나는\n"
-	.string "{STR_VAR_1}\f 믿고 있어!\p"
+	.string "{STR_VAR_1}{K_EULREUL} 믿고 있어!\p"
 	.string "{STR_VAR_1} 쪽이 확실히\n"
 	.string "강하다고 정해져 있으니까!$"
 

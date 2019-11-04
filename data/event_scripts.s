@@ -853,10 +853,10 @@ EventScript_15F573:
 	.include "data/text/maps/Route110_TrickHouseEntrance.inc"
 
 Route110_TrickHousePuzzle1_Text_19C1B8:: @ 819C1B8
-	.string "{PLAYER}\s 두루마리를 발견했다!$"
+	.string "{PLAYER}{K_EUNNEUN} 두루마리를 발견했다!$"
 
 Route110_TrickHousePuzzle1_Text_19C1CB:: @ 819C1CB
-	.string "{PLAYER}\s 두루마리에 적혀 있는\n"
+	.string "{PLAYER}{K_EUNNEUN} 두루마리에 적혀 있는\n"
 	.string "암호를 기억했다!$"
 
 Route110_TrickHousePuzzle1_Text_19C1FF:: @ 819C1FF
@@ -2964,7 +2964,7 @@ UnusedMixRecordsSeeYouAgainText: @ 81A09D2
 	.string "그럼 또 방문해 주십시오$"
 
 UnknownString_81A09EC: @ 81A09EC
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
     .string "PC 전원을 켰다!$"
 
 gPCText_WhichPCShouldBeAccessed:: @ 81A0A01
@@ -3069,19 +3069,19 @@ Route104_PrettyPetalFlowerShop_Text_1A0C42:: @ 81A0C42
 	.string "쇼핑하러 오셨군요?$"
 
 Message_ObtainedItem: @ 81A0C68
-	.string "{STR_VAR_2}\f 손에 넣었다!$"
+	.string "{STR_VAR_2}{K_EULREUL} 손에 넣었다!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_1A0C79:: @ 81A0C79
 	.string "가방이 가득 찼다...$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_1A0C8C:: @ 81A0C8C
 Message_PutAwayItem:
-	.string "{PLAYER}\s {STR_VAR_2}\f\n"
+	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_2}{K_EULREUL}\n"
 	.string "{STR_VAR_3} 포켓에 넣었다$"
 
 Message_FoundOneItem:
-	.string "{PLAYER}\s\n"
-    .string "{STR_VAR_2}\f 발견했다!$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+    .string "{STR_VAR_2}{K_EULREUL} 발견했다!$"
 
 MauvilleCity_GameCorner_Text_1A0CC2:: @ 81A0CC2
 MauvilleCity_Text_1A0CC2:: @ 81A0CC2
@@ -3093,7 +3093,7 @@ Message_BagFull:
 	.string "가방이 가득 찼다...$"
 
 Message_ObtainedDecoration: @ 81A0CDE
-	.string "{STR_VAR_2}\f 받았다!$"
+	.string "{STR_VAR_2}{K_EULREUL} 받았다!$"
 
 BattleTower_Lobby_Text_1A0CEF:: @ 81A0CEF
 MauvilleCity_GameCorner_Text_1A0CEF:: @ 81A0CEF
@@ -3103,7 +3103,7 @@ SootopolisCity_House6_Text_1A0CEF:: @ 81A0CEF
 	.string "another {STR_VAR_2}...$"
 
 Message_TransferredToPC: @ 81A0D1F
-	.string "{STR_VAR_2}\s\n"
+	.string "{STR_VAR_2}{K_EUNNEUN}\n"
 	.string "PC로 전송되었다!$"
 
 PetalburgCity_Text_1A0D41:: @ 81A0D41
@@ -3128,7 +3128,7 @@ UnknownString_81A0DC6: @ 81A0DC6
 
 UnknownString_81A0DD4: @ 81A0DD4
 	.string "{STR_VAR_3}타입 포켓몬\n"
-	.string "{STR_VAR_1}\r 마음에 들었니?!$"
+	.string "{STR_VAR_1}{K_IGA} 마음에 들었니?!$"
 
 UnknownString_81A0DF5: @ 81A0DF5
 	.string "포켓몬이 들어있다!$"
@@ -3188,7 +3188,7 @@ LittlerootTown_MaysHouse_2F_Text_1A100C:: @ 81A100C
 
 LittlerootTown_BrendansHouse_2F_Text_1A10D6:: @ 81A10D6
 LittlerootTown_MaysHouse_2F_Text_1A10D6:: @ 81A10D6
-	.string "{PLAYER}\s PC\n"
+	.string "{PLAYER}{K_EUNNEUN} PC\n"
 	.string "전원을 켰다!$"
 
 FallarborTown_ContestLobby_Text_1A10EB:: @ 81A10EB
@@ -3200,11 +3200,11 @@ RustboroCity_DevonCorp_2F_Text_1A1102:: @ 81A1102
 	.string "닉네임을 붙이겠습니까?$"
 
 fieldPoisonText_PokemonFainted:: @ 81A1132
-	.string "{STR_VAR_1}\s\n"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n"
 	.string "쓰러졌다\p$"
 
 UnknownString_81A1141: @ 81A1141
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "{PLAYER}눈앞이 캄캄해졌다!$"
 
 SlateportCity_Text_1A116E:: @ 81A116E
@@ -3262,8 +3262,8 @@ OldaleTown_PokemonCenter_2F_Text_1A145C:: @ 81A145C
 	.string "아직 준비 중입니다$"
 
 FallarborTown_House1_Text_1A1498:: @ 81A1498
-	.string "{PLAYER}\s\n"
-	.string "{STR_VAR_1}\f 건넸다!$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_1}{K_EULREUL} 건넸다!$"
 
 Event_NoRegisteredItem:: @ 81A14AF
 	msgbox Text_NoRegisteredItem, 3
@@ -4333,7 +4333,7 @@ UnknownString_81A3A56: @ 81A3A56
 	.string "모양을 바꿀 굿즈가 없습니다...$"
 
 UnknownString_81A3A72: @ 81A3A72
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string	"PC 전원을 켰다!$"
 
 UnknownString_81A3A87: @ 81A3A87

@@ -83,7 +83,7 @@ FortreeCity_Gym_Text_185DBA:: @ 8185DBA
 	.string "이 체육관 배지를 드리겠습니다!$"
 
 FortreeCity_Gym_Text_185E48:: @ 8185E48
-	.string "{PLAYER}\s 은송에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 은송에게\n"
 	.string "깃털배지를 받았다!$"
 
 FortreeCity_Gym_Text_185E73:: @ 8185E73

@@ -7,7 +7,7 @@ NewMauville_Inside_Text_198395:: @ 8198395
 	.string "발전장치가 조용해 졌다$"
 
 NewMauville_Inside_Text_1983B1:: @ 81983B1
-	.string "{PLAYER}\s\n"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "스위치를 밟았다!\p"
 	.string "...딸깍\p"
 	.string "... ... ... ...\n"

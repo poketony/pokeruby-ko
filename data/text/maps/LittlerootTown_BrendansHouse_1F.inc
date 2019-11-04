@@ -1,5 +1,5 @@
 LittlerootTown_BrendansHouse_1F_Text_172429:: @ 8172429
-	.string "엄마: {PLAYER}\i 봐 보렴\n"
+	.string "엄마: {PLAYER}{K_AYA} 봐 보렴\n"
 	.string "집 안도 멋지지 않니?$"
 
 LittlerootTown_BrendansHouse_1F_Text_172453:: @ 8172453
@@ -129,7 +129,7 @@ LittlerootTown_BrendansHouse_1F_Text_172BBC:: @ 8172BBC
 	.string "오랜만에 집에 왔지만\n"
 	.string "결국 포켓몬 얘기밖에 하지 않았단다\p"
 	.string "가끔은 집에서\n"
-	.string "천천히 쉬었다 가면 좋을 텐데...$"
+	.string "천천히 쉬었다 가면 좋을 텐데!$"
 
 UnknownString_8172C50: @ 8172C50
 	.string "임시 뉴스입니다\p"
@@ -139,7 +139,7 @@ UnknownString_8172C50: @ 8172C50
 	.string "아직까지 정체는\n"
 	.string "확인하지 못했다고 합니다\p"
 	.string "그럼 계속 이어지는\n"
-	.string "영화를 즐겨주십시오$"
+	.string "영화를 즐겨주십시오...$"
 
 UnknownString_8172D30: @ 8172D30
 	.string "임시 뉴스입니다\p"

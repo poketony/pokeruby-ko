@@ -39,13 +39,13 @@ gBirchSpeech_WhatsYourName:: @ 81C6FFA
 	.string "이름도 알려주면 좋겠구나!$"
 
 gBirchSpeech_SoItsPlayer:: @ 81C7017
-	.string "{PLAYER}\e로구나?$"
+	.string "{PLAYER}{K_I}로구나?$"
 
 gBirchSpeech_AhOkayYouArePlayer:: @ 81C7025
 	.string "...아!\p"
 	.string "자네가 이번에 내가 사는 마을인\n"
 	.string "미로마을로 이사 온다는\l"
-	.string "{PLAYER}\e로구나!$"
+	.string "{PLAYER}{K_I}로구나!$"
 
 gBirchSpeech_AreYouReady:: @ 81C7074
 	.string "좋-아 준비는 되었는가?\p"

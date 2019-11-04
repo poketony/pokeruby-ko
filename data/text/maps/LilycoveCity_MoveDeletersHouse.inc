@@ -13,7 +13,7 @@ LilycoveCity_MoveDeletersHouse_Text_18B6B0:: @ 818B6B0
 	.string "잊게 하려는 게냐?$"
 
 LilycoveCity_MoveDeletersHouse_Text_18B6D0:: @ 818B6D0
-	.string "{STR_VAR_1}\s 기술을 하나밖에\n"
+	.string "{STR_VAR_1}{K_EUNNEUN} 기술을 하나밖에\n"
 	.string "가지지 않았는데?$"
 
 LilycoveCity_MoveDeletersHouse_Text_18B6F2:: @ 818B6F2
@@ -23,7 +23,7 @@ LilycoveCity_MoveDeletersHouse_Text_18B6F2:: @ 818B6F2
 
 LilycoveCity_MoveDeletersHouse_Text_18B71E:: @ 818B71E
 	.string "대성공이군!\p"
-	.string "{STR_VAR_1}\s {STR_VAR_2}\f\n"
+	.string "{STR_VAR_1}{K_EUNNEUN} {STR_VAR_2}{K_EULREUL}\n"
 	.string "잊어버린 것 같구먼!$"
 
 LilycoveCity_MoveDeletersHouse_Text_18B757:: @ 818B757

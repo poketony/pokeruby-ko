@@ -3,5 +3,5 @@ UseSurfPromptText: @ 81A1344
 	.string "파도타기를 쓰겠습니까?$"
 
 UsedSurfText: @ 81A137D
-	.string "{STR_VAR_1}\s\n"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n"
 	.string "파도타기를 썼다!$"

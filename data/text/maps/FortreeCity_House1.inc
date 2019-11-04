@@ -2,7 +2,7 @@ FortreeCity_House1_Text_18568C:: @ 818568C
 	.string "저기 있잖아 나\n"
 	.string "지금 찾고 있는 포켓몬이 있어\p"
 	.string "{STR_VAR_1}인데 혹시 가지고 있어?\n"
-	.string "내 {STR_VAR_2}\e랑\l"
+	.string "내 {STR_VAR_2}{K_I}랑\l"
 	.string "교환하지 않을래?$"
 
 FortreeCity_House1_Text_1856F7:: @ 81856F7
@@ -12,7 +12,7 @@ FortreeCity_House1_Text_1856F7:: @ 81856F7
 
 FortreeCity_House1_Text_185737:: @ 8185737
 	.string "엥! 그 포켓몬\n"
-	.string "{STR_VAR_1}\r 아니잖아!\l"
+	.string "{STR_VAR_1}{K_IGA} 아니잖아!\l"
 	.string "교환해줄 생각 없구나?$"
 
 FortreeCity_House1_Text_18577F:: @ 818577F

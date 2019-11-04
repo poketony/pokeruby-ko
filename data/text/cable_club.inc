@@ -160,8 +160,8 @@ UnknownString_81A4E0A: @ 81A4E0A
 	.string "포켓몬을 선택해 주십시오$"
 
 RecordCorner_Text_1A4E3B:: @ 81A4E3B
-	.string "{STR_VAR_1}\d로부터\n"
-	.string "{STR_VAR_2}\r 전송됐다!$"
+	.string "{STR_VAR_1}{K_EU}로부터\n"
+	.string "{STR_VAR_2}{K_IGA} 전송됐다!$"
 
 OldaleTown_PokemonCenter_2F_Text_1A4E50:: @ 81A4E50
 	.string "트레이너카드의\n"
