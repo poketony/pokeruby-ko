@@ -1,32 +1,32 @@
 AquaHideout_B2F_Text_197093:: @ 8197093
-	.string "하하하...\p"
-	.string "이미 여기까지 와버렸나\n"
-	.string "널 과소평가 한 거 같군!\p"
-	.string "하지만!\p"
-	.string "난 여태까지의 조무래기들보다\n"
-	.string "훨씬 강하다고?\p"
-	.string "난 시간을 끌기 위해서가 아니라...\p"
-	.string "널 쳐부수기 위해 있는 거다!$"
+	.string "우효효...\p"
+	.string "이미 여기까지 온 건가!\n"
+	.string "생각한 것보다 강한데!\p"
+	.string "하지만 여기까지다!\p"
+	.string "난 여태까지의 조무래기들과는\n"
+	.string "전혀 다르다!\p"
+	.string "시간벌기 따윈 하지 않고\n"
+	.string "널 짓밟아 주지!$"
 
 AquaHideout_B2F_Text_197145:: @ 8197145
-	.string "하하하...\n"
+	.string "우효효...\n"
 	.string "져버렸나...$"
 
 AquaHideout_B2F_Text_197162:: @ 8197162
-	.string "하하하!\p"
+	.string "우효효!\p"
 	.string "나하고 승부하는 사이에\n"
 	.string "지금쯤 리더는\l"
 	.string "목적을 달성하셨을 거다!$"
 
 AquaHideout_B2F_Text_1971AE:: @ 81971AE
-	.string "하하하!\p"
+	.string "우효효!\p"
 	.string "리더는 이미 바닷속 깊은 곳의\n"
 	.string "동굴에 도착하셨을 거다!\p"
 	.string "리더를 쫓으려면\n"
 	.string "해안시티 너머의 그 넓은 바다를\l"
 	.string "돌아다녀야 할 걸?\p"
-	.string "리더를 찾을 수 있을까?\n"
-	.string "하하하!$"
+	.string "리더를 찾을 수 있을까...\n"
+	.string "우효효!$"
 
 AquaHideout_B2F_Text_197270:: @ 8197270
 	.string "왓핫핫 기다리다\n"
