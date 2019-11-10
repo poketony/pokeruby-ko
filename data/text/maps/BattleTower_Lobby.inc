@@ -16,7 +16,7 @@ BattleTower_Lobby_Text_199FDA:: @ 8199FDA
 	.string "리포트를 작성하시겠습니까?$"
 
 BattleTower_Lobby_Text_19A024:: @ 819A024
-	.string "레벨50 과 레벨100\n"
+	.string "레벨50과 레벨100\n"
 	.string "어느 쪽 배틀룸으로 하겠습니까?$"
 
 BattleTower_Lobby_Text_19A07B:: @ 819A07B

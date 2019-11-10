@@ -3099,8 +3099,8 @@ BattleTower_Lobby_Text_1A0CEF:: @ 81A0CEF
 MauvilleCity_GameCorner_Text_1A0CEF:: @ 81A0CEF
 Route114_LanettesHouse_Text_1A0CEF:: @ 81A0CEF
 SootopolisCity_House6_Text_1A0CEF:: @ 81A0CEF
-	.string "Too bad! There’s no room left for\n"
-	.string "another {STR_VAR_2}...$"
+	.string "아쉽다! {STR_VAR_2}{K_EULREUL}\n"
+	.string "넣을 공간이 없다...$"
 
 Message_TransferredToPC: @ 81A0D1F
 	.string "{STR_VAR_2}{K_EUNNEUN}\n"

@@ -634,7 +634,7 @@ pool_SerialRegs: .4byte REG_BASE + 0x120
 
 pool_RegDispstat: .4byte REG_DISPSTAT
 
-pool_RubyUSAGameCode: .ascii "AXVE"
+pool_RubyUSAGameCode: .ascii "AXVK"
 
 pool_MultiBootLoadAddr: .4byte EWRAM_START
 

@@ -6065,7 +6065,6 @@ BattleText_FoundOne:
 	.byte	0xf9
 	.byte	0x0
 	.byte	0xfe
-	.byte	0x0
 	.byte	0xfd
 	.byte	0x13
 	.byte	0xf9
@@ -6079,7 +6078,7 @@ BattleText_FoundOne:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_FoundOne,19
+	.size	 BattleText_FoundOne,18
 	.globl	BattleText_SoothingAroma
 	.type	 BattleText_SoothingAroma,object
 BattleText_SoothingAroma:
@@ -11146,52 +11145,38 @@ BattleText_OpponentUsedMove:
 	.globl	BattleText_Exclamation2
 	.type	 BattleText_Exclamation2,object
 BattleText_Exclamation2:
-	.byte	0xf9
-	.byte	0x1
-	.byte	0x0
-	.byte	0x3c
-	.byte	0x63
-	.byte	0x38
-	.byte	0xc2
 	.byte	0xab
+	.byte	0xbb
 	.byte	0xff
-	.size	 BattleText_Exclamation2,9
+	.size	 BattleText_Exclamation2,3
 	.globl	BattleText_Exclamation3
 	.type	 BattleText_Exclamation3,object
 BattleText_Exclamation3:
-	.byte	0xf9
-	.byte	0x1
-	.byte	0x0
-	.byte	0x3c
-	.byte	0x63
-	.byte	0x38
-	.byte	0xc2
 	.byte	0xab
+	.byte	0xbc
 	.byte	0xff
-	.size	 BattleText_Exclamation3,9
+	.size	 BattleText_Exclamation3,3
 	.globl	BattleText_Exclamation4
 	.type	 BattleText_Exclamation4,object
 BattleText_Exclamation4:
 	.byte	0xab
+	.byte	0xbd
 	.byte	0xff
-	.size	 BattleText_Exclamation4,2
+	.size	 BattleText_Exclamation4,3
 	.globl	BattleText_Exclamation5
 	.type	 BattleText_Exclamation5,object
 BattleText_Exclamation5:
-	.byte	0x0
-	.byte	0x37
-	.byte	0x58
-	.byte	0x37
-	.byte	0x3d
 	.byte	0xab
+	.byte	0xbe
 	.byte	0xff
-	.size	 BattleText_Exclamation5,7
+	.size	 BattleText_Exclamation5,3
 	.globl	BattleText_Exclamation
 	.type	 BattleText_Exclamation,object
 BattleText_Exclamation:
 	.byte	0xab
+	.byte	0xbf
 	.byte	0xff
-	.size	 BattleText_Exclamation,2
+	.size	 BattleText_Exclamation,3
 	.globl	BattleStatText_HP
 	.type	 BattleStatText_HP,object
 BattleStatText_HP:

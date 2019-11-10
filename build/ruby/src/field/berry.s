@@ -311,23 +311,20 @@ gBerryDescriptionPart1_Leppa:
 	.byte	0x40
 	.byte	0x43
 	.byte	0x0
-	.byte	0x3d
-	.byte	0x80
-	.byte	0x39
-	.byte	0xa9
-	.byte	0x38
-	.byte	0xab
-	.byte	0x0
-	.byte	0x37
-	.byte	0x34
-	.byte	0xff
-	.size	 gBerryDescriptionPart1_Leppa,27
-	.type	 gBerryDescriptionPart2_Leppa,object
-gBerryDescriptionPart2_Leppa:
 	.byte	0x38
 	.byte	0xa9
 	.byte	0x3a
 	.byte	0x31
+	.byte	0x37
+	.byte	0x34
+	.byte	0xff
+	.size	 gBerryDescriptionPart1_Leppa,24
+	.type	 gBerryDescriptionPart2_Leppa,object
+gBerryDescriptionPart2_Leppa:
+	.byte	0x3d
+	.byte	0x80
+	.byte	0x39
+	.byte	0xab
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xad
@@ -980,20 +977,19 @@ gBerryDescriptionPart1_Razz:
 	.size	 gBerryDescriptionPart1_Razz,29
 	.type	 gBerryDescriptionPart2_Razz,object
 gBerryDescriptionPart2_Razz:
+	.byte	0x3b
+	.byte	0x4c
+	.byte	0x3a
+	.byte	0x26
+	.byte	0x37
+	.byte	0x34
+	.byte	0x0
 	.byte	0x3d
 	.byte	0x80
 	.byte	0x39
 	.byte	0xa9
-	.byte	0x38
-	.byte	0xab
-	.byte	0x0
-	.byte	0x37
-	.byte	0x34
-	.byte	0x0
 	.byte	0x3b
-	.byte	0x4f
-	.byte	0x39
-	.byte	0xa9
+	.byte	0xb9
 	.byte	0x0
 	.byte	0xa5
 	.byte	0x3c
@@ -1018,6 +1014,7 @@ gBerryDescriptionPart2_Razz:
 	.byte	0x33
 	.byte	0x38
 	.byte	0xc2
+	.byte	0xad
 	.byte	0xff
 	.size	 gBerryDescriptionPart2_Razz,39
 	.type	 gBerryDescriptionPart1_Bluk,object
