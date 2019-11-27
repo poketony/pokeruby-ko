@@ -30,12 +30,13 @@ SouthernIsland_Exterior_Text_1C5281:: @ 81C5281
 	.string "그래 그럼 돌아간다$"
 
 SouthernIsland_Exterior_Text_1C52A6:: @ 81C52A6
-	.string "Aye, right, as you like, then.$"
+	.string "그러냐\n"
+	.string "뭐 마음대로 해$"
 
 SouthernIsland_Interior_Text_1C52C5:: @ 81C52C5
 	.string "모든 꿈은 또 하나의 현실\n"
 	.string "그걸 잊지 마...$"
 
 SouthernIsland_Exterior_Text_1C52FB:: @ 81C52FB
-	.string "(기억이 흐려지는 자는\n"
-	.string "마음에 새기는 것을 희망한다...)$"
+	.string "기억이 흐려지는 자는\n"
+	.string "마음에 새기는 것을 희망한다...$"

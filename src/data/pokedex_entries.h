@@ -1,5 +1,6 @@
 static const u8 DexDescription_Dummy[] = _(
-    "-");
+    "새롭게 발견된 포켓몬\n"
+    "현재 조사 중");
 
 static const u8 DexDescription_Bulbasaur[] = _(
     "양지에서 낮잠 자는 모습을 볼 수 있다.\n"

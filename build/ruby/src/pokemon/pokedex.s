@@ -2399,9 +2399,41 @@ gUnknown_083A05F8:
 	.size	 gUnknown_083A05F8,1
 	.type	 DexDescription_Dummy,object
 DexDescription_Dummy:
-	.byte	0xae
+	.byte	0x3b
+	.byte	0xa3
+	.byte	0x39
+	.byte	0xe7
+	.byte	0x37
+	.byte	0x34
+	.byte	0x0
+	.byte	0x3a
+	.byte	0xc0
+	.byte	0x37
+	.byte	0x3f
+	.byte	0x39
+	.byte	0x20
+	.byte	0x0
+	.byte	0x40
+	.byte	0x4
+	.byte	0x3f
+	.byte	0xf
+	.byte	0x3a
+	.byte	0x76
+	.byte	0xfe
+	.byte	0x40
+	.byte	0x61
+	.byte	0x3d
+	.byte	0x8d
+	.byte	0x0
+	.byte	0x3d
+	.byte	0xba
+	.byte	0x3b
+	.byte	0x95
+	.byte	0x0
+	.byte	0x3d
+	.byte	0xe3
 	.byte	0xff
-	.size	 DexDescription_Dummy,2
+	.size	 DexDescription_Dummy,34
 	.type	 DexDescription_Bulbasaur,object
 DexDescription_Bulbasaur:
 	.byte	0x3c

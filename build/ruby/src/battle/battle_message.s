@@ -390,12 +390,8 @@ BattleText_UseNext:
 	.byte	0x3d
 	.byte	0x61
 	.byte	0x0
-	.byte	0x3b
-	.byte	0x95
-	.byte	0x3d
-	.byte	0x33
-	.byte	0x40
-	.byte	0x3a
+	.byte	0x3c
+	.byte	0x8b
 	.byte	0x37
 	.byte	0x3a
 	.byte	0x3c
@@ -406,7 +402,7 @@ BattleText_UseNext:
 	.byte	0xac
 	.byte	0xac
 	.byte	0xff
-	.size	 BattleText_UseNext,30
+	.size	 BattleText_UseNext,26
 	.globl	BattleText_AttackMissed
 	.type	 BattleText_AttackMissed,object
 BattleText_AttackMissed:
@@ -1120,13 +1116,16 @@ BattleText_PoisonHurt:
 	.byte	0x0
 	.byte	0x3d
 	.byte	0x7a
-	.byte	0x3c
-	.byte	0xd3
+	.byte	0x37
+	.byte	0x4d
+	.byte	0x0
+	.byte	0x3d
+	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_PoisonHurt,32
+	.size	 BattleText_PoisonHurt,35
 	.globl	BattleText_AlreadyPoisoned
 	.type	 BattleText_AlreadyPoisoned,object
 BattleText_AlreadyPoisoned:
@@ -1311,13 +1310,16 @@ BattleText_BurnHurt:
 	.byte	0x0
 	.byte	0x3d
 	.byte	0x7a
-	.byte	0x3c
-	.byte	0xd3
+	.byte	0x37
+	.byte	0x4d
+	.byte	0x0
+	.byte	0x3d
+	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_BurnHurt,27
+	.size	 BattleText_BurnHurt,30
 	.globl	BattleText_AlreadyBurned
 	.type	 BattleText_AlreadyBurned,object
 BattleText_AlreadyBurned:
@@ -1432,18 +1434,19 @@ BattleText_FrozenSolid:
 	.byte	0x3e
 	.byte	0xc
 	.byte	0x3d
-	.byte	0x75
+	.byte	0x72
+	.byte	0x3e
+	.byte	0xb
 	.byte	0x0
 	.byte	0x3c
-	.byte	0x13
-	.byte	0x0
-	.byte	0x3c
-	.byte	0xd1
+	.byte	0xa3
+	.byte	0x38
+	.byte	0xab
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_FrozenSolid,32
+	.size	 BattleText_FrozenSolid,33
 	.globl	BattleText_DefendingDefrosted
 	.type	 BattleText_DefendingDefrosted,object
 BattleText_DefendingDefrosted:
@@ -1601,7 +1604,6 @@ BattleText_Paralyzed2:
 	.byte	0x1f
 	.byte	0x3c
 	.byte	0xc7
-	.byte	0xab
 	.byte	0xfa
 	.byte	0x37
 	.byte	0xa0
@@ -1629,7 +1631,7 @@ BattleText_Paralyzed2:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_Paralyzed2,56
+	.size	 BattleText_Paralyzed2,55
 	.globl	BattleText_Paralyzed3
 	.type	 BattleText_Paralyzed3,object
 BattleText_Paralyzed3:
@@ -1664,9 +1666,8 @@ BattleText_Paralyzed3:
 	.byte	0xd1
 	.byte	0x38
 	.byte	0xc2
-	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_Paralyzed3,33
+	.size	 BattleText_Paralyzed3,32
 	.globl	BattleText_AlreadyParalyzed
 	.type	 BattleText_AlreadyParalyzed,object
 BattleText_AlreadyParalyzed:
@@ -1753,7 +1754,7 @@ BattleText_AttackingStatNoHigher:
 	.byte	0x0
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x38
 	.byte	0xde
 	.byte	0x0
@@ -1787,7 +1788,7 @@ BattleText_DefendingStatNoHigher:
 	.byte	0x0
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x38
 	.byte	0xde
 	.byte	0x0
@@ -1822,18 +1823,27 @@ BattleText_StoppedWorking:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x0
-	.byte	0xf9
-	.byte	0x3
+	.byte	0x3d
+	.byte	0x6d
 	.byte	0xfe
-	.byte	0x3a
-	.byte	0x5b
-	.byte	0x3e
-	.byte	0xb9
+	.byte	0x40
+	.byte	0x88
+	.byte	0x37
+	.byte	0x5a
+	.byte	0x37
+	.byte	0x1
+	.byte	0x0
+	.byte	0x39
+	.byte	0x69
+	.byte	0x3c
+	.byte	0xc7
+	.byte	0x3d
+	.byte	0xb7
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_StoppedWorking,21
+	.size	 BattleText_StoppedWorking,30
 	.globl	BattleText_StoppedWorking2
 	.type	 BattleText_StoppedWorking2,object
 BattleText_StoppedWorking2:
@@ -1844,18 +1854,27 @@ BattleText_StoppedWorking2:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x0
-	.byte	0xf9
-	.byte	0x3
+	.byte	0x3d
+	.byte	0x6d
 	.byte	0xfe
-	.byte	0x3a
-	.byte	0x5b
-	.byte	0x3e
-	.byte	0xb9
+	.byte	0x40
+	.byte	0x88
+	.byte	0x37
+	.byte	0x5a
+	.byte	0x37
+	.byte	0x1
+	.byte	0x0
+	.byte	0x39
+	.byte	0x69
+	.byte	0x3c
+	.byte	0xc7
+	.byte	0x3d
+	.byte	0xb7
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_StoppedWorking2,18
+	.size	 BattleText_StoppedWorking2,27
 	.globl	BattleText_Confused
 	.type	 BattleText_Confused,object
 BattleText_Confused:
@@ -2027,7 +2046,7 @@ BattleText_ImmobilizedBy:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x40
 	.byte	0x57
 	.byte	0x39
@@ -2040,6 +2059,7 @@ BattleText_ImmobilizedBy:
 	.byte	0x43
 	.byte	0x3b
 	.byte	0xb9
+	.byte	0xfe
 	.byte	0x0
 	.byte	0x37
 	.byte	0xa0
@@ -2062,7 +2082,7 @@ BattleText_ImmobilizedBy:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_ImmobilizedBy,39
+	.size	 BattleText_ImmobilizedBy,40
 	.globl	BattleText_BlownAway
 	.type	 BattleText_BlownAway,object
 BattleText_BlownAway:
@@ -2074,14 +2094,19 @@ BattleText_BlownAway:
 	.byte	0x38
 	.byte	0x3a
 	.byte	0x39
-	.byte	0xa9
+	.byte	0xd5
 	.byte	0x37
-	.byte	0xc
+	.byte	0x1
+	.byte	0x0
+	.byte	0x3a
+	.byte	0xd7
+	.byte	0x39
+	.byte	0xdc
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_BlownAway,15
+	.size	 BattleText_BlownAway,20
 	.globl	BattleText_TypeTransform
 	.type	 BattleText_TypeTransform,object
 BattleText_TypeTransform:
@@ -2124,26 +2149,25 @@ BattleText_Flinched:
 	.byte	0x3c
 	.byte	0xc7
 	.byte	0x0
-	.byte	0x37
-	.byte	0xa0
-	.byte	0x3c
-	.byte	0x17
 	.byte	0x3d
-	.byte	0x61
-	.byte	0x0
-	.byte	0x3c
-	.byte	0x8e
+	.byte	0x3a
+	.byte	0x3e
+	.byte	0xc
+	.byte	0x3d
+	.byte	0x75
 	.byte	0x0
 	.byte	0x3c
 	.byte	0x13
 	.byte	0x0
 	.byte	0x3c
 	.byte	0xd1
+	.byte	0x3c
+	.byte	0xd3
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_Flinched,34
+	.size	 BattleText_Flinched,33
 	.globl	BattleText_RegainedHealth
 	.type	 BattleText_RegainedHealth,object
 BattleText_RegainedHealth:
@@ -2157,7 +2181,7 @@ BattleText_RegainedHealth:
 	.byte	0xd6
 	.byte	0x3d
 	.byte	0x61
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x40
 	.byte	0x81
 	.byte	0x3b
@@ -2195,14 +2219,18 @@ BattleText_HPFull:
 	.byte	0x1
 	.byte	0x39
 	.byte	0x3e
-	.byte	0x0
 	.byte	0x3e
-	.byte	0x72
+	.byte	0x6c
+	.byte	0x0
+	.byte	0x3b
+	.byte	0xa1
+	.byte	0x3f
+	.byte	0x60
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_HPFull,30
+	.size	 BattleText_HPFull,34
 	.globl	BattleText_RaisedSpDef
 	.type	 BattleText_RaisedSpDef,object
 BattleText_RaisedSpDef:
@@ -2398,7 +2426,7 @@ BattleText_SafeguardActive:
 	.byte	0xfd
 	.byte	0xd
 	.byte	0xf9
-	.byte	0x1
+	.byte	0x0
 	.byte	0xfe
 	.byte	0x3c
 	.byte	0x40
@@ -2507,29 +2535,41 @@ BattleText_SpeltHealthy:
 	.byte	0xf9
 	.byte	0x0
 	.byte	0xfe
-	.byte	0x3d
-	.byte	0x87
-	.byte	0x3d
-	.byte	0x72
-	.byte	0x0
-	.byte	0x39
-	.byte	0x41
-	.byte	0x3c
-	.byte	0xc7
-	.byte	0x0
 	.byte	0x37
 	.byte	0x27
 	.byte	0x37
 	.byte	0xd
 	.byte	0x40
-	.byte	0x43
+	.byte	0x3c
+	.byte	0x0
+	.byte	0x3b
+	.byte	0xa1
+	.byte	0x3f
+	.byte	0x60
+	.byte	0x39
+	.byte	0xe2
+	.byte	0x0
 	.byte	0x3d
-	.byte	0xb7
+	.byte	0x87
+	.byte	0x3d
+	.byte	0x61
+	.byte	0x0
+	.byte	0x3d
+	.byte	0x80
+	.byte	0x37
+	.byte	0xa0
+	.byte	0x0
+	.byte	0x3c
+	.byte	0x3e
+	.byte	0x3d
+	.byte	0x81
+	.byte	0x40
+	.byte	0x4a
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_SpeltHealthy,27
+	.size	 BattleText_SpeltHealthy,39
 	.globl	BattleText_WhipWhirlwind
 	.type	 BattleText_WhipWhirlwind,object
 BattleText_WhipWhirlwind:
@@ -2683,12 +2723,24 @@ BattleText_DugHole:
 	.byte	0xf9
 	.byte	0x0
 	.byte	0xfe
+	.byte	0x37
+	.byte	0x76
+	.byte	0x3a
+	.byte	0x5e
+	.byte	0x3d
+	.byte	0x61
+	.byte	0x0
+	.byte	0x3f
+	.byte	0xc0
+	.byte	0x3b
+	.byte	0xb9
+	.byte	0x0
 	.byte	0x39
 	.byte	0x5b
-	.byte	0x3d
-	.byte	0x5e
-	.byte	0x39
-	.byte	0xe2
+	.byte	0x3b
+	.byte	0xdf
+	.byte	0x3c
+	.byte	0xd8
 	.byte	0x0
 	.byte	0x3f
 	.byte	0xc0
@@ -2702,7 +2754,7 @@ BattleText_DugHole:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_DugHole,24
+	.size	 BattleText_DugHole,36
 	.globl	BattleText_HidUnderwater
 	.type	 BattleText_HidUnderwater,object
 BattleText_HidUnderwater:
@@ -2740,11 +2792,6 @@ BattleText_SprangUp:
 	.byte	0xf9
 	.byte	0x0
 	.byte	0xfe
-	.byte	0x38
-	.byte	0x7f
-	.byte	0x3d
-	.byte	0x72
-	.byte	0x0
 	.byte	0x39
 	.byte	0x8f
 	.byte	0x3c
@@ -2757,7 +2804,7 @@ BattleText_SprangUp:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_SprangUp,22
+	.size	 BattleText_SprangUp,17
 	.globl	BattleText_SqueezedBind
 	.type	 BattleText_SqueezedBind,object
 BattleText_SqueezedBind:
@@ -2859,14 +2906,14 @@ BattleText_Wrapped:
 	.byte	0xd
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xc
 	.byte	0x3c
 	.byte	0xd8
 	.byte	0x37
 	.byte	0x34
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x40
 	.byte	0x9f
 	.byte	0x37
@@ -2885,12 +2932,12 @@ BattleText_Clamped:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x37
 	.byte	0xca
 	.byte	0x3e
@@ -2971,11 +3018,6 @@ BattleText_FreedFrom:
 	.globl	BattleText_KeptGoingCrash
 	.type	 BattleText_KeptGoingCrash,object
 BattleText_KeptGoingCrash:
-	.byte	0xfd
-	.byte	0xc
-	.byte	0xf9
-	.byte	0x0
-	.byte	0xfe
 	.byte	0x3d
 	.byte	0x6d
 	.byte	0x3d
@@ -2989,6 +3031,11 @@ BattleText_KeptGoingCrash:
 	.byte	0x95
 	.byte	0x3b
 	.byte	0xb9
+	.byte	0xfe
+	.byte	0xfd
+	.byte	0xc
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0x39
 	.byte	0x5b
@@ -3011,6 +3058,8 @@ BattleText_KeptGoingCrash:
 BattleText_MistShroud:
 	.byte	0xfd
 	.byte	0x26
+	.byte	0xf9
+	.byte	0x0
 	.byte	0xfe
 	.byte	0x40
 	.byte	0xbb
@@ -3033,7 +3082,7 @@ BattleText_MistShroud:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_MistShroud,24
+	.size	 BattleText_MistShroud,26
 	.globl	BattleText_MistProtect
 	.type	 BattleText_MistProtect,object
 BattleText_MistProtect:
@@ -3064,9 +3113,8 @@ BattleText_MistProtect:
 	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
-	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_MistProtect,29
+	.size	 BattleText_MistProtect,28
 	.globl	BattleText_GetPumped
 	.type	 BattleText_GetPumped,object
 BattleText_GetPumped:
@@ -3075,24 +3123,27 @@ BattleText_GetPumped:
 	.byte	0xf9
 	.byte	0x0
 	.byte	0xfe
-	.byte	0x40
-	.byte	0xc4
+	.byte	0x3d
+	.byte	0x6d
+	.byte	0x3d
+	.byte	0x2d
 	.byte	0x3d
 	.byte	0x72
 	.byte	0x0
 	.byte	0x38
 	.byte	0x5c
 	.byte	0x3e
-	.byte	0x95
-	.byte	0x40
-	.byte	0xae
-	.byte	0x3a
-	.byte	0x28
+	.byte	0xd0
+	.byte	0x37
+	.byte	0x4d
+	.byte	0x0
+	.byte	0x3d
+	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_GetPumped,22
+	.size	 BattleText_GetPumped,25
 	.globl	BattleText_HitRecoil
 	.type	 BattleText_HitRecoil,object
 BattleText_HitRecoil:
@@ -3101,23 +3152,19 @@ BattleText_HitRecoil:
 	.byte	0xf9
 	.byte	0x0
 	.byte	0xfe
+	.byte	0x37
+	.byte	0x58
+	.byte	0x37
+	.byte	0x3d
+	.byte	0x3d
+	.byte	0x6d
+	.byte	0x0
 	.byte	0x3a
 	.byte	0xbe
 	.byte	0x39
 	.byte	0x17
 	.byte	0x3d
-	.byte	0x5e
-	.byte	0x39
-	.byte	0xe2
-	.byte	0x0
-	.byte	0x38
-	.byte	0xec
-	.byte	0x3a
-	.byte	0xad
-	.byte	0x3e
-	.byte	0xb
-	.byte	0x3a
-	.byte	0x29
+	.byte	0x61
 	.byte	0x0
 	.byte	0x3d
 	.byte	0x7a
@@ -3127,7 +3174,7 @@ BattleText_HitRecoil:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_HitRecoil,31
+	.size	 BattleText_HitRecoil,27
 	.globl	BattleText_ProtectedItself2
 	.type	 BattleText_ProtectedItself2,object
 BattleText_ProtectedItself2:
@@ -3223,18 +3270,27 @@ BattleText_WoreOff:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x0
-	.byte	0xf9
-	.byte	0x3
+	.byte	0x3d
+	.byte	0x6d
 	.byte	0xfe
+	.byte	0x40
+	.byte	0x88
 	.byte	0x37
-	.byte	0x95
-	.byte	0x3e
-	.byte	0x97
+	.byte	0x5a
+	.byte	0x37
+	.byte	0x1
+	.byte	0x0
+	.byte	0x39
+	.byte	0x69
+	.byte	0x3c
+	.byte	0xc7
+	.byte	0x3d
+	.byte	0xb7
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_WoreOff,16
+	.size	 BattleText_WoreOff,25
 	.globl	BattleText_WasSeeded
 	.type	 BattleText_WasSeeded,object
 BattleText_WasSeeded:
@@ -3456,13 +3512,8 @@ BattleText_UproarCaused:
 	.byte	0xde
 	.byte	0x39
 	.byte	0xab
-	.byte	0x3d
-	.byte	0x61
-	.byte	0x0
 	.byte	0x40
 	.byte	0x32
-	.byte	0x3d
-	.byte	0x34
 	.byte	0x37
 	.byte	0xa0
 	.byte	0x0
@@ -3476,7 +3527,7 @@ BattleText_UproarCaused:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_UproarCaused,29
+	.size	 BattleText_UproarCaused,24
 	.globl	BattleText_UproarMaking
 	.type	 BattleText_UproarMaking,object
 BattleText_UproarMaking:
@@ -3489,9 +3540,6 @@ BattleText_UproarMaking:
 	.byte	0xde
 	.byte	0x39
 	.byte	0xab
-	.byte	0x3d
-	.byte	0x61
-	.byte	0x0
 	.byte	0x40
 	.byte	0x32
 	.byte	0x3d
@@ -3505,7 +3553,7 @@ BattleText_UproarMaking:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_UproarMaking,25
+	.size	 BattleText_UproarMaking,22
 	.globl	BattleText_CalmedDown
 	.type	 BattleText_CalmedDown,object
 BattleText_CalmedDown:
@@ -3524,9 +3572,8 @@ BattleText_CalmedDown:
 	.byte	0xb7
 	.byte	0x38
 	.byte	0xc2
-	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_CalmedDown,17
+	.size	 BattleText_CalmedDown,16
 	.globl	BattleText_UproarCantSleep
 	.type	 BattleText_UproarCantSleep,object
 BattleText_UproarCantSleep:
@@ -3646,13 +3693,8 @@ BattleText_UproarCantSleep2:
 	.byte	0xde
 	.byte	0x39
 	.byte	0xab
-	.byte	0x3d
-	.byte	0x61
-	.byte	0x0
 	.byte	0x40
 	.byte	0x32
-	.byte	0x3d
-	.byte	0x34
 	.byte	0x37
 	.byte	0x4d
 	.byte	0x0
@@ -3678,10 +3720,17 @@ BattleText_UproarCantSleep2:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_UproarCantSleep2,48
+	.size	 BattleText_UproarCantSleep2,43
 	.globl	BattleText_UproarKeptAwake
 	.type	 BattleText_UproarKeptAwake,object
 BattleText_UproarKeptAwake:
+	.byte	0x37
+	.byte	0x95
+	.byte	0x39
+	.byte	0xc3
+	.byte	0x38
+	.byte	0x35
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xd
 	.byte	0xf9
@@ -3700,18 +3749,21 @@ BattleText_UproarKeptAwake:
 	.byte	0x3b
 	.byte	0xb9
 	.byte	0x0
-	.byte	0x38
-	.byte	0x94
 	.byte	0x3d
-	.byte	0x61
-	.byte	0x0
+	.byte	0x87
 	.byte	0x39
-	.byte	0x6f
+	.byte	0x41
+	.byte	0x0
+	.byte	0x3c
+	.byte	0x13
+	.byte	0x0
+	.byte	0x3c
+	.byte	0xd1
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_UproarKeptAwake,29
+	.size	 BattleText_UproarKeptAwake,39
 	.globl	BattleText_StayedAwake
 	.type	 BattleText_StayedAwake,object
 BattleText_StayedAwake:
@@ -3743,9 +3795,8 @@ BattleText_StayedAwake:
 	.byte	0xab
 	.byte	0x38
 	.byte	0xc2
-	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_StayedAwake,30
+	.size	 BattleText_StayedAwake,29
 	.globl	BattleText_StoringEnergy
 	.type	 BattleText_StoringEnergy,object
 BattleText_StoringEnergy:
@@ -3832,7 +3883,7 @@ BattleText_PickedUpYen:
 	.byte	0x20
 	.byte	0xf9
 	.byte	0x0
-	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x0
 	.byte	0x3d
@@ -3915,12 +3966,12 @@ BattleText_SubMade:
 	.byte	0x3d
 	.byte	0x6d
 	.byte	0xfe
-	.byte	0x38
-	.byte	0xd4
-	.byte	0x3f
-	.byte	0x56
-	.byte	0x37
-	.byte	0x1
+	.byte	0x3b
+	.byte	0x20
+	.byte	0x3c
+	.byte	0x40
+	.byte	0x3d
+	.byte	0x72
 	.byte	0x0
 	.byte	0x38
 	.byte	0x35
@@ -3930,9 +3981,8 @@ BattleText_SubMade:
 	.byte	0x40
 	.byte	0x38
 	.byte	0xc2
-	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_SubMade,22
+	.size	 BattleText_SubMade,21
 	.globl	BattleText_SubAlready
 	.type	 BattleText_SubAlready,object
 BattleText_SubAlready:
@@ -3957,11 +4007,11 @@ BattleText_SubAlready:
 	.byte	0x35
 	.byte	0x3d
 	.byte	0x15
-	.byte	0x0
 	.byte	0x3d
 	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
+	.byte	0xab
 	.byte	0xff
 	.size	 BattleText_SubAlready,27
 	.globl	BattleText_SubTookDamage
@@ -3981,12 +4031,12 @@ BattleText_SubTookDamage:
 	.byte	0x3c
 	.byte	0xe0
 	.byte	0xfe
-	.byte	0x38
-	.byte	0xd4
-	.byte	0x3f
-	.byte	0x56
-	.byte	0x37
-	.byte	0x1
+	.byte	0x3b
+	.byte	0x20
+	.byte	0x3c
+	.byte	0x40
+	.byte	0x3d
+	.byte	0x72
 	.byte	0x0
 	.byte	0x37
 	.byte	0x58
@@ -4012,13 +4062,14 @@ BattleText_SubFaded:
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
+	.byte	0x0
+	.byte	0x3b
+	.byte	0x20
+	.byte	0x3c
+	.byte	0x40
+	.byte	0x3d
+	.byte	0x60
 	.byte	0xfe
-	.byte	0x38
-	.byte	0xd4
-	.byte	0x3f
-	.byte	0x56
-	.byte	0x38
-	.byte	0xab
 	.byte	0x0
 	.byte	0x3b
 	.byte	0x95
@@ -4038,15 +4089,10 @@ BattleText_SubFaded:
 	.byte	0xad
 	.byte	0xfb
 	.byte	0xff
-	.size	 BattleText_SubFaded,30
+	.size	 BattleText_SubFaded,31
 	.globl	BattleText_MustRecharge
 	.type	 BattleText_MustRecharge,object
 BattleText_MustRecharge:
-	.byte	0xfd
-	.byte	0xc
-	.byte	0xf9
-	.byte	0x0
-	.byte	0xfe
 	.byte	0x37
 	.byte	0x58
 	.byte	0x37
@@ -4062,6 +4108,11 @@ BattleText_MustRecharge:
 	.byte	0x5e
 	.byte	0x39
 	.byte	0xe2
+	.byte	0xfe
+	.byte	0xfd
+	.byte	0xc
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0x3d
 	.byte	0x3a
@@ -4087,12 +4138,12 @@ BattleText_RageBuilding:
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3b
 	.byte	0x20
 	.byte	0x38
 	.byte	0x76
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x3b
 	.byte	0xc
 	.byte	0x3f
@@ -4230,25 +4281,32 @@ BattleText_TookAim:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
+	.byte	0x0
+	.byte	0x3a
+	.byte	0x74
+	.byte	0x40
+	.byte	0x10
+	.byte	0x3a
+	.byte	0x29
 	.byte	0xfe
 	.byte	0xfd
 	.byte	0xd
-	.byte	0x3c
-	.byte	0xd8
-	.byte	0x37
-	.byte	0x34
+	.byte	0xf9
+	.byte	0x2
+	.byte	0x39
+	.byte	0xe2
 	.byte	0x0
+	.byte	0x37
+	.byte	0x41
 	.byte	0x3d
-	.byte	0xba
-	.byte	0x3d
-	.byte	0xdc
+	.byte	0xa8
 	.byte	0x40
 	.byte	0x4a
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_TookAim,22
+	.size	 BattleText_TookAim,29
 	.globl	BattleText_SketchedMove
 	.type	 BattleText_SketchedMove,object
 BattleText_SketchedMove:
@@ -4315,9 +4373,8 @@ BattleText_DestinyBondTake:
 	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
-	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_DestinyBondTake,39
+	.size	 BattleText_DestinyBondTake,38
 	.globl	BattleText_DestinyBondTaken
 	.type	 BattleText_DestinyBondTaken,object
 BattleText_DestinyBondTaken:
@@ -4381,12 +4438,16 @@ BattleText_StoleSomething:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xd
-	.byte	0x3d
-	.byte	0x6d
-	.byte	0x0
+	.byte	0x39
+	.byte	0xe2
+	.byte	0x3b
+	.byte	0x1e
+	.byte	0x3f
+	.byte	0x6b
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x13
 	.byte	0xf9
@@ -4402,7 +4463,7 @@ BattleText_StoleSomething:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_StoleSomething,25
+	.size	 BattleText_StoleSomething,29
 	.globl	BattleText_CantEscapeNow
 	.type	 BattleText_CantEscapeNow,object
 BattleText_CantEscapeNow:
@@ -4576,9 +4637,6 @@ BattleText_CurseAfflict:
 BattleText_SpikesScattered:
 	.byte	0xfd
 	.byte	0x25
-	.byte	0x3d
-	.byte	0x6d
-	.byte	0x0
 	.byte	0x3a
 	.byte	0xc0
 	.byte	0x3a
@@ -4603,7 +4661,7 @@ BattleText_SpikesScattered:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_SpikesScattered,29
+	.size	 BattleText_SpikesScattered,26
 	.globl	BattleText_SpikesHurt
 	.type	 BattleText_SpikesHurt,object
 BattleText_SpikesHurt:
@@ -4611,7 +4669,7 @@ BattleText_SpikesHurt:
 	.byte	0x10
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3c
 	.byte	0xa9
 	.byte	0x3d
@@ -4624,7 +4682,7 @@ BattleText_SpikesHurt:
 	.byte	0xa0
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x38
 	.byte	0xec
 	.byte	0x3a
@@ -4650,23 +4708,37 @@ BattleText_IdentifiedPoke:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xd
 	.byte	0xf9
 	.byte	0x1
+	.byte	0x3d
+	.byte	0x6d
+	.byte	0xfe
+	.byte	0x3d
+	.byte	0xa8
+	.byte	0x3e
+	.byte	0x8d
+	.byte	0x3a
+	.byte	0x29
 	.byte	0x0
-	.byte	0x37
-	.byte	0x3
-	.byte	0x3f
-	.byte	0xc0
-	.byte	0x40
-	.byte	0x4a
+	.byte	0x38
+	.byte	0x14
+	.byte	0x39
+	.byte	0x8b
+	.byte	0x3c
+	.byte	0xc7
+	.byte	0x0
+	.byte	0x3b
+	.byte	0x8
+	.byte	0x3c
+	.byte	0xab
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_IdentifiedPoke,20
+	.size	 BattleText_IdentifiedPoke,34
 	.globl	BattleText_PerishSongFell
 	.type	 BattleText_PerishSongFell,object
 BattleText_PerishSongFell:
@@ -4674,14 +4746,14 @@ BattleText_PerishSongFell:
 	.byte	0xc
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3a
 	.byte	0x6d
 	.byte	0x3a
 	.byte	0x44
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x3e
 	.byte	0xda
 	.byte	0x3d
@@ -4693,6 +4765,8 @@ BattleText_PerishSongFell:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x0
+	.byte	0xf9
+	.byte	0x3
 	.byte	0x0
 	.byte	0x39
 	.byte	0x1f
@@ -4702,7 +4776,7 @@ BattleText_PerishSongFell:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_PerishSongFell,32
+	.size	 BattleText_PerishSongFell,34
 	.globl	BattleText_BracedItself
 	.type	 BattleText_BracedItself,object
 BattleText_BracedItself:
@@ -4777,8 +4851,9 @@ BattleText_MagnitudeCount:
 	.byte	0xfd
 	.byte	0x0
 	.byte	0xab
+	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_MagnitudeCount,15
+	.size	 BattleText_MagnitudeCount,16
 	.globl	BattleText_CutHPMaxATK
 	.type	 BattleText_CutHPMaxATK,object
 BattleText_CutHPMaxATK:
@@ -4786,7 +4861,7 @@ BattleText_CutHPMaxATK:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3e
 	.byte	0x8d
 	.byte	0x39
@@ -4800,10 +4875,9 @@ BattleText_CutHPMaxATK:
 	.byte	0x9f
 	.byte	0x3b
 	.byte	0xb9
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x40
 	.byte	0x19
-	.byte	0x0
 	.byte	0x3f
 	.byte	0xc0
 	.byte	0x3d
@@ -4821,7 +4895,7 @@ BattleText_CutHPMaxATK:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_CutHPMaxATK,39
+	.size	 BattleText_CutHPMaxATK,38
 	.globl	BattleText_CopyStatChanges
 	.type	 BattleText_CopyStatChanges,object
 BattleText_CopyStatChanges:
@@ -4829,7 +4903,7 @@ BattleText_CopyStatChanges:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xd
 	.byte	0x3d
@@ -4865,12 +4939,12 @@ BattleText_GotFreeFrom:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x0
 	.byte	0xf9
@@ -4980,14 +5054,14 @@ BattleText_ForesawAttack:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3a
 	.byte	0xad
 	.byte	0x39
 	.byte	0xb5
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x37
 	.byte	0x58
 	.byte	0x37
@@ -5040,12 +5114,12 @@ BattleText_ChoseDestiny:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0x11
 	.byte	0xf9
 	.byte	0x1
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x3a
 	.byte	0xad
 	.byte	0x39
@@ -5160,9 +5234,8 @@ BattleText_NaturePower:
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
-	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_NaturePower,25
+	.size	 BattleText_NaturePower,24
 	.globl	BattleText_StatusNormal
 	.type	 BattleText_StatusNormal,object
 BattleText_StatusNormal:
@@ -5170,7 +5243,7 @@ BattleText_StatusNormal:
 	.byte	0xc
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3b
 	.byte	0xa1
 	.byte	0x3f
@@ -5180,19 +5253,18 @@ BattleText_StatusNormal:
 	.byte	0x3b
 	.byte	0xa1
 	.byte	0x3d
-	.byte	0x61
+	.byte	0x72
+	.byte	0xfe
 	.byte	0x0
-	.byte	0x40
-	.byte	0x81
-	.byte	0x3b
-	.byte	0x9
-	.byte	0x40
-	.byte	0x4a
+	.byte	0x38
+	.byte	0x35
+	.byte	0x3c
+	.byte	0xab
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_StatusNormal,26
+	.size	 BattleText_StatusNormal,25
 	.globl	BattleText_TormentSubject
 	.type	 BattleText_TormentSubject,object
 BattleText_TormentSubject:
@@ -5463,12 +5535,12 @@ BattleText_CopiedObject:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfa
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x16
 	.byte	0xf9
@@ -5493,33 +5565,24 @@ BattleText_WishMade:
 	.byte	0xf9
 	.byte	0x0
 	.byte	0xfe
-	.byte	0x3c
 	.byte	0x40
+	.byte	0xba
+	.byte	0x3a
+	.byte	0x44
 	.byte	0x3b
-	.byte	0x41
+	.byte	0x95
 	.byte	0x40
-	.byte	0x3c
+	.byte	0x42
+	.byte	0x3d
+	.byte	0x61
 	.byte	0x0
-	.byte	0x38
-	.byte	0xc7
-	.byte	0x3b
-	.byte	0x4b
 	.byte	0x3c
-	.byte	0xd8
-	.byte	0x0
-	.byte	0x39
-	.byte	0x29
-	.byte	0x39
-	.byte	0xc3
-	.byte	0x3c
-	.byte	0x49
-	.byte	0x3c
-	.byte	0xeb
+	.byte	0x63
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_WishMade,31
+	.size	 BattleText_WishMade,22
 	.globl	BattleText_WishTrue
 	.type	 BattleText_WishTrue,object
 BattleText_WishTrue:
@@ -5691,13 +5754,12 @@ BattleText_KnockedOffItem:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfa
-	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x13
 	.byte	0xf9
@@ -5705,7 +5767,6 @@ BattleText_KnockedOffItem:
 	.byte	0x0
 	.byte	0x3f
 	.byte	0x57
-	.byte	0x0
 	.byte	0x3e
 	.byte	0x95
 	.byte	0x3b
@@ -5721,7 +5782,7 @@ BattleText_KnockedOffItem:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_KnockedOffItem,34
+	.size	 BattleText_KnockedOffItem,32
 	.globl	BattleText_AbilitySwap
 	.type	 BattleText_AbilitySwap,object
 BattleText_AbilitySwap:
@@ -5729,14 +5790,14 @@ BattleText_AbilitySwap:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3b
 	.byte	0xb9
 	.byte	0x39
 	.byte	0xe2
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x3f
 	.byte	0xab
 	.byte	0x3b
@@ -5762,14 +5823,14 @@ BattleText_SealedMove:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3b
 	.byte	0xa1
 	.byte	0x38
 	.byte	0xd4
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x37
 	.byte	0xa0
 	.byte	0x3c
@@ -5916,22 +5977,20 @@ BattleText_MagicCoatBounce:
 	.byte	0x1a
 	.byte	0x3f
 	.byte	0xaa
-	.byte	0x39
-	.byte	0xe2
-	.byte	0x0
-	.byte	0x39
-	.byte	0x1f
-	.byte	0x3a
-	.byte	0xbf
 	.byte	0x3c
-	.byte	0x9f
-	.byte	0x3e
-	.byte	0x97
+	.byte	0xd8
+	.byte	0x0
+	.byte	0x3f
+	.byte	0xa4
+	.byte	0x37
+	.byte	0x3c
+	.byte	0x3d
+	.byte	0xb7
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_MagicCoatBounce,33
+	.size	 BattleText_MagicCoatBounce,31
 	.globl	BattleText_AwaitMove
 	.type	 BattleText_AwaitMove,object
 BattleText_AwaitMove:
@@ -5977,7 +6036,7 @@ BattleText_SnatchedMove:
 	.byte	0xd
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0x10
 	.byte	0x3d
@@ -6073,12 +6132,15 @@ BattleText_FoundOne:
 	.byte	0x3d
 	.byte	0xda
 	.byte	0x3d
-	.byte	0x44
+	.byte	0x3e
+	.byte	0x0
+	.byte	0x3d
+	.byte	0x1c
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_FoundOne,18
+	.size	 BattleText_FoundOne,21
 	.globl	BattleText_SoothingAroma
 	.type	 BattleText_SoothingAroma,object
 BattleText_SoothingAroma:
@@ -6177,7 +6239,7 @@ BattleText_HustleUse:
 	.byte	0x10
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0x13
 	.byte	0xf9
@@ -6187,7 +6249,7 @@ BattleText_HustleUse:
 	.byte	0x5c
 	.byte	0x3b
 	.byte	0xb9
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x3d
 	.byte	0x6d
 	.byte	0x3d
@@ -6254,11 +6316,13 @@ BattleText_LostFocus:
 	.byte	0x0
 	.byte	0x3c
 	.byte	0xd1
+	.byte	0x3c
+	.byte	0xd3
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_LostFocus,42
+	.size	 BattleText_LostFocus,44
 	.globl	BattleText_DraggedOut
 	.type	 BattleText_DraggedOut,object
 BattleText_DraggedOut:
@@ -6266,14 +6330,14 @@ BattleText_DraggedOut:
 	.byte	0xd
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3a
 	.byte	0xc9
 	.byte	0x3f
 	.byte	0xae
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x38
 	.byte	0x25
 	.byte	0x39
@@ -6297,17 +6361,15 @@ BattleText_BrokeWall:
 	.byte	0x3d
 	.byte	0x72
 	.byte	0x0
-	.byte	0x3a
-	.byte	0x8c
-	.byte	0x38
-	.byte	0x55
+	.byte	0x37
+	.byte	0xb8
 	.byte	0x3d
 	.byte	0xb7
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_BrokeWall,15
+	.size	 BattleText_BrokeWall,13
 	.globl	BattleText_NoEffect
 	.type	 BattleText_NoEffect,object
 BattleText_NoEffect:
@@ -6341,7 +6403,7 @@ BattleText_NoMovesLeft:
 	.byte	0xf
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3c
 	.byte	0x8e
 	.byte	0x0
@@ -6352,7 +6414,7 @@ BattleText_NoMovesLeft:
 	.byte	0x7c
 	.byte	0x38
 	.byte	0xab
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x37
 	.byte	0xa0
 	.byte	0x3c
@@ -6441,7 +6503,7 @@ BattleText_TormentNoUse:
 	.byte	0xd8
 	.byte	0xf9
 	.byte	0x3
-	.byte	0xfe
+	.byte	0xfa
 	.byte	0x37
 	.byte	0x48
 	.byte	0x3b
@@ -6571,14 +6633,14 @@ BattleText_RainMade:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x17
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0x5d
 	.byte	0x3a
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3b
 	.byte	0x41
 	.byte	0x37
@@ -6612,14 +6674,14 @@ BattleText_SpeedRisen:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x17
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0x5d
 	.byte	0x3a
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3c
 	.byte	0x35
 	.byte	0x40
@@ -6658,19 +6720,22 @@ BattleText_ProtectedBy:
 	.byte	0x3c
 	.byte	0xd8
 	.byte	0xfe
-	.byte	0x3b
-	.byte	0x8
 	.byte	0x40
-	.byte	0x6c
-	.byte	0x39
-	.byte	0x1f
+	.byte	0x88
+	.byte	0x37
+	.byte	0x5a
+	.byte	0x37
+	.byte	0x1
+	.byte	0x0
+	.byte	0x3c
+	.byte	0xd1
 	.byte	0x3c
 	.byte	0xd3
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_ProtectedBy,27
+	.size	 BattleText_ProtectedBy,30
 	.globl	BattleText_PreventedBy
 	.type	 BattleText_PreventedBy,object
 BattleText_PreventedBy:
@@ -6681,14 +6746,14 @@ BattleText_PreventedBy:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0x5d
 	.byte	0x3a
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xc
 	.byte	0xf9
@@ -6699,8 +6764,8 @@ BattleText_PreventedBy:
 	.byte	0xf9
 	.byte	0x1
 	.byte	0x0
-	.byte	0x3c
-	.byte	0x8e
+	.byte	0x40
+	.byte	0x3d
 	.byte	0x0
 	.byte	0x3c
 	.byte	0x13
@@ -6717,8 +6782,8 @@ BattleText_PreventedBy:
 BattleText_HPRestoredUsing:
 	.byte	0xfd
 	.byte	0xd
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0xfe
 	.byte	0xfd
 	.byte	0x16
@@ -6727,12 +6792,10 @@ BattleText_HPRestoredUsing:
 	.byte	0x39
 	.byte	0xe2
 	.byte	0x0
-	.byte	0x3e
-	.byte	0x8d
-	.byte	0x39
-	.byte	0xd6
 	.byte	0x3d
-	.byte	0x61
+	.byte	0x74
+	.byte	0x40
+	.byte	0x43
 	.byte	0x0
 	.byte	0x40
 	.byte	0x81
@@ -6744,7 +6807,7 @@ BattleText_HPRestoredUsing:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_HPRestoredUsing,29
+	.size	 BattleText_HPRestoredUsing,27
 	.globl	BattleText_MadeUseless
 	.type	 BattleText_MadeUseless,object
 BattleText_MadeUseless:
@@ -6755,32 +6818,35 @@ BattleText_MadeUseless:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0x5d
 	.byte	0x3a
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0x11
 	.byte	0xf9
+	.byte	0x0
+	.byte	0x0
+	.byte	0x40
+	.byte	0x88
+	.byte	0x37
+	.byte	0x5a
+	.byte	0x37
 	.byte	0x1
 	.byte	0x0
 	.byte	0x3c
-	.byte	0x8e
-	.byte	0x0
-	.byte	0x3c
-	.byte	0x13
-	.byte	0x0
-	.byte	0x3c
 	.byte	0xd1
+	.byte	0x3c
+	.byte	0xd3
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_MadeUseless,32
+	.size	 BattleText_MadeUseless,35
 	.globl	BattleText_MadeType
 	.type	 BattleText_MadeType,object
 BattleText_MadeType:
@@ -6809,30 +6875,32 @@ BattleText_MadeType:
 	.byte	0x72
 	.byte	0x0
 	.byte	0x39
-	.byte	0x1e
+	.byte	0x1f
+	.byte	0x3c
+	.byte	0xd3
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_MadeType,30
+	.size	 BattleText_MadeType,32
 	.globl	BattleText_PreventedPara
 	.type	 BattleText_PreventedPara,object
 BattleText_PreventedPara:
 	.byte	0xfd
 	.byte	0xe
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0x5d
 	.byte	0x3a
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3a
 	.byte	0x39
 	.byte	0x3b
@@ -6856,8 +6924,8 @@ BattleText_PreventedPara:
 BattleText_PreventedRomance:
 	.byte	0xfd
 	.byte	0xd
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
@@ -6877,8 +6945,10 @@ BattleText_PreventedRomance:
 	.byte	0x57
 	.byte	0x39
 	.byte	0xe9
-	.byte	0x39
-	.byte	0x1f
+	.byte	0x40
+	.byte	0x43
+	.byte	0x3e
+	.byte	0xb
 	.byte	0x3e
 	.byte	0xb
 	.byte	0x0
@@ -6890,15 +6960,15 @@ BattleText_PreventedRomance:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_PreventedRomance,36
+	.size	 BattleText_PreventedRomance,38
 	.globl	BattleText_PreventedPoison
 	.type	 BattleText_PreventedPoison,object
 BattleText_PreventedPoison:
 	.byte	0xfd
 	.byte	0xe
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
 	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x16
 	.byte	0x0
@@ -6908,18 +6978,16 @@ BattleText_PreventedPoison:
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0xfa
 	.byte	0x39
 	.byte	0xe
 	.byte	0x3c
 	.byte	0xd8
 	.byte	0x0
-	.byte	0x3d
-	.byte	0xe3
-	.byte	0x39
-	.byte	0xe
-	.byte	0x39
-	.byte	0x1f
+	.byte	0x37
+	.byte	0x29
+	.byte	0x3a
+	.byte	0x31
 	.byte	0x3e
 	.byte	0xb
 	.byte	0x0
@@ -6931,25 +6999,25 @@ BattleText_PreventedPoison:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_PreventedPoison,37
+	.size	 BattleText_PreventedPoison,35
 	.globl	BattleText_PreventedConfusion
 	.type	 BattleText_PreventedConfusion,object
 BattleText_PreventedConfusion:
 	.byte	0xfd
 	.byte	0xd
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0x5d
 	.byte	0x3a
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x40
 	.byte	0x6e
 	.byte	0x39
@@ -6973,8 +7041,8 @@ BattleText_PreventedConfusion:
 BattleText_RaisedFirePower:
 	.byte	0xfd
 	.byte	0xd
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
@@ -7016,8 +7084,8 @@ BattleText_RaisedFirePower:
 BattleText_AnchorsItself:
 	.byte	0xfd
 	.byte	0xd
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
@@ -7029,20 +7097,22 @@ BattleText_AnchorsItself:
 	.byte	0x3c
 	.byte	0xd8
 	.byte	0xfe
-	.byte	0x3c
-	.byte	0xd4
-	.byte	0x37
-	.byte	0x3c
-	.byte	0x0
+	.byte	0x39
+	.byte	0x41
+	.byte	0x39
+	.byte	0xc3
 	.byte	0x3b
 	.byte	0x29
 	.byte	0x3c
-	.byte	0xd3
+	.byte	0xc7
+	.byte	0x0
+	.byte	0x3d
+	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_AnchorsItself,28
+	.size	 BattleText_AnchorsItself,30
 	.globl	BattleText_CutsAttack
 	.type	 BattleText_CutsAttack,object
 BattleText_CutsAttack:
@@ -7053,19 +7123,19 @@ BattleText_CutsAttack:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x17
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0x5d
 	.byte	0x3a
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfa
+	.byte	0x0
 	.byte	0x37
 	.byte	0x58
 	.byte	0x37
@@ -7089,8 +7159,8 @@ BattleText_CutsAttack:
 BattleText_PreventedStatLoss:
 	.byte	0xfd
 	.byte	0x10
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x17
@@ -7134,7 +7204,7 @@ BattleText_HurtOther:
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x16
 	.byte	0x0
@@ -7144,12 +7214,12 @@ BattleText_HurtOther:
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfa
+	.byte	0x0
 	.byte	0x3b
 	.byte	0xa1
 	.byte	0x3e
@@ -7204,8 +7274,8 @@ BattleText_Traced:
 BattleText_PreventedBurn:
 	.byte	0xfd
 	.byte	0xe
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x18
@@ -7243,8 +7313,8 @@ BattleText_PreventedBurn:
 BattleText_BlocksOther:
 	.byte	0xfd
 	.byte	0xd
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
@@ -7280,9 +7350,9 @@ BattleText_BlocksOther:
 BattleText_BlocksOther2:
 	.byte	0xfd
 	.byte	0x10
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
 	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x17
 	.byte	0x0
@@ -7292,7 +7362,7 @@ BattleText_BlocksOther2:
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0xfa
 	.byte	0xfd
 	.byte	0x11
 	.byte	0xf9
@@ -7319,7 +7389,7 @@ BattleText_RestoredHPByItem:
 	.byte	0xc
 	.byte	0xf9
 	.byte	0x0
-	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x15
 	.byte	0xf9
@@ -7357,14 +7427,14 @@ BattleText_WhipSandstorm:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x17
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0x5d
 	.byte	0x3a
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3a
 	.byte	0x73
 	.byte	0x39
@@ -7378,20 +7448,13 @@ BattleText_WhipSandstorm:
 	.byte	0x0
 	.byte	0x3b
 	.byte	0x22
-	.byte	0x37
-	.byte	0xa0
-	.byte	0x0
 	.byte	0x3c
-	.byte	0x3e
-	.byte	0x3d
-	.byte	0x81
-	.byte	0x40
-	.byte	0x4a
+	.byte	0xd3
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_WhipSandstorm,41
+	.size	 BattleText_WhipSandstorm,34
 	.globl	BattleText_SunIntensified
 	.type	 BattleText_SunIntensified,object
 BattleText_SunIntensified:
@@ -7433,8 +7496,8 @@ BattleText_SunIntensified:
 BattleText_PreventedLoss:
 	.byte	0xfd
 	.byte	0x10
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x17
@@ -7479,14 +7542,14 @@ BattleText_InfatuatedPoke:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0x5d
 	.byte	0x3a
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0xc
 	.byte	0xf9
@@ -7516,7 +7579,7 @@ BattleText_MadeIneffective:
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x16
 	.byte	0x0
@@ -7526,7 +7589,7 @@ BattleText_MadeIneffective:
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0xfa
 	.byte	0xfd
 	.byte	0x11
 	.byte	0xf9
@@ -7551,8 +7614,8 @@ BattleText_MadeIneffective:
 BattleText_CuredProblem:
 	.byte	0xfd
 	.byte	0x10
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x17
@@ -7610,23 +7673,16 @@ BattleText_OozeSuckup:
 BattleText_Transformed2:
 	.byte	0xfd
 	.byte	0x10
-	.byte	0xf9
-	.byte	0x0
-	.byte	0xfe
-	.byte	0x38
-	.byte	0xc2
-	.byte	0x3a
-	.byte	0x28
+	.byte	0x3d
+	.byte	0x6d
 	.byte	0x0
 	.byte	0x3a
 	.byte	0x73
 	.byte	0x3c
 	.byte	0x3b
 	.byte	0x3d
-	.byte	0x5e
-	.byte	0x39
-	.byte	0xe2
-	.byte	0x0
+	.byte	0x72
+	.byte	0xfe
 	.byte	0x3a
 	.byte	0xee
 	.byte	0x40
@@ -7635,15 +7691,16 @@ BattleText_Transformed2:
 	.byte	0x4a
 	.byte	0x38
 	.byte	0xc2
+	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_Transformed2,28
+	.size	 BattleText_Transformed2,22
 	.globl	BattleText_TookAttack2
 	.type	 BattleText_TookAttack2,object
 BattleText_TookAttack2:
 	.byte	0xfd
 	.byte	0xd
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x16
@@ -7714,7 +7771,7 @@ BattleText_PreventedOther:
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x16
 	.byte	0x0
@@ -7724,7 +7781,7 @@ BattleText_PreventedOther:
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
+	.byte	0xfa
 	.byte	0xfd
 	.byte	0x10
 	.byte	0x3d
@@ -7758,7 +7815,7 @@ BattleText_MadeIneffective2:
 	.byte	0x10
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0x0
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x17
 	.byte	0x0
@@ -7768,30 +7825,25 @@ BattleText_MadeIneffective2:
 	.byte	0x8f
 	.byte	0x3c
 	.byte	0xd8
-	.byte	0xfe
-	.byte	0x40
-	.byte	0x88
-	.byte	0x37
-	.byte	0x5a
-	.byte	0x37
-	.byte	0x1
 	.byte	0x0
 	.byte	0x3c
-	.byte	0xd1
-	.byte	0x3c
-	.byte	0xd3
+	.byte	0x42
+	.byte	0x3f
+	.byte	0xcc
+	.byte	0x40
+	.byte	0x4a
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_MadeIneffective2,30
+	.size	 BattleText_MadeIneffective2,25
 	.globl	BattleText_PreventedFlinching
 	.type	 BattleText_PreventedFlinching,object
 BattleText_PreventedFlinching:
 	.byte	0xfd
 	.byte	0xe
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x18
@@ -7832,13 +7884,8 @@ BattleText_PreventedOther2:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x15
+	.byte	0xf9
 	.byte	0x0
-	.byte	0x39
-	.byte	0x5d
-	.byte	0x3a
-	.byte	0x8f
-	.byte	0x3c
-	.byte	0xd8
 	.byte	0xfe
 	.byte	0xfd
 	.byte	0xd
@@ -7847,8 +7894,13 @@ BattleText_PreventedOther2:
 	.byte	0xfa
 	.byte	0xfd
 	.byte	0x16
-	.byte	0xf9
 	.byte	0x0
+	.byte	0x39
+	.byte	0x5d
+	.byte	0x3a
+	.byte	0x8f
+	.byte	0x3c
+	.byte	0xd8
 	.byte	0x0
 	.byte	0x40
 	.byte	0x88
@@ -7871,8 +7923,8 @@ BattleText_PreventedOther2:
 BattleText_CuredOfProblem:
 	.byte	0xfd
 	.byte	0x10
-	.byte	0x3d
-	.byte	0x6d
+	.byte	0xf9
+	.byte	0x0
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x17
@@ -7947,9 +7999,8 @@ BattleText_Sharply:
 	.byte	0x47
 	.byte	0x37
 	.byte	0x34
-	.byte	0x0
 	.byte	0xff
-	.size	 BattleText_Sharply,6
+	.size	 BattleText_Sharply,5
 	.globl	BattleText_Rose
 	.type	 BattleText_Rose,object
 BattleText_Rose:
@@ -8092,12 +8143,12 @@ BattleText_StatNoHigher:
 	.byte	0xc
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0x0
 	.byte	0xf9
 	.byte	0x0
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x38
 	.byte	0xde
 	.byte	0x0
@@ -8126,12 +8177,12 @@ BattleText_StatNoLower:
 	.byte	0xd
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfe
+	.byte	0x0
 	.byte	0xfd
 	.byte	0x0
 	.byte	0xf9
 	.byte	0x0
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x38
 	.byte	0xde
 	.byte	0x0
@@ -8213,6 +8264,13 @@ BattleText_MoveForget123:
 	.byte	0xfc
 	.byte	0x8
 	.byte	0xf
+	.byte	0x0
+	.byte	0xad
+	.byte	0xad
+	.byte	0xad
+	.byte	0xfc
+	.byte	0x8
+	.byte	0xf
 	.byte	0xfe
 	.byte	0xfc
 	.byte	0x8
@@ -8226,7 +8284,7 @@ BattleText_MoveForget123:
 	.byte	0xab
 	.byte	0xfb
 	.byte	0xff
-	.size	 BattleText_MoveForget123,37
+	.size	 BattleText_MoveForget123,44
 	.globl	BattleText_MoveForgetAnd
 	.type	 BattleText_MoveForgetAnd,object
 BattleText_MoveForgetAnd:
@@ -8239,9 +8297,10 @@ BattleText_MoveForgetAnd:
 	.byte	0xad
 	.byte	0xad
 	.byte	0xad
+	.byte	0xab
 	.byte	0xfb
 	.byte	0xff
-	.size	 BattleText_MoveForgetAnd,11
+	.size	 BattleText_MoveForgetAnd,12
 	.globl	BattleText_CantForgetHM
 	.type	 BattleText_CantForgetHM,object
 BattleText_CantForgetHM:
@@ -8401,10 +8460,9 @@ BattleText_FledUsingItem:
 	.byte	0x97
 	.byte	0x38
 	.byte	0xc2
-	.byte	0xab
 	.byte	0xfb
 	.byte	0xff
-	.size	 BattleText_FledUsingItem,42
+	.size	 BattleText_FledUsingItem,41
 	.globl	BattleText_FledUsingOther
 	.type	 BattleText_FledUsingOther,object
 BattleText_FledUsingOther:
@@ -8447,10 +8505,9 @@ BattleText_FledUsingOther:
 	.byte	0x97
 	.byte	0x38
 	.byte	0xc2
-	.byte	0xab
 	.byte	0xfb
 	.byte	0xff
-	.size	 BattleText_FledUsingOther,42
+	.size	 BattleText_FledUsingOther,41
 	.globl	BattleText_FledWild
 	.type	 BattleText_FledWild,object
 BattleText_FledWild:
@@ -8467,7 +8524,7 @@ BattleText_FledWild:
 	.byte	0x0
 	.byte	0xf9
 	.byte	0x0
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x39
 	.byte	0xd
 	.byte	0x3a
@@ -8512,14 +8569,16 @@ BattleText_PlayerDefeatedTrainer:
 BattleText_PlayerDefeatedTrainers:
 	.byte	0xfd
 	.byte	0x1e
-	.byte	0x2d
+	.byte	0xf9
+	.byte	0x5
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x1d
 	.byte	0xf9
 	.byte	0x5
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfe
+	.byte	0xfa
 	.byte	0x3c
 	.byte	0x3d
 	.byte	0x3b
@@ -8537,7 +8596,7 @@ BattleText_PlayerDefeatedTrainers:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_PlayerDefeatedTrainers,27
+	.size	 BattleText_PlayerDefeatedTrainers,29
 	.globl	BattleText_PlayerLostTrainer
 	.type	 BattleText_PlayerLostTrainer,object
 BattleText_PlayerLostTrainer:
@@ -8569,14 +8628,16 @@ BattleText_PlayerLostTrainer:
 BattleText_PlayerLostTrainers:
 	.byte	0xfd
 	.byte	0x1e
-	.byte	0x2d
+	.byte	0xf9
+	.byte	0x5
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x1d
 	.byte	0xf9
 	.byte	0x5
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfe
+	.byte	0xfa
 	.byte	0x3c
 	.byte	0x3d
 	.byte	0x3b
@@ -8592,7 +8653,7 @@ BattleText_PlayerLostTrainers:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_PlayerLostTrainers,25
+	.size	 BattleText_PlayerLostTrainers,27
 	.globl	BattleText_PlayerTiedTrainer
 	.type	 BattleText_PlayerTiedTrainer,object
 BattleText_PlayerTiedTrainer:
@@ -8626,14 +8687,16 @@ BattleText_PlayerTiedTrainer:
 BattleText_PlayerTiedTrainers:
 	.byte	0xfd
 	.byte	0x1e
-	.byte	0x2d
+	.byte	0xf9
+	.byte	0x5
+	.byte	0xfe
 	.byte	0xfd
 	.byte	0x1d
 	.byte	0xf9
 	.byte	0x5
 	.byte	0x3d
 	.byte	0x6d
-	.byte	0xfe
+	.byte	0xfa
 	.byte	0x3c
 	.byte	0x3d
 	.byte	0x3b
@@ -8651,7 +8714,7 @@ BattleText_PlayerTiedTrainers:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_PlayerTiedTrainers,27
+	.size	 BattleText_PlayerTiedTrainers,29
 	.globl	BattleText_FledSingle
 	.type	 BattleText_FledSingle,object
 BattleText_FledSingle:
@@ -8691,7 +8754,7 @@ BattleText_FledDouble:
 	.byte	0x1e
 	.byte	0xf9
 	.byte	0x0
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x39
 	.byte	0xd
 	.byte	0x3a
@@ -8938,13 +9001,18 @@ BattleText_MirrorFail:
 	.byte	0x42
 	.byte	0x3f
 	.byte	0xcc
+	.byte	0x39
+	.byte	0xe2
+	.byte	0x0
+	.byte	0x38
+	.byte	0x2c
+	.byte	0x38
 	.byte	0x40
-	.byte	0x4a
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_MirrorFail,28
+	.size	 BattleText_MirrorFail,33
 	.globl	BattleText_RainStart
 	.type	 BattleText_RainStart,object
 BattleText_RainStart:
@@ -9105,21 +9173,19 @@ BattleText_SandRages:
 	.byte	0x3d
 	.byte	0x72
 	.byte	0x0
-	.byte	0x37
-	.byte	0x48
 	.byte	0x3b
-	.byte	0xdf
+	.byte	0xc8
+	.byte	0x3e
+	.byte	0x6a
+	.byte	0x37
+	.byte	0x34
 	.byte	0x0
 	.byte	0x3b
-	.byte	0x22
-	.byte	0x37
-	.byte	0x4d
-	.byte	0x3d
-	.byte	0x7c
+	.byte	0x20
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xff
-	.size	 BattleText_SandRages,25
+	.size	 BattleText_SandRages,23
 	.globl	BattleText_SandSubsided
 	.type	 BattleText_SandSubsided,object
 BattleText_SandSubsided:
@@ -9196,28 +9262,17 @@ BattleText_SunFaded:
 	.byte	0x3d
 	.byte	0x72
 	.byte	0x0
-	.byte	0x3d
-	.byte	0x40
-	.byte	0x39
-	.byte	0xb5
-	.byte	0x38
-	.byte	0xd4
-	.byte	0x39
-	.byte	0xe2
-	.byte	0x0
-	.byte	0x39
-	.byte	0x1f
-	.byte	0x39
-	.byte	0x11
 	.byte	0x3c
-	.byte	0x9f
+	.byte	0xb9
+	.byte	0x40
+	.byte	0x43
 	.byte	0x3d
-	.byte	0x1c
+	.byte	0xb7
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_SunFaded,28
+	.size	 BattleText_SunFaded,17
 	.globl	BattleText_HailStart
 	.type	 BattleText_HailStart,object
 BattleText_HailStart:
@@ -9269,18 +9324,19 @@ BattleText_HailCont:
 	.byte	0x3b
 	.byte	0xdf
 	.byte	0x0
-	.byte	0x40
-	.byte	0x9f
+	.byte	0x38
+	.byte	0x46
 	.byte	0x3a
-	.byte	0x77
-	.byte	0x3c
-	.byte	0x9f
-	.byte	0x3e
-	.byte	0xd2
+	.byte	0x31
+	.byte	0x37
+	.byte	0x4d
+	.byte	0x0
+	.byte	0x3d
+	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xff
-	.size	 BattleText_HailCont,27
+	.size	 BattleText_HailCont,28
 	.globl	BattleText_HailStop
 	.type	 BattleText_HailStop,object
 BattleText_HailStop:
@@ -9398,14 +9454,10 @@ BattleText_StatElim:
 	.byte	0x39
 	.byte	0x3f
 	.byte	0x0
-	.byte	0x38
-	.byte	0xb2
-	.byte	0x39
-	.byte	0xd6
-	.byte	0x3a
-	.byte	0xee
-	.byte	0x40
-	.byte	0x76
+	.byte	0x3b
+	.byte	0xa1
+	.byte	0x3f
+	.byte	0x60
 	.byte	0x37
 	.byte	0x1
 	.byte	0xfe
@@ -9430,7 +9482,7 @@ BattleText_StatElim:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_StatElim,37
+	.size	 BattleText_StatElim,33
 	.globl	BattleText_CoinScatter
 	.type	 BattleText_CoinScatter,object
 BattleText_CoinScatter:
@@ -9467,19 +9519,15 @@ BattleText_SubWeak:
 	.byte	0x38
 	.byte	0x35
 	.byte	0x0
-	.byte	0x38
-	.byte	0xd4
-	.byte	0x3f
-	.byte	0x56
-	.byte	0x3a
-	.byte	0x29
-	.byte	0x0
-	.byte	0x38
-	.byte	0x46
 	.byte	0x3b
-	.byte	0x8
-	.byte	0x38
-	.byte	0x46
+	.byte	0x20
+	.byte	0x3c
+	.byte	0x40
+	.byte	0x3d
+	.byte	0x61
+	.byte	0x0
+	.byte	0x3c
+	.byte	0x8b
 	.byte	0x37
 	.byte	0xa0
 	.byte	0x3c
@@ -9504,7 +9552,7 @@ BattleText_SubWeak:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_SubWeak,44
+	.size	 BattleText_SubWeak,40
 	.globl	BattleText_PainSplit
 	.type	 BattleText_PainSplit,object
 BattleText_PainSplit:
@@ -9660,7 +9708,7 @@ BattleText_NoPP2:
 	.byte	0xc3
 	.byte	0x38
 	.byte	0x35
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x38
 	.byte	0x3d
 	.byte	0x3d
@@ -9679,7 +9727,7 @@ BattleText_NoPP2:
 	.byte	0xaa
 	.byte	0x37
 	.byte	0x1
-	.byte	0xfe
+	.byte	0x0
 	.byte	0x3c
 	.byte	0xd1
 	.byte	0x3c
@@ -9915,7 +9963,12 @@ BattleText_WillSwitch:
 	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
-	.byte	0xfa
+	.byte	0xfb
+	.byte	0xfd
+	.byte	0x20
+	.byte	0x39
+	.byte	0xd
+	.byte	0x0
 	.byte	0x40
 	.byte	0x4
 	.byte	0x3f
@@ -9924,15 +9977,13 @@ BattleText_WillSwitch:
 	.byte	0x76
 	.byte	0x3d
 	.byte	0x61
-	.byte	0x0
+	.byte	0xfe
 	.byte	0x37
 	.byte	0x71
 	.byte	0x3e
 	.byte	0x8d
 	.byte	0x40
 	.byte	0x3a
-	.byte	0x3c
-	.byte	0x3e
 	.byte	0x37
 	.byte	0x3a
 	.byte	0x3c
@@ -9943,7 +9994,7 @@ BattleText_WillSwitch:
 	.byte	0xac
 	.byte	0xac
 	.byte	0xff
-	.size	 BattleText_WillSwitch,59
+	.size	 BattleText_WillSwitch,62
 	.globl	BattleText_LearnedMove2
 	.type	 BattleText_LearnedMove2,object
 BattleText_LearnedMove2:
@@ -10013,13 +10064,6 @@ BattleText_CreptCloser:
 	.byte	0x37
 	.byte	0x34
 	.byte	0x0
-	.byte	0x37
-	.byte	0x1
-	.byte	0x37
-	.byte	0xac
-	.byte	0x3d
-	.byte	0x72
-	.byte	0x0
 	.byte	0x38
 	.byte	0xc2
 	.byte	0x37
@@ -10030,7 +10074,7 @@ BattleText_CreptCloser:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_CreptCloser,29
+	.size	 BattleText_CreptCloser,22
 	.globl	BattleText_CantGetCloser
 	.type	 BattleText_CantGetCloser,object
 BattleText_CantGetCloser:
@@ -10072,6 +10116,13 @@ BattleText_WatchingCarefully:
 	.byte	0xf9
 	.byte	0x0
 	.byte	0xfe
+	.byte	0x3d
+	.byte	0x72
+	.byte	0x3e
+	.byte	0x3d
+	.byte	0x3d
+	.byte	0x6d
+	.byte	0x0
 	.byte	0x3b
 	.byte	0xa1
 	.byte	0x40
@@ -10092,7 +10143,7 @@ BattleText_WatchingCarefully:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_WatchingCarefully,25
+	.size	 BattleText_WatchingCarefully,32
 	.globl	BattleText_CuriousAbout
 	.type	 BattleText_CuriousAbout,object
 BattleText_CuriousAbout:
@@ -10753,14 +10804,13 @@ BattleText_SentOutDouble4:
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x2
-	.byte	0x0
-	.byte	0x2d
+	.byte	0xab
 	.byte	0x0
 	.byte	0xfd
 	.byte	0x4
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_SentOutDouble4,15
+	.size	 BattleText_SentOutDouble4,14
 	.globl	BattleText_SentOutSingle7
 	.type	 BattleText_SentOutSingle7,object
 BattleText_SentOutSingle7:
@@ -11145,38 +11195,59 @@ BattleText_OpponentUsedMove:
 	.globl	BattleText_Exclamation2
 	.type	 BattleText_Exclamation2,object
 BattleText_Exclamation2:
+	.byte	0xf9
+	.byte	0x1
+	.byte	0x0
+	.byte	0x3c
+	.byte	0x63
+	.byte	0x38
+	.byte	0xc2
 	.byte	0xab
-	.byte	0xbb
 	.byte	0xff
-	.size	 BattleText_Exclamation2,3
+	.size	 BattleText_Exclamation2,9
 	.globl	BattleText_Exclamation3
 	.type	 BattleText_Exclamation3,object
 BattleText_Exclamation3:
+	.byte	0xf9
+	.byte	0x1
+	.byte	0x0
+	.byte	0x3c
+	.byte	0x63
+	.byte	0x38
+	.byte	0xc2
 	.byte	0xab
-	.byte	0xbc
 	.byte	0xff
-	.size	 BattleText_Exclamation3,3
+	.size	 BattleText_Exclamation3,9
 	.globl	BattleText_Exclamation4
 	.type	 BattleText_Exclamation4,object
 BattleText_Exclamation4:
+	.byte	0xf9
+	.byte	0x1
+	.byte	0x0
+	.byte	0x3c
+	.byte	0x63
+	.byte	0x38
+	.byte	0xc2
 	.byte	0xab
-	.byte	0xbd
 	.byte	0xff
-	.size	 BattleText_Exclamation4,3
+	.size	 BattleText_Exclamation4,9
 	.globl	BattleText_Exclamation5
 	.type	 BattleText_Exclamation5,object
 BattleText_Exclamation5:
+	.byte	0x0
+	.byte	0x37
+	.byte	0x58
+	.byte	0x37
+	.byte	0x3d
 	.byte	0xab
-	.byte	0xbe
 	.byte	0xff
-	.size	 BattleText_Exclamation5,3
+	.size	 BattleText_Exclamation5,7
 	.globl	BattleText_Exclamation
 	.type	 BattleText_Exclamation,object
 BattleText_Exclamation:
 	.byte	0xab
-	.byte	0xbf
 	.byte	0xff
-	.size	 BattleText_Exclamation,3
+	.size	 BattleText_Exclamation,2
 	.globl	BattleStatText_HP
 	.type	 BattleStatText_HP,object
 BattleStatText_HP:
@@ -11489,25 +11560,23 @@ BattleText_DodgeBall:
 	.byte	0x3d
 	.byte	0x88
 	.byte	0x40
-	.byte	0xc0
-	.byte	0x3e
-	.byte	0xb
-	.byte	0x0
-	.byte	0x3c
-	.byte	0xa3
-	.byte	0x3d
-	.byte	0x61
+	.byte	0xc3
 	.byte	0x0
 	.byte	0x37
 	.byte	0x2d
 	.byte	0x0
 	.byte	0x37
 	.byte	0x10
-	.byte	0x38
-	.byte	0xc2
+	.byte	0x3e
+	.byte	0xb
+	.byte	0x0
+	.byte	0x3c
+	.byte	0xa3
+	.byte	0x37
+	.byte	0x78
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_DodgeBall,39
+	.size	 BattleText_DodgeBall,37
 	.globl	BattleText_MissPoke
 	.type	 BattleText_MissPoke,object
 BattleText_MissPoke:
@@ -11523,7 +11592,11 @@ BattleText_MissPoke:
 	.byte	0x34
 	.byte	0xfe
 	.byte	0x3d
-	.byte	0x85
+	.byte	0xaa
+	.byte	0x38
+	.byte	0xd4
+	.byte	0x39
+	.byte	0xe2
 	.byte	0x0
 	.byte	0x3a
 	.byte	0x45
@@ -11538,13 +11611,12 @@ BattleText_MissPoke:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_MissPoke,27
+	.size	 BattleText_MissPoke,31
 	.globl	BattleText_BallBrokeOhNo
 	.type	 BattleText_BallBrokeOhNo,object
 BattleText_BallBrokeOhNo:
 	.byte	0x3c
 	.byte	0xa1
-	.byte	0x0
 	.byte	0x39
 	.byte	0x1d
 	.byte	0xab
@@ -11577,7 +11649,7 @@ BattleText_BallBrokeOhNo:
 	.byte	0xc2
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_BallBrokeOhNo,35
+	.size	 BattleText_BallBrokeOhNo,34
 	.globl	BattleText_BallBrokeAppeared
 	.type	 BattleText_BallBrokeAppeared,object
 BattleText_BallBrokeAppeared:
@@ -11629,7 +11701,6 @@ BattleText_BallBrokeAlmost:
 	.byte	0x0
 	.byte	0x38
 	.byte	0xde
-	.byte	0x0
 	.byte	0x40
 	.byte	0x3a
 	.byte	0x3a
@@ -11653,7 +11724,7 @@ BattleText_BallBrokeAlmost:
 	.byte	0xec
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_BallBrokeAlmost,41
+	.size	 BattleText_BallBrokeAlmost,40
 	.globl	BattleText_BallBrokeSoClose
 	.type	 BattleText_BallBrokeSoClose,object
 BattleText_BallBrokeSoClose:
@@ -11674,7 +11745,6 @@ BattleText_BallBrokeSoClose:
 	.byte	0x0
 	.byte	0x38
 	.byte	0xde
-	.byte	0x0
 	.byte	0x40
 	.byte	0x3a
 	.byte	0x3a
@@ -11688,7 +11758,7 @@ BattleText_BallBrokeSoClose:
 	.byte	0xec
 	.byte	0xab
 	.byte	0xff
-	.size	 BattleText_BallBrokeSoClose,31
+	.size	 BattleText_BallBrokeSoClose,30
 	.globl	BattleText_BallCaught1
 	.type	 BattleText_BallCaught1,object
 BattleText_BallCaught1:
@@ -11938,21 +12008,24 @@ BattleText_Sandstorm:
 	.byte	0x3d
 	.byte	0x72
 	.byte	0x0
-	.byte	0x37
-	.byte	0x48
 	.byte	0x3b
-	.byte	0xdf
+	.byte	0xc8
+	.byte	0x3e
+	.byte	0x6a
+	.byte	0x37
+	.byte	0x34
 	.byte	0x0
 	.byte	0x3b
 	.byte	0x22
 	.byte	0x37
 	.byte	0x4d
+	.byte	0x0
 	.byte	0x3d
 	.byte	0x7c
 	.byte	0x38
 	.byte	0xc2
 	.byte	0xff
-	.size	 BattleText_Sandstorm,25
+	.size	 BattleText_Sandstorm,28
 	.globl	BattleText_BoxFull
 	.type	 BattleText_BoxFull,object
 BattleText_BoxFull:
@@ -13153,12 +13226,11 @@ BattleText_Love:
 	.globl	BattleText_Format3
 	.type	 BattleText_Format3,object
 BattleText_Format3:
-	.byte	0x0
 	.byte	0xf9
 	.byte	0x5
 	.byte	0x0
 	.byte	0xff
-	.size	 BattleText_Format3,5
+	.size	 BattleText_Format3,4
 	.globl	BattleText_Format4
 	.type	 BattleText_Format4,object
 BattleText_Format4:

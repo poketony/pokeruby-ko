@@ -1,6 +1,8 @@
 BattleTower_Outside_Text_199C6F:: @ 8199C6F
 	.string "여기는 배틀타워!\n"
-	.string "이겨라! 최강의 트레이너$"
+	.string "이겨 내라! 최강의 트레이너$"
+	// ここは バトルタワ-!ｎ
+	// かちぬけ! さいきょう トレ-ナ-
 
 BattleTower_Outside_Text_199CA4:: @ 8199CA4
 	.string "여기는 배틀타워야!\p"

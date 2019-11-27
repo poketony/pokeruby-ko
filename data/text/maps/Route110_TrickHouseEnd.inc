@@ -4,7 +4,7 @@ Route110_TrickHouseEnd_Text_19C281:: @ 819C281
 	.string "음...대단한데!$"
 
 Route110_TrickHouseEnd_Text_19C2B2:: @ 819C2B2
-	.string "밤을 새서 나무 심었는데...\p"
+	.string "밤을 새서 미로를 만들었는데...\p"
 	.string "이 몸 다음 다음 다음\n"
 	.string "다음 다음 다음으로\l"
 	.string "대단하군! $"
