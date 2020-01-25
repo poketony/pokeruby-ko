@@ -5,14 +5,12 @@
 #include <stdbool.h>
 #include "global.h"
 #include "util.h"
-#include "options.h"
 #include "gfx.h"
 #include "convert_png.h"
 #include "jasc_pal.h"
 #include "lz.h"
 #include "rl.h"
 #include "font.h"
-#include "huff.h"
 
 struct CommandHandler
 {
@@ -21,13 +19,13 @@ struct CommandHandler
     void(*function)(char *inputPath, char *outputPath, int argc, char **argv);
 };
 
-void ConvertGbaToPng(char *inputPath, char *outputPath, struct GbaToPngOptions *options)
+void ConvertGbaToPng(char *inputPath, char *outputPath, int width, int bitDepth, char *paletteFilePath, bool hasTransparency)
 {
     struct Image image;
 
-    if (options->paletteFilePath != NULL)
+    if (paletteFilePath != NULL)
     {
-        ReadGbaPalette(options->paletteFilePath, &image.palette);
+        ReadGbaPalette(paletteFilePath, &image.palette);
         image.hasPalette = true;
     }
     else
@@ -35,24 +33,24 @@ void ConvertGbaToPng(char *inputPath, char *outputPath, struct GbaToPngOptions *
         image.hasPalette = false;
     }
 
-    ReadImage(inputPath, options->width, options->bitDepth, options->metatileWidth, options->metatileHeight, &image, !image.hasPalette);
+    ReadImage(inputPath, width, bitDepth, &image, !image.hasPalette);
 
-    image.hasTransparency = options->hasTransparency;
+    image.hasTransparency = hasTransparency;
 
     WritePng(outputPath, &image);
 
     FreeImage(&image);
 }
 
-void ConvertPngToGba(char *inputPath, char *outputPath, struct PngToGbaOptions *options)
+void ConvertPngToGba(char *inputPath, char *outputPath, int numTiles, int bitDepth)
 {
     struct Image image;
 
-    image.bitDepth = options->bitDepth;
+    image.bitDepth = bitDepth;
 
     ReadPng(inputPath, &image);
 
-    WriteImage(outputPath, options->numTiles, options->bitDepth, options->metatileWidth, options->metatileHeight, &image, !image.hasPalette);
+    WriteImage(outputPath, numTiles, bitDepth, &image, !image.hasPalette);
 
     FreeImage(&image);
 }
@@ -60,13 +58,10 @@ void ConvertPngToGba(char *inputPath, char *outputPath, struct PngToGbaOptions *
 void HandleGbaToPngCommand(char *inputPath, char *outputPath, int argc, char **argv)
 {
     char *inputFileExtension = GetFileExtension(inputPath);
-    struct GbaToPngOptions options;
-    options.paletteFilePath = NULL;
-    options.bitDepth = inputFileExtension[0] - '0';
-    options.hasTransparency = false;
-    options.width = 1;
-    options.metatileWidth = 1;
-    options.metatileHeight = 1;
+    int bitDepth = inputFileExtension[0] - '0';
+    char *paletteFilePath = NULL;
+    bool hasTransparency = false;
+    int width = 1;
 
     for (int i = 3; i < argc; i++)
     {
@@ -79,11 +74,11 @@ void HandleGbaToPngCommand(char *inputPath, char *outputPath, int argc, char **a
 
             i++;
 
-            options.paletteFilePath = argv[i];
+            paletteFilePath = argv[i];
         }
         else if (strcmp(option, "-object") == 0)
         {
-            options.hasTransparency = true;
+            hasTransparency = true;
         }
         else if (strcmp(option, "-width") == 0)
         {
@@ -92,37 +87,11 @@ void HandleGbaToPngCommand(char *inputPath, char *outputPath, int argc, char **a
 
             i++;
 
-            if (!ParseNumber(argv[i], NULL, 10, &options.width))
+            if (!ParseNumber(argv[i], NULL, 10, &width))
                 FATAL_ERROR("Failed to parse width.\n");
 
-            if (options.width < 1)
+            if (width < 1)
                 FATAL_ERROR("Width must be positive.\n");
-        }
-        else if (strcmp(option, "-mwidth") == 0)
-        {
-            if (i + 1 >= argc)
-                FATAL_ERROR("No metatile width value following \"-mwidth\".\n");
-
-            i++;
-
-            if (!ParseNumber(argv[i], NULL, 10, &options.metatileWidth))
-                FATAL_ERROR("Failed to parse metatile width.\n");
-
-            if (options.metatileWidth < 1)
-                FATAL_ERROR("metatile width must be positive.\n");
-        }
-        else if (strcmp(option, "-mheight") == 0)
-        {
-            if (i + 1 >= argc)
-                FATAL_ERROR("No metatile height value following \"-mheight\".\n");
-
-            i++;
-
-            if (!ParseNumber(argv[i], NULL, 10, &options.metatileHeight))
-                FATAL_ERROR("Failed to parse metatile height.\n");
-
-            if (options.metatileHeight < 1)
-                FATAL_ERROR("metatile height must be positive.\n");
         }
         else
         {
@@ -130,21 +99,14 @@ void HandleGbaToPngCommand(char *inputPath, char *outputPath, int argc, char **a
         }
     }
 
-    if (options.metatileWidth > options.width)
-        options.width = options.metatileWidth;
-
-    ConvertGbaToPng(inputPath, outputPath, &options);
+    ConvertGbaToPng(inputPath, outputPath, width, bitDepth, paletteFilePath, hasTransparency);
 }
 
 void HandlePngToGbaCommand(char *inputPath, char *outputPath, int argc, char **argv)
 {
     char *outputFileExtension = GetFileExtension(outputPath);
     int bitDepth = outputFileExtension[0] - '0';
-    struct PngToGbaOptions options;
-    options.numTiles = 0;
-    options.bitDepth = bitDepth;
-    options.metatileWidth = 1;
-    options.metatileHeight = 1;
+    int numTiles = 0;
 
     for (int i = 3; i < argc; i++)
     {
@@ -157,37 +119,11 @@ void HandlePngToGbaCommand(char *inputPath, char *outputPath, int argc, char **a
 
             i++;
 
-            if (!ParseNumber(argv[i], NULL, 10, &options.numTiles))
+            if (!ParseNumber(argv[i], NULL, 10, &numTiles))
                 FATAL_ERROR("Failed to parse number of tiles.\n");
 
-            if (options.numTiles < 1)
+            if (numTiles < 1)
                 FATAL_ERROR("Number of tiles must be positive.\n");
-        }
-        else if (strcmp(option, "-mwidth") == 0)
-        {
-            if (i + 1 >= argc)
-                FATAL_ERROR("No metatile width value following \"-mwidth\".\n");
-
-            i++;
-
-            if (!ParseNumber(argv[i], NULL, 10, &options.metatileWidth))
-                FATAL_ERROR("Failed to parse metatile width.\n");
-
-            if (options.metatileWidth < 1)
-                FATAL_ERROR("metatile width must be positive.\n");
-        }
-        else if (strcmp(option, "-mheight") == 0)
-        {
-            if (i + 1 >= argc)
-                FATAL_ERROR("No metatile height value following \"-mheight\".\n");
-
-            i++;
-
-            if (!ParseNumber(argv[i], NULL, 10, &options.metatileHeight))
-                FATAL_ERROR("Failed to parse metatile height.\n");
-
-            if (options.metatileHeight < 1)
-                FATAL_ERROR("metatile height must be positive.\n");
         }
         else
         {
@@ -195,7 +131,7 @@ void HandlePngToGbaCommand(char *inputPath, char *outputPath, int argc, char **a
         }
     }
 
-    ConvertPngToGba(inputPath, outputPath, &options);
+    ConvertPngToGba(inputPath, outputPath, numTiles, bitDepth);
 }
 
 void HandlePngToGbaPaletteCommand(char *inputPath, char *outputPath, int argc UNUSED, char **argv UNUSED)
@@ -320,7 +256,6 @@ void HandlePngToFullwidthJapaneseFontCommand(char *inputPath, char *outputPath, 
 void HandleLZCompressCommand(char *inputPath, char *outputPath, int argc, char **argv)
 {
     int overflowSize = 0;
-    int minDistance = 2; // default, for compatibility with LZ77UnCompVram()
 
     for (int i = 3; i < argc; i++)
     {
@@ -339,19 +274,6 @@ void HandleLZCompressCommand(char *inputPath, char *outputPath, int argc, char *
             if (overflowSize < 1)
                 FATAL_ERROR("Overflow size must be positive.\n");
         }
-        else if (strcmp(option, "-search") == 0)
-        {
-            if (i + 1 >= argc)
-                FATAL_ERROR("No size following \"-overflow\".\n");
-
-            i++;
-
-            if (!ParseNumber(argv[i], NULL, 10, &minDistance))
-                FATAL_ERROR("Failed to parse LZ min search distance.\n");
-
-            if (minDistance < 1)
-                FATAL_ERROR("LZ min search distance must be positive.\n");
-        }
         else
         {
             FATAL_ERROR("Unrecognized option \"%s\".\n", option);
@@ -368,7 +290,7 @@ void HandleLZCompressCommand(char *inputPath, char *outputPath, int argc, char *
     unsigned char *buffer = ReadWholeFileZeroPadded(inputPath, &fileSize, overflowSize);
 
     int compressedSize;
-    unsigned char *compressedData = LZCompress(buffer, fileSize + overflowSize, &compressedSize, minDistance);
+    unsigned char *compressedData = LZCompress(buffer, fileSize + overflowSize, &compressedSize);
 
     compressedData[1] = (unsigned char)fileSize;
     compressedData[2] = (unsigned char)(fileSize >> 8);
@@ -426,61 +348,6 @@ void HandleRLDecompressCommand(char *inputPath, char *outputPath, int argc UNUSE
     free(uncompressedData);
 }
 
-void HandleHuffCompressCommand(char *inputPath, char *outputPath, int argc, char **argv)
-{
-    int fileSize;
-    int bitDepth = 4;
-
-    for (int i = 3; i < argc; i++)
-    {
-        char *option = argv[i];
-
-        if (strcmp(option, "-depth") == 0)
-        {
-            if (i + 1 >= argc)
-                FATAL_ERROR("No size following \"-depth\".\n");
-
-            i++;
-
-            if (!ParseNumber(argv[i], NULL, 10, &bitDepth))
-                FATAL_ERROR("Failed to parse bit depth.\n");
-
-            if (bitDepth != 4 && bitDepth != 8)
-                FATAL_ERROR("GBA only supports bit depth of 4 or 8.\n");
-        }
-        else
-        {
-            FATAL_ERROR("Unrecognized option \"%s\".\n", option);
-        }
-    }
-
-    unsigned char *buffer = ReadWholeFile(inputPath, &fileSize);
-
-    int compressedSize;
-    unsigned char *compressedData = HuffCompress(buffer, fileSize, &compressedSize, bitDepth);
-
-    free(buffer);
-
-    WriteWholeFile(outputPath, compressedData, compressedSize);
-
-    free(compressedData);
-}
-
-void HandleHuffDecompressCommand(char *inputPath, char *outputPath, int argc UNUSED, char **argv UNUSED)
-{
-    int fileSize;
-    unsigned char *buffer = ReadWholeFile(inputPath, &fileSize);
-
-    int uncompressedSize;
-    unsigned char *uncompressedData = HuffDecompress(buffer, fileSize, &uncompressedSize);
-
-    free(buffer);
-
-    WriteWholeFile(outputPath, uncompressedData, uncompressedSize);
-
-    free(uncompressedData);
-}
-
 int main(int argc, char **argv)
 {
     if (argc < 3)
@@ -503,9 +370,7 @@ int main(int argc, char **argv)
         { "png", "hwjpnfont", HandlePngToHalfwidthJapaneseFontCommand },
         { "fwjpnfont", "png", HandleFullwidthJapaneseFontToPngCommand },
         { "png", "fwjpnfont", HandlePngToFullwidthJapaneseFontCommand },
-        { NULL, "huff", HandleHuffCompressCommand },
         { NULL, "lz", HandleLZCompressCommand },
-        { "huff", NULL, HandleHuffDecompressCommand },
         { "lz", NULL, HandleLZDecompressCommand },
         { NULL, "rl", HandleRLCompressCommand },
         { "rl", NULL, HandleRLDecompressCommand },

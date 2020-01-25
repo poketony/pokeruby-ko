@@ -134,7 +134,7 @@ bool CFile::ConsumeComment()
     if (m_buffer[m_pos] == '/' && m_buffer[m_pos + 1] == '*')
     {
         m_pos += 2;
-        while (m_buffer[m_pos] != '*' || m_buffer[m_pos + 1] != '/')
+        while (m_buffer[m_pos] != '*' && m_buffer[m_pos + 1] != '/')
         {
             if (m_buffer[m_pos] == 0)
                 return false;
@@ -244,27 +244,18 @@ void CFile::CheckIncbin()
 
     m_pos++;
 
-    while (true)
-    {
-        SkipWhitespace();
+    SkipWhitespace();
 
-        std::string path = ReadPath();
+    std::string path = ReadPath();
 
-        SkipWhitespace();
-
-        m_incbins.emplace(path);
-
-        if (m_buffer[m_pos] != ',')
-            break;
-
-        m_pos++;
-    }
+    SkipWhitespace();
 
     if (m_buffer[m_pos] != ')')
         FATAL_INPUT_ERROR("expected ')'");
 
     m_pos++;
 
+    m_incbins.emplace(path);
 }
 
 std::string CFile::ReadPath()

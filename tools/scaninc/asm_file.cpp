@@ -64,8 +64,7 @@ IncDirectiveType AsmFile::ReadUntilIncDirective(std::string &path)
 
         IncDirectiveType incDirectiveType = IncDirectiveType::None;
 
-        char c = PeekChar();
-        if (c == '.' || c == '#')
+        if (PeekChar() == '.')
         {
             m_pos++;
 

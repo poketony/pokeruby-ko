@@ -50,8 +50,7 @@ bool g_compressionEnabled = true;
         "    input_file  filename(.mid) of MIDI file\n"
         "   output_file  filename(.s) for AGB file (default:input_file)\n"
         "\n"
-        "options  -L???  label for assembler (default:output_file)\n"
-        "         -V???  master volume (default:127)\n"
+        "options  -V???  master volume (default:127)\n"
         "         -G???  voice group number (default:0)\n"
         "         -P???  priority (default:0)\n"
         "         -R???  reverb (default:off)\n"
@@ -86,45 +85,57 @@ static std::string GetExtension(std::string s)
     return "";
 }
 
-static std::string BaseName(std::string s)
+struct Option
 {
-    std::size_t posAfterSlash = s.find_last_of("/\\");
+    char letter = 0;
+    const char *arg = NULL;
+};
 
-    if (posAfterSlash == std::string::npos)
-        posAfterSlash = 0;
-    else
-        posAfterSlash++;
-
-    std::size_t dotPos = s.find_first_of('.', posAfterSlash);
-    if (dotPos > posAfterSlash && dotPos != std::string::npos)
-        s = s.substr(posAfterSlash, dotPos - posAfterSlash);
-
-    return s;
-}
-
-static const char *GetArgument(int argc, char **argv, int& index)
+static Option ParseOption(int& index, const int argc, char** argv)
 {
+    static std::set<char> optionsWithArg = { 'L', 'V', 'G', 'P', 'R' };
+    static std::set<char> optionsWithoutArg = { 'X', 'E', 'N' };
+
     assert(index >= 0 && index < argc);
 
-    const char *option = argv[index];
+    const char *opt = argv[index];
 
-    assert(option != nullptr);
-    assert(option[0] == '-');
+    assert(opt[0] == '-');
+    assert(std::strlen(opt) == 2);
 
-    // If there is text following the letter, return that.
-    if (std::strlen(option) >= 3)
-        return option + 2;
+    char letter = std::toupper(opt[1]);
 
-    // Otherwise, try to get the next arg.
-    if (index + 1 < argc)
+    bool isOption = false;
+    bool hasArg = false;
+
+    if (optionsWithArg.count(letter) != 0)
+    {
+        isOption = true;
+        hasArg = true;
+    }
+    else if (optionsWithoutArg.count(letter) != 0)
+    {
+        isOption = true;
+    }
+
+    if (!isOption)
+        PrintUsage();
+
+    Option retVal;
+
+    retVal.letter = letter;
+
+    if (hasArg)
     {
         index++;
-        return argv[index];
+
+        if (index >= argc)
+            RaiseError("missing argument for \"-%c\"", letter);
+
+        retVal.arg = argv[index];
     }
-    else
-    {
-        return nullptr;
-    }
+
+    return retVal;
 }
 
 int main(int argc, char** argv)
@@ -134,65 +145,51 @@ int main(int argc, char** argv)
 
     for (int i = 1; i < argc; i++)
     {
-        const char *option = argv[i];
-
-        if (option[0] == '-' && option[1] != '\0')
+        if (argv[i][0] == '-' && std::strlen(argv[i]) == 2)
         {
-            const char *arg;
+            Option option = ParseOption(i, argc, argv);
 
-            switch (std::toupper(option[1]))
+            switch (option.letter)
             {
             case 'E':
                 g_exactGateTime = true;
                 break;
             case 'G':
-                arg = GetArgument(argc, argv, i);
-                if (arg == nullptr)
-                    PrintUsage();
-                g_voiceGroup = std::stoi(arg);
+                g_voiceGroup = std::stoi(option.arg);
                 break;
             case 'L':
-                arg = GetArgument(argc, argv, i);
-                if (arg == nullptr)
-                    PrintUsage();
-                g_asmLabel = arg;
+                g_asmLabel = option.arg;
                 break;
             case 'N':
                 g_compressionEnabled = false;
                 break;
             case 'P':
-                arg = GetArgument(argc, argv, i);
-                if (arg == nullptr)
-                    PrintUsage();
-                g_priority = std::stoi(arg);
+                g_priority = std::stoi(option.arg);
                 break;
             case 'R':
-                arg = GetArgument(argc, argv, i);
-                if (arg == nullptr)
-                    PrintUsage();
-                g_reverb = std::stoi(arg);
+                g_reverb = std::stoi(option.arg);
                 break;
             case 'V':
-                arg = GetArgument(argc, argv, i);
-                if (arg == nullptr)
-                    PrintUsage();
-                g_masterVolume = std::stoi(arg);
+                g_masterVolume = std::stoi(option.arg);
                 break;
             case 'X':
                 g_clocksPerBeat = 2;
                 break;
-            default:
-                PrintUsage();
             }
         }
         else
         {
-            if (inputFilename.empty())
+            switch (i)
+            {
+            case 1:
                 inputFilename = argv[i];
-            else if (outputFilename.empty())
+                break;
+            case 2:
                 outputFilename = argv[i];
-            else
+                break;
+            default:
                 PrintUsage();
+            }
         }
     }
 
@@ -209,7 +206,7 @@ int main(int argc, char** argv)
         RaiseError("output filename extension is not \"s\"");
 
     if (g_asmLabel.empty())
-        g_asmLabel = BaseName(outputFilename);
+        g_asmLabel = StripExtension(outputFilename);
 
     g_inputFile = std::fopen(inputFilename.c_str(), "rb");
 
