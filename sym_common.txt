@@ -51,7 +51,7 @@ gBattleTerrain: @ 300428C
 	.space 0x4
 
 gBattleTextBuff2: @ 3004290
-	.space 0x10
+	.space 0x20
 
 gUnknown_030042A0: @ 30042A0
 	.space 0x4
