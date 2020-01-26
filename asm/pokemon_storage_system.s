@@ -8749,8 +8749,6 @@ sub_809A1BC: @ 809A1BC
 	str r5, [r4, 0x4]
 	movs r6, 0x80
 	lsls r6, 1
-	movs r0, 1
-	bl SetCustomFont
 	ldr r0, _0809A230 @ =0x81000100
 	str r0, [r4, 0x8]
 	ldr r0, [r4, 0x8]
@@ -8758,8 +8756,6 @@ sub_809A1BC: @ 809A1BC
 	adds r1, r5, 0
 	str r3, [sp, 0x4]
 	bl sub_8004E3C
-	movs r0, 0
-	bl SetCustomFont
 	str r5, [r4]
 	ldr r3, [sp, 0x4]
 	str r3, [r4, 0x4]
@@ -8904,8 +8900,6 @@ sub_809A23C: @ 809A23C
 	bl sub_809A1BC
 	ldr r0, [sp, 0x20]
 	bl LoadSpriteSheet
-	movs r0, 1
-	bl SetCustomFont
 	adds r0, r4, 0
 	bl sub_8072CA4
 	lsls r0, 24
@@ -8914,8 +8908,6 @@ sub_809A23C: @ 809A23C
 	movs r4, 0
 	lsls r0, 16
 	asrs r6, r0, 16
-	movs r0, 0
-	bl SetCustomFont
 _0809A328:
 	lsls r1, r4, 5
 	adds r1, r6, r1
@@ -9087,8 +9079,6 @@ _0809A478:
 	mov r1, r8
 	movs r2, 0x4
 	bl LoadPalette
-	movs r0, 1
-	bl SetCustomFont
 	adds r0, r5, 0
 	bl sub_8072CA4
 	lsls r0, 24
@@ -9108,8 +9098,6 @@ _0809A478:
 	lsls r0, 16
 	lsrs r0, 16
 	str r0, [sp, 0x24]
-	movs r0, 0
-	bl SetCustomFont
 	movs r7, 0
 	negs r2, r2
 	mov r9, r2
