@@ -272,10 +272,10 @@ gOtherText_BattleResults:: @ 842C9F0
 	.string "{PLAYER}의 대전 성적$"
 
 gOtherText_WinRecord:: @ 842CA04
-	.string "{STR_VAR_1}승 {STR_VAR_2}패 {STR_VAR_3}무$"
+	.string "{STR_VAR_1}승      {STR_VAR_2}패      {STR_VAR_3}무$"
 
 gOtherText_WinLoseDraw:: @ 842CA20
-	.string "승리    패배   무승부$"
+	.string "승리      패배      무승부$"
 
 gOtherText_SevenDashes:: @ 842CA3C
 	.string "-------$"
