@@ -34,7 +34,7 @@ RomHeaderGameCode:
 	.else
 	.ascii "AXV"
 	.endif
-	.ascii "K"
+	.ascii "E"
 
 RomHeaderMakerCode:
 	.ascii "01"
