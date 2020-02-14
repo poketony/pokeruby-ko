@@ -58,7 +58,8 @@ OldaleTown_PokemonCenter_2F_Text_1A490C:: @ 81A490C
 
 gUnknown_081A4932:: @ 81A4932
 UnknownString_81A4932: @ 81A4932
-	.string "인원수가 모이면 A 버튼으로 진행한다\n"
+	.string "인원수가 모이면\n"
+	.string "A 버튼으로 진행한다\l"
 	.string "...B 버튼으로 취소$"
 
 gUnknown_081A4975:: @ 81A4975
@@ -76,12 +77,12 @@ UnknownString_81A49E2: @ 81A49E2
 	.string "리포트를 작성합니다만 괜찮습니까?$"
 
 OldaleTown_PokemonCenter_2F_Text_1A4A22:: @ 81A4A22
-	.string "그럼 방으로 들어가십시오!$"
+	.string "그럼 방으로 들어가십시오$"
 
 FallarborTown_ContestLobby_Text_1A4A30:: @ 81A4A30
 OldaleTown_PokemonCenter_2F_Text_1A4A30:: @ 81A4A30
 	.string "친구의 준비가\n"
-	.string "되지가 않은 것 같습니다\p"
+	.string "되지 않은 것 같습니다\p"
 	.string "준비를 마치면\n"
 	.string "다시 와주십시오$"
 
@@ -150,7 +151,8 @@ TradeCenter_Text_1A4DAB:: @ 81A4DAB
 	.string "교환을 시작해 주십시오$"
 
 RecordCorner_Text_1A4DD7:: @ 81A4DD7
-	.string "자리에 서서 기다려 주십시오$"
+	.string "자리에 서서\n"
+	.string "기다려 주십시오$"
 
 RecordCorner_Text_1A4DF7:: @ 81A4DF7
 	.string "이용해 주셔서 감사합니다$"

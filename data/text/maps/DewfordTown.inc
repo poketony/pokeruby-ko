@@ -5,7 +5,7 @@ DewfordTown_Text_16B23B:: @ 816B23B
 
 DewfordTown_Text_16B2A7:: @ 816B2A7
 	.string "여기는 무로마을\n"
-	.string "푸른 바다에 떠 있는 작은 섬 $"
+	.string "푸른 바다에 떠 있는 작은 섬$"
 
 DewfordTown_Text_16B2D5:: @ 816B2D5
 	.string "무로마을 포켓몬체육관\n"
