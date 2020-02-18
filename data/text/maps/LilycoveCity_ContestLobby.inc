@@ -188,4 +188,4 @@ LilycoveCity_ContestLobby_Text_18904D:: @ 818904D
 	.string "엄청 좋은 게 나왔어!\p"
 	.string "분명 여럿이서 만들면 만들수록\n"
 	.string "부드럽고 좋은 포켓몬스넥이\l"
-	.string "나오는 걸꺼야$"
+	.string "나오는 걸 거야$"

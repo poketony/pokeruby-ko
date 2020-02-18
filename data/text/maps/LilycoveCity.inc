@@ -149,7 +149,7 @@ LilycoveCity_Text_168455:: @ 8168455
 LilycoveCity_Text_1684C2:: @ 81684C2
 	.string "리더가 무슨 생각을 하시는지\n"
 	.string "조무래기는 전혀 상상도 안 가지만\p"
-	.string "{EVIL_TEAM}에 있으면\n"
+	.string "{EVIL_TEAM}단에 있으면\n"
 	.string "엄청난 일을 할 수 있을 거 같거든!\p"
 	.string "뭐 뭐야 넌!\n"
 	.string "바 방금 건 혼잣말이야!$"

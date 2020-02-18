@@ -158,7 +158,7 @@ SlateportCity_Text_164FFC:: @ 8164FFC
 
 SlateportCity_Text_16507C:: @ 816507C
 	.string "최근에 잿빛도시에도\n"
-	.string "콘테스트회장이 생겼어\p"
+	.string "콘테스트 회장이 생겼어\p"
 	.string "나도 포켓몬의 컨디션을\n"
 	.string "높여서 참가할 생각이야$"
 

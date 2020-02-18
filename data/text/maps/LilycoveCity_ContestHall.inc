@@ -122,7 +122,7 @@ LilycoveCity_ContestHall_Text_189981:: @ 8189981
 
 LilycoveCity_ContestHall_Text_189A1D:: @ 8189A1D
 	.string "역시 여성으로서는\p"
-	.string "아름다움콘테스트에 이기면\n"
+	.string "아름다움콘테스트에서 이기면\n"
 	.string "평소보다 좀 더 기쁘지-!$"
 
 LilycoveCity_ContestHall_Text_189A82:: @ 8189A82

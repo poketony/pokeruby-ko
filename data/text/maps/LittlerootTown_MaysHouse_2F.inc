@@ -40,7 +40,7 @@ LittlerootTown_BrendansHouse_2F_Text_1735FC:: @ 81735FC
 	.string "누구야?\p"
 	.string "아 네가 옆으로\n"
 	.string "이사 온 {PLAYER}{K_I}구나...\p"
-	.string "흠...\n"
+	.string "흠\n"
 	.string "여자애였구나...\p"
 	.string "아빠... 털보박사님한테\n"
 	.string "옆집으로 이사 오는 건\l"

@@ -22,14 +22,14 @@ LilycoveCity_CoveLilyMotel_2F_Text_187149:: @ 8187149
 
 LilycoveCity_CoveLilyMotel_2F_Text_18719E:: @ 818719E
 	.string "나는 그래픽 담당!\n"
-	.string "호연의 포켓몬은 재미밌지$"
+	.string "호연의 포켓몬은 재미있지$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_1871DF:: @ 81871DF
 	.string "튜브걸 너무 귀엽지 않아?\n"
 	.string "그 튜브걸과 승부할 수 있다니...\p"
 	.string "우와-! 정말 최고야!\p"
 	.string "쌍둥이도 무지 귀엽지!\n"
-	.string "그런 쌍둥이와 2 대 2로\l"
+	.string "그런 쌍둥이와 2대2로\l"
 	.string "승부할 수 있다니...\p"
 	.string "이야-! 정말 최고야!$"
 

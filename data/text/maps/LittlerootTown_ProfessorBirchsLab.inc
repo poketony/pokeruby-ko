@@ -70,7 +70,7 @@ LittlerootTown_ProfessorBirchsLab_Text_174075:: @ 8174075
 
 LittlerootTown_ProfessorBirchsLab_Text_1740B4:: @ 81740B4
 	.string "털보박사: {RIVAL}{K_I}? 아마\n"
-	.string "103번도로에 있을 거 같구나\p"
+	.string "103번 도로에 있을 거 같구나\p"
 	.string "그리고 포켓몬이 다쳤다면\n"
 	.string "너희 집에서 쉬었다가 움직이려무나!$"
 
