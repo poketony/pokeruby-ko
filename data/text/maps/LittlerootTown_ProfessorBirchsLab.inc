@@ -111,17 +111,21 @@ LittlerootTown_ProfessorBirchsLab_Text_1743D4:: @ 81743D4
 	.string "봄이: {PLAYER}도\n"
 	.string "포켓몬 도감 받았구나!\p"
 	.string "잘됐다! 나랑 똑같네!\n"
-	.string "그럼 난 이걸 줄게!\p"
-	.string "야생 포켓몬을\n"
-	.string "잡을 수 있는 몬스터볼!$"
+	.string "그럼 난 이걸 줄게!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_17443D:: @ 817443D
-	.string "봄이: 다양한 포켓몬을 만난다는 건\n"
-	.string "정말로 두근거리는 일이지!\p"
-	.string "...나도 이제부터 준비해서\n"
-	.string "이 마을에서 출발할 거야\p"
-	.string "어떤 포켓몬을 만나게 될지\n"
-	.string "너무 기대돼!$"
+	.string "봄이: 포켓몬이\n"
+	.string "잔뜩 있으면 즐겁지!\p"
+	.string "난 다양한 포켓몬을 찾고 싶으니까\n"
+	.string "다양한 곳을 찾을 거야!\p"
+	.string "그리고 귀여운 포켓몬이 있으면\n"
+	.string "몬스터볼로 잡아버릴 거야!$"
+	// ハルカ『ポケモンがｎ
+	// たくさん いると たのしいよ!ｐ
+	// あたし いろんな ポケモン さがしたいからｎ
+	// いろんな ところを さがすわ!ｐ
+	// そして かわいい ポケモンが いたらｎ
+	// モンスタ-ボ-ルで つかまえちゃう!
 
 LittlerootTown_ProfessorBirchsLab_Text_1744F0:: @ 81744F0
 	.string "음? 가방이 가득 찼구나$"
@@ -137,12 +141,18 @@ LittlerootTown_ProfessorBirchsLab_Text_17453C:: @ 817453C
 	.string "이걸 줄게$"
 
 LittlerootTown_ProfessorBirchsLab_Text_17458C:: @ 817458C
-	.string "휘웅: 많은 포켓몬을 잡는다는 건\n"
-	.string "상상만 해도 기쁜 일이지!\p"
-	.string "...나도 이제부터 준비해서\n"
-	.string "이 마을에서 출발할 거야\p"
-	.string "뭐랄까...\n"
-	.string "왠지 모르게 두근두근해$"
+	.string "휘웅: 포켓몬이\n"
+	.string "잔뜩 있으면 즐거우니까\p"
+	.string "난 여러 포켓몬을 찾기 위해\n"
+	.string "다양한 곳에 갈 거야\p"
+	.string "그리고 멋진 포켓몬이 있으면\n"
+	.string "몬스터볼로 잡을 거야$"
+	// ユウキ『ポケモンがｎ
+	// たくさん いると たのしいからなｐ
+	// オレ いろんな ポケモン さがすためｎ
+	// いろんな ところに いくんだｐ
+	// そして かっこいい ポケモンが いたらｎ
+	// モンスタ-ボ-ルで つかまえるんだ
 
 LittlerootTown_ProfessorBirchsLab_Text_17465B:: @ 817465B
 	.string "흐음- 가방이 가득 찼네$"

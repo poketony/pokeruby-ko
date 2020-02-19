@@ -25,7 +25,7 @@ MauvilleCity_GameCorner_Text_181D57:: @ 8181D57
 	.string "동전케이스가 가득 찼네요$"
 
 MauvilleCity_GameCorner_Text_181D73:: @ 8181D73
-	.string "필요 없나요?\n"
+	.string "...필요 없나요?\n"
 	.string "그럼 다시 와주세요!$"
 
 UnknownString_8181DB2: @ 8181DB2
@@ -115,7 +115,9 @@ MauvilleCity_GameCorner_Text_1821C1:: @ 81821C1
 	.string "동전을 써서 놀아$"
 
 MauvilleCity_GameCorner_Text_1821F3:: @ 81821F3
-	.string "꽤 이기기 힘든데\n"
+	.string "이 룰렛은\n"
+	.string "큰 걸 터뜨리려고 하면\l"
+	.string "꽤 이기기 힘든데\l"
 	.string "꽤 그만두기가 힘들단 말이지$"
 
 MauvilleCity_GameCorner_Text_182241:: @ 8182241
