@@ -122,11 +122,11 @@ RustboroCity_Text_1670A7:: @ 81670A7
 	.string "포켓몬을 잡았거든!$"
 
 RustboroCity_Text_16713C:: @ 816713C
-	.string "봄이: ...그러고 보니 등화숲에서\n"
+	.string "봄이: 그러고 보니 등화숲에서\n"
 	.string "하기노인하고 스쳐 지나갔는데\p"
-	.string "아마도... 104번 도로에 있는\n"
+	.string "아마도...\n"
 	.string "해변의 작은 집으로\l"
-	.string "되돌아가는 중이 아니었을까\p"
+	.string "되돌아가는 중이 아니었을까!\p"
 	.string "{PLAYER}{K_EUNNEUN} 이사 와서\n"
 	.string "잘 모를 테지만\p"
 	.string "하기노인은 예전에\n"
@@ -144,13 +144,18 @@ RustboroCity_Text_167213:: @ 8167213
 RustboroCity_Text_1672B8:: @ 81672B8
 	.string "휘웅: 그러고 보니 등화숲에서\n"
 	.string "하기노인하고 스쳐 지나갔어\p"
-	.string "분명 104번 도로에 있는\n"
-	.string "해변의 작은 집으로\l"
+	.string "분명 해변의 작은 집으로\n"
 	.string "돌아가는 길이었을 거야\p"
-	.string "{PLAYER}{K_EUNNEUN}\n"
-	.string "이사 와서 잘 모르겠지만\p"
-	.string "그 사람 예전엔\n"
-	.string "대단한 선원이었다고!$"
+	.string "넌 아마 모르겠지만\n"
+	.string "그 사람 언제나\l"
+	.string "포켓몬과 함께 다니거든$"
+	// ユウキ『そういえば トウカのもりでｎ
+	// ハギろうじんと すれちがったよｐ
+	// きっと はまべの こやにｎ
+	// かえる ところ だなｐ
+	// おまえ しらない だろうけどｎ
+	// あの ひと いつもｌ
+	// ポケモンと いっしょ なんだ
 
 RustboroCity_Text_167374:: @ 8167374
 	.string "“편리한 터널 곧 완성!”\p"

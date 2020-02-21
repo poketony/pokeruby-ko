@@ -89,4 +89,4 @@ RustboroCity_DevonCorp_2F_Text_18319E:: @ 818319E
 
 RustboroCity_DevonCorp_2F_Text_1831C8:: @ 81831C8
 	.string "앗! 포켓몬이 가득하군요\n"
-	.string "포켓몬을 드릴 수 없겠네요$"
+	.string "드릴 수 없겠네요$"

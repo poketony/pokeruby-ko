@@ -32,20 +32,22 @@ RustboroCity_DevonCorp_3F_Text_183439:: @ 8183439
 	.string "줄여서 포켓내비라고도 하는데\p"
 	.string "모험을 떠나는 트레이너의\n"
 	.string "필수품이란다!\p"
-	.string "그걸 사용하면 언제든지\n"
-	.string "호연지방의 지도를 볼 수 있다!\p"
-	.string "무로마을과 잿빛도시의\n"
+	.string "그걸로 호연지방의 지도를 보면\n"
+	.string "무로마을과 잿빛도시의\l"
 	.string "위치도 간편히 확인할 수 있지!$"
 
 RustboroCity_DevonCorp_3F_Text_18351E:: @ 818351E
-	.string "나발명: 그러면\n"
-	.string "여러모로 잘 부탁한다!$"
+	.string "나발명: 잘 부탁한다!$"
 
 RustboroCity_DevonCorp_3F_Text_18353E:: @ 818353E
-	.string "나발명: 편지는 무사히 전달했나?\n"
-	.string "정말로 고맙구다!\p"
+	.string "나발명: 편지를 무사히 전달해주었군\n"
+	.string "정말로 고맙구나!\p"
 	.string "이건 내 감사의 표시다\n"
-	.string "네게 분명 도움이 될 거다$"
+	.string "트레이너인 네게 분명 도움이 될 거다$"
+	// ツワブキ『てがみを とどけて くれたんだねｎ
+	// いやいや ありがとう!ｐ
+	// こいつは おれい だよｎ
+	// トレ-ナ-の きみに やくだつ はずだ!
 
 RustboroCity_DevonCorp_3F_Text_1835B3:: @ 81835B3
 	.string "나발명: 학습장치를 지닌 포켓몬은\n"
