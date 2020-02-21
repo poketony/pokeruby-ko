@@ -534,13 +534,13 @@ gOtherText_Ranking:: @ 842D4CB
 	.string "랭킹$"
 
 gOtherText_BlockLevelIs:: @ 842D4D3
-	.string "레벨 $"
+	.string "레벨은 $"
 
 gOtherText_BlockFeelIs:: @ 842D4E1
-	.string "이고 경도는$"
+	.string "이고 경도는 $"
 
 gOtherText_Period:: @ 842D4F4
-	.string ".$"
+	.string "이다$"
 
 gOtherText_Day:: @ 842D4F6
 	.string "day$"

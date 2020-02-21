@@ -38,10 +38,8 @@ MossdeepCity_Text_1692A1:: @ 81692A1
 	.string "무슨 일이 일어나고 있는 거지?$"
 
 MossdeepCity_Text_169314:: @ 8169314
-	.string "이 섬이...\p"
-	.string "...아니요!\n"
 	.string "전 세계가!\p"
-	.string "전부 자연으로\n"
+	.string "이 섬처럼 화초로\n"
 	.string "가득 차면 좋을 텐데!$"
 
 MossdeepCity_Text_169370:: @ 8169370

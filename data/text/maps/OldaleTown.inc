@@ -15,8 +15,9 @@ OldaleTown_Text_16AF2F:: @ 816AF2F
 	.string "이걸 줄게!$"
 
 OldaleTown_Text_16AFE1:: @ 816AFE1
-	.string "언제든지 쓸 수 있는 상처약은\n"
-	.string "정말 편리한 도구이지!$"
+	.string "어떤 때라도 쓸 수 있는\n"
+	.string "상처약은 경우에 따라서는\l"
+	.string "포켓몬센터보다 도움이 돼!$"
 
 OldaleTown_Text_16B045:: @ 816B045
 	.string "아--!\n"

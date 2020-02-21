@@ -1,7 +1,7 @@
 PetalburgCity_Gym_Text_179DF6:: @ 8179DF6
-	.string "아빠: ...응?\p"
+	.string "아빠: 응?\p"
 	.string "{PLAYER}{K_I}잖아!\n"
-	.string "이사가 다 끝났나 보구나\p"
+	.string "그런가 이사가 다 끝났나 보구나\p"
 	.string "그것보다\n"
 	.string "여기까지 잘도 혼자 왔구나\p"
 	.string "그렇군...\n"
@@ -12,7 +12,7 @@ PetalburgCity_Gym_Text_179DF6:: @ 8179DF6
 	.string "그거 기대되는걸!$"
 
 PetalburgCity_Gym_Text_179F07:: @ 8179F07
-	.string "저기... 저\n"
+	.string "저기... 저...\n"
 	.string "포켓몬이 가지고 싶은데요...$"
 
 PetalburgCity_Gym_Text_179F37:: @ 8179F37
@@ -54,8 +54,7 @@ PetalburgCity_Gym_Text_17A0EB:: @ 817A0EB
 	.string "몬스터볼을 받았다!$"
 
 PetalburgCity_Gym_Text_17A156:: @ 817A156
-	.string "민진: 감사합니다...!\n"
-	.string "종길님!$"
+	.string "민진: 아저씨 감사합니다!$"
 
 PetalburgCity_Gym_Text_17A171:: @ 817A171
 	.string "저기...{PLAYER}님...\n"
@@ -66,17 +65,16 @@ PetalburgCity_Gym_Text_17A196:: @ 817A196
 	.string "아빠: 성공했니?$"
 
 PetalburgCity_Gym_Text_17A1B0:: @ 817A1B0
-	.string "민진: 네! 해냈어요!\n"
+	.string "민진: 아저씨\n"
 	.string "빌려주신 포켓몬 돌려 드릴게요\p"
 	.string "{PLAYER}님 저랑 같이 가주셔서\n"
 	.string "정말 감사했습니다...\p"
 	.string "두 분 덕분에\n"
-	.string "제 포켓몬을 잡을 수 있었어요!\p"
-	.string "제 포켓몬...\n"
-	.string "정말 소중히 키울게요\p"
-	.string "...엄마가 기다리시니\n"
+	.string "포켓몬을 잡을 수 있었어요!\l"
+	.string "잡은 포켓몬 정말 소중히 키울게요\p"
+	.string "...아! 엄마가 기다리시니\n"
 	.string "이제 가야 해요!\p"
-	.string "그럼 안녕히 계세요!$"
+	.string "나중에 또 봐요 {PLAYER}님!$"
 
 PetalburgCity_Gym_Text_17A2A4:: @ 817A2A4
 	.string "아빠: 그럼...\p"
@@ -321,7 +319,7 @@ PetalburgCity_Gym_Text_17B46F:: @ 817B46F
 PetalburgCity_Gym_Text_17B521:: @ 817B521
 	.string "넌 우리 같은 트레이너가\n"
 	.string "무엇을 목표로 하고 있는지 아니?\p"
-	.string "......그건 말야 포켓몬과\n"
+	.string "...그건 말야 포켓몬과\n"
 	.string "한마음이 되는 거야!$"
 
 PetalburgCity_Gym_Text_17B58D:: @ 817B58D

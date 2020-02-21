@@ -22,7 +22,7 @@ MossdeepCity_GameCorner_1F_Text_18E6DA:: @ 818E6DA
 	.string "오오 그래그래!\p"
 	.string "헌데 이 집은\n"
 	.string "그다지 튼튼하지 않으니까\p"
-	.string "많아도 3대 3\n"
+	.string "많아도 3대3\n"
 	.string "승부로 해 주지 않겠나?$"
 
 MossdeepCity_GameCorner_1F_Text_18E741:: @ 818E741

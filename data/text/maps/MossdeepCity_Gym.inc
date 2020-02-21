@@ -129,7 +129,7 @@ MossdeepCity_Gym_Text_18D077:: @ 818D077
 
 MossdeepCity_Gym_Text_18D0F9:: @ 818D0F9
 	.string "{PLAYER}{K_EUNNEUN}\n"
-	.string "풍과 란에게 마인드배지를 받았다!$"
+	.string "풍&란에게 마인드배지를 받았다!$"
 
 MossdeepCity_Gym_Text_18D128:: @ 818D128
 	.string "풍: 마인드배지는 포켓몬의\n"
