@@ -66,7 +66,7 @@ LilycoveCity_ContestHall_Text_18956B:: @ 818956B
 	.string "왠지 실망하고 있어-!$"
 
 LilycoveCity_ContestHall_Text_1895F3:: @ 81895F3
-	.string "캬-! 아저씨 멋져요-!$"
+	.string "캬-! 할아범 멋지시오-!$"
 
 LilycoveCity_ContestHall_Text_189617:: @ 8189617
 	.string "같은 포켓몬을 내보내도\n"

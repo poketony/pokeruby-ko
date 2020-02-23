@@ -54,7 +54,7 @@ SootopolisCity_House8_Text_190431:: @ 8190431
 	.string "볼 수 없는 포켓몬인데\p"
 	.string "나 큰 미꾸리가\n"
 	.string "무지무지 좋아!\p"
-	.string "형은 미꾸리가 더\n"
+	.string "형은 버섯꼬가 더\n"
 	.string "크다고 하는데 말야\p"
 	.string "당연히 미꾸리가 더\n"
 	.string "크지 않아?!\p"

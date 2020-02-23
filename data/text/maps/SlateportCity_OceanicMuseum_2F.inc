@@ -98,7 +98,7 @@ SlateportCity_OceanicMuseum_2F_Text_17F352:: @ 817F352
 	.string "도와줘서 고마워!\p"
 	.string "참 그렇지!\n"
 	.string "네가 데봉에 부탁해뒀던 파츠를\l"
-	.string "가져온 걸 깜빡했구나!  $"
+	.string "가져온 걸 깜빡했구나!$"
 
 UnknownString_817F404: @ 817F404
 	.string "{PLAYER}{K_EUNNEUN} 해양관장에게\n"

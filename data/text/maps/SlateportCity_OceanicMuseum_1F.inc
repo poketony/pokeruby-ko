@@ -74,7 +74,7 @@ SlateportCity_OceanicMuseum_1F_Text_17E582:: @ 817E582
 	.string "왜 네가 여기 있는 거야!?\p"
 	.string "나?\n"
 	.string "난 너한테 손도 발도 못 쓰고 당한\l"
-	.string "{EVIL_TEAM}단이야  \p"
+	.string "{EVIL_TEAM}단이야\p"
 	.string "이거 줄 테니까 봐줘!$"
 
 SlateportCity_OceanicMuseum_1F_Text_17E606:: @ 817E606

@@ -15,7 +15,7 @@ VerdanturfTown_WandasHouse_Text_178521:: @ 8178521
 	.string "포켓몬 승부를 할 거니까요!$"
 
 VerdanturfTown_WandasHouse_Text_17859A:: @ 817859A
-	.string "작은아버지: 오오! {PLAYER}{KUN}\n"
+	.string "작은아버지: 오오! {PLAYER}{K_AYA}\n"
 	.string "민진은 옆방에 있단다!\p"
 	.string "그나저나 대단하구나!\p"
 	.string "자연에 둘러싸인 환경 덕분에\n"

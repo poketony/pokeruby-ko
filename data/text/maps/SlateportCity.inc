@@ -99,7 +99,7 @@ SlateportCity_Text_164C64:: @ 8164C64
 
 SlateportCity_Text_164C9F:: @ 8164C9F
 	.string "우리 {EVIL_TEAM}단의 기본 방침은\n"
-	.string "“현지 집합” 그리고  \l"
+	.string "“현지 집합” 그리고\l"
 	.string "“현지 해산”이다!$"
 
 SlateportCity_Text_164CE8:: @ 8164CE8
@@ -266,8 +266,8 @@ SlateportCity_Text_1657FA:: @ 81657FA
 	.string "빼앗으려고 하고 있어...?$"
 
 SlateportCity_Text_16583A:: @ 816583A
-	.string "함께 와 줘!\n"
-	.string "부탁해!$"
+	.string "{PLAYER}!\n"
+	.string "함께 와 줘! 부탁해!$"
 
 SlateportCity_Text_165856:: @ 8165856
 	.string "포켓몬 콘테스트 하이퍼랭크 접수처\n"
@@ -301,9 +301,8 @@ SlateportCity_Text_1659E3:: @ 81659E3
 	.string "“바다의 과학박물관”$"
 
 SlateportCity_Text_165A17:: @ 8165A17
-	.string "여기는 잿빛도시\p"
-	.string "사람과 포켓몬\n"
-	.string "그리고 자연이 왕래하는 항구$"
+	.string "여기는 잿빛도시\n"
+	.string "사람과 포켓몬이 왕래하는 항구$"
 
 SlateportCity_Text_165A57:: @ 8165A57
 	.string "“잿빛시장”\p"

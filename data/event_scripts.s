@@ -3246,20 +3246,27 @@ SealedChamber_OuterRoom_Text_1A13BE:: @ 81A13BE
 
 OldaleTown_PokemonCenter_2F_Text_1A13DF:: @ 81A13DF
 	.string "죄송합니다\n"
-	.string "포켓몬 통신 클럽 콜로세움은\p"
-	.string "조정 중이므로\n"
-	.string "지금은 이용하실 수 없습니다$"
+	.string "지금 이쪽의 콜로세움은\l"
+	.string "조정 중입니다$"
+	// もうしわけ ございませんｎ
+	// ただいま こちらの コロシアムはｌ
+	// ちょうせいちゅう です
 
 OldaleTown_PokemonCenter_2F_Text_1A141C:: @ 81A141C
 	.string "죄송합니다\n"
-	.string "포켓몬 통신 클럽 트레이드센터는\p"
-	.string "조정 중이므로\n"
-	.string "지금은 이용하실 수 없습니다$"
+	.string "지금 이쪽의 트레이드센터는\l"
+	.string "점검 중입니다$"
+	// もうしわけ ございませんｎ
+	// ただいま こちらの トレ-ドセンタ-はｌ
+	// てんけんちゅう です
 
 OldaleTown_PokemonCenter_2F_Text_1A145C:: @ 81A145C
-	.string "정말 죄송합니다\n"
-	.string "포켓몬 통신 클럽 레코드코너는\l"
-	.string "아직 준비 중입니다$"
+	.string "죄송합니다\n"
+	.string "지금 이쪽의 레코드코너는\l"
+	.string "준비 중입니다$"
+	// もうしわけ ございませんｎ
+	// ただいま こちらの レコ-ドコ-ナ-はｌ
+	// じゅんびちゅう です
 
 FallarborTown_House1_Text_1A1498:: @ 81A1498
 	.string "{PLAYER}{K_EUNNEUN}\n"
