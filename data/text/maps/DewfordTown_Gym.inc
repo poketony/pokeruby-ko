@@ -134,7 +134,7 @@ DewfordTown_Gym_Text_1752BB:: @ 81752BB
 
 DewfordTown_Gym_Text_1752E6:: @ 81752E6
 	.string "너클배지에는\n"
-	.string "레벨30까지의 포켓몬이라면\p"
+	.string "레벨 30까지의 포켓몬이라면\p"
 	.string "다른 사람에게 받은 포켓몬이라도\n"
 	.string "얌전하게 만드는 효과가 있어!\p"
 	.string "그리고 배틀 밖에서도\n"
