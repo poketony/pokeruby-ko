@@ -76,9 +76,9 @@ AbandonedShip_Rooms2_1F_Text_198AEE:: @ 8198AEE
 	// それだと ぼくたちには かてないよ!
 
 AbandonedShip_Rooms2_1F_Text_198B3B:: @ 8198B3B
-	.string "소영: 어머? 또 만났군요!\n"
+	.string "소영: 어머? 또 만났군요?!\n"
 	.string "우리처럼 포기하지 않고\l"
-	.string "보물을 찾고 있나보죠!\p"
+	.string "보물을 찾고 있나보죠?!\p"
 	.string "승부해서 진 쪽이\n"
 	.string "먼저 포기하는 걸로 하지 않을래요?$"
 	// アヤ『あら? また であったわね!ｎ

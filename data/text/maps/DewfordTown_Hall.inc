@@ -85,8 +85,7 @@ DewfordTown_Hall_Text_17574C:: @ 817574C
 	// はやってるのかな?
 
 DewfordTown_Hall_Text_175779:: @ 8175779
-	.string "난\n"
-	.string "“{STR_VAR_1}”{K_I}랑\l"
+	.string "난 “{STR_VAR_1}”{K_I}랑\n"
 	.string "관련된 굿즈를 많이 모으고 있어!\p"
 	.string "“{STR_VAR_1}” 인형\n"
 	.string "이라든가\p"
