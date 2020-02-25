@@ -4,6 +4,10 @@ LilycoveCity_House4_Text_18BEE8:: @ 818BEE8 //JP: 16A2B6
 	.string "해저에 있다고 생각한다!\p"
 	.string "...라고\n"
 	.string "누군가가 말했었지$"
+	// この ほしの さいだいの なぞｎ
+	// それは かいていに あると おもうんだ!ｐ
+	// ……というのはｎ
+	// だれかが いってた ことなんだけど
 
 LilycoveCity_House4_Text_18BF4E:: @ 818BF4E
 	.string "그러고 보니 이끼시티와\n"
@@ -11,3 +15,7 @@ LilycoveCity_House4_Text_18BF4E:: @ 818BF4E
 	.string "엄청나게 깊고 깊은 해구가 있지\p"
 	.string "...라는 말도\n"
 	.string "누군가가 했던 말이지$"
+	// そういや トクサネと ルネの あいだにはｎ
+	// ふかい ふかい かいこうが あるｐ
+	// ……そんな はなしもｎ
+	// だれかが いってた ことなんだけど
