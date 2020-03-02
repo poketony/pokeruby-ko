@@ -15,7 +15,7 @@ FallarborTown_ContestLobby_Text_1B6ED0:: @ 81B6ED0
 
 FallarborTown_ContestLobby_Text_1B6EF1:: @ 81B6EF1
 	.string "그럼 시작한다!\p"
-	.string "레츠 나무열매블렌더!!$"
+	.string "렛츠 나무열매블렌더!!$"
 
 FallarborTown_ContestLobby_Text_1B6F1F:: @ 81B6F1F
 	.string "좋아 설명할게!\p"

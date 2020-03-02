@@ -13,7 +13,7 @@ FallarborTown_PokemonCenter_1F_Text_1774D4:: @ 81774D4
 	.string "트레이너를 만나 너무 기뻐요\p"
 	.string "괜찮으시다면 저희 집에도\n"
 	.string "놀러 와 주세요\l"
-	.string "114번도로에 있으니까요$"
+	.string "114번 도로에 있으니까요$"
 	// あなたは……?ｐ
 	// §あ§お というのですかｎ
 	// あなた トレ-ナ- なんですねｐ

@@ -7,7 +7,7 @@ Route110_TrickHousePuzzle5_Text_19D423:: @ 819D423
 
 Route110_TrickHousePuzzle5_Text_19D4AE:: @ 819D4AE
 	.string "꼭두각시인형 1호 퀴즈!\p"
-	.string "이 중에 103번도로에\n"
+	.string "이 중에 103번 도로에\n"
 	.string "없는 포켓몬은 뭘까?$"
 
 Route110_TrickHousePuzzle5_Text_19D501:: @ 819D501

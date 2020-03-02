@@ -5,7 +5,7 @@ Route114_FossilManiacsTunnel_Text_192795:: @ 8192795
 	.string "여기서 발견되는 화석은\n"
 	.string "모두 내 거라서 줄 수가 없어...\p"
 	.string "어떻게든 가지고 싶으면\n"
-	.string "111번도로에 있는 사막에 가봐...\p"
+	.string "111번 도로에 있는 사막에 가봐...\p"
 	.string "내가 들은 이야기로는\n"
 	.string "모래바람 때문에\l"
 	.string "모래 밑에 잠들어 있던 화석이\l"
