@@ -315,7 +315,7 @@ void CB2_ViewWallClock(void)
     s16 angle1;
     s16 angle2;
     u8 spriteId;
-	u8 txtCancel[] = _("{PALETTE 0}{HIGHLIGHT TRANSPARENT}{COLOR 14}{SHADOW 15}돌아간다");
+	u8 txtCancel[] = _("{PALETTE 0}{HIGHLIGHT TRANSPARENT}{COLOR 14}{SHADOW 15}되돌아간다");
 
     LoadWallClockGraphics();
     LZ77UnCompVram(gUnknown_08E95774, (void *)(VRAM + 0x3800));

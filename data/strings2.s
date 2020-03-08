@@ -203,7 +203,7 @@ gOtherText_ThreeQuestions:: @ 842C890
 	.string "???$"
 
 gOtherText_From:: @ 842C894
-	.string " {K_EU}로부터$"
+	.string "{K_EU}로부터$"
 
 gOtherText_MixingRecordsWithFriend:: @ 842C89A
 	.string "레코드를 섞고 있습니다$"
@@ -438,16 +438,16 @@ gOtherText_Met2:: @ 842D12B
 	.string "에서 만났다$"
 
 gOtherText_EggDayCare:: @ 842D133
-	.string "키우미집부부에게서 받은\n이상한 포켓몬 알이다$"
+	.string "키우미집 부부에게서 받은\n이상한 포켓몬알이다$"
 
 gOtherText_EggNicePlace:: @ 842D164
-	.string "멋진 장소에서 받은\n이상한 포켓몬 알이다$"
+	.string "멋진 장소에서 손에 넣은\n이상하고 또 이상한 포켓몬알이다$"
 
 gOtherText_EggObtainedInTrade:: @ 842D197
-	.string "교환을 통해서 받은\n이상한 포켓몬 알이다$"
+	.string "교환을 통해서 받은\n이상한 포켓몬알이다$"
 
 gOtherText_EggHotSprings:: @ 842D1C3
-	.string "온천할머니에게 받은\n이상한 포켓몬 알이다$"
+	.string "온천할머니에게서 받은\n이상한 포켓몬알이다$"
 
 gOtherText_LinkStandby2:: @ 842D1EE
 	.string "통신 대기 중...$"
