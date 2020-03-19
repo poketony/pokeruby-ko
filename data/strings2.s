@@ -203,7 +203,7 @@ gOtherText_ThreeQuestions:: @ 842C890
 	.string "???$"
 
 gOtherText_From:: @ 842C894
-	.string "{K_EU}로부터$"
+	.string "{K_EU}로부터$" @ 원래는 From {NAME} 형태인데 {NAME}{K_EU}로부터 식으로 출력되면 좋겠습니다. 확인 후 수정 부탁드립니다
 
 gOtherText_MixingRecordsWithFriend:: @ 842C89A
 	.string "레코드를 섞고 있습니다$"
@@ -308,7 +308,7 @@ gOtherText_QuitGamePrompt:: @ 842CA90
 	.string "게임을 그만두겠습니까?$"
 
 gOtherText_MaxCoins:: @ 842CA9F
-	.string "동전이 9999개\n 담겨 있습니다$"
+	.string "동전이 9999개\n담겨 있습니다$"
 
 gOtherText_OutOfCoins:: @ 842CAB7
 	.string "동전이 없습니다\n게임을 종료합니다$"
@@ -333,7 +333,7 @@ gOtherText_NewLine2:: @ 842CC28
 
 gOtherText_CancelAndLv:: @ 842CC2A
 	.string "취소$"
-	.string "LV$"
+	.string "Lv$"
 
 gEggNickname:: @ 842CC34
 	.string "알$"
@@ -365,7 +365,7 @@ gOtherText_TeachWhichMove:: @ 842CCC7
 	.string "{STR_VAR_1}에게\n어느 기술을 배우게 하겠습니까?$"
 
 gOtherText_TeachSpecificMove:: @ 842CCDF
-	.string "{STR_VAR_2}\n배우게 하겠습니까?$"
+	.string "{STR_VAR_2}{K_EULREUL}\n배우게 하겠습니까?$"
 
 gOtherText_PokeLearnedMove:: @ 842CCE9
 	.string "{STR_VAR_1}{K_EUNNEUN} 새로\n{STR_VAR_2}{K_EULREUL} 배웠다!$"
@@ -465,7 +465,7 @@ gOtherText_NationalDex:: @ 842D222
 
 gOtherText_DiplomaCertificationGameFreak:: @ 842D22B
 	.string "{HIGHLIGHT TRANSPARENT}플레이어 {CLEAR 0x10}{COLOR RED}{PLAYER}님\n\n{COLOR DARK_GREY}{STR_VAR_1} 포켓몬 도감을\n훌륭히 완성시킨\n위대한 공적을 기려서\n이에 증명합니다\n\n{CLEAR_TO 0x42}{COLOR RED}GAME FREAK$"
-	.string "{COLOR RED}{HIGHLIGHT TRANSPARENT}GAME FREAK$" @ 게임프리크가 2번 적혀 있는 게 영 미심쩍네요. 나중에 확인 가능하시면 부탁드립니다
+	.string "{COLOR RED}{HIGHLIGHT TRANSPARENT}GAME FREAK$"
 
 gOtherText_PLink:: @ 842D2BC
 	.string "{STR_VAR_1}인 접속$"
@@ -543,7 +543,7 @@ gOtherText_Period:: @ 842D4F4
 	.string "이다$"
 
 gOtherText_Day:: @ 842D4F6
-	.string "day$"
+	.string "날짜$"
 	.string ":$"
 
 gOtherText_OK:: @ 842D4FC
