@@ -320,7 +320,7 @@ gTextStoryteller_Story19Text:: @ 81AFC04
 	.string "트레이너의 이야기야...\p"
 	.string "놀랍게도 {STR_VAR_1}번이나\n"
 	.string "슬롯에서 대당첨됐다는 거야!\p"
-	.string "{STR_VAR_3}{K_EUNNEUN} 슬롯머신을\n"
+	.string "{STR_VAR_3}{K_EUNNEUN} 슬롯을\n"
 	.string "잘 알고 있는 트레이너일 거야 분명!$"
 
 gTextStoryteller_Story20Title:: @ 81AFC8A

@@ -14,11 +14,11 @@ MauvilleCity_House2_Text_182515:: @ 8182515
 
 MauvilleCity_House2_Text_182549:: @ 8182549
 	.string "동전케이스가 있으면 게임코너에서\n"
-	.string "룰렛이나 슬롯머신을\l"
+	.string "룰렛이나 슬롯을\l"
 	.string "즐길 수 있어!$"
 
 MauvilleCity_House2_Text_182578:: @ 8182578
 	.string "그래... 아쉽네\p"
 	.string "동전케이스가 있으면 게임코너에서\n"
-	.string "룰렛이나 슬롯머신을\l"
+	.string "룰렛이나 슬롯을\l"
 	.string "즐길 수 있는데...$"

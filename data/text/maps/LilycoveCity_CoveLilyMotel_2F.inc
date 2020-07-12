@@ -31,7 +31,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_18708F:: @ 818708F
 LilycoveCity_CoveLilyMotel_2F_Text_187149:: @ 8187149
 	.string "이 몸?\p"
 	.string "프로그래머라고! 이쪽의\n"
-	.string "슬롯머신은 왠지 즐겁네!$"
+	.string "슬롯은 왠지 즐겁네!$"
 	// おれさま?ｐ
 	// プログラマ-だよ! こっちのｎ
 	// スロットは どんなのか たのしみだな!
