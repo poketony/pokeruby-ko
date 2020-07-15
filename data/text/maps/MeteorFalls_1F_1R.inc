@@ -7,7 +7,7 @@ MeteorFalls_1F_1R_Text_193268:: @ 8193268
 	.string "우효?\p"
 	.string "네가 누군지는 모르겠지만\n"
 	.string "우리 {EVIL_TEAM}단의 방해를 한다면\l"
-	.string "용서는 하지 않는다!$"
+	.string "용서하지 않겠다!$"
 
 MeteorFalls_1F_1R_Text_1932C5:: @ 81932C5
 	.string "멈춰라!\n"
