@@ -678,7 +678,6 @@ static void sub_8043FC0(u8 a, u8 b)
     }
     else
     {
-        *(ptr++) = CHAR_LV_SEPARATOR;
         ptr = ConvertIntToDecimalStringN(ptr, b, 0, 2);
     }
 
@@ -688,8 +687,16 @@ static void sub_8043FC0(u8 a, u8 b)
     *(ptr++) = EOS;
     sub_80034D4(ewram0_9(0), str);
 
-    for (i = 0; i < 3; i++)
-        CpuCopy32((void *)(ewram0_9(1) + i * 64), r7[i] - 0x20 + gSprites[a].oam.tileNum * 32, 32);
+    if (b == 100)
+    {
+        for (i = 0; i < 3; i++)
+            CpuCopy32((void *)(ewram0_9(1) + i * 64), r7[i] - 0x20 + gSprites[a].oam.tileNum * 32, 32);
+    }
+    else
+    {
+        for (i = 0; i < 2; i++)
+            CpuCopy32((void *)(ewram0_9(1) + i * 64), r7[i] + gSprites[a].oam.tileNum * 32, 32);
+    }
 }
 #ifdef NONMATCHING
 void sub_80440EC(u8 a, s16 b, u8 c)
