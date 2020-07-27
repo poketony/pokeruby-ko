@@ -146,7 +146,7 @@ gTradeText_ByeBye:: @ 842C622
 	.string "바이바이! {STR_VAR_2}!$"
 
 gTradeText_SentOverPoke:: @ 842C62F
-	.string "{STR_VAR_3}{K_I}로부터 {STR_VAR_1}{K_IGA} 전송됐다!$"
+	.string "{STR_VAR_1}{K_I}로부터 {STR_VAR_3}{K_IGA} 전송됐다!$"
 
 gTradeText_TakeGoodCare:: @ 842C640
 	.string "{STR_VAR_3}{K_EULREUL} 귀여워해 줘!$"

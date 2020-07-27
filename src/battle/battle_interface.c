@@ -653,7 +653,6 @@ static void sub_8043FC0(u8 a, u8 b)
     void *const *r7;
     u8 *ptr;
     s32 i;
-    s32 two;
 
     // TODO: Make this a local variable
     memcpy(str, gUnknown_0820A81C, sizeof(str));

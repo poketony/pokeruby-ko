@@ -3180,10 +3180,10 @@ LittlerootTown_MaysHouse_2F_Text_1A100C:: @ 81A100C
 	.string "트레이너스쿨에서 온 메일이다!\p"
 	.string "... ... ...\p"
 	.string "“포켓몬이\n"
-	.string "배울 수 있는 기술은 4개!\p"
-	.string "어떤 기술을 배우게 하는가로\n"
-	.string "트레이너의 실력이\l"
-	.string "시험받게 됩니다!”\p"
+	.string "  배울 수 있는 기술은 4개!\p"
+	.string "  어떤 기술을 배우게 하는가로\n"
+	.string "  트레이너의 실력이\l"
+	.string "  시험받게 됩니다!”\p"
 	.string "... ... ...$"
 
 LittlerootTown_BrendansHouse_2F_Text_1A10D6:: @ 81A10D6
