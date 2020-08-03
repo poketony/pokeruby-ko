@@ -3761,7 +3761,7 @@ gTrainers:: @ 81F04FC
 	.byte TRAINER_CLASS_NAME_EXPERT
 	.byte F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_INTENSE @ gender flag and encounter music
 	.byte TRAINER_PIC_EXPERT_F
-	.string "SHELBY$", 12
+	.string "미강$", 12
 	.2byte ITEM_NONE, ITEM_NONE, ITEM_NONE, ITEM_NONE @ items
 	.4byte FALSE @ is double battle
 	.4byte 0x7 @ AI flags
@@ -3773,7 +3773,7 @@ gTrainers:: @ 81F04FC
 	.byte TRAINER_CLASS_NAME_EXPERT
 	.byte F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_INTENSE @ gender flag and encounter music
 	.byte TRAINER_PIC_EXPERT_F
-	.string "SHELBY$", 12
+	.string "미강$", 12
 	.2byte ITEM_NONE, ITEM_NONE, ITEM_NONE, ITEM_NONE @ items
 	.4byte FALSE @ is double battle
 	.4byte 0x7 @ AI flags
@@ -3785,7 +3785,7 @@ gTrainers:: @ 81F04FC
 	.byte TRAINER_CLASS_NAME_EXPERT
 	.byte F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_INTENSE @ gender flag and encounter music
 	.byte TRAINER_PIC_EXPERT_F
-	.string "SHELBY$", 12
+	.string "미강$", 12
 	.2byte ITEM_NONE, ITEM_NONE, ITEM_NONE, ITEM_NONE @ items
 	.4byte FALSE @ is double battle
 	.4byte 0x7 @ AI flags
@@ -3797,7 +3797,7 @@ gTrainers:: @ 81F04FC
 	.byte TRAINER_CLASS_NAME_EXPERT
 	.byte F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_INTENSE @ gender flag and encounter music
 	.byte TRAINER_PIC_EXPERT_F
-	.string "SHELBY$", 12
+	.string "미강$", 12
 	.2byte ITEM_NONE, ITEM_NONE, ITEM_NONE, ITEM_NONE @ items
 	.4byte FALSE @ is double battle
 	.4byte 0x7 @ AI flags
@@ -3809,7 +3809,7 @@ gTrainers:: @ 81F04FC
 	.byte TRAINER_CLASS_NAME_EXPERT
 	.byte F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_INTENSE @ gender flag and encounter music
 	.byte TRAINER_PIC_EXPERT_F
-	.string "SHELBY$", 12
+	.string "미강$", 12
 	.2byte ITEM_NONE, ITEM_NONE, ITEM_NONE, ITEM_NONE @ items
 	.4byte FALSE @ is double battle
 	.4byte 0x7 @ AI flags
