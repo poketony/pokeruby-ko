@@ -173,7 +173,7 @@ Route110_Text_16F2C4:: @ 816F2C4
 	.string "기록을 잴 수 없어!$"
 
 Route110_Text_16F381:: @ 816F381
-	.string "여기는 110번 도로\n"
+	.string "여기는 110번도로\n"
 	.string "{0x7A} 잿빛도시$"
 
 Route110_Text_16F39C:: @ 816F39C
@@ -184,14 +184,14 @@ Route110_Text_16F3B1:: @ 816F3B1
 	.string "...간판에 낙서가 있다$"
 
 Route110_Text_16F3E9:: @ 816F3E9
-	.string "여기는 110번 도로\n"
-	.string "{0x7B} 103번 도로$"
+	.string "여기는 110번도로\n"
+	.string "{0x7B} 103번도로$"
 
 Route110_Text_16F3FF:: @ 816F3FF
 	.string "“시사이드 주차장”$"
 
 Route110_Text_16F40F:: @ 816F40F
-	.string "여기는 110번 도로\n"
+	.string "여기는 110번도로\n"
 	.string "{0x79} 보라시티$"
 
 Route110_Text_16F429:: @ 816F429

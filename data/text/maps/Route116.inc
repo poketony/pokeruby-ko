@@ -91,7 +91,7 @@ Route116_Text_170A03:: @ 8170A03
 	.string "내가 찾는 게 아니야...$"
 
 Route116_Text_170A46:: @ 8170A46
-	.string "여기는 116번 도로\n"
+	.string "여기는 116번도로\n"
 	.string "{0x7B} 금탄도시$"
 
 Route116_Text_170A60:: @ 8170A60

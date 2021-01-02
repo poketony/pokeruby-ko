@@ -1,7 +1,7 @@
 FortreeCity_PokemonCenter_1F_Text_186027:: @ 8186027 //JP: 1651B09
 	.string "너\n"
 	.string "포켓몬 도감을 만들고 있나?\p"
-	.string "흠 121번 도로의\n"
+	.string "흠 121번도로의\n"
 	.string "사파리존에 가보는 건 어떤가?$"
 	// きみぃｎ
 	// ポケモンずかん つくっておるのか?ｐ

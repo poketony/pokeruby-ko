@@ -67,7 +67,7 @@ FallarborTown_House1_Text_1779B8:: @ 81779B8
 FallarborTown_House1_Text_177A2B:: @ 8177A2B
 	.string "공석박사님은\n"
 	.string "{EVIL_TEAM}단의 사람들과 같이\l"
-	.string "114번 도로에 있는\l"
+	.string "114번도로에 있는\l"
 	.string "유성의 폭포에 가셨어요$"
 	// ソライシはかせはｎ
 	// §くだんの ひとと いっしょにｌ

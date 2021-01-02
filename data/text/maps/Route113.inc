@@ -10,11 +10,11 @@ Route113_Text_16FFEE:: @ 816FFEE
 	.string "재밌어지게 돼!$"
 
 Route113_Text_170065:: @ 8170065
-	.string "여기는 113번 도로\n"
-	.string "{0x7C} 111번 도로$"
+	.string "여기는 113번도로\n"
+	.string "{0x7C} 111번도로$"
 
 Route113_Text_17007B:: @ 817007B
-	.string "여기는 113번 도로\n"
+	.string "여기는 113번도로\n"
 	.string "{0x7B} 단풍마을$"
 
 Route113_Text_170096:: @ 8170096

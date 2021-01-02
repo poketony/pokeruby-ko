@@ -177,7 +177,7 @@ MauvilleCity_Text_166331:: @ 8166331
 	.string "암페어: 음?\n"
 	.string "자네라면 괜찮을 터다!\p"
 	.string "참고로 뉴보라의 입구는\n"
-	.string "110번 도로에서 파도타기로\l"
+	.string "110번도로에서 파도타기로\l"
 	.string "금방 갈 수 있다\p"
 	.string "그럼 잘 부탁한다!\n"
 	.string "와하하하핫!$"

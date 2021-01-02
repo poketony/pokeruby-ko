@@ -34,9 +34,9 @@ Route102_Text_16D51A:: @ 816D51A
 	.string "포켓몬 많이 많이 잡아야지-!$"
 
 Route102_Text_16D547:: @ 816D547
-	.string "여기는 102번 도로\n"
+	.string "여기는 102번도로\n"
 	.string "{0x7C} 고도마을$"
 
 Route102_Text_16D55F:: @ 816D55F
-	.string "여기는 102번 도로\n"
+	.string "여기는 102번도로\n"
 	.string "{0x7B} 등화도시$"

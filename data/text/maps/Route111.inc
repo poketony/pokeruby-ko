@@ -97,7 +97,7 @@ Route111_Text_16FC3A:: @ 816FC3A
 	.string "정말 힘들더라... 완패하고 말았어$"
 
 Route111_Text_16FC9C:: @ 816FC9C
-	.string "여기는 111번 도로\n"
+	.string "여기는 111번도로\n"
 	.string "{0x7A} 보라시티$"
 
 Route111_Text_16FCB6:: @ 816FCB6
@@ -105,12 +105,12 @@ Route111_Text_16FCB6:: @ 816FCB6
 	.string "“연승가족의 집”$"
 
 Route111_Text_16FCEF:: @ 816FCEF
-	.string "여기는 111번 도로\n"
-	.string "{0x7B} 112번 도로$"
+	.string "여기는 111번도로\n"
+	.string "{0x7B} 112번도로$"
 
 Route111_Text_16FD05:: @ 816FD05
-	.string "여기는 111번 도로\n"
-	.string "{0x7B} 113번 도로$"
+	.string "여기는 111번도로\n"
+	.string "{0x7B} 113번도로$"
 
 Route111_Text_16FD1B:: @ 816FD1B
 	.string "“건강할머니의 집”\n"

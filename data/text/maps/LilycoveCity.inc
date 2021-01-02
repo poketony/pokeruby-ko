@@ -49,7 +49,7 @@ LilycoveCity_Text_167B94:: @ 8167B94
 
 LilycoveCity_Text_167BD5:: @ 8167BD5
 	.string "... ... ... ...\p"
-	.string "103번 도로에서\n"
+	.string "103번도로에서\n"
 	.string "{PLAYER}{K_WAGWA} 승부한 게\l"
 	.string "떠올랐어!\p"
 	.string "그 승부가 덕분에\n"

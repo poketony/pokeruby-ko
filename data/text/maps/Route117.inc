@@ -14,11 +14,11 @@ Route117_Text_170CEB:: @ 8170CEB
 	.string "공기가 마시쪄-!$"
 
 Route117_Text_170D02:: @ 8170D02
-	.string "여기는 117번 도로\n"
+	.string "여기는 117번도로\n"
 	.string "{0x7B} 잔디마을$"
 
 Route117_Text_170D1E:: @ 8170D1E
-	.string "여기는 117번 도로\n"
+	.string "여기는 117번도로\n"
 	.string "{0x7C} 보라시티$"
 
 Route117_Text_170D38:: @ 8170D38

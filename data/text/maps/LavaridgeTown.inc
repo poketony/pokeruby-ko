@@ -19,7 +19,7 @@ LavaridgeTown_Text_16BDA4:: @ 816BDA4
 
 LavaridgeTown_Text_16BE7D:: @ 816BE7D
 	.string "봄이: 그 고고고글이 있으면\n"
-	.string "111번 도로에 있는 사막에도\l"
+	.string "111번도로에 있는 사막에도\l"
 	.string "갈 수 있게 돼!\p"
 	.string "그건 그렇고 {PLAYER}\n"
 	.string "포켓몬체육관에 도전이라니...\p"
@@ -54,7 +54,7 @@ LavaridgeTown_Text_16BF92:: @ 816BF92
 
 LavaridgeTown_Text_16C020:: @ 816C020
 	.string "휘웅: 그걸 가지고 있으면\n"
-	.string "111번 도로에 있는 사막에도\l"
+	.string "111번도로에 있는 사막에도\l"
 	.string "들어갈 수 있어\p"
 	.string "사막에서밖에 만날 수 없는\n"
 	.string "포켓몬도 있을 테니까\l"

@@ -5,7 +5,7 @@ Route115_Text_170273:: @ 8170273
 	.string "모르니까 조마조마해$"
 
 Route115_Text_1702E7:: @ 81702E7
-	.string "여기는 115번 도로\n"
+	.string "여기는 115번도로\n"
 	.string "{0x7A} 금탄도시$"
 
 Route115_Text_170301:: @ 8170301

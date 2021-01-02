@@ -38,5 +38,5 @@ Route101_Text_16D2CB:: @ 816D2CB
 	.string "잡고 싶은 포켓몬을 찾으면 돼!$"
 
 Route101_Text_16D349:: @ 816D349
-	.string "여기는 101번 도로\n"
+	.string "여기는 101번도로\n"
 	.string "{0x79} 고도마을$"

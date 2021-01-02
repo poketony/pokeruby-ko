@@ -49,9 +49,9 @@ Route118_Text_170FFE:: @ 8170FFE
 	.string "포켓몬은 정말 믿음직스러운 거 같아!$"
 
 Route118_Text_17108B:: @ 817108B
-	.string "여기는 118번 도로\n"
+	.string "여기는 118번도로\n"
 	.string "{0x7B} 보라시티$"
 
 Route118_Text_1710A5:: @ 81710A5
-	.string "여기는 118번 도로\n"
-	.string "{0x79} 119번 도로$"
+	.string "여기는 118번도로\n"
+	.string "{0x79} 119번도로$"

@@ -33,7 +33,7 @@ AquaHideout_1F_Text_196BC5:: @ 8196BC5
 AquaHideout_1F_Text_196C83:: @ 8196C83
 	.string "뭐야 뭐야!\n"
 	.string "우리 {EVIL_TEAM}단한테 무슨 볼일이야!\p"
-	.string "리더라면 지금 122번 수로에 있는\n"
+	.string "리더라면 지금 122번수로에 있는\n"
 	.string "송화산으로 가고 있어서 여긴 없어\p"
 	.string "...뭐 하러 갔냐고?\n"
 	.string "아하하하! 그런 중요한 정보를\n"

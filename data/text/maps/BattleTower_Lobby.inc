@@ -49,7 +49,7 @@ BattleTower_Lobby_Text_19A249:: @ 819A249
 	.string "참가할 수 있는 포켓몬이\n"
 	.string "3마리는 필요합니다!\p"
 	.string "참가하려면 종류가 다른\n"
-	.string "레벨50의 포켓몬을\l"
+	.string "레벨50 이하의 포켓몬을\l"
 	.string "3마리 준비해서\p"
 	.string "지니게 할 도구도 모두\n"
 	.string "다른 도구로 해주세요\p"
@@ -112,7 +112,7 @@ BattleTower_Lobby_Text_19A571:: @ 819A571
 	.string "$"
 
 BattleTower_Lobby_Text_19A589:: @ 819A589
-	.string "성적을 리포트에 작성중입니다\n"
+	.string "성적을 리포트에 작성하므로\n"
 	.string "기다려 주십시오$"
 
 BattleTower_Lobby_Text_19A5B1:: @ 819A5B1
@@ -120,60 +120,61 @@ BattleTower_Lobby_Text_19A5B1:: @ 819A5B1
 	.string "$"
 
 BattleTower_Lobby_Text_19A5CE:: @ 819A5CE
-	.string "배틀룸에 안내하기 전에\n"
-	.string "리포트를 작성하겠습니다\l"
+	.string "배틀룸으로 안내하기 전에\n"
+	.string "리포트를 작성하므로\l"
 	.string "기다려 주십시오$"
 
 BattleTower_Lobby_Text_19A617:: @ 819A617
-	.string "드디어 50명째\n"
-	.string "트레이너와의 승부군요!\p"
-	.string "이제부터 7연승을 할 때마다\n"
-	.string "당신의 포켓몬에게 기념 리본이\l"
-	.string "수여가 될테니 힘내주시기 바랍니다!$"
+	.string "드디어 다음은 50번째\n"
+	.string "트레이너입니다!\p"
+	.string "이제부터는 7연승을 할 때마다\n"
+	.string "손님의 포켓몬에게 기념리본이\l"
+	.string "달리므로 열심히 해주세요!$"
 
 BattleTower_Lobby_Text_19A6BE:: @ 819A6BE
-	.string "강한 트레이너 7명을 연속으로\n"
-	.string "승리하신 기념의 리본을 받으세요!\p"
+	.string "강한 트레이너 7명에게\n"
+	.string "연승한 기념으로\l"
+	.string "리본을 드립니다!\p"
 	.string "{PLAYER}{K_EUNNEUN} 리본을 받았다!$"
 
 BattleTower_Lobby_Text_19A719:: @ 819A719
 	.string "{PLAYER}{K_EUNNEUN} 포켓몬에게\n"
-	.string "리본을 달아주었다!$"
+	.string "리본을 달아 줬다!$"
 
 BattleTower_Lobby_Text_19A747:: @ 819A747
-	.string "저기 저기!\p"
+	.string "있잖아!\p"
 	.string "배틀타워에서 이제부터 승부다!\n"
 	.string "...라고 말할 때\l"
-	.string "너의 마음을 알려줘!$"
+	.string "너의 기분을 알려줘!$"
 
 BattleTower_Lobby_Text_19A7C3:: @ 819A7C3
-	.string "우와 가르쳐주는건가!\n"
+	.string "우와 가르쳐주는 건가!\n"
 	.string "그럼 바로...$"
 
 BattleTower_Lobby_Text_19A7FD:: @ 819A7FD
-	.string "특별히 아무 생각이 없는건가?\n"
+	.string "딱히 아무 생각도 없는 거야?\n"
 	.string "너 쿨하구나$"
 
 BattleTower_Lobby_Text_19A83D:: @ 819A83D
-	.string "어라? 역시 그만두는거야?\n"
-	.string "변덕쟁이구나$"
+	.string "어라? 역시 그만두는 거야?\n"
+	.string "너 변덕쟁이구나$"
 
 BattleTower_Lobby_Text_19A871:: @ 819A871
-	.string "와우 그런 기분인건가!\n"
+	.string "흐음 그런 기분인 건가!\n"
 	.string "좀 독특하구나...\p"
 	.string "정말 고마워!$"
 
 BattleTower_Lobby_Text_19A8AE:: @ 819A8AE
 	.string "배틀에서 승리한 트레이너의 수가\n"
 	.string "기록되고 있어!\p"
-	.string "기록은 접수대 옆에 있고\n"
+	.string "기록은 접수처 옆에 있고\n"
 	.string "트레이너카드 뒷면에도 있어!$"
 
 BattleTower_Lobby_Text_19A946:: @ 819A946
 	.string "일단 배틀타워에 들어가면\n"
 	.string "도중에 패배하거나\l"
-	.string "7명을 승리할 때까지는\l"
-	.string "퇴장할 수가 없어!\p"
+	.string "7명에게 승리할 때까지는\l"
+	.string "나올 수 없어!\p"
 	.string "각오하고 도전해야 돼!$"
 
 BattleTower_Lobby_Text_19A9EE:: @ 819A9EE
@@ -182,7 +183,7 @@ BattleTower_Lobby_Text_19A9EE:: @ 819A9EE
 	.string "당신은 알고 계신가요?\n"
 	.string "50명을 패배시켜버렸어요!\p"
 	.string "굉장하십니다!\p"
-	.string "배틀타워오너인 제게서\n"
+	.string "배틀타워 오너인 제게서\n"
 	.string "반드시 기념품을 받아주세요!$"
 
 BattleTower_Lobby_Text_19AAC4:: @ 819AAC4
@@ -191,7 +192,7 @@ BattleTower_Lobby_Text_19AAC4:: @ 819AAC4
 	.string "당신은 알고 계신가요?\n"
 	.string "100명을 패배시켜버렸어요!\p"
 	.string "굉장하십니다!\p"
-	.string "배틀타워오너인 제게서\n"
+	.string "배틀타워 오너인 제게서\n"
 	.string "반드시 기념품을 받아주세요!$"
 
 BattleTower_Lobby_Text_19ABAA:: @ 819ABAA

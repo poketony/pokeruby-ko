@@ -66,9 +66,9 @@ Route119_Text_171BF6:: @ 8171BF6
 	.string "놀라서 덤벼들었다!$"
 
 Route120_Text_171C5E:: @ 8171C5E
-	.string "여기는 120번 도로\n"
+	.string "여기는 120번도로\n"
 	.string "{0x7B} 검방울시티$"
 
 Route120_Text_171C77:: @ 8171C77
-	.string "{0x7C} 121번 도로\n"
-	.string "{0x7B} 120번 도로$"
+	.string "{0x7C} 121번도로\n"
+	.string "{0x7B} 120번도로$"

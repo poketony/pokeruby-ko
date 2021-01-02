@@ -23,5 +23,5 @@ Route112_Text_16FF19:: @ 816FF19
 	.string "케이블카를 이용해 주십시오$"
 
 Route112_Text_16FF64:: @ 816FF64
-	.string "여기는 112번 도로\n"
+	.string "여기는 112번도로\n"
 	.string "{0x7B} 용암마을$"

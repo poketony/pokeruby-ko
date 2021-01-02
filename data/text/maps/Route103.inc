@@ -1,5 +1,5 @@
 Route103_Text_16D57A:: @ 816D57A
-	.string "봄이: 음- 103번 도로에 있는\n"
+	.string "봄이: 음- 103번도로에 있는\n"
 	.string "포켓몬이 저 아이랑 저 아이고...$"
 
 Route103_Text_16D5B6:: @ 816D5B6
@@ -29,7 +29,7 @@ Route103_Text_16D688:: @ 816D688
 
 Route103_Text_16D762:: @ 816D762
 	.string "휘웅: 아하 얘랑 얘가\n"
-	.string "103번 도로에 있는 포켓몬이구나...$"
+	.string "103번도로에 있는 포켓몬이구나...$"
 
 Route103_Text_16D7A9:: @ 816D7A9
 	.string "응? 아 {PLAYER}{K_AYA}!\p"
@@ -66,5 +66,5 @@ Route103_Text_16D996:: @ 816D996
 	.string "후후후 꽤 쓸만한 정보지?$"
 
 Route103_Text_16D9FB:: @ 816D9FB
-	.string "여기는 103번 도로\n"
+	.string "여기는 103번도로\n"
 	.string "{0x7A} 고도마을$"

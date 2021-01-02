@@ -89,7 +89,7 @@ Route119_Text_1716F4:: @ 81716F4
 	.string "비밀기지를 만들 수 있어?$"
 
 Route119_Text_171749:: @ 8171749
-	.string "여기는 119번 도로\n"
+	.string "여기는 119번도로\n"
 	.string "{0x7C} 검방울시티$"
 
 Route119_Text_171762:: @ 8171762

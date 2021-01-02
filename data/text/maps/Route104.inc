@@ -61,11 +61,11 @@ Route104_Text_16DEB3:: @ 816DEB3
 	.string "“하기노인의 작은 집”$"
 
 Route104_Text_16DEC8:: @ 816DEC8
-	.string "여기는 104번 도로\n"
+	.string "여기는 104번도로\n"
 	.string "{0x7C} 등화도시$"
 
 Route104_Text_16DEE3:: @ 816DEE3
-	.string "여기는 104번 도로\n"
+	.string "여기는 104번도로\n"
 	.string "{0x79} 금탄도시$"
 
 Route104_Text_16DEFD:: @ 816DEFD

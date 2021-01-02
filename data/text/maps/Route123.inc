@@ -17,8 +17,8 @@ Route123_Text_171E34:: @ 8171E34
 	.string "이름 붙이자면 나무 의사 같은 거지$"
 
 Route123_Text_171E76:: @ 8171E76
-	.string "{0x7C} 123번 도로\n"
-	.string "{0x7B} 118번 도로$"
+	.string "{0x7C} 123번도로\n"
+	.string "{0x7B} 118번도로$"
 
 Route123_Text_171E8E:: @ 8171E8E
 	.string "{0x79}...송화산\n"
