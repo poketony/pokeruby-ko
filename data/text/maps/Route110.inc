@@ -13,8 +13,7 @@ Route110_Text_16E729:: @ 816E729
 
 Route110_Text_16E76A:: @ 816E76A
 	.string "{EVIL_TEAM}단의 활동은 반드시\n"
-	.string "사람들에게 웃음을 주게 될 거야\l"
-	.string "...아마도 ...그럴 거야$"
+	.string "사람들에게 웃음을 주게 될 거야$"
 
 Route110_Text_16E7A1:: @ 816E7A1
 	.string "봄이: {PLAYER}{K_AYA} 오랜만!\p"

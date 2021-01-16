@@ -20,7 +20,8 @@ MtPyre_2F_Text_1963CB:: @ 81963CB
 	.string "멋진 모습을 보일 수 있으니까!$"
 
 MtPyre_2F_Text_196449:: @ 8196449
-	.string "남자 친구랑 담력 훈련을 하러 왔어\n"
+	.string "마코: 남자 친구랑\n"
+	.string "담력 훈련을 하러 왔어\l"
 	.string "엄청 무섭지만\l"
 	.string "남자 친구가 있으니까 괜찮아!\p"
 	.string "그래! 널 쓰러뜨리는\n"

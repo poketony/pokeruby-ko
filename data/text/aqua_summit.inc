@@ -141,7 +141,7 @@ UnknownString_81B5992: @ 81B5992
 	.string "두 마리의 분노를 잠재웠다\p"
 	.string "그리고 얌전해진 두 마리는\n"
 	.string "해저 깊은 곳으로 들어가\l"
-	.string "머지않아 그 모습을 감추었다는군....$"
+	.string "머지않아 그 모습을 감추었다는군...$"
 
 UnknownString_81B5BD7: @ 81B5BD7
 	.string "그러냐...\n"

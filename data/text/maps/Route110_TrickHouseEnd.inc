@@ -7,7 +7,7 @@ Route110_TrickHouseEnd_Text_19C2B2:: @ 819C2B2
 	.string "밤을 새서 미로를 만들었는데...\p"
 	.string "이 몸 다음 다음 다음\n"
 	.string "다음 다음 다음으로\l"
-	.string "대단하군! $"
+	.string "대단하군!$"
 
 Route110_TrickHouseEnd_Text_19C333:: @ 819C333
 	.string "밤을 새서\n"

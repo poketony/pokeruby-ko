@@ -141,7 +141,7 @@ MtPyre_Summit_Text_1B65D6:: @ 81B65D6
 	.string "두 마리의 분노를 잠재웠다\p"
 	.string "그리고 얌전해진 두 마리는\n"
 	.string "해저 깊은 곳으로 들어가\l"
-	.string "머지않아 그 모습을 감추었다는군....$"
+	.string "머지않아 그 모습을 감추었다는군...$"
 
 MtPyre_Summit_Text_1B6823:: @ 81B6823
 	.string "그러냐...\n"
