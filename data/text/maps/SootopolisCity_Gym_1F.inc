@@ -5,7 +5,7 @@ SootopolisCity_Gym_1F_Text_18E8A5:: @ 818E8A5 //JP: 16CDA3
 	.string "물타입 포켓몬을 사용한다!!\p"
 	.string "그리고 윤진이 있는 장소까지\n"
 	.string "도달하기 위해서는 얼음 바닥을\l"
-	.string "얼음 바닥을 요령껏 건널 필요가 있지...\p"
+	.string "요령껏 건널 필요가 있지...\p"
 	.string "미안해! 너에게 알려\n"
 	.string "줄 수 있는 건 여기까지야...!\p"
 	.string "나머지는 스스로 힘내보라고!$"
