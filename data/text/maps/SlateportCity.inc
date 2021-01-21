@@ -244,7 +244,7 @@ SlateportCity_Text_1655E7:: @ 81655E7
 	.string "해저동굴에 있더라고$"
 
 SlateportCity_Text_1656BC:: @ 81656BC
-	.string "후후후...\p"
+	.string "”후후후...\p"
 	.string "들리고 있나?\l"
 	.string "해양관장이여...\p"
 	.string "네놈의 잠수정은\n"
@@ -253,7 +253,7 @@ SlateportCity_Text_1656BC:: @ 81656BC
 	.string "발명품은 잘 쓰도록 하마!\p"
 	.string "하하하...!\n"
 	.string "우리 {EVIL_TEAM}단의 계획을\l"
-	.string "똑똑히 지켜보도록 해라!$"
+	.string "똑똑히 지켜보도록 해라!”$"
 
 SlateportCity_Text_16578F:: @ 816578F
 	.string "해양: 방금 목소리는...?\p"

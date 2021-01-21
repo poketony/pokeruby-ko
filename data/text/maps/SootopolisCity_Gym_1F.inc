@@ -166,7 +166,7 @@ SootopolisCity_Gym_1F_Text_18F36B:: @ 818F36B
 	.string "잊지 않도록 주는 거다...$"
 
 SootopolisCity_Gym_1F_Text_18F466:: @ 818F466
-	.string "너에게 넘겨준 그 비전머신의\n"
+	.string "너에게 넘겨준 그 기술머신의\n"
 	.string "내용물은 물의파동\p"
 	.string "쓰면 가끔씩 초음파로\n"
 	.string "상대를 혼란시키지$"

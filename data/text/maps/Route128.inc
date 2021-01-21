@@ -1,6 +1,6 @@
 Route128_Text_171EE0:: @ 8171EE0 //JP: 1541BD
 	.string "{EVIL_LEADER}: 뭐야...\n"
-	.string "이 너무한 광경은...?\p"
+	.string "이 끔찍한 광경은...?\p"
 	.string "나는...\n"
 	.string "터무니없는 잘못을...$"
 
@@ -12,7 +12,7 @@ Route128_Text_171F4B:: @ 8171F4B
 	.string "{GOOD_LEADER}: 알겠나 {EVIL_LEADER}!\n"
 	.string "네가 한 짓이\l"
 	.string "얼마나 어리석은 것인지를...\p"
-	.string "... 어쨌든 서두르자!\n"
+	.string "...어쨌든 서두르자!\n"
 	.string "이 이상 심각해지기 전에\l"
 	.string "뭐라도 하지 않으면 안되니까!$"
 
@@ -27,7 +27,7 @@ Route128_Text_172008:: @ 8172008
 	.string "여기는 우리에게 맡겨두고 떠나거라!$"
 
 Route128_Text_17210B:: @ 817210B
-	.string "{GOOD_LEADER}: 그렇다 해도...\p"
+	.string "{GOOD_LEADER}: 그건 그렇고...\p"
 	.string "초 고대포켓몬...\n"
 	.string "엄청난 파워다\l"
 	.string "모든 균형이 무너졌어...$"

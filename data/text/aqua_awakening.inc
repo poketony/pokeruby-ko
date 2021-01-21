@@ -68,7 +68,7 @@ UnknownString_81B45C6: @ 81B45C6
 	.string "그리고 컨트롤할 수 있었을 텐데...\p"
 	.string "그런데... 어째서...\n"
 	.string "가이오가는 여기서 없어졌다?!\p"
-	.string "왜 그런 거지?!$"
+	.string "어째서지?!$"
 
 UnknownString_81B464D: @ 81B464D
 	.string "마적: 무슨 일이란 말인가...\p"
