@@ -170,7 +170,7 @@ RustboroCity_Text_1673FA:: @ 81673FA
 
 RustboroCity_Text_167439:: @ 8167439
 	.string "금탄도시 포켓몬체육관\n"
-	.string "관장 원규\l"
+	.string "체육관 관장 원규\l"
 	.string "바위를 보면 가슴이 뛰는 우등생!$"
 
 RustboroCity_Text_167485: @ 8167485
