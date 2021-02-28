@@ -16,7 +16,7 @@ SootopolisCity_Gym_1F_Text_18E9C9:: @ 818E9C9
 	.string "좋아 너의\n"
 	.string "트레이너카드를 보도록!\p"
 	.string "모든 배지가 모였다면\n"
-	.string "이제 드디어\n"
+	.string "이제 드디어\l"
 	.string "포켓몬리그에 도전할 수 있다!$"
 
 SootopolisCity_Gym_B1F_Text_18EA87:: @ 818EA87
