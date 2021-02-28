@@ -278,7 +278,7 @@ Route104_Text_1B8911:: @ 81B8911
 
 Route104_Text_1B8925:: @ 81B8925
 	.string "돈으로 이길 수 없는 것도 있다더니...\n"
-	.string "그게 바로 포켓몬이구나...$"
+	.string "그게 바로 포켓몬 승부구나...$"
 
 Route104_Text_1B895E:: @ 81B895E
 	.string "너에게 진 후로 포켓몬에 대해\n"
@@ -2962,7 +2962,7 @@ Route127_Text_1C1BD9:: @ 81C1BD9
 
 Route127_Text_1C1BEC:: @ 81C1BEC
 	.string "이 주변엔\n"
-	.string "이 주변엔 잠수할 수 있을 것 같은 곳이\l"
+	.string "잠수할 수 있을 것 같은 곳이\l"
 	.string "굉장히 많군!\p"
 	.string "하늘에서 보면\n"
 	.string "바다의 색이 달라서 잘 보인다!$"

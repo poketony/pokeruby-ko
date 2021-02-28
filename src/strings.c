@@ -680,7 +680,7 @@ const u8 OtherText_TMsHMs[] = _("기술머신");
 const u8 OtherText_Berries[] = _("나무열매");
 
 const u8 gPCText_SomeonesPC[] = _("누군가의 PC");
-const u8 gPCText_LanettesPC[] = _("보은의 PC");
+const u8 gPCText_LanettesPC[] = _("유미의 PC");
 const u8 gPCText_PlayersPC[] = _("{PLAYER}의 PC");
 const u8 gPCText_HallOfFame[] = _("전당등록");
 const u8 gPCText_LogOff[] = _("스위치를 끈다");

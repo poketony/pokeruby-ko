@@ -8,7 +8,7 @@ gLandmarkName_MrBrineysCottage::
 	.string "하기노인의 작은 집$"
 
 gLandmarkName_AbandonedShip::
-	.string "버려진배$"
+	.string "버려진 배$"
 
 gLandmarkName_SeashoreHouse::
 	.string "바다의 집$"
@@ -47,7 +47,7 @@ gLandmarkName_MeteorFalls::
 	.string "유성의 폭포$"
 
 gLandmarkName_TunnelersRestHouse::
-	.string "터널공사 작업원 대기실$"
+	.string "터널공사자 대기실$"
 
 gLandmarkName_RusturfTunnel::
 	.string "금잔터널$"
@@ -74,7 +74,7 @@ gLandmarkName_OceanCurrent::
 	.string "해류$"
 
 gLandmarkName_LanettesHouse::
-	.string "보은의 집$"
+	.string "유미의 집$"
 
 gLandmarkName_FieryPath::
 	.string "불꽃샛길$"

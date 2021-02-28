@@ -90,7 +90,7 @@ LilycoveCity_House3_Text_18BA2B:: @ 818BA2B
 LilycoveCity_House3_Text_18BD64:: @ 818BD64
 	.string "네쌍둥이가 태어났을 때는\n"
 	.string "정말 놀랐는데 모두 사이좋게\l"
-	.string "놀고 있는 모습을 보고 있으면\n"
+	.string "놀고 있는 모습을 보고 있으면\l"
 	.string "정말 행복한 기분이 들어!$"
 	// よつごが うまれた ときはｎ
 	// すごく ビックリ したがｌ

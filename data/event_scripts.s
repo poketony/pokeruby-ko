@@ -2984,7 +2984,7 @@ UnknownString_81A0A54: @ 81A0A54
 	.string "PC에 접속했다!$"
 
 UnknownString_81A0A66: @ 81A0A66
-	.string "보은의\n"
+	.string "유미의\n"
 	.string "PC에 접속했다!$"
 
 gText_NurseJoy_Welcome:: @ 81A0A7D

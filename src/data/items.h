@@ -4321,7 +4321,7 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
     {
-        .name = _("검댕자루"),
+        .name = _("재주머니"),
         .itemId = ITEM_SOOT_SACK,
         .price = 0,
         .holdEffect = HOLD_EFFECT_NONE,

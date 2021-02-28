@@ -35,7 +35,7 @@ AquaHideout_1F_Text_196C83:: @ 8196C83
 	.string "우리 {EVIL_TEAM}단한테 무슨 볼일이야!\p"
 	.string "리더라면 지금 122번수로에 있는\n"
 	.string "송화산으로 가고 있어서 여긴 없어\p"
-	.string "...뭐 하러 갔냐고?\n"
+	.string "...뭐 하러 갔냐고?\p"
 	.string "아하하하! 그런 중요한 정보를\n"
 	.string "내가 알려줄 거 같으냐!$"
 	// なんだ なんだ!ｎ
@@ -51,7 +51,7 @@ AquaHideout_1F_Text_196D46:: @ 8196D46
 	.string "우리 {EVIL_TEAM}단한테 무슨 볼일이야!\p"
 	.string "리더라면 지금 잿빛도시로\n"
 	.string "가고 있어서 여기엔 없어!\p"
-	.string "... ...뭐 하러 갔냐고?\n"
+	.string "...뭐 하러 갔냐고?\p"
 	.string "아하하하! 그런 중요한 정보를\n"
 	.string "내가 알려줄 거 같으냐!$"
 	// なんだ なんだ!ｎ

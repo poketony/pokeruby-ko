@@ -1,5 +1,5 @@
 Route114_LanettesHouse_Text_192A0D:: @ 8192A0D
-	.string "보은: 앗! {PLAYER}!\p"
+	.string "유미: 앗! {PLAYER}!\p"
 	.string "어질러져 있어서 미안해...\n"
 	.string "연구에 집중하다 보면\l"
 	.string "항상 이렇게 되어 있어...\p"

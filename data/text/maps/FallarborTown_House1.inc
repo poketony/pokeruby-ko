@@ -19,7 +19,7 @@ FallarborTown_House1_Text_17780E:: @ 817780E
 	.string "{EVIL_TEAM}단이 유성의 폭포에서\n"
 	.string "가져갔었던 운석인가...!?\p"
 	.string "괜찮다면 내게 넘겨주렴!\p"
-	.string "공짜로 말하지는 않으마\n"
+	.string "공짜라고 말하지는 않으마\n"
 	.string "답례로 이 기술머신을\l"
 	.string "줄 테니까...$"
 	// おお! ええ?ｐ
@@ -55,7 +55,7 @@ FallarborTown_House1_Text_17797D:: @ 817797D
 FallarborTown_House1_Text_1779B8:: @ 81779B8
 	.string "공석박사: 그 운석...\n"
 	.string "괜찮다면 내게 넘겨주렴!\p"
-	.string "공짜로 말하지는 않으마\n"
+	.string "공짜라고 말하지는 않으마\n"
 	.string "답례로 이 기술머신을\l"
 	.string "줄 테니까...$"
 	// ソライシ『その いんせき……ｎ

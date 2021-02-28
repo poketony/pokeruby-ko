@@ -136,7 +136,7 @@ SlateportCity_Text_164E85:: @ 8164E85
 	.string "되어 있는 걸까....$"
 
 SlateportCity_Text_164EDB:: @ 8164EDB
-	.string "오래 되서 탈 수 없게 된 배가\n"
+	.string "오래 돼서 탈 수 없게 된 배가\n"
 	.string "어떻게 되는지 알고 있나?\p"
 	.string "바닷속에 가라앉혀서\n"
 	.string "포켓몬의 거처가 되도록 하는 거야!$"

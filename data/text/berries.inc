@@ -78,7 +78,7 @@ Route120_Text_1C5A4D:: @ 81C5A4D
 LilycoveCity_Text_1C5A7A:: @ 81C5A7A
 	.string "역시\p"
 	.string "나에게 슈트가 어울리듯\n"
-	.string "바다에는 바닷바람이 어울려\l"
+	.string "바다에는 바닷바람이 어울려\p"
 	.string "그리고 자네에겐\n"
 	.string "나무열매가 어울릴 것 같군...\p"
 	.string "왜일까?$"

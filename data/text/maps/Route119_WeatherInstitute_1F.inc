@@ -1,11 +1,11 @@
 Route119_WeatherInstitute_1F_Text_19EB8A:: @ 819EB8A
-	.string "리더가 여기서의 연구에\n"
+	.string "리더가 이곳의 연구에\n"
 	.string "흥미가 있으셔서\l"
 	.string "우리들을 보낸 거다! 방해하지 마!$"
 
 Route119_WeatherInstitute_1F_Text_19EBEE:: @ 819EBEE
 	.string "젠장-\n"
-	.string "어린애에게 졌다...$"
+	.string "어린애한테 졌다...$"
 
 Route119_WeatherInstitute_1F_Text_19EC0E:: @ 819EC0E
 	.string "리더는 뭐든지 알고 있어\p"
