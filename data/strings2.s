@@ -317,7 +317,7 @@ gOtherText_DontHaveThreeCoins:: @ 842CADB
 	.string "동전 3개가 없습니다!$"
 
 gOtherText_ReelTime:: @ 842CAF7
-	.string "BD 타임\n차분히 노리면 어느 마크든\n멈출 수 있는 찬스 게임!\n물론 뽑은 횟수만큼\nBD 타임을 즐길 수 있어!\n빅 보너스가 나오면 종료$"
+	.string "   BD 타임\n   차분히 노리면 어느 마크든\n   멈출 수 있는 찬스 게임!\n   물론 뽑은 횟수만큼\n   BD 타임을 즐길 수 있어!\n   빅 보너스가 나오면 종료$"
 
 DaycareText_GetAlongVeryWell::
 	.string "2마리는 사이가\n아주 좋은 것 같구먼!$"

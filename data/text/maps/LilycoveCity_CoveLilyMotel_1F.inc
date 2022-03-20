@@ -83,8 +83,8 @@ LilycoveCity_CoveLilyMotel_1F_Text_186F09:: @ 8186F09
 	.string "TV 보는 데 집중하고 있어서!\p"
 	.string "그러고 보니까 아까\n"
 	.string "단체 손님이 도착했어!\p"
-	.string "게임프리크라고 하던데\n"
-	.string "게임 회사 사람들이려나?\l"
+	.string "GAME FREAK라고 하던데\n"
+	.string "게임 회사 사람들인가?\l"
 	.string "아 식사 준비를 해야겠다...$"
 	// あ ごめん ごめん!ｎ
 	// テレビに むちゅう だったもんで!ｐ

@@ -14,7 +14,7 @@ gTrainerClassNames:: @ 81F0208
 	.string "아기씨$", 16
 	.string "아가씨$", 16
 	.string "도련님$", 16
-	.string "포켓몬 매니아$", 16
+	.string "포켓몬마니아$", 16
 	.string "수영팬티소년$", 16
 	.string "태권왕$", 16
 	.string "기타리스트$", 16

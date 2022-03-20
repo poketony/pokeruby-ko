@@ -93,7 +93,7 @@ ContestString_DescStartled22:
 ContestString_DescScaleWithExcitement:
 	.string "관객이 열광하고 있을수록\n어필이 마음에 들게 된다$"
 ContestString_DescStopExcitement:
-	.string "이 어필 다음에 관객이\n잠시 열광하지 않게 된다"
+	.string "이 어필 다음에 관객이\n잠시 열광하지 않게 된다$"
 
 	.align 2
 gUnknown_083CADD4:: @ 83CADD4

@@ -465,10 +465,10 @@ const u8 SecretBaseText_ItemStorage[] = _("도구 보관소");
 
 const u8 gPCText_Mailbox[] = _("메일박스");
 const u8 PCText_DepositItem[] = _("도구를 맡긴다");
-const u8 PCText_WithdrawItem[] = _("도구를 가져간다");
+const u8 PCText_WithdrawItem[] = _("도구를 꺼낸다");
 const u8 PCText_TossItem[] = _("도구를 버린다");
 const u8 PCText_StoreItems[] = _("PC에 도구를\n맡길 수 있습니다");
-const u8 PCText_TakeOutItems[] = _("PC에 맡긴 도구를\n가져갈 수 있습니다");
+const u8 PCText_TakeOutItems[] = _("PC에 맡긴 도구를\n꺼낼 수 있습니다");
 const u8 PCText_ThrowAwayItems[] = _("PC에 있는 도구를\n버릴 수 있습니다");
 
 const u8 gOtherText_NoItems[] = _("아무것도 없습니다!{PAUSE_UNTIL_PRESS}");

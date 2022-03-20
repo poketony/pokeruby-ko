@@ -44,8 +44,8 @@ OldaleTown_PokemonCenter_2F_Text_1A486A:: @ 81A486A
 	.string "포켓몬이 필요합니다$"
 
 OldaleTown_PokemonCenter_2F_Text_1A48A3:: @ 81A48A3
-	.string "교환을 하기 위해서는\n"
-	.string "포켓몬 2마리 필요합니다$"
+	.string "교환을 하기 위해서는 2마리 이상의\n"
+	.string "포켓몬을 지니고 있어야 합니다$"
 
 OldaleTown_PokemonCenter_2F_Text_1A48DD:: @ 81A48DD
 	.string "{STR_VAR_1}열매를 지닌 포켓몬은\n"
@@ -124,8 +124,8 @@ OldaleTown_PokemonCenter_2F_Text_1A4C38:: @ 81A4C38
 	.string "처음부터 다시 해주십시오$"
 
 TradeRoom_WillLinkBeTerminated: @ 81A4C6E
-	.string "방에서 나가면 통신이 종료\n"
-	.string "됩니다만 괜찮겠습니까?$"
+	.string "방에서 나가면 통신이\n"
+	.string "종료됩니다만 괜찮겠습니까?$"
 
 TradeRoom_TerminatingLink: @ 81A4CAF
 	.string "통신을 종료하고 방 밖으로\n"

@@ -7375,7 +7375,7 @@ static const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
     {  //Clamperl
-        .categoryName = _("두조개"),
+        .categoryName = _("쌍각"),
         .height = 4,
         .weight = 525,
         .descriptionPage1 = DexDescription_Clamperl,

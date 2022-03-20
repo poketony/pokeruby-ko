@@ -77,7 +77,7 @@ gAbilityDescription_WonderGuard: @ 81F9C0F
 	.string "효과가 굉장한 기술밖에 맞지 않는다$"
 
 gAbilityDescription_Levitate: @ 81F9C27
-	.string "땅타입의 기술을 받지 않는다$"
+	.string "땅타입 기술을 받지 않는다$"
 
 gAbilityDescription_EffectSpore: @ 81F9C42
 	.string "접촉한 상대에게 포자가 붙는다$"
@@ -98,10 +98,10 @@ gAbilityDescription_SereneGrace: @ 81F9CC5
 	.string "기술의 추가 효과가 나오기 쉽다$"
 
 gAbilityDescription_SwiftSwim: @ 81F9CDD
-	.string "비가 올 때 스피드가 오른다$"
+	.string "비가 올 때 스피드가 올라간다$"
 
 gAbilityDescription_Chlorophyll: @ 81F9CF3
-	.string "맑을 때 스피드가 오른다$"
+	.string "맑을 때 스피드가 올라간다$"
 
 gAbilityDescription_Illuminate: @ 81F9D0D
 	.string "포켓몬과 만나기 쉬워진다$"
@@ -110,7 +110,7 @@ gAbilityDescription_Trace: @ 81F9D27
 	.string "상대와 같은 특성이 된다$"
 
 gAbilityDescription_HugePower: @ 81F9D3F
-	.string "공격이 오른다$"
+	.string "공격이 올라간다$"
 
 gAbilityDescription_PoisonPoint: @ 81F9D4E
 	.string "접촉한 상대를 독 상태로 만든다$"
