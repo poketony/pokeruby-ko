@@ -1,7 +1,7 @@
 Route117_Text_1B25CB:: @ 81B25CB
 	.string "나는 키우미집 할아버지라네\p"
 	.string "여기서 모두의 소중한\n"
-	.string "포켓몬을 돌보구 있구먼\p"
+	.string "포켓몬을 돌보고 있지\p"
 	.string "뭔가 키우고 싶다면\n"
 	.string "할머니에게 부탁하게나$"
 
