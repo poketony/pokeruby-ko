@@ -1,8 +1,8 @@
 	.align 2
 gUnknown_083C9408:: @ 83C9408
 	.2byte 286 @ SPECIES_ID
-	.string "POOCHY$", 11 @ POKE_NICKNAME
-	.string "JIMMY$", 8 @ TRAINER_NAME
+	.string "포챠$", 11 @ POKE_NICKNAME
+	.string "건강$", 8 @ TRAINER_NAME
 	.byte 7 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x0c000fff @ FLAGS
@@ -24,7 +24,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 294 @ SPECIES_ID
 	.string "DUSTER$", 11 @ POKE_NICKNAME
-	.string "EVAN$", 8 @ TRAINER_NAME
+	.string "주로$", 8 @ TRAINER_NAME
 	.byte 11 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x21000fff @ FLAGS
@@ -35,7 +35,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 298 @ SPECIES_ID
 	.string "DOTS$", 11 @ POKE_NICKNAME
-	.string "KELSEY$", 8 @ TRAINER_NAME
+	.string "나주$", 8 @ TRAINER_NAME
 	.byte 16 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x20800fff @ FLAGS
@@ -46,7 +46,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 304 @ SPECIES_ID
 	.string "TATAY$", 11 @ POKE_NICKNAME
-	.string "MADISON$", 8 @ TRAINER_NAME
+	.string "혜화$", 8 @ TRAINER_NAME
 	.byte 18 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80400fff @ FLAGS
@@ -56,8 +56,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 301 @ SPECIES_ID
-	.string "NINDA$", 11 @ POKE_NICKNAME
-	.string "RAYMOND$", 8 @ TRAINER_NAME
+	.string "토중$", 11 @ POKE_NICKNAME
+	.string "렌$", 8 @ TRAINER_NAME
 	.byte 44 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x10200fff @ FLAGS
@@ -67,8 +67,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 306 @ SPECIES_ID
-	.string "SMISH$", 11 @ POKE_NICKNAME
-	.string "GRANT$", 8 @ TRAINER_NAME
+	.string "코코$", 11 @ POKE_NICKNAME
+	.string "승인$", 8 @ TRAINER_NAME
 	.byte 35 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x20100fff @ FLAGS
@@ -79,7 +79,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 309 @ SPECIES_ID
 	.string "GULWEE$", 11 @ POKE_NICKNAME
-	.string "PAIGE$", 8 @ TRAINER_NAME
+	.string "유이카$", 8 @ TRAINER_NAME
 	.byte 26 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x08080fff @ FLAGS
@@ -90,7 +90,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 364 @ SPECIES_ID
 	.string "SLOKTH$", 11 @ POKE_NICKNAME
-	.string "ALEC$", 8 @ TRAINER_NAME
+	.string "인목$", 8 @ TRAINER_NAME
 	.byte 31 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x40040fff @ FLAGS
@@ -100,8 +100,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 370 @ SPECIES_ID
-	.string "WHIRIS$", 11 @ POKE_NICKNAME
-	.string "SYDNEY$", 8 @ TRAINER_NAME
+	.string "곤뇽$", 11 @ POKE_NICKNAME
+	.string "청이$", 8 @ TRAINER_NAME
 	.byte 47 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80020fff @ FLAGS
@@ -111,8 +111,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 335 @ SPECIES_ID
-	.string "MAHITA$", 11 @ POKE_NICKNAME
-	.string "MORRIS$", 8 @ TRAINER_NAME
+	.string "풍풍$", 11 @ POKE_NICKNAME
+	.string "명웅$", 8 @ TRAINER_NAME
 	.byte 38 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x08010fff @ FLAGS
@@ -122,8 +122,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 382 @ SPECIES_ID
-	.string "RONAR$", 11 @ POKE_NICKNAME
-	.string "MARIAH$", 8 @ TRAINER_NAME
+	.string "보리$", 11 @ POKE_NICKNAME
+	.string "청엽$", 8 @ TRAINER_NAME
 	.byte 10 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x08008fff @ FLAGS
@@ -134,7 +134,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 41 @ SPECIES_ID
 	.string "ZUTZU$", 11 @ POKE_NICKNAME
-	.string "RUSSELL$", 8 @ TRAINER_NAME
+	.string "용수$", 8 @ TRAINER_NAME
 	.byte 33 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x90004fff @ FLAGS
@@ -145,7 +145,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 367 @ SPECIES_ID
 	.string "GULIN$", 11 @ POKE_NICKNAME
-	.string "MELANIE$", 8 @ TRAINER_NAME
+	.string "유우나$", 8 @ TRAINER_NAME
 	.byte 6 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x40002fff @ FLAGS
@@ -155,8 +155,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 337 @ SPECIES_ID
-	.string "RIKELEC$", 11 @ POKE_NICKNAME
-	.string "CHANCE$", 8 @ TRAINER_NAME
+	.string "라이건$", 11 @ POKE_NICKNAME
+	.string "신광$", 8 @ TRAINER_NAME
 	.byte 15 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80001fff @ FLAGS
@@ -167,7 +167,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 363 @ SPECIES_ID
 	.string "RELIA$", 11 @ POKE_NICKNAME
-	.string "KARINA$", 8 @ TRAINER_NAME
+	.string "모모$", 8 @ TRAINER_NAME
 	.byte 32 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x24000fff @ FLAGS
@@ -177,8 +177,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 84 @ SPECIES_ID
-	.string "DUODO$", 11 @ POKE_NICKNAME
-	.string "BOBBY$", 8 @ TRAINER_NAME
+	.string "두둥$", 11 @ POKE_NICKNAME
+	.string "진팔$", 8 @ TRAINER_NAME
 	.byte 51 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x82000fff @ FLAGS
@@ -188,8 +188,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 332 @ SPECIES_ID
-	.string "PINCHIN$", 11 @ POKE_NICKNAME
-	.string "CLAIRE$", 8 @ TRAINER_NAME
+	.string "클래러$", 11 @ POKE_NICKNAME
+	.string "수정$", 8 @ TRAINER_NAME
 	.byte 8 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x81000fff @ FLAGS
@@ -200,7 +200,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 344 @ SPECIES_ID
 	.string "NACAC$", 11 @ POKE_NICKNAME
-	.string "WILLIE$", 8 @ TRAINER_NAME
+	.string "귀남$", 8 @ TRAINER_NAME
 	.byte 11 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80800fff @ FLAGS
@@ -211,7 +211,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 27 @ SPECIES_ID
 	.string "SHRAND$", 11 @ POKE_NICKNAME
-	.string "CASSIDY$", 8 @ TRAINER_NAME
+	.string "연두$", 8 @ TRAINER_NAME
 	.byte 18 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x10400fff @ FLAGS
@@ -221,7 +221,7 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 318 @ SPECIES_ID
-	.string "TOYBAL$", 11 @ POKE_NICKNAME
+	.string "오뚝$", 11 @ POKE_NICKNAME
 	.string "MORGAN$", 8 @ TRAINER_NAME
 	.byte 44 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
@@ -233,7 +233,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 339 @ SPECIES_ID
 	.string "LENUM$", 11 @ POKE_NICKNAME
-	.string "SUMMER$", 8 @ TRAINER_NAME
+	.string "마오$", 8 @ TRAINER_NAME
 	.byte 26 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x10100fff @ FLAGS
@@ -244,7 +244,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 308 @ SPECIES_ID
 	.string "SPININ$", 11 @ POKE_NICKNAME
-	.string "MILES$", 8 @ TRAINER_NAME
+	.string "정인$", 8 @ TRAINER_NAME
 	.byte 31 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80080fff @ FLAGS
@@ -255,7 +255,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 358 @ SPECIES_ID
 	.string "SWABY$", 11 @ POKE_NICKNAME
-	.string "AUDREY$", 8 @ TRAINER_NAME
+	.string "조화$", 8 @ TRAINER_NAME
 	.byte 47 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0xa0040fff @ FLAGS
@@ -266,7 +266,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 289 @ SPECIES_ID
 	.string "NOONE$", 11 @ POKE_NICKNAME
-	.string "AVERY$", 8 @ TRAINER_NAME
+	.string "신행$", 8 @ TRAINER_NAME
 	.byte 38 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80020fff @ FLAGS
@@ -277,7 +277,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 317 @ SPECIES_ID
 	.string "KECON$", 11 @ POKE_NICKNAME
-	.string "ARIANA$", 8 @ TRAINER_NAME
+	.string "교화$", 8 @ TRAINER_NAME
 	.byte 10 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80010fff @ FLAGS
@@ -288,7 +288,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 118 @ SPECIES_ID
 	.string "GOLDEN$", 11 @ POKE_NICKNAME
-	.string "ASHTON$", 8 @ TRAINER_NAME
+	.string "도현$", 8 @ TRAINER_NAME
 	.byte 33 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80008fff @ FLAGS
@@ -299,7 +299,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 323 @ SPECIES_ID
 	.string "BOBOACH$", 11 @ POKE_NICKNAME
-	.string "SANDRA$", 8 @ TRAINER_NAME
+	.string "사효$", 8 @ TRAINER_NAME
 	.byte 6 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80004fff @ FLAGS
@@ -310,7 +310,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 227 @ SPECIES_ID
 	.string "CORPY$", 11 @ POKE_NICKNAME
-	.string "CARSON$", 8 @ TRAINER_NAME
+	.string "순태$", 8 @ TRAINER_NAME
 	.byte 35 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x08002fff @ FLAGS
@@ -321,7 +321,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 295 @ SPECIES_ID
 	.string "TADO$", 11 @ POKE_NICKNAME
-	.string "KATRINA$", 8 @ TRAINER_NAME
+	.string "무혜$", 8 @ TRAINER_NAME
 	.byte 16 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x08001fff @ FLAGS
@@ -332,7 +332,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 383 @ SPECIES_ID
 	.string "LAIRN$", 11 @ POKE_NICKNAME
-	.string "RONNIE$", 8 @ TRAINER_NAME
+	.string "공효$", 8 @ TRAINER_NAME
 	.byte 55 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x84000fff @ FLAGS
@@ -343,7 +343,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 299 @ SPECIES_ID
 	.string "NUZLE$", 11 @ POKE_NICKNAME
-	.string "CLAUDIA$", 8 @ TRAINER_NAME
+	.string "자희$", 8 @ TRAINER_NAME
 	.byte 8 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x82000fff @ FLAGS
@@ -354,7 +354,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 302 @ SPECIES_ID
 	.string "NINAS$", 11 @ POKE_NICKNAME
-	.string "ELIAS$", 8 @ TRAINER_NAME
+	.string "기태$", 8 @ TRAINER_NAME
 	.byte 11 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x81000fff @ FLAGS
@@ -365,7 +365,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 305 @ SPECIES_ID
 	.string "WELOW$", 11 @ POKE_NICKNAME
-	.string "JADE$", 8 @ TRAINER_NAME
+	.string "초미$", 8 @ TRAINER_NAME
 	.byte 18 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80800fff @ FLAGS
@@ -376,7 +376,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 287 @ SPECIES_ID
 	.string "YENA$", 11 @ POKE_NICKNAME
-	.string "FRANCIS$", 8 @ TRAINER_NAME
+	.string "할트$", 8 @ TRAINER_NAME
 	.byte 44 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80400fff @ FLAGS
@@ -386,8 +386,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 292 @ SPECIES_ID
-	.string "TIFLY$", 11 @ POKE_NICKNAME
-	.string "ALISHA$", 8 @ TRAINER_NAME
+	.string "뷰티플$", 11 @ POKE_NICKNAME
+	.string "릴리카$", 8 @ TRAINER_NAME
 	.byte 26 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80200fff @ FLAGS
@@ -398,7 +398,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 119 @ SPECIES_ID
 	.string "KINGSEA$", 11 @ POKE_NICKNAME
-	.string "SAUL$", 8 @ TRAINER_NAME
+	.string "기영$", 8 @ TRAINER_NAME
 	.byte 31 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80100fff @ FLAGS
@@ -409,7 +409,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 340 @ SPECIES_ID
 	.string "ERUPAM$", 11 @ POKE_NICKNAME
-	.string "FELICIA$", 8 @ TRAINER_NAME
+	.string "초선$", 8 @ TRAINER_NAME
 	.byte 47 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80080fff @ FLAGS
@@ -420,7 +420,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 66 @ SPECIES_ID
 	.string "CHOPAM$", 11 @ POKE_NICKNAME
-	.string "EMILIO$", 8 @ TRAINER_NAME
+	.string "키요하르$", 8 @ TRAINER_NAME
 	.byte 38 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80040fff @ FLAGS
@@ -431,7 +431,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 296 @ SPECIES_ID
 	.string "LOMBE$", 11 @ POKE_NICKNAME
-	.string "KARLA$", 8 @ TRAINER_NAME
+	.string "시연$", 8 @ TRAINER_NAME
 	.byte 10 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80020fff @ FLAGS
@@ -441,8 +441,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 379 @ SPECIES_ID
-	.string "VIPES$", 11 @ POKE_NICKNAME
-	.string "DARRYL$", 8 @ TRAINER_NAME
+	.string "스네이키$", 11 @ POKE_NICKNAME
+	.string "길성$", 8 @ TRAINER_NAME
 	.byte 33 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80010fff @ FLAGS
@@ -463,8 +463,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 129 @ SPECIES_ID
-	.string "KARPAG$", 11 @ POKE_NICKNAME
-	.string "NOEL$", 8 @ TRAINER_NAME
+	.string "킹$", 11 @ POKE_NICKNAME
+	.string "리키$", 8 @ TRAINER_NAME
 	.byte 35 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80004fff @ FLAGS
@@ -474,8 +474,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 348 @ SPECIES_ID
-	.string "LUNONE$", 11 @ POKE_NICKNAME
-	.string "LACEY$", 8 @ TRAINER_NAME
+	.string "초승이$", 11 @ POKE_NICKNAME
+	.string "연화$", 8 @ TRAINER_NAME
 	.byte 16 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80002fff @ FLAGS
@@ -486,7 +486,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 310 @ SPECIES_ID
 	.string "PELIPE$", 11 @ POKE_NICKNAME
-	.string "CORBIN$", 8 @ TRAINER_NAME
+	.string "계남$", 8 @ TRAINER_NAME
 	.byte 39 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80001fff @ FLAGS
@@ -497,7 +497,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 130 @ SPECIES_ID
 	.string "RADOS$", 11 @ POKE_NICKNAME
-	.string "JUSTINA$", 8 @ TRAINER_NAME
+	.string "용희$", 8 @ TRAINER_NAME
 	.byte 32 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x84000fff @ FLAGS
@@ -507,8 +507,8 @@ gUnknown_083C9408:: @ 83C9408
 	.4byte 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x0000ffff @ RESERVED
 
 	.2byte 371 @ SPECIES_ID
-	.string "LOUDERD$", 11 @ POKE_NICKNAME
-	.string "RALPH$", 8 @ TRAINER_NAME
+	.string "공길이$", 11 @ POKE_NICKNAME
+	.string "달홍$", 8 @ TRAINER_NAME
 	.byte 21 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x82000fff @ FLAGS
@@ -519,7 +519,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 316 @ SPECIES_ID
 	.string "CATTED$", 11 @ POKE_NICKNAME
-	.string "ROSA$", 8 @ TRAINER_NAME
+	.string "아키나$", 8 @ TRAINER_NAME
 	.byte 8 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x81000fff @ FLAGS
@@ -530,7 +530,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 366 @ SPECIES_ID
 	.string "SLING$", 11 @ POKE_NICKNAME
-	.string "KEATON$", 8 @ TRAINER_NAME
+	.string "용식$", 8 @ TRAINER_NAME
 	.byte 11 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80800fff @ FLAGS
@@ -541,7 +541,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 359 @ SPECIES_ID
 	.string "TARIA$", 11 @ POKE_NICKNAME
-	.string "MAYRA$", 8 @ TRAINER_NAME
+	.string "진준$", 8 @ TRAINER_NAME
 	.byte 18 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80400fff @ FLAGS
@@ -563,7 +563,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 45 @ SPECIES_ID
 	.string "PLUMILE$", 11 @ POKE_NICKNAME
-	.string "AUBREY$", 8 @ TRAINER_NAME
+	.string "은희$", 8 @ TRAINER_NAME
 	.byte 26 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80100fff @ FLAGS
@@ -574,7 +574,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 361 @ SPECIES_ID
 	.string "KULLUSK$", 11 @ POKE_NICKNAME
-	.string "NIGEL$", 8 @ TRAINER_NAME
+	.string "일남$", 8 @ TRAINER_NAME
 	.byte 31 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80080fff @ FLAGS
@@ -585,7 +585,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 178 @ SPECIES_ID
 	.string "UTAN$", 11 @ POKE_NICKNAME
-	.string "CAMILLE$", 8 @ TRAINER_NAME
+	.string "밀레이$", 8 @ TRAINER_NAME
 	.byte 47 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80040fff @ FLAGS
@@ -596,7 +596,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 331 @ SPECIES_ID
 	.string "PEDOS$", 11 @ POKE_NICKNAME
-	.string "DEON$", 8 @ TRAINER_NAME
+	.string "카다몬$", 8 @ TRAINER_NAME
 	.byte 38 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80020fff @ FLAGS
@@ -618,7 +618,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 214 @ SPECIES_ID
 	.string "HEROSS$", 11 @ POKE_NICKNAME
-	.string "HEATH$", 8 @ TRAINER_NAME
+	.string "가람$", 8 @ TRAINER_NAME
 	.byte 33 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80008fff @ FLAGS
@@ -629,7 +629,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 101 @ SPECIES_ID
 	.string "RODLECT$", 11 @ POKE_NICKNAME
-	.string "SASHA$", 8 @ TRAINER_NAME
+	.string "주하$", 8 @ TRAINER_NAME
 	.byte 6 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80004fff @ FLAGS
@@ -640,7 +640,7 @@ gUnknown_083C9408:: @ 83C9408
 
 	.2byte 172 @ SPECIES_ID
 	.string "CHUPY$", 11 @ POKE_NICKNAME
-	.string "FRANKIE$", 8 @ TRAINER_NAME
+	.string "진택$", 8 @ TRAINER_NAME
 	.byte 35 @ TRAINER_SPRITE
 	.2byte 0x0000 @padding
 	.4byte 0x80002fff @ FLAGS
